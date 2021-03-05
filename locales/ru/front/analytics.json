@@ -1,0 +1,38 @@
+{
+  "filter": {
+    "button": {
+      "ExportExcel": "Экспорт в Excel",
+      "FindOperations": "Показать операции"
+    },
+    "chart": {
+      "Chart": "График"
+    },
+    "date": {
+      "Period": "Период",
+      "SetPeriod": "Период",
+      "SetYear": "Год"
+    },
+    "groupBy": {
+      "Categories": "по Категориям",
+      "Months": "по Месяцам"
+    },
+    "limit": {
+      "Accounts": "Счета",
+      "Categories": "Категории",
+      "ExtraFilters": "Дополнительные фильтры:",
+      "Projects": "Проекты",
+      "Users": "Пользователи"
+    },
+    "type": {
+      "Expenses": "Расходы",
+      "Incomes": "Доходы",
+      "Transfers": "Переводы"
+    }
+  },
+  "page": {
+    "message": {
+      "NoChartData": "Нет данных для отображения по выбранным критериям."
+    },
+    "Title": "Аналитика"
+  }
+}

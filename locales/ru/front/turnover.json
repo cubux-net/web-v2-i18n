@@ -1,0 +1,35 @@
+{
+  "operation": {
+    "label": {
+      "Description": "Описание",
+      "NeedConfirmation": "Нужно подтверждение",
+      "Project": "Проект",
+      "Repetition": "Повторяемость",
+      "SelectAccount": "Выберите счёт",
+      "SelectCategory": "Выберите категорию",
+      "SelectDate": "Укажите дату"
+    }
+  },
+  "page": {
+    "button": {
+      "AddCategory": "Добавить категорию",
+      "AddSubcategory": "Добавить подкатегорию"
+    },
+    "filter": {
+      "dateRange": {
+        "AllTime": "За все время",
+        "Month": "За месяц",
+        "Year": "За год"
+      }
+    },
+    "message": {
+      "CategoryNotFound": "Категория не найдена. Попробуйте вернуться и посмотреть <1>все категории</1> или обновить страницу."
+    },
+    "title": {
+      "Expenses": "Расходы",
+      "ExpensesByCategories": "Расходы по категориям",
+      "Incomes": "Доходы",
+      "IncomesByCategories": "Доходы по категориям"
+    }
+  }
+}

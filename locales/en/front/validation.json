@@ -1,0 +1,5 @@
+{
+  "InvalidValue": "Invalid value",
+  "MinStringLength": "At least {length, plural, one{# char} other{# chars}}",
+  "Required": "Required"
+}

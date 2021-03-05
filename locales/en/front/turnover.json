@@ -1,0 +1,35 @@
+{
+  "operation": {
+    "label": {
+      "Description": "Description",
+      "NeedConfirmation": "Need confirmation",
+      "Project": "Project",
+      "Repetition": "Repetition",
+      "SelectAccount": "Select account",
+      "SelectCategory": "Select category",
+      "SelectDate": "Select date"
+    }
+  },
+  "page": {
+    "button": {
+      "AddCategory": "Add category",
+      "AddSubcategory": "Add subcategory"
+    },
+    "filter": {
+      "dateRange": {
+        "AllTime": "All time",
+        "Month": "Month",
+        "Year": "Year"
+      }
+    },
+    "message": {
+      "CategoryNotFound": "No such category. Try to go back to <1>all categories</1> or refresh page."
+    },
+    "title": {
+      "Expenses": "Expenses",
+      "ExpensesByCategories": "Expenses by categories",
+      "Incomes": "Incomes",
+      "IncomesByCategories": "Incomes by categories"
+    }
+  }
+}

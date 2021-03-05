@@ -1,0 +1,119 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Add account"
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Using in main budget"
+    },
+    "label": {
+      "AddCategory": "Add category",
+      "AddSubCategory": "",
+      "CategoryName": "Category name",
+      "ChooseIcon": "Choose icon",
+      "EditCategory": "",
+      "Subcategories": "Subcategories",
+      "Subcategory": "Subcategory",
+      "SubCategoryName": ""
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Save and create one more"
+    },
+    "label": {
+      "currentOfTotal": "{current} of {total}",
+      "Limit": "Limit",
+      "ofTotal": "of {total}",
+      "Plan": "Plan",
+      "syncWithGoogleCalendar": "Synchronize with Google Calendar",
+      "Totals_ExpensesAre": "Expenses <0>{amount}</0>",
+      "Totals_IncomesAre": "Incomes <0>{amount}</0>",
+      "TotalsByFilterAre": "Totals for given criteria:"
+    }
+  },
+  "createTeam": {
+    "Title": "Create team"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Analytics",
+      "Balance": "Balance",
+      "Budget": "Budget",
+      "Calendar": "Calendar",
+      "CreateTeam": "Create team",
+      "Expenses": "Expenses",
+      "Goals": "Goals",
+      "Incomes": "Incomes",
+      "Loans": "Loans",
+      "LoansEmpty": "Absence",
+      "Logout": "Logout",
+      "Main": "Main",
+      "Settings": "Settings",
+      "Support": "Support"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Select an account",
+    "AmountIsEmpty": "Type an amount",
+    "CategoryDidntSelect": "Select a category"
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Daily",
+      "Monthly": "Monthly",
+      "none": "none",
+      "Quarterly": "Quarterly",
+      "Weekly": "Weekly",
+      "Yearly": "Yearly"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "task created"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "Operation completed successfully.",
+      "OperationFailed": "Operation aborted due to errors.",
+      "OperationIsPending": "Operation is pending. Please, wait."
+    },
+    "procName": {
+      "AccountDelete": "Delete account",
+      "ImportConvert": "Import reading file",
+      "ImportSave": "Import data",
+      "TeamErase": "Erase team data"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Accounts",
+        "Budget": "Budget",
+        "Categories": "Categories",
+        "Drafts": "Receipt (photo)",
+        "Goods": "Shop lists: good suggestions",
+        "Images": "Images",
+        "LoanAgents": "Loan agents",
+        "LoanHistory": "Loan operations history",
+        "PlanConfirms": "Unconfirmed transactions",
+        "Plans": "Planned operations",
+        "Receipts": "Receipts",
+        "ShopListItems": "Shop lists: positions",
+        "ShopLists": "Shop lists",
+        "Targets": "Targets",
+        "Transactions": "Transactions"
+      },
+      "accountDelete": {
+        "SelfDelete": "Account itself"
+      },
+      "teamErase": {
+        "InitNewData": "Create initial data"
+      }
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Transactions for {date}"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "entry": {
+    "loop": {
+      "Month": "For month",
+      "Year": "For year"
+    },
+    "message": {
+      "DeleteConfirm": "Are you sure to delete this budget?",
+      "DeleteConfirmOldNotice": "This budget is connected to old budget. If you delete it, and then somebody will change old budget again (either in old web or mobile app with old budget), then new budget will be created automatically instead of this one."
+    },
+    "property": {
+      "Loop": "Period",
+      "Name": "Name"
+    },
+    "title": {
+      "Create": "Add budget",
+      "Delete": "Delete budget"
+    },
+    "type": {
+      "Expense": "Expenses",
+      "Income": "Incomes"
+    },
+    "validation": {
+      "EndDateAfterStartDate": "End date must be after start date"
+    }
+  },
+  "page": {
+    "label": {
+      "Budgets": "Budgets",
+      "Category": "Category",
+      "Difference": "Difference",
+      "ExpensesByCategories": "Expenses by budget categories:",
+      "Fact": "Fact",
+      "IncomesByCategories": "Incomes by budget categories:",
+      "Plan": "Plan",
+      "Progress": "Progress"
+    },
+    "Title": "Budget"
+  },
+  "period": {
+    "property": {
+      "Inherit": "For all future periods"
+    }
+  },
+  "timeline": {
+    "label": {
+      "ShowAllCategories": "Show all"
+    }
+  }
+}

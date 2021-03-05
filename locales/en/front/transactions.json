@@ -1,0 +1,63 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "Are you sure to delete the transaction? This action cannot be undone."
+  },
+  "page": {
+    "title": "Transactions"
+  },
+  "table": {
+    "button": {
+      "MoreTransactions": "More transactions"
+    },
+    "content": {
+      "NothingWasFound": "There are no transactions"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Select an account"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "Provide an amount"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Select a category"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Select a project"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Expenses",
+          "Incomes": "Incomes",
+          "Loans": "Loans",
+          "Transfers": "Transfers"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "deleted",
+          "notInTeam": "not in team",
+          "SelectUser": "Select an user"
+        }
+      }
+    },
+    "head": {
+      "label": {
+        "Account": "Account",
+        "Amount": "Amount",
+        "CategoryDescription": "Category, Description",
+        "Date": "Date",
+        "Project": "Project",
+        "User": "User"
+      }
+    }
+  }
+}

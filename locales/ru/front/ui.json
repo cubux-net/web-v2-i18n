@@ -1,0 +1,73 @@
+{
+  "button": {
+    "Add": "Добавить",
+    "Back": "Назад",
+    "Cancel": "Отмена",
+    "ChooseIcon": "Выбрать иконку",
+    "ChooseImage": "Выбрать изображение",
+    "Confirm": "Подтвердить",
+    "Create": "Создать",
+    "Delete": "Удалить",
+    "Edit": "Редактировать",
+    "ImportCsv": "Импорт CSV",
+    "Next": "Далее",
+    "No": "Нет",
+    "OK": "OK",
+    "Save": "Сохранить",
+    "SelectAccount": "Выберите счет",
+    "SelectPartner": "Выберите контрагента",
+    "Yes": "Да"
+  },
+  "check": {
+    "CheckAll": "Выбрать все"
+  },
+  "date": {
+    "label": {
+      "SelectRange": "Выберите диапазон",
+      "since": "с",
+      "Today": "Сегодня",
+      "until": "по"
+    }
+  },
+  "field": {
+    "MonthLimit": "Лимит в месяц",
+    "MonthPlan": "План в месяц"
+  },
+  "label": {
+    "date": {
+      "sinceStart": "с начала",
+      "untilEnd": "до конца"
+    },
+    "DownloadAt": "Скачать в"
+  },
+  "message": {
+    "CautionAboutDataLoss": "ПРЕДУПРЕЖДЕНИЕ О ПОТЕРЕ ДАННЫХ!",
+    "CheckFormAndFixErrors": "Проверьте правильность заполнения полей и исправьте ошибки.",
+    "CouldNotPerformOperation": "Не удалось выполнить операцию.",
+    "NoRecords": "Ничего нет.",
+    "PleaseWait": "Пожалуйста, подождите...",
+    "ThisActionCannotBeUndone": "Это действие нельзя будет отменить.",
+    "UncaughtErrorExplanation": "Извините, произошла ошибка. Для начала попробуйте <1>обновить страницу</1>. Если это не помогло, проверьте интернет соединение и настройки прокси. Если и это не помогло, обратитесь в нашу службу поддержки.",
+    "UnknownError": "Неизвестная ошибка."
+  },
+  "placeholder": {
+    "Search": "Поиск",
+    "SelectCountry": "Выберите страну",
+    "SelectCurrency": "Выберите валюту",
+    "SelectDate": "Выберите дату",
+    "SelectLanguage": "Выберите язык"
+  },
+  "select": {
+    "payInterval": {
+      "Empty": "Вручную",
+      "m": "1 раз в месяц",
+      "q": "1 раз в квартал",
+      "w": "1 раз в неделю"
+    },
+    "UseDefault": "Использовать по умолчанию"
+  },
+  "state": {
+    "Error": "Ошибка",
+    "Loading": "Загрузка..."
+  }
+}

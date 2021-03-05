@@ -1,0 +1,7 @@
+{
+  "DialogTitle": "Notifications",
+  "tabs": {
+    "BackgroundTasks": "Background tasks",
+    "Messages": "Messages"
+  }
+}

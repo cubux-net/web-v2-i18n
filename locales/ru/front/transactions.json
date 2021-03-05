@@ -1,0 +1,63 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "Вы уверены, что хотите удалить транзакцию? Операцию нельзя будет отменить."
+  },
+  "page": {
+    "title": "Транзакции"
+  },
+  "table": {
+    "button": {
+      "MoreTransactions": "Ещё транзакции"
+    },
+    "content": {
+      "NothingWasFound": "Нет транзакций"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Выберите счёт"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "Укажите сумму"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Выберите категорию"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Выберите проект"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Расходы",
+          "Incomes": "Доходы",
+          "Loans": "Долги",
+          "Transfers": "Переводы"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "удалён",
+          "notInTeam": "не в команде",
+          "SelectUser": "Выберите пользователя"
+        }
+      }
+    },
+    "head": {
+      "label": {
+        "Account": "Счёт",
+        "Amount": "Сумма",
+        "CategoryDescription": "Категория, Описание",
+        "Date": "Дата",
+        "Project": "Проект",
+        "User": "Пользователь"
+      }
+    }
+  }
+}

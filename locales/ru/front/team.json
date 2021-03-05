@@ -1,0 +1,119 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Добавить счёт"
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Используется в основном бюджете"
+    },
+    "label": {
+      "AddCategory": "Добавить категорию",
+      "AddSubCategory": "Добавить подкатегорию",
+      "CategoryName": "Название категории",
+      "ChooseIcon": "Выберите иконку",
+      "EditCategory": "Редактировать категорию",
+      "Subcategories": "Подкатегории",
+      "Subcategory": "Подкатегория",
+      "SubCategoryName": "Название подкатегории"
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Сохранить и создать ещё одну"
+    },
+    "label": {
+      "currentOfTotal": "{current} из {total}",
+      "Limit": "Лимит",
+      "ofTotal": "из {total}",
+      "Plan": "План",
+      "syncWithGoogleCalendar": "Синхронизировать с Google Calendar",
+      "Totals_ExpensesAre": "Расходы <0>{amount}</0>",
+      "Totals_IncomesAre": "Доходы <0>{amount}</0>",
+      "TotalsByFilterAre": "Итог по выбранным критериям:"
+    }
+  },
+  "createTeam": {
+    "Title": "Создать команду"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Аналитика",
+      "Balance": "Баланс",
+      "Budget": "Бюджет",
+      "Calendar": "Календарь",
+      "CreateTeam": "Создать команду",
+      "Expenses": "Расходы",
+      "Goals": "Цели",
+      "Incomes": "Доходы",
+      "Loans": "Долги",
+      "LoansEmpty": "Отсутствуют",
+      "Logout": "Выход",
+      "Main": "Главная",
+      "Settings": "Настройки",
+      "Support": "Поддержка"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Выберите счёт",
+    "AmountIsEmpty": "Укажите сумму",
+    "CategoryDidntSelect": "Выберите категорию"
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Каждый день",
+      "Monthly": "Каждый месяц",
+      "none": "нет",
+      "Quarterly": "Каждый квартал",
+      "Weekly": "Каждую неделю",
+      "Yearly": "Каждый год"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "задача создана"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "Операция завершена успешно.",
+      "OperationFailed": "Операция прервана из-за ошибок.",
+      "OperationIsPending": "Операция выполняется. Пожалуйста, подождите."
+    },
+    "procName": {
+      "AccountDelete": "Удаление счёта",
+      "ImportConvert": "Импорт: чтение файла",
+      "ImportSave": "Импорт данных",
+      "TeamErase": "Очистка команды"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Счета",
+        "Budget": "Бюджет",
+        "Categories": "Категории",
+        "Drafts": "Чеки (фото)",
+        "Goods": "Списки покупок: подсказки",
+        "Images": "Изображения",
+        "LoanAgents": "Долговые агенты",
+        "LoanHistory": "Долговые операции",
+        "PlanConfirms": "Неподтверждённые транзакции",
+        "Plans": "Плановые операции",
+        "Receipts": "Чеки",
+        "ShopListItems": "Списки покупок: позиции",
+        "ShopLists": "Списки покупок",
+        "Targets": "Цели",
+        "Transactions": "Транзакции"
+      },
+      "accountDelete": {
+        "SelfDelete": "Счёт"
+      },
+      "teamErase": {
+        "InitNewData": "Создание начальных данных"
+      }
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Транзакции за {date}"
+    }
+  }
+}

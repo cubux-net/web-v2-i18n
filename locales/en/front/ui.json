@@ -1,0 +1,73 @@
+{
+  "button": {
+    "Add": "Add",
+    "Back": "",
+    "Cancel": "Cancel",
+    "ChooseIcon": "Choose icon",
+    "ChooseImage": "Choose image",
+    "Confirm": "Confirm",
+    "Create": "Create",
+    "Delete": "Delete",
+    "Edit": "Edit",
+    "ImportCsv": "",
+    "Next": "Next",
+    "No": "No",
+    "OK": "OK",
+    "Save": "",
+    "SelectAccount": "Select account",
+    "SelectPartner": "Select partner",
+    "Yes": "Yes"
+  },
+  "check": {
+    "CheckAll": "Check all"
+  },
+  "date": {
+    "label": {
+      "SelectRange": "Select a range",
+      "since": "since",
+      "Today": "Today",
+      "until": "until"
+    }
+  },
+  "field": {
+    "MonthLimit": "Month limit",
+    "MonthPlan": "Month plan"
+  },
+  "label": {
+    "date": {
+      "sinceStart": "start",
+      "untilEnd": "end"
+    },
+    "DownloadAt": "Download at"
+  },
+  "message": {
+    "CautionAboutDataLoss": "CAUTION ABOUT DATA LOSS!",
+    "CheckFormAndFixErrors": "Check data correctness and fix errors.",
+    "CouldNotPerformOperation": "Couldn't perform operation.",
+    "NoRecords": "Nothing here.",
+    "PleaseWait": "Please, wait...",
+    "ThisActionCannotBeUndone": "This action cannot be undone",
+    "UncaughtErrorExplanation": "Sorry, an error occurred. Try to <1>reload page</1> first. If it didn't help, check internet connection and proxy settings. If it didn't help too, contact out support system.",
+    "UnknownError": "Unknown error."
+  },
+  "placeholder": {
+    "Search": "Search",
+    "SelectCountry": "Select country",
+    "SelectCurrency": "Select currency",
+    "SelectDate": "Select date",
+    "SelectLanguage": "Select language"
+  },
+  "select": {
+    "payInterval": {
+      "Empty": "",
+      "m": "",
+      "q": "",
+      "w": ""
+    },
+    "UseDefault": "Use default"
+  },
+  "state": {
+    "Error": "Error",
+    "Loading": "Loading..."
+  }
+}

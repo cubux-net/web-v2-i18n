@@ -1,0 +1,7 @@
+{
+  "DialogTitle": "Уведомления",
+  "tabs": {
+    "BackgroundTasks": "Фоновые задачи",
+    "Messages": "Сообщения"
+  }
+}

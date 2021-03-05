@@ -1,0 +1,19 @@
+{
+  "name": "cubuxnet-web-v2-i18n",
+  "version": "0.0.1",
+  "description": "I18N data for cubux.net web front v2",
+  "private": true,
+  "license": "MIT",
+  "author": "Vovan-VE <vovan-ve@yandex.ru>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubux-net/web-v2-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cubux-net/web-v2-i18n/issues"
+  },
+  "homepage": "https://github.com/cubux-net/web-v2-i18n#readme"
+}

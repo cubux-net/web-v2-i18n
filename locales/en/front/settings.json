@@ -1,0 +1,261 @@
+{
+  "accounts": {
+    "button": {
+      "DeleteWithEverything": "DELETE EVERYTHING"
+    },
+    "label": {
+      "CountryAndBank": "Country, Bank",
+      "Name": "Name"
+    },
+    "message": {
+      "AlsoYouCanJustHideAccount": "Also you can just hide account to let it not to show in lists.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Continue to delete account will change operations history and balance.",
+      "RemoveQuest": "Are you sure to delete the account with all linked data?",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "You are going to delete account with all related data including following:"
+    },
+    "stateButton": {
+      "IsExcluded_off_exclude": "Included to remainders",
+      "IsExcluded_on_include": "Excluded from remainders",
+      "IsHidden_off_hide": "Visible, Hide",
+      "IsHidden_on_show": "Hidden, Show"
+    }
+  },
+  "actions": {
+    "Actions": "",
+    "Remove": "",
+    "Reset": ""
+  },
+  "categories": {
+    "AddCategory": "",
+    "AddSubCategory": "",
+    "Expenses": "",
+    "Incomes": "",
+    "Name": "",
+    "RemoveError": "",
+    "removeErrorDialog": {
+      "CanDeleteOperation": "",
+      "CanMoveOperation": "",
+      "DeleteOperation": "",
+      "HasOperation": "",
+      "MoveDataDelete": "",
+      "NeedCategory": ""
+    },
+    "RemoveQuest": ""
+  },
+  "import": {
+    "configure": {
+      "button": {
+        "ApplyConfig": "Apply",
+        "ReloadData": "Reload data preview",
+        "ShowHiddenColumnsBack": "Get hidden back",
+        "StartImport": "Start import"
+      },
+      "column": {
+        "Account": "Account",
+        "AccountIncoming": "Account incoming",
+        "Amount": "Amount",
+        "AmountDelta": "± Amount",
+        "AmountIncoming": "Amount incoming",
+        "Category": "Category",
+        "Date": "Date",
+        "Description": "Description",
+        "Subcategory": "Subcategory",
+        "Type": "Type"
+      },
+      "columnOpt": {
+        "account": {
+          "ExistingAccount": "Existing",
+          "NewAccount": "Create new"
+        },
+        "date": {
+          "Format": "Format"
+        },
+        "dateFormat": {
+          "D": "D",
+          "M": "M",
+          "Y": "Y"
+        },
+        "type": {
+          "ExpenseText": "Expense text",
+          "IncomeText": "Income text",
+          "TransferText": "Transfer text"
+        }
+      },
+      "csv": {
+        "Encoding": "и",
+        "HeaderLines": "Header lines",
+        "Quote": "Quote",
+        "Separator": "Separator",
+        "separator": {
+          "Space": "Space",
+          "Tab": "Tab"
+        }
+      },
+      "message": {
+        "AtLeastOneOf": "At least one of",
+        "MissingAccountsAssignment": "Some existing accounts was not assignment",
+        "MissingRequiredColumns": "Some required columns was not assigned",
+        "SomeColumnsWasHidden": "Some columns has been hidden."
+      },
+      "Title": "Configure before import"
+    },
+    "convert": {
+      "message": {
+        "ConvertDone": "File reading completed successfully.",
+        "ConvertFailed": "File reading was aborted due to errors.",
+        "ConvertPending": "Reading data from file. This can take a while depending on file size and server load. Please, wait."
+      },
+      "Title": "Reading data from file"
+    },
+    "label": {
+      "File": "File",
+      "Format": "Format"
+    },
+    "placeholder": {
+      "SelectFormat": "Select format"
+    },
+    "save": {
+      "button": {
+        "Done": "Done",
+        "StartImport": "Start import"
+      },
+      "message": {
+        "SaveDone": "Import was completed successfully.",
+        "SaveFailed": "Import was aborted due to errors.",
+        "SavePending": "Importing data to team. This can take a while. Please, wait."
+      },
+      "Title": "Importing data"
+    }
+  },
+  "participants": {
+    "AccessLevel": "",
+    "AccountsSetting": "",
+    "Admin": "",
+    "FullAccess": "",
+    "FullName": "",
+    "Invite": "",
+    "InviteUser": "",
+    "RemoveQuest": ""
+  },
+  "password": {
+    "Current": "",
+    "message": {
+      "NewPasswordsDiffers": "New passwords are different"
+    },
+    "New": "",
+    "RepeatNew": ""
+  },
+  "profile": {
+    "Country": "Country",
+    "DeleteButton": "Delete profile",
+    "DeleteCautionText": "You are going to delete your profile. This will cause loss of all your data. After deletion your would to sign up again yourself, but all of your teams will be lost.",
+    "DeleteConfirmWithPassword": "Type you current password to confirm deletion.",
+    "DeleteReason": "Reasons for deletion",
+    "DeleteReasonHelp": "Please, provide as a reasons for you deletion to help us to improve our app",
+    "DeleteTitle": "Profile deletion",
+    "Name": "Name",
+    "NotifyLang": "Notifications language",
+    "NotifyLangDefault": "Use server default",
+    "Or": "or",
+    "Surname": "Surname"
+  },
+  "projects": {
+    "RemoveQuest": ""
+  },
+  "subscription": {
+    "button": {
+      "Pay": "Pay",
+      "Prolong": "",
+      "ToPremium": ""
+    },
+    "feature": {
+      "appFull": {
+        "title": ""
+      },
+      "appSync": {
+        "title": ""
+      }
+    },
+    "label": {
+      "ActiveUntil": "",
+      "AvailableMoney": "Available money",
+      "EnterPromoCode": "",
+      "status": {
+        "Free": "",
+        "Premium": ""
+      }
+    },
+    "payDialog": {
+      "label": {
+        "Country": "Choose your country",
+        "Period": "Period",
+        "PurseEnough": "Available {availableStr}",
+        "PurseNone": "No in needed currency",
+        "PurseNotEnough": "Not enough, only {availableStr} available",
+        "PurseStatus": "Your wallet status"
+      },
+      "message": {
+        "ConfirmSpendPurseOnly": "You have some available money on your personal account. Do you want to spend it first for the purchase?",
+        "GoToProviderToPay": "Go to provider's site to pay.",
+        "InvoiceAlreadyCompleted": "Invoice is already completed.",
+        "InvoiceConfirmPayWithCommission": "Confirm to pay {confirmSum} to obtain {invoiceSum}. Commission is {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Confirm to pay {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Confirm to pay {confirmSum} to obtain {invoiceSum}.",
+        "InvoiceRefused": "Payment refused.",
+        "PeriodMaximumIsV": "Period must be not greater then {value}.",
+        "PeriodMinimumIsV": "Period must be at least {value}.",
+        "PeriodNotANumber": "Provide an integer number.",
+        "ProviderDoesNotSupportCurrency": "Provider does not support currency."
+      },
+      "priceUnit": {
+        "month": "month",
+        "monthsPlural": "{months, plural, one{month} other{months}}",
+        "year": "year",
+        "yearsPlural": "{years, plural, one{year} other{years}}"
+      },
+      "Title": "",
+      "TitleExternal": ""
+    }
+  },
+  "tabs": {
+    "Accounts": "",
+    "Categories": "",
+    "Import": "",
+    "Participants": "",
+    "Password": "",
+    "Profile": "",
+    "Projects": "",
+    "Subscribes": "",
+    "Team": ""
+  },
+  "team": {
+    "confirmDelete": {
+      "button": {
+        "Confirm": ""
+      },
+      "message": {
+        "CautionOfDataLoss": "",
+        "ExplainWhatDeletionIs": ""
+      },
+      "title": ""
+    },
+    "FloatingMonth": "",
+    "MainCurrency": "",
+    "MonthStart": "",
+    "TeamName": "",
+    "TimeZone": "",
+    "WeekStart": ""
+  },
+  "teamErase": {
+    "button": {
+      "EraseTeamData": "Delete everything in team"
+    },
+    "message": {
+      "TaskIsBackground": "Data will be erased in background. The procedure may take some time to complete. Remaining data on page can be self-updated while procedure is executing.",
+      "WhatWillBeDeleted": "Everything in the team will be deleted. This includes Accounts, Categories, Transactions, Loans, Budget, Targets, Planned operations, etc.",
+      "WhatWillBeKept": "The following things will kept untouched: Subscription, Teammates."
+    },
+    "Title": "Erase team data"
+  },
+  "Title": ""
+}

@@ -1,0 +1,38 @@
+{
+  "filter": {
+    "button": {
+      "ExportExcel": "Export to Excel",
+      "FindOperations": "Find operations"
+    },
+    "chart": {
+      "Chart": "Chart"
+    },
+    "date": {
+      "Period": "Period",
+      "SetPeriod": "Period",
+      "SetYear": "Year"
+    },
+    "groupBy": {
+      "Categories": "by Categories",
+      "Months": "by Months"
+    },
+    "limit": {
+      "Accounts": "Accounts",
+      "Categories": "Categories",
+      "ExtraFilters": "Extra filters:",
+      "Projects": "Projects",
+      "Users": "Users"
+    },
+    "type": {
+      "Expenses": "Expenses",
+      "Incomes": "Incomes",
+      "Transfers": "Transfers"
+    }
+  },
+  "page": {
+    "message": {
+      "NoChartData": "There are no data to display with given criteria."
+    },
+    "Title": "Analytics"
+  }
+}

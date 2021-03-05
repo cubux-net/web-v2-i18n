@@ -1,0 +1,24 @@
+{
+  "dialog": {
+    "comment": {
+      "Agreement": "[TODO:Agreement]",
+      "AutoSync": "[TODO:AutoSync]"
+    },
+    "input": {
+      "AnyCashAccount": "[TODO:AnyCashAccount]",
+      "Cash": "Cash",
+      "Currency": "Currency",
+      "InitialAmount": "Initial amount",
+      "InitialAmountDate": "Initial amount date",
+      "Name": "Name",
+      "SearchPlaceholder": "Start to type bank name to filter..."
+    },
+    "Title": "Add account",
+    "title": {
+      "BankSync": "Sync with bank",
+      "Import": "Import accounts and transactions",
+      "NoSync": "No sync"
+    },
+    "TitleEdit": ""
+  }
+}
