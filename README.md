@@ -8,7 +8,7 @@ To add new language, follow steps below:
 
 1.  Find out your language code. It's [ISO 639-1][iso-639-1] two letters code in
     lower case. For example, let it be `xy` if it would exist.
-2.  Check if the language does already in exists in [PRs][repo-pr].
+2.  Check if the language does already exist in [PRs][repo-pr].
 3.  Fork this repository, then clone your fork to your local machine to edit
     files.
 4.  Go to directory [`locales/`](./locales). Every subdirectory is a language.
