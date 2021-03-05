@@ -1,0 +1,20 @@
+# based on https://github.com/alexkaratarakis/gitattributes/blob/master/Web.gitattributes
+
+* text=auto eol=lf
+
+*.js              text
+*.json            text
+*.ts              text
+*.md              text
+*.txt             text
+
+.git*             text
+
+package-lock.json text -diff
+
+*.gif             binary
+*.ico             binary
+*.jpg             binary
+*.jpeg            binary
+*.png             binary
+*.svg             text
