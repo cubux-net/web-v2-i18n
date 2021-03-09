@@ -1,7 +1,7 @@
 {
   "button": {
     "Add": "Add",
-    "Back": "",
+    "Back": "Back",
     "Cancel": "Cancel",
     "ChooseIcon": "Choose icon",
     "ChooseImage": "Choose image",
@@ -9,11 +9,11 @@
     "Create": "Create",
     "Delete": "Delete",
     "Edit": "Edit",
-    "ImportCsv": "",
+    "ImportCsv": "Import CSV",
     "Next": "Next",
     "No": "No",
     "OK": "OK",
-    "Save": "",
+    "Save": "Save",
     "SelectAccount": "Select account",
     "SelectPartner": "Select partner",
     "Yes": "Yes"
@@ -59,10 +59,10 @@
   },
   "select": {
     "payInterval": {
-      "Empty": "",
-      "m": "",
-      "q": "",
-      "w": ""
+      "Empty": "none",
+      "m": "every month",
+      "q": "every quarter",
+      "w": "every week"
     },
     "UseDefault": "Use default"
   },

@@ -4,7 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const generate = require("./lib/generate-schema").default;
-const recursive = require("./lib/recursive-readdir").default;
+const recursive = require("../src/recursive-readdir").default;
 
 const pkgDir = path.join(__dirname, "..");
 // get any specific language

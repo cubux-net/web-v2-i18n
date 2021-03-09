@@ -4,6 +4,7 @@ exports.__esModule = true;
 exports.default = (target, source) => {
   const srcData = JSON.parse(fs.readFileSync(source, { encoding: "utf-8" }));
   const schema = {
+    // $schema: "http://json-schema.org/draft-07/schema#",
     $schema: "https://json-schema.org/draft/2019-09/schema",
     $defs: {
       string: {
@@ -39,6 +40,7 @@ function generate(input) {
     };
   }
   if (typeof input === "string") {
+    // TODO: params syntax check
     return refString;
   }
   throw new TypeError(

@@ -10,13 +10,13 @@
     },
     "label": {
       "AddCategory": "Add category",
-      "AddSubCategory": "",
+      "AddSubCategory": "Add subcategory",
       "CategoryName": "Category name",
       "ChooseIcon": "Choose icon",
-      "EditCategory": "",
+      "EditCategory": "Edit category",
       "Subcategories": "Subcategories",
       "Subcategory": "Subcategory",
-      "SubCategoryName": ""
+      "SubCategoryName": "Subcategory name"
     }
   },
   "common": {

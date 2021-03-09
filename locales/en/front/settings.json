@@ -21,26 +21,26 @@
     }
   },
   "actions": {
-    "Actions": "",
-    "Remove": "",
-    "Reset": ""
+    "Actions": "Actions",
+    "Remove": "Remove",
+    "Reset": "Reset"
   },
   "categories": {
-    "AddCategory": "",
-    "AddSubCategory": "",
-    "Expenses": "",
-    "Incomes": "",
-    "Name": "",
-    "RemoveError": "",
+    "AddCategory": "Add category",
+    "AddSubCategory": "Add subcategory",
+    "Expenses": "Expenses",
+    "Incomes": "Incomes",
+    "Name": "Name",
+    "RemoveError": "An error occurred while performing operation",
     "removeErrorDialog": {
-      "CanDeleteOperation": "",
-      "CanMoveOperation": "",
-      "DeleteOperation": "",
-      "HasOperation": "",
-      "MoveDataDelete": "",
-      "NeedCategory": ""
+      "CanDeleteOperation": "Or you can delete transactions too.",
+      "CanMoveOperation": "You can also move transactions to another category.",
+      "DeleteOperation": "Delete transactions",
+      "HasOperation": "The category has some transactions.",
+      "MoveDataDelete": "Move transactions to another category",
+      "NeedCategory": "Select a category"
     },
-    "RemoveQuest": ""
+    "RemoveQuest": "Are you sure to delete the category?"
   },
   "import": {
     "configure": {
@@ -128,22 +128,22 @@
     }
   },
   "participants": {
-    "AccessLevel": "",
-    "AccountsSetting": "",
-    "Admin": "",
-    "FullAccess": "",
-    "FullName": "",
-    "Invite": "",
-    "InviteUser": "",
-    "RemoveQuest": ""
+    "AccessLevel": "Access level",
+    "AccountsSetting": "Configure accounts",
+    "Admin": "Administrator",
+    "FullAccess": "Full access",
+    "FullName": "Full name",
+    "Invite": "Invite",
+    "InviteUser": "Invite a user to the team",
+    "RemoveQuest": "Are you sure to delete the user from team?"
   },
   "password": {
-    "Current": "",
+    "Current": "Current password",
     "message": {
       "NewPasswordsDiffers": "New passwords are different"
     },
-    "New": "",
-    "RepeatNew": ""
+    "New": "New password",
+    "RepeatNew": "Repeat new password"
   },
   "profile": {
     "Country": "Country",
@@ -160,29 +160,29 @@
     "Surname": "Surname"
   },
   "projects": {
-    "RemoveQuest": ""
+    "RemoveQuest": "Are you sure to delete the project?"
   },
   "subscription": {
     "button": {
       "Pay": "Pay",
-      "Prolong": "",
-      "ToPremium": ""
+      "Prolong": "Prolong",
+      "ToPremium": "To Premuim"
     },
     "feature": {
       "appFull": {
-        "title": ""
+        "title": "All features unlocked in mobile app 2.0"
       },
       "appSync": {
-        "title": ""
+        "title": "Sync mobile app 2.0 with server"
       }
     },
     "label": {
-      "ActiveUntil": "",
+      "ActiveUntil": "Active until",
       "AvailableMoney": "Available money",
-      "EnterPromoCode": "",
+      "EnterPromoCode": "Enter promo code",
       "status": {
-        "Free": "",
-        "Premium": ""
+        "Free": "Free",
+        "Premium": "Premuim"
       }
     },
     "payDialog": {
@@ -213,38 +213,38 @@
         "year": "year",
         "yearsPlural": "{years, plural, one{year} other{years}}"
       },
-      "Title": "",
-      "TitleExternal": ""
+      "Title": "Purchase subscription",
+      "TitleExternal": "Go to purchase"
     }
   },
   "tabs": {
-    "Accounts": "",
-    "Categories": "",
-    "Import": "",
-    "Participants": "",
-    "Password": "",
-    "Profile": "",
-    "Projects": "",
-    "Subscribes": "",
-    "Team": ""
+    "Accounts": "Accounts",
+    "Categories": "Categories",
+    "Import": "Import",
+    "Participants": "Participants",
+    "Password": "Password",
+    "Profile": "Profile",
+    "Projects": "Projects",
+    "Subscribes": "Subscribe",
+    "Team": "Team"
   },
   "team": {
     "confirmDelete": {
       "button": {
-        "Confirm": ""
+        "Confirm": "DELETE THE TEAM WITH ALL DATA"
       },
       "message": {
-        "CautionOfDataLoss": "",
-        "ExplainWhatDeletionIs": ""
+        "CautionOfDataLoss": "CAUTION! ALL DATA WILL BE LOST!!!",
+        "ExplainWhatDeletionIs": "This action will completely delete the team for all its participants. You would continue to work in other teams, and you would to create a new team."
       },
-      "title": ""
+      "title": "Delete the team"
     },
-    "FloatingMonth": "",
-    "MainCurrency": "",
-    "MonthStart": "",
-    "TeamName": "",
-    "TimeZone": "",
-    "WeekStart": ""
+    "FloatingMonth": "Floating month",
+    "MainCurrency": "Main currency",
+    "MonthStart": "Month start",
+    "TeamName": "Team name",
+    "TimeZone": "Time zone",
+    "WeekStart": "Week start"
   },
   "teamErase": {
     "button": {
@@ -257,5 +257,5 @@
     },
     "Title": "Erase team data"
   },
-  "Title": ""
+  "Title": "Settings"
 }

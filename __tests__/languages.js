@@ -1,8 +1,39 @@
 const fs = require("fs");
 const path = require("path");
+const { validate } = require("jsonschema");
 const iso639 = require("iso-639-1");
+const recursive = require("../src/recursive-readdir").default;
 
-const localesDir = path.join(path.dirname(__dirname), "locales");
+let pkgDir = path.dirname(__dirname);
+const localesDir = path.join(pkgDir, "locales");
+const schemasDir = path.join(pkgDir, "schemas");
+
+/**
+ * @typedef SchemaRaw
+ * @type {Object}
+ */
+/**
+ * @type {Map<string,SchemaRaw|null>}
+ */
+const schemas = new Map();
+/**
+ *
+ * @param {string} localPath
+ * @return {SchemaRaw|null}
+ */
+const getSchema = (localPath) => {
+  if (schemas.has(localPath)) {
+    return schemas.get(localPath);
+  }
+  const schemaFile = path.join(schemasDir, localPath);
+  let schemaRaw = null;
+  if (fs.existsSync(schemaFile)) {
+    schemaRaw = JSON.parse(fs.readFileSync(schemaFile, { encoding: "utf-8" }));
+    // delete schemaRaw.$schema;
+  }
+  schemas.set(localPath, schemaRaw);
+  return schemaRaw;
+};
 
 describe("all languages are valid", () => {
   const validateLanguage = (name) => {
@@ -18,7 +49,30 @@ describe("all languages are valid", () => {
         expect(iso639.validate(name)).toBe(true);
       });
 
-      // TODO: more tests with generated JSON schemas
+      describe("files match JSON schemas", () => {
+        recursive(fullName).forEach(({ localPath }) => {
+          const schemaRaw = getSchema(localPath);
+          if (schemaRaw) {
+            it(localPath, (done) => {
+              // console.log(`I: validating "${path1}" across "${localPath}"`);
+              const fillFilePath = path.join(fullName, localPath);
+              const jsonData = JSON.parse(
+                fs.readFileSync(fillFilePath, { encoding: "utf-8" }),
+              );
+
+              const result = validate(jsonData, schemaRaw);
+              if (result.valid) {
+                done(0);
+              } else {
+                const [e] = result.errors;
+                const rel = path.relative(pkgDir, fillFilePath);
+                done.fail(`${rel}: ${e.path.join(".")}: ${e.message}`);
+              }
+            });
+          }
+        });
+      });
+
       // TODO: check for unnecessary files
     });
   };

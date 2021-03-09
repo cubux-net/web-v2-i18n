@@ -1,11 +1,11 @@
 {
   "dialog": {
     "comment": {
-      "Agreement": "[TODO:Agreement]",
-      "AutoSync": "[TODO:AutoSync]"
+      "Agreement": "By your continued use of this service you accept Terms of Use",
+      "AutoSync": "Data will synchronize automatically about once per day. You also would to request a sync manually, but not more often, then one per day."
     },
     "input": {
-      "AnyCashAccount": "[TODO:AnyCashAccount]",
+      "AnyCashAccount": "Cash or any account",
       "Cash": "Cash",
       "Currency": "Currency",
       "InitialAmount": "Initial amount",
