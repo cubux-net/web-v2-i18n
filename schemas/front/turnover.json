@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "operation": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Description": {
+              "$ref": "#/$defs/string"
+            },
+            "NeedConfirmation": {
+              "$ref": "#/$defs/string"
+            },
+            "Project": {
+              "$ref": "#/$defs/string"
+            },
+            "Repetition": {
+              "$ref": "#/$defs/string"
+            },
+            "SelectAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "SelectCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "SelectDate": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "AddCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "AddSubcategory": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "filter": {
+          "type": "object",
+          "properties": {
+            "dateRange": {
+              "type": "object",
+              "properties": {
+                "AllTime": {
+                  "$ref": "#/$defs/string"
+                },
+                "Month": {
+                  "$ref": "#/$defs/string"
+                },
+                "Year": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "CategoryNotFound": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "Expenses": {
+              "$ref": "#/$defs/string"
+            },
+            "ExpensesByCategories": {
+              "$ref": "#/$defs/string"
+            },
+            "Incomes": {
+              "$ref": "#/$defs/string"
+            },
+            "IncomesByCategories": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

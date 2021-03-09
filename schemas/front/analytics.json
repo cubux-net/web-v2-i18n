@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "filter": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "ExportExcel": {
+              "$ref": "#/$defs/string"
+            },
+            "FindOperations": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "chart": {
+          "type": "object",
+          "properties": {
+            "Chart": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "date": {
+          "type": "object",
+          "properties": {
+            "Period": {
+              "$ref": "#/$defs/string"
+            },
+            "SetPeriod": {
+              "$ref": "#/$defs/string"
+            },
+            "SetYear": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "groupBy": {
+          "type": "object",
+          "properties": {
+            "Categories": {
+              "$ref": "#/$defs/string"
+            },
+            "Months": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "limit": {
+          "type": "object",
+          "properties": {
+            "Accounts": {
+              "$ref": "#/$defs/string"
+            },
+            "Categories": {
+              "$ref": "#/$defs/string"
+            },
+            "ExtraFilters": {
+              "$ref": "#/$defs/string"
+            },
+            "Projects": {
+              "$ref": "#/$defs/string"
+            },
+            "Users": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "type": {
+          "type": "object",
+          "properties": {
+            "Expenses": {
+              "$ref": "#/$defs/string"
+            },
+            "Incomes": {
+              "$ref": "#/$defs/string"
+            },
+            "Transfers": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NoChartData": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

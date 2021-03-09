@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "InvalidValue": {
+      "$ref": "#/$defs/string"
+    },
+    "MinStringLength": {
+      "$ref": "#/$defs/string"
+    },
+    "Required": {
+      "$ref": "#/$defs/string"
+    }
+  }
+}

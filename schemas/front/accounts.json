@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "dialog": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "TitleEdit": {
+          "$ref": "#/$defs/string"
+        },
+        "comment": {
+          "type": "object",
+          "properties": {
+            "Agreement": {
+              "$ref": "#/$defs/string"
+            },
+            "AutoSync": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "input": {
+          "type": "object",
+          "properties": {
+            "AnyCashAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "Cash": {
+              "$ref": "#/$defs/string"
+            },
+            "Currency": {
+              "$ref": "#/$defs/string"
+            },
+            "InitialAmount": {
+              "$ref": "#/$defs/string"
+            },
+            "InitialAmountDate": {
+              "$ref": "#/$defs/string"
+            },
+            "Name": {
+              "$ref": "#/$defs/string"
+            },
+            "SearchPlaceholder": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "BankSync": {
+              "$ref": "#/$defs/string"
+            },
+            "Import": {
+              "$ref": "#/$defs/string"
+            },
+            "NoSync": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

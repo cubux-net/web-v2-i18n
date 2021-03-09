@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "accounts": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "AddAccount": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "help": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "AddCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "AddSubCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "CategoryName": {
+              "$ref": "#/$defs/string"
+            },
+            "ChooseIcon": {
+              "$ref": "#/$defs/string"
+            },
+            "EditCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "SubCategoryName": {
+              "$ref": "#/$defs/string"
+            },
+            "Subcategories": {
+              "$ref": "#/$defs/string"
+            },
+            "Subcategory": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "common": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "CreateOneMore": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "Limit": {
+              "$ref": "#/$defs/string"
+            },
+            "Plan": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalsByFilterAre": {
+              "$ref": "#/$defs/string"
+            },
+            "Totals_ExpensesAre": {
+              "$ref": "#/$defs/string"
+            },
+            "Totals_IncomesAre": {
+              "$ref": "#/$defs/string"
+            },
+            "currentOfTotal": {
+              "$ref": "#/$defs/string"
+            },
+            "ofTotal": {
+              "$ref": "#/$defs/string"
+            },
+            "syncWithGoogleCalendar": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "createTeam": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "menu": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Analytics": {
+              "$ref": "#/$defs/string"
+            },
+            "Balance": {
+              "$ref": "#/$defs/string"
+            },
+            "Budget": {
+              "$ref": "#/$defs/string"
+            },
+            "Calendar": {
+              "$ref": "#/$defs/string"
+            },
+            "CreateTeam": {
+              "$ref": "#/$defs/string"
+            },
+            "Expenses": {
+              "$ref": "#/$defs/string"
+            },
+            "Goals": {
+              "$ref": "#/$defs/string"
+            },
+            "Incomes": {
+              "$ref": "#/$defs/string"
+            },
+            "Loans": {
+              "$ref": "#/$defs/string"
+            },
+            "LoansEmpty": {
+              "$ref": "#/$defs/string"
+            },
+            "Logout": {
+              "$ref": "#/$defs/string"
+            },
+            "Main": {
+              "$ref": "#/$defs/string"
+            },
+            "Settings": {
+              "$ref": "#/$defs/string"
+            },
+            "Support": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "AccountDidntSelect": {
+          "$ref": "#/$defs/string"
+        },
+        "AmountIsEmpty": {
+          "$ref": "#/$defs/string"
+        },
+        "CategoryDidntSelect": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "plan": {
+      "type": "object",
+      "properties": {
+        "repeat": {
+          "type": "object",
+          "properties": {
+            "Daily": {
+              "$ref": "#/$defs/string"
+            },
+            "Monthly": {
+              "$ref": "#/$defs/string"
+            },
+            "Quarterly": {
+              "$ref": "#/$defs/string"
+            },
+            "Weekly": {
+              "$ref": "#/$defs/string"
+            },
+            "Yearly": {
+              "$ref": "#/$defs/string"
+            },
+            "none": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "procStatus": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "created": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "OperationCompletedSuccessfully": {
+              "$ref": "#/$defs/string"
+            },
+            "OperationFailed": {
+              "$ref": "#/$defs/string"
+            },
+            "OperationIsPending": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "procName": {
+          "type": "object",
+          "properties": {
+            "AccountDelete": {
+              "$ref": "#/$defs/string"
+            },
+            "ImportConvert": {
+              "$ref": "#/$defs/string"
+            },
+            "ImportSave": {
+              "$ref": "#/$defs/string"
+            },
+            "TeamErase": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "procPhase": {
+          "type": "object",
+          "properties": {
+            "_common": {
+              "type": "object",
+              "properties": {
+                "Accounts": {
+                  "$ref": "#/$defs/string"
+                },
+                "Budget": {
+                  "$ref": "#/$defs/string"
+                },
+                "Categories": {
+                  "$ref": "#/$defs/string"
+                },
+                "Drafts": {
+                  "$ref": "#/$defs/string"
+                },
+                "Goods": {
+                  "$ref": "#/$defs/string"
+                },
+                "Images": {
+                  "$ref": "#/$defs/string"
+                },
+                "LoanAgents": {
+                  "$ref": "#/$defs/string"
+                },
+                "LoanHistory": {
+                  "$ref": "#/$defs/string"
+                },
+                "PlanConfirms": {
+                  "$ref": "#/$defs/string"
+                },
+                "Plans": {
+                  "$ref": "#/$defs/string"
+                },
+                "Receipts": {
+                  "$ref": "#/$defs/string"
+                },
+                "ShopListItems": {
+                  "$ref": "#/$defs/string"
+                },
+                "ShopLists": {
+                  "$ref": "#/$defs/string"
+                },
+                "Targets": {
+                  "$ref": "#/$defs/string"
+                },
+                "Transactions": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "accountDelete": {
+              "type": "object",
+              "properties": {
+                "SelfDelete": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "teamErase": {
+              "type": "object",
+              "properties": {
+                "InitNewData": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "transactions": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "TransactionsForDate": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "Title": {
+      "$ref": "#/$defs/string"
+    },
+    "accounts": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "DeleteWithEverything": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "CountryAndBank": {
+              "$ref": "#/$defs/string"
+            },
+            "Name": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "AlsoYouCanJustHideAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "ContinueToDeleteWillChangeHistoryAndBalance": {
+              "$ref": "#/$defs/string"
+            },
+            "RemoveQuest": {
+              "$ref": "#/$defs/string"
+            },
+            "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "stateButton": {
+          "type": "object",
+          "properties": {
+            "IsExcluded_off_exclude": {
+              "$ref": "#/$defs/string"
+            },
+            "IsExcluded_on_include": {
+              "$ref": "#/$defs/string"
+            },
+            "IsHidden_off_hide": {
+              "$ref": "#/$defs/string"
+            },
+            "IsHidden_on_show": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "object",
+      "properties": {
+        "Actions": {
+          "$ref": "#/$defs/string"
+        },
+        "Remove": {
+          "$ref": "#/$defs/string"
+        },
+        "Reset": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "AddCategory": {
+          "$ref": "#/$defs/string"
+        },
+        "AddSubCategory": {
+          "$ref": "#/$defs/string"
+        },
+        "Expenses": {
+          "$ref": "#/$defs/string"
+        },
+        "Incomes": {
+          "$ref": "#/$defs/string"
+        },
+        "Name": {
+          "$ref": "#/$defs/string"
+        },
+        "RemoveError": {
+          "$ref": "#/$defs/string"
+        },
+        "RemoveQuest": {
+          "$ref": "#/$defs/string"
+        },
+        "removeErrorDialog": {
+          "type": "object",
+          "properties": {
+            "CanDeleteOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "CanMoveOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "HasOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "MoveDataDelete": {
+              "$ref": "#/$defs/string"
+            },
+            "NeedCategory": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "import": {
+      "type": "object",
+      "properties": {
+        "configure": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "$ref": "#/$defs/string"
+            },
+            "button": {
+              "type": "object",
+              "properties": {
+                "ApplyConfig": {
+                  "$ref": "#/$defs/string"
+                },
+                "ReloadData": {
+                  "$ref": "#/$defs/string"
+                },
+                "ShowHiddenColumnsBack": {
+                  "$ref": "#/$defs/string"
+                },
+                "StartImport": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "column": {
+              "type": "object",
+              "properties": {
+                "Account": {
+                  "$ref": "#/$defs/string"
+                },
+                "AccountIncoming": {
+                  "$ref": "#/$defs/string"
+                },
+                "Amount": {
+                  "$ref": "#/$defs/string"
+                },
+                "AmountDelta": {
+                  "$ref": "#/$defs/string"
+                },
+                "AmountIncoming": {
+                  "$ref": "#/$defs/string"
+                },
+                "Category": {
+                  "$ref": "#/$defs/string"
+                },
+                "Date": {
+                  "$ref": "#/$defs/string"
+                },
+                "Description": {
+                  "$ref": "#/$defs/string"
+                },
+                "Subcategory": {
+                  "$ref": "#/$defs/string"
+                },
+                "Type": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "columnOpt": {
+              "type": "object",
+              "properties": {
+                "account": {
+                  "type": "object",
+                  "properties": {
+                    "ExistingAccount": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "NewAccount": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                },
+                "date": {
+                  "type": "object",
+                  "properties": {
+                    "Format": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                },
+                "dateFormat": {
+                  "type": "object",
+                  "properties": {
+                    "D": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "M": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "Y": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                },
+                "type": {
+                  "type": "object",
+                  "properties": {
+                    "ExpenseText": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "IncomeText": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "TransferText": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "csv": {
+              "type": "object",
+              "properties": {
+                "Encoding": {
+                  "$ref": "#/$defs/string"
+                },
+                "HeaderLines": {
+                  "$ref": "#/$defs/string"
+                },
+                "Quote": {
+                  "$ref": "#/$defs/string"
+                },
+                "Separator": {
+                  "$ref": "#/$defs/string"
+                },
+                "separator": {
+                  "type": "object",
+                  "properties": {
+                    "Space": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "Tab": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "AtLeastOneOf": {
+                  "$ref": "#/$defs/string"
+                },
+                "MissingAccountsAssignment": {
+                  "$ref": "#/$defs/string"
+                },
+                "MissingRequiredColumns": {
+                  "$ref": "#/$defs/string"
+                },
+                "SomeColumnsWasHidden": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        },
+        "convert": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "$ref": "#/$defs/string"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "ConvertDone": {
+                  "$ref": "#/$defs/string"
+                },
+                "ConvertFailed": {
+                  "$ref": "#/$defs/string"
+                },
+                "ConvertPending": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "File": {
+              "$ref": "#/$defs/string"
+            },
+            "Format": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "placeholder": {
+          "type": "object",
+          "properties": {
+            "SelectFormat": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "save": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "$ref": "#/$defs/string"
+            },
+            "button": {
+              "type": "object",
+              "properties": {
+                "Done": {
+                  "$ref": "#/$defs/string"
+                },
+                "StartImport": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "SaveDone": {
+                  "$ref": "#/$defs/string"
+                },
+                "SaveFailed": {
+                  "$ref": "#/$defs/string"
+                },
+                "SavePending": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "participants": {
+      "type": "object",
+      "properties": {
+        "AccessLevel": {
+          "$ref": "#/$defs/string"
+        },
+        "AccountsSetting": {
+          "$ref": "#/$defs/string"
+        },
+        "Admin": {
+          "$ref": "#/$defs/string"
+        },
+        "FullAccess": {
+          "$ref": "#/$defs/string"
+        },
+        "FullName": {
+          "$ref": "#/$defs/string"
+        },
+        "Invite": {
+          "$ref": "#/$defs/string"
+        },
+        "InviteUser": {
+          "$ref": "#/$defs/string"
+        },
+        "RemoveQuest": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "password": {
+      "type": "object",
+      "properties": {
+        "Current": {
+          "$ref": "#/$defs/string"
+        },
+        "New": {
+          "$ref": "#/$defs/string"
+        },
+        "RepeatNew": {
+          "$ref": "#/$defs/string"
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NewPasswordsDiffers": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "profile": {
+      "type": "object",
+      "properties": {
+        "Country": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteButton": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteCautionText": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteConfirmWithPassword": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteReason": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteReasonHelp": {
+          "$ref": "#/$defs/string"
+        },
+        "DeleteTitle": {
+          "$ref": "#/$defs/string"
+        },
+        "Name": {
+          "$ref": "#/$defs/string"
+        },
+        "NotifyLang": {
+          "$ref": "#/$defs/string"
+        },
+        "NotifyLangDefault": {
+          "$ref": "#/$defs/string"
+        },
+        "Or": {
+          "$ref": "#/$defs/string"
+        },
+        "Surname": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "projects": {
+      "type": "object",
+      "properties": {
+        "RemoveQuest": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "subscription": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "Pay": {
+              "$ref": "#/$defs/string"
+            },
+            "Prolong": {
+              "$ref": "#/$defs/string"
+            },
+            "ToPremium": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "feature": {
+          "type": "object",
+          "properties": {
+            "appFull": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "appSync": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "ActiveUntil": {
+              "$ref": "#/$defs/string"
+            },
+            "AvailableMoney": {
+              "$ref": "#/$defs/string"
+            },
+            "EnterPromoCode": {
+              "$ref": "#/$defs/string"
+            },
+            "status": {
+              "type": "object",
+              "properties": {
+                "Free": {
+                  "$ref": "#/$defs/string"
+                },
+                "Premium": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        },
+        "payDialog": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "$ref": "#/$defs/string"
+            },
+            "TitleExternal": {
+              "$ref": "#/$defs/string"
+            },
+            "label": {
+              "type": "object",
+              "properties": {
+                "Country": {
+                  "$ref": "#/$defs/string"
+                },
+                "Period": {
+                  "$ref": "#/$defs/string"
+                },
+                "PurseEnough": {
+                  "$ref": "#/$defs/string"
+                },
+                "PurseNone": {
+                  "$ref": "#/$defs/string"
+                },
+                "PurseNotEnough": {
+                  "$ref": "#/$defs/string"
+                },
+                "PurseStatus": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "ConfirmSpendPurseOnly": {
+                  "$ref": "#/$defs/string"
+                },
+                "GoToProviderToPay": {
+                  "$ref": "#/$defs/string"
+                },
+                "InvoiceAlreadyCompleted": {
+                  "$ref": "#/$defs/string"
+                },
+                "InvoiceConfirmPayWithCommission": {
+                  "$ref": "#/$defs/string"
+                },
+                "InvoiceConfirmPayX": {
+                  "$ref": "#/$defs/string"
+                },
+                "InvoiceConfirmPayXToGetY": {
+                  "$ref": "#/$defs/string"
+                },
+                "InvoiceRefused": {
+                  "$ref": "#/$defs/string"
+                },
+                "PeriodMaximumIsV": {
+                  "$ref": "#/$defs/string"
+                },
+                "PeriodMinimumIsV": {
+                  "$ref": "#/$defs/string"
+                },
+                "PeriodNotANumber": {
+                  "$ref": "#/$defs/string"
+                },
+                "ProviderDoesNotSupportCurrency": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "priceUnit": {
+              "type": "object",
+              "properties": {
+                "month": {
+                  "$ref": "#/$defs/string"
+                },
+                "monthsPlural": {
+                  "$ref": "#/$defs/string"
+                },
+                "year": {
+                  "$ref": "#/$defs/string"
+                },
+                "yearsPlural": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tabs": {
+      "type": "object",
+      "properties": {
+        "Accounts": {
+          "$ref": "#/$defs/string"
+        },
+        "Categories": {
+          "$ref": "#/$defs/string"
+        },
+        "Import": {
+          "$ref": "#/$defs/string"
+        },
+        "Participants": {
+          "$ref": "#/$defs/string"
+        },
+        "Password": {
+          "$ref": "#/$defs/string"
+        },
+        "Profile": {
+          "$ref": "#/$defs/string"
+        },
+        "Projects": {
+          "$ref": "#/$defs/string"
+        },
+        "Subscribes": {
+          "$ref": "#/$defs/string"
+        },
+        "Team": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "team": {
+      "type": "object",
+      "properties": {
+        "FloatingMonth": {
+          "$ref": "#/$defs/string"
+        },
+        "MainCurrency": {
+          "$ref": "#/$defs/string"
+        },
+        "MonthStart": {
+          "$ref": "#/$defs/string"
+        },
+        "TeamName": {
+          "$ref": "#/$defs/string"
+        },
+        "TimeZone": {
+          "$ref": "#/$defs/string"
+        },
+        "WeekStart": {
+          "$ref": "#/$defs/string"
+        },
+        "confirmDelete": {
+          "type": "object",
+          "properties": {
+            "button": {
+              "type": "object",
+              "properties": {
+                "Confirm": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "CautionOfDataLoss": {
+                  "$ref": "#/$defs/string"
+                },
+                "ExplainWhatDeletionIs": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            },
+            "title": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "teamErase": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "EraseTeamData": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "TaskIsBackground": {
+              "$ref": "#/$defs/string"
+            },
+            "WhatWillBeDeleted": {
+              "$ref": "#/$defs/string"
+            },
+            "WhatWillBeKept": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

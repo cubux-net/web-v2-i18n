@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "button": {
+      "type": "object",
+      "properties": {
+        "Add": {
+          "$ref": "#/$defs/string"
+        },
+        "Back": {
+          "$ref": "#/$defs/string"
+        },
+        "Cancel": {
+          "$ref": "#/$defs/string"
+        },
+        "ChooseIcon": {
+          "$ref": "#/$defs/string"
+        },
+        "ChooseImage": {
+          "$ref": "#/$defs/string"
+        },
+        "Confirm": {
+          "$ref": "#/$defs/string"
+        },
+        "Create": {
+          "$ref": "#/$defs/string"
+        },
+        "Delete": {
+          "$ref": "#/$defs/string"
+        },
+        "Edit": {
+          "$ref": "#/$defs/string"
+        },
+        "ImportCsv": {
+          "$ref": "#/$defs/string"
+        },
+        "Next": {
+          "$ref": "#/$defs/string"
+        },
+        "No": {
+          "$ref": "#/$defs/string"
+        },
+        "OK": {
+          "$ref": "#/$defs/string"
+        },
+        "Save": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectPartner": {
+          "$ref": "#/$defs/string"
+        },
+        "Yes": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "properties": {
+        "CheckAll": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "date": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "SelectRange": {
+              "$ref": "#/$defs/string"
+            },
+            "Today": {
+              "$ref": "#/$defs/string"
+            },
+            "since": {
+              "$ref": "#/$defs/string"
+            },
+            "until": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "properties": {
+        "MonthLimit": {
+          "$ref": "#/$defs/string"
+        },
+        "MonthPlan": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "label": {
+      "type": "object",
+      "properties": {
+        "DownloadAt": {
+          "$ref": "#/$defs/string"
+        },
+        "date": {
+          "type": "object",
+          "properties": {
+            "sinceStart": {
+              "$ref": "#/$defs/string"
+            },
+            "untilEnd": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "CautionAboutDataLoss": {
+          "$ref": "#/$defs/string"
+        },
+        "CheckFormAndFixErrors": {
+          "$ref": "#/$defs/string"
+        },
+        "CouldNotPerformOperation": {
+          "$ref": "#/$defs/string"
+        },
+        "NoRecords": {
+          "$ref": "#/$defs/string"
+        },
+        "PleaseWait": {
+          "$ref": "#/$defs/string"
+        },
+        "ThisActionCannotBeUndone": {
+          "$ref": "#/$defs/string"
+        },
+        "UncaughtErrorExplanation": {
+          "$ref": "#/$defs/string"
+        },
+        "UnknownError": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "placeholder": {
+      "type": "object",
+      "properties": {
+        "Search": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectCountry": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectCurrency": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectDate": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectLanguage": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "select": {
+      "type": "object",
+      "properties": {
+        "UseDefault": {
+          "$ref": "#/$defs/string"
+        },
+        "payInterval": {
+          "type": "object",
+          "properties": {
+            "Empty": {
+              "$ref": "#/$defs/string"
+            },
+            "m": {
+              "$ref": "#/$defs/string"
+            },
+            "q": {
+              "$ref": "#/$defs/string"
+            },
+            "w": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "Error": {
+          "$ref": "#/$defs/string"
+        },
+        "Loading": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    }
+  }
+}

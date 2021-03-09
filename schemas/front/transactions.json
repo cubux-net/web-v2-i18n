@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "object",
+      "properties": {
+        "ConfirmDeleteTransaction": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/string"
+        }
+      }
+    },
+    "table": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "MoreTransactions": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "NothingWasFound": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "filter": {
+          "type": "object",
+          "properties": {
+            "account": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "SelectAccount": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "amount": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "Amount": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "category": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "SelectCategory": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "project": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "SelectProject": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "type": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "Expenses": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "Incomes": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "Loans": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "Transfers": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "SelectUser": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "deleted": {
+                      "$ref": "#/$defs/string"
+                    },
+                    "notInTeam": {
+                      "$ref": "#/$defs/string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "head": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "object",
+              "properties": {
+                "Account": {
+                  "$ref": "#/$defs/string"
+                },
+                "Amount": {
+                  "$ref": "#/$defs/string"
+                },
+                "CategoryDescription": {
+                  "$ref": "#/$defs/string"
+                },
+                "Date": {
+                  "$ref": "#/$defs/string"
+                },
+                "Project": {
+                  "$ref": "#/$defs/string"
+                },
+                "User": {
+                  "$ref": "#/$defs/string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

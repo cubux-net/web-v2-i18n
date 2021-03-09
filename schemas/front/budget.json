@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "entry": {
+      "type": "object",
+      "properties": {
+        "loop": {
+          "type": "object",
+          "properties": {
+            "Month": {
+              "$ref": "#/$defs/string"
+            },
+            "Year": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "DeleteConfirm": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteConfirmOldNotice": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "property": {
+          "type": "object",
+          "properties": {
+            "Loop": {
+              "$ref": "#/$defs/string"
+            },
+            "Name": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "Create": {
+              "$ref": "#/$defs/string"
+            },
+            "Delete": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "type": {
+          "type": "object",
+          "properties": {
+            "Expense": {
+              "$ref": "#/$defs/string"
+            },
+            "Income": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "validation": {
+          "type": "object",
+          "properties": {
+            "EndDateAfterStartDate": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "Budgets": {
+              "$ref": "#/$defs/string"
+            },
+            "Category": {
+              "$ref": "#/$defs/string"
+            },
+            "Difference": {
+              "$ref": "#/$defs/string"
+            },
+            "ExpensesByCategories": {
+              "$ref": "#/$defs/string"
+            },
+            "Fact": {
+              "$ref": "#/$defs/string"
+            },
+            "IncomesByCategories": {
+              "$ref": "#/$defs/string"
+            },
+            "Plan": {
+              "$ref": "#/$defs/string"
+            },
+            "Progress": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "period": {
+      "type": "object",
+      "properties": {
+        "property": {
+          "type": "object",
+          "properties": {
+            "Inherit": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    },
+    "timeline": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "ShowAllCategories": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
