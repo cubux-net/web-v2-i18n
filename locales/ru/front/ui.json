@@ -38,7 +38,8 @@
       "sinceStart": "с начала",
       "untilEnd": "до конца"
     },
-    "DownloadAt": "Скачать в"
+    "DownloadAt": "Скачать в",
+    "FoundATypo": "Нашли опечатку?"
   },
   "message": {
     "CautionAboutDataLoss": "ПРЕДУПРЕЖДЕНИЕ О ПОТЕРЕ ДАННЫХ!",

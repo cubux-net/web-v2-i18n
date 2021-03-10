@@ -38,7 +38,8 @@
       "sinceStart": "start",
       "untilEnd": "end"
     },
-    "DownloadAt": "Download at"
+    "DownloadAt": "Download at",
+    "FoundATypo": "Found a typo?"
   },
   "message": {
     "CautionAboutDataLoss": "CAUTION ABOUT DATA LOSS!",

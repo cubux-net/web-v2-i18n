@@ -111,6 +111,9 @@
         "DownloadAt": {
           "$ref": "#/$defs/string"
         },
+        "FoundATypo": {
+          "$ref": "#/$defs/string"
+        },
         "date": {
           "type": "object",
           "properties": {
