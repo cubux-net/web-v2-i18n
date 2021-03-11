@@ -16,9 +16,6 @@
           "properties": {
             "ExportExcel": {
               "$ref": "#/$defs/string"
-            },
-            "FindOperations": {
-              "$ref": "#/$defs/string"
             }
           }
         },
