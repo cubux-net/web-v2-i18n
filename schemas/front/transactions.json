@@ -14,7 +14,8 @@
         "ConfirmDeleteTransaction": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["ConfirmDeleteTransaction"]
     },
     "page": {
       "type": "object",
@@ -22,7 +23,8 @@
         "title": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["title"]
     },
     "table": {
       "type": "object",
@@ -33,7 +35,8 @@
             "MoreTransactions": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["MoreTransactions"]
         },
         "content": {
           "type": "object",
@@ -41,7 +44,8 @@
             "NothingWasFound": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["NothingWasFound"]
         },
         "filter": {
           "type": "object",
@@ -55,9 +59,11 @@
                     "SelectAccount": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["SelectAccount"]
                 }
-              }
+              },
+              "required": ["label"]
             },
             "amount": {
               "type": "object",
@@ -68,9 +74,11 @@
                     "Amount": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["Amount"]
                 }
-              }
+              },
+              "required": ["label"]
             },
             "category": {
               "type": "object",
@@ -81,9 +89,11 @@
                     "SelectCategory": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["SelectCategory"]
                 }
-              }
+              },
+              "required": ["label"]
             },
             "project": {
               "type": "object",
@@ -94,9 +104,11 @@
                     "SelectProject": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["SelectProject"]
                 }
-              }
+              },
+              "required": ["label"]
             },
             "type": {
               "type": "object",
@@ -116,9 +128,11 @@
                     "Transfers": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["Expenses", "Incomes", "Loans", "Transfers"]
                 }
-              }
+              },
+              "required": ["label"]
             },
             "user": {
               "type": "object",
@@ -135,11 +149,21 @@
                     "notInTeam": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["SelectUser", "deleted", "notInTeam"]
                 }
-              }
+              },
+              "required": ["label"]
             }
-          }
+          },
+          "required": [
+            "account",
+            "amount",
+            "category",
+            "project",
+            "type",
+            "user"
+          ]
         },
         "head": {
           "type": "object",
@@ -165,11 +189,22 @@
                 "User": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "Account",
+                "Amount",
+                "CategoryDescription",
+                "Date",
+                "Project",
+                "User"
+              ]
             }
-          }
+          },
+          "required": ["label"]
         }
-      }
+      },
+      "required": ["button", "content", "filter", "head"]
     }
-  }
+  },
+  "required": ["message", "page", "table"]
 }

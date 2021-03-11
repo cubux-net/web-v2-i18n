@@ -17,9 +17,11 @@
             "AddAccount": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["AddAccount"]
         }
-      }
+      },
+      "required": ["button"]
     },
     "category": {
       "type": "object",
@@ -30,7 +32,8 @@
             "limit": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["limit"]
         },
         "label": {
           "type": "object",
@@ -59,9 +62,20 @@
             "Subcategory": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "AddCategory",
+            "AddSubCategory",
+            "CategoryName",
+            "ChooseIcon",
+            "EditCategory",
+            "SubCategoryName",
+            "Subcategories",
+            "Subcategory"
+          ]
         }
-      }
+      },
+      "required": ["help", "label"]
     },
     "common": {
       "type": "object",
@@ -72,7 +86,8 @@
             "CreateOneMore": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["CreateOneMore"]
         },
         "label": {
           "type": "object",
@@ -101,9 +116,20 @@
             "syncWithGoogleCalendar": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Limit",
+            "Plan",
+            "TotalsByFilterAre",
+            "Totals_ExpensesAre",
+            "Totals_IncomesAre",
+            "currentOfTotal",
+            "ofTotal",
+            "syncWithGoogleCalendar"
+          ]
         }
-      }
+      },
+      "required": ["button", "label"]
     },
     "createTeam": {
       "type": "object",
@@ -111,7 +137,8 @@
         "Title": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["Title"]
     },
     "menu": {
       "type": "object",
@@ -161,9 +188,26 @@
             "Support": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Analytics",
+            "Balance",
+            "Budget",
+            "Calendar",
+            "CreateTeam",
+            "Expenses",
+            "Goals",
+            "Incomes",
+            "Loans",
+            "LoansEmpty",
+            "Logout",
+            "Main",
+            "Settings",
+            "Support"
+          ]
         }
-      }
+      },
+      "required": ["label"]
     },
     "message": {
       "type": "object",
@@ -177,7 +221,8 @@
         "CategoryDidntSelect": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["AccountDidntSelect", "AmountIsEmpty", "CategoryDidntSelect"]
     },
     "plan": {
       "type": "object",
@@ -203,9 +248,18 @@
             "none": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Daily",
+            "Monthly",
+            "Quarterly",
+            "Weekly",
+            "Yearly",
+            "none"
+          ]
         }
-      }
+      },
+      "required": ["repeat"]
     },
     "procStatus": {
       "type": "object",
@@ -216,7 +270,8 @@
             "created": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["created"]
         },
         "message": {
           "type": "object",
@@ -230,7 +285,12 @@
             "OperationIsPending": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "OperationCompletedSuccessfully",
+            "OperationFailed",
+            "OperationIsPending"
+          ]
         },
         "procName": {
           "type": "object",
@@ -247,7 +307,13 @@
             "TeamErase": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "AccountDelete",
+            "ImportConvert",
+            "ImportSave",
+            "TeamErase"
+          ]
         },
         "procPhase": {
           "type": "object",
@@ -300,7 +366,24 @@
                 "Transactions": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "Accounts",
+                "Budget",
+                "Categories",
+                "Drafts",
+                "Goods",
+                "Images",
+                "LoanAgents",
+                "LoanHistory",
+                "PlanConfirms",
+                "Plans",
+                "Receipts",
+                "ShopListItems",
+                "ShopLists",
+                "Targets",
+                "Transactions"
+              ]
             },
             "accountDelete": {
               "type": "object",
@@ -308,7 +391,8 @@
                 "SelfDelete": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["SelfDelete"]
             },
             "teamErase": {
               "type": "object",
@@ -316,11 +400,14 @@
                 "InitNewData": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["InitNewData"]
             }
-          }
+          },
+          "required": ["_common", "accountDelete", "teamErase"]
         }
-      }
+      },
+      "required": ["label", "message", "procName", "procPhase"]
     },
     "transactions": {
       "type": "object",
@@ -331,9 +418,22 @@
             "TransactionsForDate": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["TransactionsForDate"]
         }
-      }
+      },
+      "required": ["label"]
     }
-  }
+  },
+  "required": [
+    "accounts",
+    "category",
+    "common",
+    "createTeam",
+    "menu",
+    "message",
+    "plan",
+    "procStatus",
+    "transactions"
+  ]
 }

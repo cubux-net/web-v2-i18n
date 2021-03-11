@@ -62,7 +62,26 @@
         "Yes": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "Add",
+        "Back",
+        "Cancel",
+        "ChooseIcon",
+        "ChooseImage",
+        "Confirm",
+        "Create",
+        "Delete",
+        "Edit",
+        "ImportCsv",
+        "Next",
+        "No",
+        "OK",
+        "Save",
+        "SelectAccount",
+        "SelectPartner",
+        "Yes"
+      ]
     },
     "check": {
       "type": "object",
@@ -70,7 +89,8 @@
         "CheckAll": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["CheckAll"]
     },
     "date": {
       "type": "object",
@@ -90,9 +110,11 @@
             "until": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["SelectRange", "Today", "since", "until"]
         }
-      }
+      },
+      "required": ["label"]
     },
     "field": {
       "type": "object",
@@ -103,7 +125,8 @@
         "MonthPlan": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["MonthLimit", "MonthPlan"]
     },
     "label": {
       "type": "object",
@@ -123,9 +146,11 @@
             "untilEnd": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["sinceStart", "untilEnd"]
         }
-      }
+      },
+      "required": ["DownloadAt", "FoundATypo", "date"]
     },
     "message": {
       "type": "object",
@@ -154,7 +179,17 @@
         "UnknownError": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "CautionAboutDataLoss",
+        "CheckFormAndFixErrors",
+        "CouldNotPerformOperation",
+        "NoRecords",
+        "PleaseWait",
+        "ThisActionCannotBeUndone",
+        "UncaughtErrorExplanation",
+        "UnknownError"
+      ]
     },
     "placeholder": {
       "type": "object",
@@ -174,7 +209,14 @@
         "SelectLanguage": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "Search",
+        "SelectCountry",
+        "SelectCurrency",
+        "SelectDate",
+        "SelectLanguage"
+      ]
     },
     "select": {
       "type": "object",
@@ -197,9 +239,11 @@
             "w": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Empty", "m", "q", "w"]
         }
-      }
+      },
+      "required": ["UseDefault", "payInterval"]
     },
     "state": {
       "type": "object",
@@ -210,7 +254,19 @@
         "Loading": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["Error", "Loading"]
     }
-  }
+  },
+  "required": [
+    "button",
+    "check",
+    "date",
+    "field",
+    "label",
+    "message",
+    "placeholder",
+    "select",
+    "state"
+  ]
 }

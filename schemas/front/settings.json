@@ -20,7 +20,8 @@
             "DeleteWithEverything": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["DeleteWithEverything"]
         },
         "label": {
           "type": "object",
@@ -31,7 +32,8 @@
             "Name": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["CountryAndBank", "Name"]
         },
         "message": {
           "type": "object",
@@ -48,7 +50,13 @@
             "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "AlsoYouCanJustHideAccount",
+            "ContinueToDeleteWillChangeHistoryAndBalance",
+            "RemoveQuest",
+            "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing"
+          ]
         },
         "stateButton": {
           "type": "object",
@@ -65,9 +73,16 @@
             "IsHidden_on_show": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "IsExcluded_off_exclude",
+            "IsExcluded_on_include",
+            "IsHidden_off_hide",
+            "IsHidden_on_show"
+          ]
         }
-      }
+      },
+      "required": ["button", "label", "message", "stateButton"]
     },
     "actions": {
       "type": "object",
@@ -81,7 +96,8 @@
         "Reset": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["Actions", "Remove", "Reset"]
     },
     "categories": {
       "type": "object",
@@ -128,9 +144,27 @@
             "NeedCategory": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "CanDeleteOperation",
+            "CanMoveOperation",
+            "DeleteOperation",
+            "HasOperation",
+            "MoveDataDelete",
+            "NeedCategory"
+          ]
         }
-      }
+      },
+      "required": [
+        "AddCategory",
+        "AddSubCategory",
+        "Expenses",
+        "Incomes",
+        "Name",
+        "RemoveError",
+        "RemoveQuest",
+        "removeErrorDialog"
+      ]
     },
     "import": {
       "type": "object",
@@ -156,7 +190,13 @@
                 "StartImport": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "ApplyConfig",
+                "ReloadData",
+                "ShowHiddenColumnsBack",
+                "StartImport"
+              ]
             },
             "column": {
               "type": "object",
@@ -191,7 +231,19 @@
                 "Type": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "Account",
+                "AccountIncoming",
+                "Amount",
+                "AmountDelta",
+                "AmountIncoming",
+                "Category",
+                "Date",
+                "Description",
+                "Subcategory",
+                "Type"
+              ]
             },
             "columnOpt": {
               "type": "object",
@@ -205,7 +257,8 @@
                     "NewAccount": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["ExistingAccount", "NewAccount"]
                 },
                 "date": {
                   "type": "object",
@@ -213,7 +266,8 @@
                     "Format": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["Format"]
                 },
                 "dateFormat": {
                   "type": "object",
@@ -227,7 +281,8 @@
                     "Y": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["D", "M", "Y"]
                 },
                 "type": {
                   "type": "object",
@@ -241,9 +296,11 @@
                     "TransferText": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["ExpenseText", "IncomeText", "TransferText"]
                 }
-              }
+              },
+              "required": ["account", "date", "dateFormat", "type"]
             },
             "csv": {
               "type": "object",
@@ -269,9 +326,17 @@
                     "Tab": {
                       "$ref": "#/$defs/string"
                     }
-                  }
+                  },
+                  "required": ["Space", "Tab"]
                 }
-              }
+              },
+              "required": [
+                "Encoding",
+                "HeaderLines",
+                "Quote",
+                "Separator",
+                "separator"
+              ]
             },
             "message": {
               "type": "object",
@@ -288,9 +353,23 @@
                 "SomeColumnsWasHidden": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "AtLeastOneOf",
+                "MissingAccountsAssignment",
+                "MissingRequiredColumns",
+                "SomeColumnsWasHidden"
+              ]
             }
-          }
+          },
+          "required": [
+            "Title",
+            "button",
+            "column",
+            "columnOpt",
+            "csv",
+            "message"
+          ]
         },
         "convert": {
           "type": "object",
@@ -310,9 +389,11 @@
                 "ConvertPending": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["ConvertDone", "ConvertFailed", "ConvertPending"]
             }
-          }
+          },
+          "required": ["Title", "message"]
         },
         "label": {
           "type": "object",
@@ -323,7 +404,8 @@
             "Format": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["File", "Format"]
         },
         "placeholder": {
           "type": "object",
@@ -331,7 +413,8 @@
             "SelectFormat": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["SelectFormat"]
         },
         "save": {
           "type": "object",
@@ -348,7 +431,8 @@
                 "StartImport": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["Done", "StartImport"]
             },
             "message": {
               "type": "object",
@@ -362,11 +446,14 @@
                 "SavePending": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["SaveDone", "SaveFailed", "SavePending"]
             }
-          }
+          },
+          "required": ["Title", "button", "message"]
         }
-      }
+      },
+      "required": ["configure", "convert", "label", "placeholder", "save"]
     },
     "participants": {
       "type": "object",
@@ -395,7 +482,17 @@
         "RemoveQuest": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "AccessLevel",
+        "AccountsSetting",
+        "Admin",
+        "FullAccess",
+        "FullName",
+        "Invite",
+        "InviteUser",
+        "RemoveQuest"
+      ]
     },
     "password": {
       "type": "object",
@@ -415,9 +512,11 @@
             "NewPasswordsDiffers": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["NewPasswordsDiffers"]
         }
-      }
+      },
+      "required": ["Current", "New", "RepeatNew", "message"]
     },
     "profile": {
       "type": "object",
@@ -458,7 +557,21 @@
         "Surname": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "Country",
+        "DeleteButton",
+        "DeleteCautionText",
+        "DeleteConfirmWithPassword",
+        "DeleteReason",
+        "DeleteReasonHelp",
+        "DeleteTitle",
+        "Name",
+        "NotifyLang",
+        "NotifyLangDefault",
+        "Or",
+        "Surname"
+      ]
     },
     "projects": {
       "type": "object",
@@ -466,7 +579,8 @@
         "RemoveQuest": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["RemoveQuest"]
     },
     "subscription": {
       "type": "object",
@@ -483,7 +597,8 @@
             "ToPremium": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Pay", "Prolong", "ToPremium"]
         },
         "feature": {
           "type": "object",
@@ -494,7 +609,8 @@
                 "title": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["title"]
             },
             "appSync": {
               "type": "object",
@@ -502,9 +618,11 @@
                 "title": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["title"]
             }
-          }
+          },
+          "required": ["appFull", "appSync"]
         },
         "label": {
           "type": "object",
@@ -527,9 +645,16 @@
                 "Premium": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["Free", "Premium"]
             }
-          }
+          },
+          "required": [
+            "ActiveUntil",
+            "AvailableMoney",
+            "EnterPromoCode",
+            "status"
+          ]
         },
         "payDialog": {
           "type": "object",
@@ -561,7 +686,15 @@
                 "PurseStatus": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "Country",
+                "Period",
+                "PurseEnough",
+                "PurseNone",
+                "PurseNotEnough",
+                "PurseStatus"
+              ]
             },
             "message": {
               "type": "object",
@@ -599,7 +732,20 @@
                 "ProviderDoesNotSupportCurrency": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": [
+                "ConfirmSpendPurseOnly",
+                "GoToProviderToPay",
+                "InvoiceAlreadyCompleted",
+                "InvoiceConfirmPayWithCommission",
+                "InvoiceConfirmPayX",
+                "InvoiceConfirmPayXToGetY",
+                "InvoiceRefused",
+                "PeriodMaximumIsV",
+                "PeriodMinimumIsV",
+                "PeriodNotANumber",
+                "ProviderDoesNotSupportCurrency"
+              ]
             },
             "priceUnit": {
               "type": "object",
@@ -616,11 +762,20 @@
                 "yearsPlural": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["month", "monthsPlural", "year", "yearsPlural"]
             }
-          }
+          },
+          "required": [
+            "Title",
+            "TitleExternal",
+            "label",
+            "message",
+            "priceUnit"
+          ]
         }
-      }
+      },
+      "required": ["button", "feature", "label", "payDialog"]
     },
     "tabs": {
       "type": "object",
@@ -652,7 +807,18 @@
         "Team": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": [
+        "Accounts",
+        "Categories",
+        "Import",
+        "Participants",
+        "Password",
+        "Profile",
+        "Projects",
+        "Subscribes",
+        "Team"
+      ]
     },
     "team": {
       "type": "object",
@@ -684,7 +850,8 @@
                 "Confirm": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["Confirm"]
             },
             "message": {
               "type": "object",
@@ -695,14 +862,25 @@
                 "ExplainWhatDeletionIs": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["CautionOfDataLoss", "ExplainWhatDeletionIs"]
             },
             "title": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["button", "message", "title"]
         }
-      }
+      },
+      "required": [
+        "FloatingMonth",
+        "MainCurrency",
+        "MonthStart",
+        "TeamName",
+        "TimeZone",
+        "WeekStart",
+        "confirmDelete"
+      ]
     },
     "teamErase": {
       "type": "object",
@@ -716,7 +894,8 @@
             "EraseTeamData": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["EraseTeamData"]
         },
         "message": {
           "type": "object",
@@ -730,9 +909,30 @@
             "WhatWillBeKept": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "TaskIsBackground",
+            "WhatWillBeDeleted",
+            "WhatWillBeKept"
+          ]
         }
-      }
+      },
+      "required": ["Title", "button", "message"]
     }
-  }
+  },
+  "required": [
+    "Title",
+    "accounts",
+    "actions",
+    "categories",
+    "import",
+    "participants",
+    "password",
+    "profile",
+    "projects",
+    "subscription",
+    "tabs",
+    "team",
+    "teamErase"
+  ]
 }

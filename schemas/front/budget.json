@@ -20,7 +20,8 @@
             "Year": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Month", "Year"]
         },
         "message": {
           "type": "object",
@@ -31,7 +32,8 @@
             "DeleteConfirmOldNotice": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["DeleteConfirm", "DeleteConfirmOldNotice"]
         },
         "property": {
           "type": "object",
@@ -42,7 +44,8 @@
             "Name": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Loop", "Name"]
         },
         "title": {
           "type": "object",
@@ -53,7 +56,8 @@
             "Delete": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Create", "Delete"]
         },
         "type": {
           "type": "object",
@@ -64,7 +68,8 @@
             "Income": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Expense", "Income"]
         },
         "validation": {
           "type": "object",
@@ -72,9 +77,11 @@
             "EndDateAfterStartDate": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["EndDateAfterStartDate"]
         }
-      }
+      },
+      "required": ["loop", "message", "property", "title", "type", "validation"]
     },
     "page": {
       "type": "object",
@@ -109,9 +116,20 @@
             "Progress": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Budgets",
+            "Category",
+            "Difference",
+            "ExpensesByCategories",
+            "Fact",
+            "IncomesByCategories",
+            "Plan",
+            "Progress"
+          ]
         }
-      }
+      },
+      "required": ["Title", "label"]
     },
     "period": {
       "type": "object",
@@ -122,9 +140,11 @@
             "Inherit": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Inherit"]
         }
-      }
+      },
+      "required": ["property"]
     },
     "timeline": {
       "type": "object",
@@ -135,9 +155,12 @@
             "ShowAllCategories": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["ShowAllCategories"]
         }
-      }
+      },
+      "required": ["label"]
     }
-  }
+  },
+  "required": ["entry", "page", "period", "timeline"]
 }

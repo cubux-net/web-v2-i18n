@@ -17,5 +17,6 @@
     "Required": {
       "$ref": "#/$defs/string"
     }
-  }
+  },
+  "required": ["InvalidValue", "MinStringLength", "Required"]
 }

@@ -11,5 +11,6 @@
     "RemoveQuest": {
       "$ref": "#/$defs/string"
     }
-  }
+  },
+  "required": ["RemoveQuest"]
 }

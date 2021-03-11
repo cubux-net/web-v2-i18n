@@ -20,7 +20,9 @@
         "Messages": {
           "$ref": "#/$defs/string"
         }
-      }
+      },
+      "required": ["BackgroundTasks", "Messages"]
     }
-  }
+  },
+  "required": ["DialogTitle", "tabs"]
 }

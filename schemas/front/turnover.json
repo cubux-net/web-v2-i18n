@@ -35,9 +35,19 @@
             "SelectDate": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Description",
+            "NeedConfirmation",
+            "Project",
+            "Repetition",
+            "SelectAccount",
+            "SelectCategory",
+            "SelectDate"
+          ]
         }
-      }
+      },
+      "required": ["label"]
     },
     "page": {
       "type": "object",
@@ -51,7 +61,8 @@
             "AddSubcategory": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["AddCategory", "AddSubcategory"]
         },
         "filter": {
           "type": "object",
@@ -68,9 +79,11 @@
                 "Year": {
                   "$ref": "#/$defs/string"
                 }
-              }
+              },
+              "required": ["AllTime", "Month", "Year"]
             }
-          }
+          },
+          "required": ["dateRange"]
         },
         "message": {
           "type": "object",
@@ -78,7 +91,8 @@
             "CategoryNotFound": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["CategoryNotFound"]
         },
         "title": {
           "type": "object",
@@ -95,9 +109,17 @@
             "IncomesByCategories": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "Expenses",
+            "ExpensesByCategories",
+            "Incomes",
+            "IncomesByCategories"
+          ]
         }
-      }
+      },
+      "required": ["button", "filter", "message", "title"]
     }
-  }
+  },
+  "required": ["operation", "page"]
 }

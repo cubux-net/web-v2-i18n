@@ -28,15 +28,15 @@ const refString = { $ref: "#/$defs/string" };
 
 function generate(input) {
   if (typeof input === "object") {
+    const required = Object.keys(input).sort();
     const properties = {};
-    Object.keys(input)
-      .sort()
-      .forEach((key) => {
-        properties[key] = generate(input[key]);
-      });
+    required.forEach((key) => {
+      properties[key] = generate(input[key]);
+    });
     return {
       type: "object",
       properties,
+      required,
     };
   }
   if (typeof input === "string") {

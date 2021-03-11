@@ -26,7 +26,8 @@
             "AutoSync": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["Agreement", "AutoSync"]
         },
         "input": {
           "type": "object",
@@ -52,7 +53,16 @@
             "SearchPlaceholder": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": [
+            "AnyCashAccount",
+            "Cash",
+            "Currency",
+            "InitialAmount",
+            "InitialAmountDate",
+            "Name",
+            "SearchPlaceholder"
+          ]
         },
         "title": {
           "type": "object",
@@ -66,9 +76,12 @@
             "NoSync": {
               "$ref": "#/$defs/string"
             }
-          }
+          },
+          "required": ["BankSync", "Import", "NoSync"]
         }
-      }
+      },
+      "required": ["Title", "TitleEdit", "comment", "input", "title"]
     }
-  }
+  },
+  "required": ["dialog"]
 }
