@@ -1,8 +1,7 @@
 {
   "filter": {
     "button": {
-      "ExportExcel": "Export to Excel",
-      "FindOperations": "Find operations"
+      "ExportExcel": "Export to Excel"
     },
     "chart": {
       "Chart": "Chart"

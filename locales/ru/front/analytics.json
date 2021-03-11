@@ -1,8 +1,7 @@
 {
   "filter": {
     "button": {
-      "ExportExcel": "Экспорт в Excel",
-      "FindOperations": "Показать операции"
+      "ExportExcel": "Экспорт в Excel"
     },
     "chart": {
       "Chart": "График"
