@@ -34,6 +34,7 @@
     "MonthPlan": "Month plan"
   },
   "label": {
+    "AskAQuestion": "Ask a question",
     "date": {
       "sinceStart": "start",
       "untilEnd": "end"

@@ -131,6 +131,9 @@
     "label": {
       "type": "object",
       "properties": {
+        "AskAQuestion": {
+          "$ref": "#/$defs/string"
+        },
         "DownloadAt": {
           "$ref": "#/$defs/string"
         },
@@ -150,7 +153,7 @@
           "required": ["sinceStart", "untilEnd"]
         }
       },
-      "required": ["DownloadAt", "FoundATypo", "date"]
+      "required": ["AskAQuestion", "DownloadAt", "FoundATypo", "date"]
     },
     "message": {
       "type": "object",

@@ -34,6 +34,7 @@
     "MonthPlan": "План в месяц"
   },
   "label": {
+    "AskAQuestion": "Задать вопрос",
     "date": {
       "sinceStart": "с начала",
       "untilEnd": "до конца"
