@@ -1,4 +1,5 @@
 const fs = require("fs");
+const isEqual = require("../../src/is-object-equal").default;
 
 exports.__esModule = true;
 exports.default = (target, source) => {
@@ -14,13 +15,10 @@ exports.default = (target, source) => {
     },
     ...generate(srcData),
   };
-  const output = JSON.stringify(schema, null, 2) + "\n";
-  if (
-    !fs.existsSync(target) ||
-    output !==
-      /** @type {string} */ fs.readFileSync(target, { encoding: "utf-8" })
-  ) {
-    fs.writeFileSync(target, output, { encoding: "utf-8" });
+  if (!isJsonFileSame(target, schema)) {
+    fs.writeFileSync(target, JSON.stringify(schema, null, 2) + "\n", {
+      encoding: "utf-8",
+    });
   }
 };
 
@@ -46,4 +44,16 @@ function generate(input) {
   throw new TypeError(
     "Unsupported data type found in source JSON: " + typeof input,
   );
+}
+
+function isJsonFileSame(file, data) {
+  if (!fs.existsSync(file)) {
+    return false;
+  }
+  const content = fs.readFileSync(file, { encoding: "utf-8" });
+  try {
+    return isEqual(JSON.parse(content), data);
+  } catch (e) {
+    return false;
+  }
 }
