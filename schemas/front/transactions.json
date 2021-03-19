@@ -15,7 +15,9 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["ConfirmDeleteTransaction"]
+      "required": [
+        "ConfirmDeleteTransaction"
+      ]
     },
     "page": {
       "type": "object",
@@ -24,7 +26,9 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["title"]
+      "required": [
+        "title"
+      ]
     },
     "table": {
       "type": "object",
@@ -36,7 +40,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["MoreTransactions"]
+          "required": [
+            "MoreTransactions"
+          ]
         },
         "content": {
           "type": "object",
@@ -45,7 +51,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["NothingWasFound"]
+          "required": [
+            "NothingWasFound"
+          ]
         },
         "filter": {
           "type": "object",
@@ -60,10 +68,14 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["SelectAccount"]
+                  "required": [
+                    "SelectAccount"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             },
             "amount": {
               "type": "object",
@@ -75,10 +87,14 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["Amount"]
+                  "required": [
+                    "Amount"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             },
             "category": {
               "type": "object",
@@ -90,10 +106,14 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["SelectCategory"]
+                  "required": [
+                    "SelectCategory"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             },
             "project": {
               "type": "object",
@@ -105,10 +125,14 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["SelectProject"]
+                  "required": [
+                    "SelectProject"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             },
             "type": {
               "type": "object",
@@ -129,10 +153,17 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["Expenses", "Incomes", "Loans", "Transfers"]
+                  "required": [
+                    "Expenses",
+                    "Incomes",
+                    "Loans",
+                    "Transfers"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             },
             "user": {
               "type": "object",
@@ -150,10 +181,16 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": ["SelectUser", "deleted", "notInTeam"]
+                  "required": [
+                    "SelectUser",
+                    "deleted",
+                    "notInTeam"
+                  ]
                 }
               },
-              "required": ["label"]
+              "required": [
+                "label"
+              ]
             }
           },
           "required": [
@@ -186,6 +223,9 @@
                 "Project": {
                   "$ref": "#/$defs/string"
                 },
+                "Remain": {
+                  "$ref": "#/$defs/string"
+                },
                 "User": {
                   "$ref": "#/$defs/string"
                 }
@@ -196,15 +236,27 @@
                 "CategoryDescription",
                 "Date",
                 "Project",
+                "Remain",
                 "User"
               ]
             }
           },
-          "required": ["label"]
+          "required": [
+            "label"
+          ]
         }
       },
-      "required": ["button", "content", "filter", "head"]
+      "required": [
+        "button",
+        "content",
+        "filter",
+        "head"
+      ]
     }
   },
-  "required": ["message", "page", "table"]
+  "required": [
+    "message",
+    "page",
+    "table"
+  ]
 }
