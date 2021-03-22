@@ -18,10 +18,14 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["AddAccount"]
+          "required": [
+            "AddAccount"
+          ]
         }
       },
-      "required": ["button"]
+      "required": [
+        "button"
+      ]
     },
     "category": {
       "type": "object",
@@ -33,7 +37,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["limit"]
+          "required": [
+            "limit"
+          ]
         },
         "label": {
           "type": "object",
@@ -75,7 +81,10 @@
           ]
         }
       },
-      "required": ["help", "label"]
+      "required": [
+        "help",
+        "label"
+      ]
     },
     "common": {
       "type": "object",
@@ -87,11 +96,16 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["CreateOneMore"]
+          "required": [
+            "CreateOneMore"
+          ]
         },
         "label": {
           "type": "object",
           "properties": {
+            "Description": {
+              "$ref": "#/$defs/string"
+            },
             "Limit": {
               "$ref": "#/$defs/string"
             },
@@ -118,6 +132,7 @@
             }
           },
           "required": [
+            "Description",
             "Limit",
             "Plan",
             "TotalsByFilterAre",
@@ -129,7 +144,10 @@
           ]
         }
       },
-      "required": ["button", "label"]
+      "required": [
+        "button",
+        "label"
+      ]
     },
     "createTeam": {
       "type": "object",
@@ -138,7 +156,59 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["Title"]
+      "required": [
+        "Title"
+      ]
+    },
+    "loan": {
+      "type": "object",
+      "properties": {
+        "IDidObtain": {
+          "$ref": "#/$defs/string"
+        },
+        "IDidProvide": {
+          "$ref": "#/$defs/string"
+        },
+        "ReturnDate": {
+          "$ref": "#/$defs/string"
+        },
+        "SelectAgent": {
+          "$ref": "#/$defs/string"
+        },
+        "UntilDeadline": {
+          "$ref": "#/$defs/string"
+        },
+        "pageTitle": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "IDidObtain",
+        "IDidProvide",
+        "ReturnDate",
+        "SelectAgent",
+        "UntilDeadline",
+        "pageTitle"
+      ]
+    },
+    "loanAgent": {
+      "type": "object",
+      "properties": {
+        "AddAgent": {
+          "$ref": "#/$defs/string"
+        },
+        "History": {
+          "$ref": "#/$defs/string"
+        },
+        "Name": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "AddAgent",
+        "History",
+        "Name"
+      ]
     },
     "menu": {
       "type": "object",
@@ -207,7 +277,9 @@
           ]
         }
       },
-      "required": ["label"]
+      "required": [
+        "label"
+      ]
     },
     "message": {
       "type": "object",
@@ -222,7 +294,34 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["AccountDidntSelect", "AmountIsEmpty", "CategoryDidntSelect"]
+      "required": [
+        "AccountDidntSelect",
+        "AmountIsEmpty",
+        "CategoryDidntSelect"
+      ]
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Accounts": {
+              "$ref": "#/$defs/string"
+            },
+            "BankAccounts": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Accounts",
+            "BankAccounts"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
     },
     "plan": {
       "type": "object",
@@ -259,7 +358,9 @@
           ]
         }
       },
-      "required": ["repeat"]
+      "required": [
+        "repeat"
+      ]
     },
     "procStatus": {
       "type": "object",
@@ -271,7 +372,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["created"]
+          "required": [
+            "created"
+          ]
         },
         "message": {
           "type": "object",
@@ -392,7 +495,9 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": ["SelfDelete"]
+              "required": [
+                "SelfDelete"
+              ]
             },
             "teamErase": {
               "type": "object",
@@ -401,13 +506,51 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": ["InitNewData"]
+              "required": [
+                "InitNewData"
+              ]
             }
           },
-          "required": ["_common", "accountDelete", "teamErase"]
+          "required": [
+            "_common",
+            "accountDelete",
+            "teamErase"
+          ]
         }
       },
-      "required": ["label", "message", "procName", "procPhase"]
+      "required": [
+        "label",
+        "message",
+        "procName",
+        "procPhase"
+      ]
+    },
+    "project": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/$defs/string"
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "CreateProject": {
+              "$ref": "#/$defs/string"
+            },
+            "EditProject": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreateProject",
+            "EditProject"
+          ]
+        }
+      },
+      "required": [
+        "Name",
+        "title"
+      ]
     },
     "transactions": {
       "type": "object",
@@ -419,10 +562,14 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["TransactionsForDate"]
+          "required": [
+            "TransactionsForDate"
+          ]
         }
       },
-      "required": ["label"]
+      "required": [
+        "label"
+      ]
     }
   },
   "required": [
@@ -430,10 +577,14 @@
     "category",
     "common",
     "createTeam",
+    "loan",
+    "loanAgent",
     "menu",
     "message",
+    "page",
     "plan",
     "procStatus",
+    "project",
     "transactions"
   ]
 }

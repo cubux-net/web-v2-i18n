@@ -160,6 +160,7 @@
     "Surname": "Surname"
   },
   "projects": {
+    "AddProject": "Add project",
     "RemoveQuest": "Are you sure to delete the project?"
   },
   "subscription": {

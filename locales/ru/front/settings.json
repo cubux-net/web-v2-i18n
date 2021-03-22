@@ -160,6 +160,7 @@
     "Surname": "Фамилия"
   },
   "projects": {
+    "AddProject": "Добавить проект",
     "RemoveQuest": "Вы действительно хотите удалить выбранный проект?"
   },
   "subscription": {

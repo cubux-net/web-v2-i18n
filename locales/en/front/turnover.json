@@ -1,6 +1,9 @@
 {
   "operation": {
     "label": {
+      "Commission": "Commission",
+      "CommissionCategory": "Commission category",
+      "CurrencyRate": "Rate",
       "Description": "Description",
       "NeedConfirmation": "Need confirmation",
       "Project": "Project",
@@ -8,6 +11,11 @@
       "SelectAccount": "Select account",
       "SelectCategory": "Select category",
       "SelectDate": "Select date"
+    },
+    "message": {
+      "SelectDestinationAccount": "Select destination account",
+      "SelectSourceAccount": "Select source account",
+      "TransferSameAccount": "Source and destination is the same account"
     }
   },
   "page": {

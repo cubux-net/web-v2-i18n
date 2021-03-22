@@ -14,6 +14,15 @@
         "label": {
           "type": "object",
           "properties": {
+            "Commission": {
+              "$ref": "#/$defs/string"
+            },
+            "CommissionCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "CurrencyRate": {
+              "$ref": "#/$defs/string"
+            },
             "Description": {
               "$ref": "#/$defs/string"
             },
@@ -37,6 +46,9 @@
             }
           },
           "required": [
+            "Commission",
+            "CommissionCategory",
+            "CurrencyRate",
             "Description",
             "NeedConfirmation",
             "Project",
@@ -45,9 +57,31 @@
             "SelectCategory",
             "SelectDate"
           ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "SelectDestinationAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "SelectSourceAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "TransferSameAccount": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "SelectDestinationAccount",
+            "SelectSourceAccount",
+            "TransferSameAccount"
+          ]
         }
       },
-      "required": ["label"]
+      "required": [
+        "label",
+        "message"
+      ]
     },
     "page": {
       "type": "object",
@@ -62,7 +96,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["AddCategory", "AddSubcategory"]
+          "required": [
+            "AddCategory",
+            "AddSubcategory"
+          ]
         },
         "filter": {
           "type": "object",
@@ -80,10 +117,16 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": ["AllTime", "Month", "Year"]
+              "required": [
+                "AllTime",
+                "Month",
+                "Year"
+              ]
             }
           },
-          "required": ["dateRange"]
+          "required": [
+            "dateRange"
+          ]
         },
         "message": {
           "type": "object",
@@ -92,7 +135,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["CategoryNotFound"]
+          "required": [
+            "CategoryNotFound"
+          ]
         },
         "title": {
           "type": "object",
@@ -118,8 +163,16 @@
           ]
         }
       },
-      "required": ["button", "filter", "message", "title"]
+      "required": [
+        "button",
+        "filter",
+        "message",
+        "title"
+      ]
     }
   },
-  "required": ["operation", "page"]
+  "required": [
+    "operation",
+    "page"
+  ]
 }

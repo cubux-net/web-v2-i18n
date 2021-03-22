@@ -25,6 +25,7 @@
     },
     "label": {
       "currentOfTotal": "{current} из {total}",
+      "Description": "Описание",
       "Limit": "Лимит",
       "ofTotal": "из {total}",
       "Plan": "План",
@@ -36,6 +37,19 @@
   },
   "createTeam": {
     "Title": "Создать команду"
+  },
+  "loan": {
+    "IDidObtain": "Я должен",
+    "IDidProvide": "Мне должны",
+    "pageTitle": "Долги",
+    "ReturnDate": "Дата возврата",
+    "SelectAgent": "Укажите контрагента",
+    "UntilDeadline": "until {deadline}"
+  },
+  "loanAgent": {
+    "AddAgent": "Добавить контрагента",
+    "History": "История платежей",
+    "Name": "Имя"
   },
   "menu": {
     "label": {
@@ -59,6 +73,12 @@
     "AccountDidntSelect": "Выберите счёт",
     "AmountIsEmpty": "Укажите сумму",
     "CategoryDidntSelect": "Выберите категорию"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Счета",
+      "BankAccounts": "Банковские счета"
+    }
   },
   "plan": {
     "repeat": {
@@ -109,6 +129,13 @@
       "teamErase": {
         "InitNewData": "Создание начальных данных"
       }
+    }
+  },
+  "project": {
+    "Name": "Название",
+    "title": {
+      "CreateProject": "Создание проекта",
+      "EditProject": "Редактирование проекта"
     }
   },
   "transactions": {

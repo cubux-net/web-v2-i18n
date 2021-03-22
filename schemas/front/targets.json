@@ -10,7 +10,125 @@
   "properties": {
     "RemoveQuest": {
       "$ref": "#/$defs/string"
+    },
+    "button": {
+      "type": "object",
+      "properties": {
+        "AddTarget": {
+          "$ref": "#/$defs/string"
+        },
+        "Complete": {
+          "$ref": "#/$defs/string"
+        },
+        "PayManual": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "AddTarget",
+        "Complete",
+        "PayManual"
+      ]
+    },
+    "label": {
+      "type": "object",
+      "properties": {
+        "Amount": {
+          "$ref": "#/$defs/string"
+        },
+        "CreateNewAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "HowToAccumulate": {
+          "$ref": "#/$defs/string"
+        },
+        "Interval": {
+          "$ref": "#/$defs/string"
+        },
+        "Name": {
+          "$ref": "#/$defs/string"
+        },
+        "NewAccountName": {
+          "$ref": "#/$defs/string"
+        },
+        "PayAmount": {
+          "$ref": "#/$defs/string"
+        },
+        "PayFromAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "Remain": {
+          "$ref": "#/$defs/string"
+        },
+        "ReserveOnAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "StartPaySince": {
+          "$ref": "#/$defs/string"
+        },
+        "TotalAmount": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Amount",
+        "CreateNewAccount",
+        "HowToAccumulate",
+        "Interval",
+        "Name",
+        "NewAccountName",
+        "PayAmount",
+        "PayFromAccount",
+        "Remain",
+        "ReserveOnAccount",
+        "StartPaySince",
+        "TotalAmount"
+      ]
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "Completed": {
+          "$ref": "#/$defs/string"
+        },
+        "Pending": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Completed",
+        "Pending"
+      ]
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "CreateTarget": {
+          "$ref": "#/$defs/string"
+        },
+        "OperationsHistory": {
+          "$ref": "#/$defs/string"
+        },
+        "PayManual": {
+          "$ref": "#/$defs/string"
+        },
+        "page": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "CreateTarget",
+        "OperationsHistory",
+        "PayManual",
+        "page"
+      ]
     }
   },
-  "required": ["RemoveQuest"]
+  "required": [
+    "RemoveQuest",
+    "button",
+    "label",
+    "state",
+    "title"
+  ]
 }

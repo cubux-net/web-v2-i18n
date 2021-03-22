@@ -25,6 +25,7 @@
     },
     "label": {
       "currentOfTotal": "{current} of {total}",
+      "Description": "Description",
       "Limit": "Limit",
       "ofTotal": "of {total}",
       "Plan": "Plan",
@@ -36,6 +37,19 @@
   },
   "createTeam": {
     "Title": "Create team"
+  },
+  "loan": {
+    "IDidObtain": "I did obtain",
+    "IDidProvide": "I did provide",
+    "pageTitle": "Loans",
+    "ReturnDate": "Return date",
+    "SelectAgent": "Select an agent",
+    "UntilDeadline": "until {deadline}"
+  },
+  "loanAgent": {
+    "AddAgent": "Add agent",
+    "History": "Payments history",
+    "Name": "Name"
   },
   "menu": {
     "label": {
@@ -59,6 +73,12 @@
     "AccountDidntSelect": "Select an account",
     "AmountIsEmpty": "Type an amount",
     "CategoryDidntSelect": "Select a category"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Accounts",
+      "BankAccounts": "Bank accounts"
+    }
   },
   "plan": {
     "repeat": {
@@ -109,6 +129,13 @@
       "teamErase": {
         "InitNewData": "Create initial data"
       }
+    }
+  },
+  "project": {
+    "Name": "Name",
+    "title": {
+      "CreateProject": "Create project",
+      "EditProject": "Edit project"
     }
   },
   "transactions": {

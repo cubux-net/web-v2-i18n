@@ -1,6 +1,9 @@
 {
   "operation": {
     "label": {
+      "Commission": "Комиссия",
+      "CommissionCategory": "Категория комиссии",
+      "CurrencyRate": "Курс",
       "Description": "Описание",
       "NeedConfirmation": "Нужно подтверждение",
       "Project": "Проект",
@@ -8,6 +11,11 @@
       "SelectAccount": "Выберите счёт",
       "SelectCategory": "Выберите категорию",
       "SelectDate": "Укажите дату"
+    },
+    "message": {
+      "SelectDestinationAccount": "Укажите целевой счёт",
+      "SelectSourceAccount": "Укажите счёт списания",
+      "TransferSameAccount": "Счет списания и целевой счет совпадают"
     }
   },
   "page": {

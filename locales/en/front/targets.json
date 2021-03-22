@@ -1,3 +1,32 @@
 {
-  "RemoveQuest": "Are you sure to delete the Goal with all related transactions? It may change accounts balance."
+  "button": {
+    "AddTarget": "Add\ntarget",
+    "Complete": "Complete",
+    "PayManual": "Pay manual"
+  },
+  "label": {
+    "Amount": "Amount",
+    "CreateNewAccount": "Create new account",
+    "HowToAccumulate": "How to accumulate?",
+    "Interval": "Interval",
+    "Name": "Name",
+    "NewAccountName": "New account name",
+    "PayAmount": "Pay amount",
+    "PayFromAccount": "Pay from account",
+    "Remain": "Remain",
+    "ReserveOnAccount": "Reserve on source account",
+    "StartPaySince": "Start pay since",
+    "TotalAmount": "Total amount"
+  },
+  "RemoveQuest": "Are you sure to delete the Goal with all related transactions? It may change accounts balance.",
+  "state": {
+    "Completed": "Completed",
+    "Pending": "Pending"
+  },
+  "title": {
+    "CreateTarget": "Create target",
+    "OperationsHistory": "Operations history",
+    "page": "Targets",
+    "PayManual": "Pay manual"
+  }
 }
