@@ -25,7 +25,7 @@
     "type": {
       "Expenses": "Расходы",
       "Incomes": "Доходы",
-      "Transfers": "Переводы"
+      "WithTransfers": "Учитывать переводы"
     }
   },
   "page": {

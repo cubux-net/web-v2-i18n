@@ -18,7 +18,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["ExportExcel"]
+          "required": [
+            "ExportExcel"
+          ]
         },
         "chart": {
           "type": "object",
@@ -27,7 +29,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Chart"]
+          "required": [
+            "Chart"
+          ]
         },
         "date": {
           "type": "object",
@@ -42,7 +46,11 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Period", "SetPeriod", "SetYear"]
+          "required": [
+            "Period",
+            "SetPeriod",
+            "SetYear"
+          ]
         },
         "groupBy": {
           "type": "object",
@@ -54,7 +62,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Categories", "Months"]
+          "required": [
+            "Categories",
+            "Months"
+          ]
         },
         "limit": {
           "type": "object",
@@ -92,14 +103,25 @@
             "Incomes": {
               "$ref": "#/$defs/string"
             },
-            "Transfers": {
+            "WithTransfers": {
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Expenses", "Incomes", "Transfers"]
+          "required": [
+            "Expenses",
+            "Incomes",
+            "WithTransfers"
+          ]
         }
       },
-      "required": ["button", "chart", "date", "groupBy", "limit", "type"]
+      "required": [
+        "button",
+        "chart",
+        "date",
+        "groupBy",
+        "limit",
+        "type"
+      ]
     },
     "page": {
       "type": "object",
@@ -114,11 +136,19 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["NoChartData"]
+          "required": [
+            "NoChartData"
+          ]
         }
       },
-      "required": ["Title", "message"]
+      "required": [
+        "Title",
+        "message"
+      ]
     }
   },
-  "required": ["filter", "page"]
+  "required": [
+    "filter",
+    "page"
+  ]
 }

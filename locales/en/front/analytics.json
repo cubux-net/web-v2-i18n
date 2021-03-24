@@ -25,7 +25,7 @@
     "type": {
       "Expenses": "Expenses",
       "Incomes": "Incomes",
-      "Transfers": "Transfers"
+      "WithTransfers": "With transfers"
     }
   },
   "page": {

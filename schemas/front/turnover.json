@@ -23,9 +23,6 @@
             "CurrencyRate": {
               "$ref": "#/$defs/string"
             },
-            "Description": {
-              "$ref": "#/$defs/string"
-            },
             "NeedConfirmation": {
               "$ref": "#/$defs/string"
             },
@@ -49,7 +46,6 @@
             "Commission",
             "CommissionCategory",
             "CurrencyRate",
-            "Description",
             "NeedConfirmation",
             "Project",
             "Repetition",
