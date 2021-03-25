@@ -404,6 +404,9 @@
             "CategoryDelete": {
               "$ref": "#/$defs/string"
             },
+            "CategoryDeleteWithMove": {
+              "$ref": "#/$defs/string"
+            },
             "ImportConvert": {
               "$ref": "#/$defs/string"
             },
@@ -417,6 +420,7 @@
           "required": [
             "AccountDelete",
             "CategoryDelete",
+            "CategoryDeleteWithMove",
             "ImportConvert",
             "ImportSave",
             "TeamErase"

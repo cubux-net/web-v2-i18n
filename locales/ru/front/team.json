@@ -102,6 +102,7 @@
     "procName": {
       "AccountDelete": "Удаление счёта",
       "CategoryDelete": "Удаление категории",
+      "CategoryDeleteWithMove": "Удаление категории с сохранением данных",
       "ImportConvert": "Импорт: чтение файла",
       "ImportSave": "Импорт данных",
       "TeamErase": "Очистка команды"

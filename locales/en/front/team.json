@@ -102,6 +102,7 @@
     "procName": {
       "AccountDelete": "Delete account",
       "CategoryDelete": "Delete category",
+      "CategoryDeleteWithMove": "Delete category keeping data",
       "ImportConvert": "Import reading file",
       "ImportSave": "Import data",
       "TeamErase": "Erase team data"
