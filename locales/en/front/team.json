@@ -4,6 +4,17 @@
       "AddAccount": "Add account"
     }
   },
+  "calendar": {
+    "label": {
+      "Account": "Account",
+      "Balance": "Balance",
+      "Expenses": "Expenses",
+      "Incomes": "Incomes"
+    },
+    "message": {
+      "NoOperations": "No operations found for this day."
+    }
+  },
   "category": {
     "help": {
       "limit": "Using in main budget"

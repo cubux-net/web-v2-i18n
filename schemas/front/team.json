@@ -27,6 +27,49 @@
         "button"
       ]
     },
+    "calendar": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Account": {
+              "$ref": "#/$defs/string"
+            },
+            "Balance": {
+              "$ref": "#/$defs/string"
+            },
+            "Expenses": {
+              "$ref": "#/$defs/string"
+            },
+            "Incomes": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Account",
+            "Balance",
+            "Expenses",
+            "Incomes"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NoOperations": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "NoOperations"
+          ]
+        }
+      },
+      "required": [
+        "label",
+        "message"
+      ]
+    },
     "category": {
       "type": "object",
       "properties": {
@@ -582,6 +625,7 @@
   },
   "required": [
     "accounts",
+    "calendar",
     "category",
     "common",
     "createTeam",

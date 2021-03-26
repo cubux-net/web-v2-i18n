@@ -4,6 +4,17 @@
       "AddAccount": "Добавить счёт"
     }
   },
+  "calendar": {
+    "label": {
+      "Account": "Счёт",
+      "Balance": "Баланс",
+      "Expenses": "Расходы",
+      "Incomes": "Доходы"
+    },
+    "message": {
+      "NoOperations": "Нет операций за этот день."
+    }
+  },
   "category": {
     "help": {
       "limit": "Используется в основном бюджете"
