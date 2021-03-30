@@ -214,6 +214,9 @@
                 "Amount": {
                   "$ref": "#/$defs/string"
                 },
+                "Category": {
+                  "$ref": "#/$defs/string"
+                },
                 "CategoryDescription": {
                   "$ref": "#/$defs/string"
                 },
@@ -233,6 +236,7 @@
               "required": [
                 "Account",
                 "Amount",
+                "Category",
                 "CategoryDescription",
                 "Date",
                 "Project",

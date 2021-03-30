@@ -603,6 +603,104 @@
         "title"
       ]
     },
+    "receipt": {
+      "type": "object",
+      "properties": {
+        "fetchState": {
+          "type": "object",
+          "properties": {
+            "Fetching": {
+              "$ref": "#/$defs/string"
+            },
+            "Invalid": {
+              "$ref": "#/$defs/string"
+            },
+            "Rejected": {
+              "$ref": "#/$defs/string"
+            },
+            "Validation": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Fetching",
+            "Invalid",
+            "Rejected",
+            "Validation"
+          ]
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "Positions": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalSum": {
+              "$ref": "#/$defs/string"
+            },
+            "UnknownShop": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Positions",
+            "TotalSum",
+            "UnknownShop"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NoPositions": {
+              "$ref": "#/$defs/string"
+            },
+            "ShopNameIsEmpty": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "NoPositions",
+            "ShopNameIsEmpty"
+          ]
+        }
+      },
+      "required": [
+        "fetchState",
+        "label",
+        "message"
+      ]
+    },
+    "receiptPos": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Cost": {
+              "$ref": "#/$defs/string"
+            },
+            "Name": {
+              "$ref": "#/$defs/string"
+            },
+            "Price": {
+              "$ref": "#/$defs/string"
+            },
+            "Qty": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Cost",
+            "Name",
+            "Price",
+            "Qty"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
     "transactions": {
       "type": "object",
       "properties": {
@@ -637,6 +735,8 @@
     "plan",
     "procStatus",
     "project",
+    "receipt",
+    "receiptPos",
     "transactions"
   ]
 }

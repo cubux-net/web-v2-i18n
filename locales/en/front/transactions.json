@@ -53,6 +53,7 @@
       "label": {
         "Account": "Account",
         "Amount": "Amount",
+        "Category": "Category",
         "CategoryDescription": "Category, Description",
         "Date": "Date",
         "Project": "Project",

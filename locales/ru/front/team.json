@@ -151,6 +151,31 @@
       "EditProject": "Редактирование проекта"
     }
   },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Ожидание извлечения данных.",
+      "Invalid": "Чек некорректен.",
+      "Rejected": "Чек был отклонён поставщиком данных.",
+      "Validation": "Ожидание проверки на корректность."
+    },
+    "label": {
+      "Positions": "Список позиций",
+      "TotalSum": "Итого",
+      "UnknownShop": "Неизвестный Магазин"
+    },
+    "message": {
+      "NoPositions": "Нет позиций",
+      "ShopNameIsEmpty": "Название магазина неизвестно. Пожалуйста, укажите."
+    }
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Сумма",
+      "Name": "Название",
+      "Price": "Цена",
+      "Qty": "Кол-во"
+    }
+  },
   "transactions": {
     "label": {
       "TransactionsForDate": "Транзакции за {date}"

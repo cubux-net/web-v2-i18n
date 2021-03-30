@@ -151,6 +151,31 @@
       "EditProject": "Edit project"
     }
   },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Waiting fo data fetching.",
+      "Invalid": "The receipt is invalid.",
+      "Rejected": "The receipt was rejected by data provider.",
+      "Validation": "Waiting for validation."
+    },
+    "label": {
+      "Positions": "Positions list",
+      "TotalSum": "Total",
+      "UnknownShop": "Unknown Shop"
+    },
+    "message": {
+      "NoPositions": "No positions",
+      "ShopNameIsEmpty": "Shop name in unknown. Please, specify shop name."
+    }
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Cost",
+      "Name": "Name",
+      "Price": "Price",
+      "Qty": "Qty"
+    }
+  },
   "transactions": {
     "label": {
       "TransactionsForDate": "Transactions for {date}"

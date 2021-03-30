@@ -53,6 +53,7 @@
       "label": {
         "Account": "Счёт",
         "Amount": "Сумма",
+        "Category": "Категория",
         "CategoryDescription": "Категория, Описание",
         "Date": "Дата",
         "Project": "Проект",
