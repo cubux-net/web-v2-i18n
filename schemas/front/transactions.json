@@ -19,6 +19,33 @@
         "ConfirmDeleteTransaction"
       ]
     },
+    "multiDelete": {
+      "type": "object",
+      "properties": {
+        "confirm": {
+          "type": "object",
+          "properties": {
+            "Content": {
+              "$ref": "#/$defs/string"
+            },
+            "OK": {
+              "$ref": "#/$defs/string"
+            },
+            "Title": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Content",
+            "OK",
+            "Title"
+          ]
+        }
+      },
+      "required": [
+        "confirm"
+      ]
+    },
     "page": {
       "type": "object",
       "properties": {
@@ -260,6 +287,7 @@
   },
   "required": [
     "message",
+    "multiDelete",
     "page",
     "table"
   ]

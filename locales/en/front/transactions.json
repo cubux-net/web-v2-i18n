@@ -2,6 +2,13 @@
   "message": {
     "ConfirmDeleteTransaction": "Are you sure to delete the transaction? This action cannot be undone."
   },
+  "multiDelete": {
+    "confirm": {
+      "Content": "Are you sure to delete <1>{n, plural, one{# transaction} other{# transactions}}</1>? This action cannot be undone.",
+      "OK": "Delete {n, plural, one{# transaction} other{# transactions}}",
+      "Title": "Delete checked transactions"
+    }
+  },
   "page": {
     "title": "Transactions"
   },
