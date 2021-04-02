@@ -283,12 +283,52 @@
         "filter",
         "head"
       ]
+    },
+    "transferJoin": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "Join": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Join"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "ChooseCommissionCategory": {
+              "$ref": "#/$defs/string"
+            },
+            "ThisCanBeDoneWithCommission": {
+              "$ref": "#/$defs/string"
+            },
+            "YouAreGoingToJoinWhat": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "ChooseCommissionCategory",
+            "ThisCanBeDoneWithCommission",
+            "YouAreGoingToJoinWhat"
+          ]
+        }
+      },
+      "required": [
+        "button",
+        "message"
+      ]
     }
   },
   "required": [
     "message",
     "multiDelete",
     "page",
-    "table"
+    "table",
+    "transferJoin"
   ]
 }

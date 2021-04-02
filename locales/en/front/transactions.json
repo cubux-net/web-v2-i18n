@@ -68,5 +68,15 @@
         "User": "User"
       }
     }
+  },
+  "transferJoin": {
+    "button": {
+      "Join": "Join to transfer"
+    },
+    "message": {
+      "ChooseCommissionCategory": "Please, choose a category for commission fee transaction:",
+      "ThisCanBeDoneWithCommission": "This can be done by creating a commission fee transaction for <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "You are requested to join into a transfer two transactions with different amounts:"
+    }
   }
 }
