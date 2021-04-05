@@ -13,10 +13,14 @@
       "properties": {
         "ConfirmDeleteTransaction": {
           "$ref": "#/$defs/string"
+        },
+        "ConfirmSplitTransaction": {
+          "$ref": "#/$defs/string"
         }
       },
       "required": [
-        "ConfirmDeleteTransaction"
+        "ConfirmDeleteTransaction",
+        "ConfirmSplitTransaction"
       ]
     },
     "multiDelete": {

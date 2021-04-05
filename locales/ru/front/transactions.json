@@ -1,6 +1,7 @@
 {
   "message": {
-    "ConfirmDeleteTransaction": "Вы уверены, что хотите удалить транзакцию? Операцию нельзя будет отменить."
+    "ConfirmDeleteTransaction": "Вы уверены, что хотите удалить транзакцию? Операцию нельзя будет отменить.",
+    "ConfirmSplitTransaction": "Вы уверены, что хотите разделить этот перевод?"
   },
   "multiDelete": {
     "confirm": {

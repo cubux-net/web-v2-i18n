@@ -1,6 +1,7 @@
 {
   "message": {
-    "ConfirmDeleteTransaction": "Are you sure to delete the transaction? This action cannot be undone."
+    "ConfirmDeleteTransaction": "Are you sure to delete the transaction? This action cannot be undone.",
+    "ConfirmSplitTransaction": "Are you sure to split this transfer?"
   },
   "multiDelete": {
     "confirm": {
