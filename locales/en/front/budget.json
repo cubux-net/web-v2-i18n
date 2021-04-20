@@ -5,8 +5,10 @@
       "Year": "For year"
     },
     "message": {
+      "AssignCategoriesByEdit": "Plan some categories with \"Edit\" button.",
       "DeleteConfirm": "Are you sure to delete this budget?",
-      "DeleteConfirmOldNotice": "This budget is connected to old budget. If you delete it, and then somebody will change old budget again (either in old web or mobile app with old budget), then new budget will be created automatically instead of this one."
+      "DeleteConfirmOldNotice": "This budget is connected to old budget. If you delete it, and then somebody will change old budget again (either in old web or mobile app with old budget), then new budget will be created automatically instead of this one.",
+      "NoCategoriesAssignedToShowFacts": "No planned categories to show operations from."
     },
     "property": {
       "Loop": "Period",
