@@ -57,6 +57,16 @@
         }
       }
     },
+    "filterSummary": {
+      "label": {
+        "Account": "Account",
+        "Amount": "Amount",
+        "Project": "Project",
+        "Since": "Since",
+        "Until": "Until",
+        "User": "User"
+      }
+    },
     "head": {
       "label": {
         "Account": "Account",

@@ -233,6 +233,45 @@
             "user"
           ]
         },
+        "filterSummary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "object",
+              "properties": {
+                "Account": {
+                  "$ref": "#/$defs/string"
+                },
+                "Amount": {
+                  "$ref": "#/$defs/string"
+                },
+                "Project": {
+                  "$ref": "#/$defs/string"
+                },
+                "Since": {
+                  "$ref": "#/$defs/string"
+                },
+                "Until": {
+                  "$ref": "#/$defs/string"
+                },
+                "User": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "Account",
+                "Amount",
+                "Project",
+                "Since",
+                "Until",
+                "User"
+              ]
+            }
+          },
+          "required": [
+            "label"
+          ]
+        },
         "head": {
           "type": "object",
           "properties": {
@@ -285,6 +324,7 @@
         "button",
         "content",
         "filter",
+        "filterSummary",
         "head"
       ]
     },

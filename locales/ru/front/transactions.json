@@ -57,6 +57,16 @@
         }
       }
     },
+    "filterSummary": {
+      "label": {
+        "Account": "Счёт",
+        "Amount": "Сумма",
+        "Project": "Проект",
+        "Since": "С",
+        "Until": "По",
+        "User": "Пользователь"
+      }
+    },
     "head": {
       "label": {
         "Account": "Счёт",
