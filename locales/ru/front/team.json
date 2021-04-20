@@ -55,7 +55,7 @@
     "pageTitle": "Долги",
     "ReturnDate": "Дата возврата",
     "SelectAgent": "Укажите контрагента",
-    "UntilDeadline": "until {deadline}"
+    "UntilDeadline": "не позднее {deadline}"
   },
   "loanAgent": {
     "AddAgent": "Добавить контрагента",
