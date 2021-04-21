@@ -90,7 +90,9 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["CheckAll"]
+      "required": [
+        "CheckAll"
+      ]
     },
     "date": {
       "type": "object",
@@ -111,10 +113,56 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["SelectRange", "Today", "since", "until"]
+          "required": [
+            "SelectRange",
+            "Today",
+            "since",
+            "until"
+          ]
         }
       },
-      "required": ["label"]
+      "required": [
+        "label"
+      ]
+    },
+    "downgrade": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "Navigate": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Navigate"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "PleaseProvideUsAReason": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "PleaseProvideUsAReason"
+          ]
+        },
+        "subtitle": {
+          "$ref": "#/$defs/string"
+        },
+        "title": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "button",
+        "message",
+        "subtitle",
+        "title"
+      ]
     },
     "field": {
       "type": "object",
@@ -126,7 +174,10 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["MonthLimit", "MonthPlan"]
+      "required": [
+        "MonthLimit",
+        "MonthPlan"
+      ]
     },
     "label": {
       "type": "object",
@@ -150,10 +201,18 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["sinceStart", "untilEnd"]
+          "required": [
+            "sinceStart",
+            "untilEnd"
+          ]
         }
       },
-      "required": ["AskAQuestion", "DownloadAt", "FoundATypo", "date"]
+      "required": [
+        "AskAQuestion",
+        "DownloadAt",
+        "FoundATypo",
+        "date"
+      ]
     },
     "message": {
       "type": "object",
@@ -243,10 +302,18 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Empty", "m", "q", "w"]
+          "required": [
+            "Empty",
+            "m",
+            "q",
+            "w"
+          ]
         }
       },
-      "required": ["UseDefault", "payInterval"]
+      "required": [
+        "UseDefault",
+        "payInterval"
+      ]
     },
     "state": {
       "type": "object",
@@ -258,13 +325,17 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": ["Error", "Loading"]
+      "required": [
+        "Error",
+        "Loading"
+      ]
     }
   },
   "required": [
     "button",
     "check",
     "date",
+    "downgrade",
     "field",
     "label",
     "message",

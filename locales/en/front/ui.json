@@ -29,6 +29,16 @@
       "until": "until"
     }
   },
+  "downgrade": {
+    "button": {
+      "Navigate": "Navigate"
+    },
+    "message": {
+      "PleaseProvideUsAReason": "Please provide us a reason, so we would make our service better."
+    },
+    "subtitle": "It will help us to became better.",
+    "title": "Write us what did you dislike?"
+  },
   "field": {
     "MonthLimit": "Month limit",
     "MonthPlan": "Month plan"

@@ -295,6 +295,9 @@
             "Main": {
               "$ref": "#/$defs/string"
             },
+            "ReturnToOldVersion": {
+              "$ref": "#/$defs/string"
+            },
             "Settings": {
               "$ref": "#/$defs/string"
             },
@@ -315,6 +318,7 @@
             "LoansEmpty",
             "Logout",
             "Main",
+            "ReturnToOldVersion",
             "Settings",
             "Support"
           ]
