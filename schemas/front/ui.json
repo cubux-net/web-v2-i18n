@@ -26,6 +26,9 @@
         "ChooseImage": {
           "$ref": "#/$defs/string"
         },
+        "Close": {
+          "$ref": "#/$defs/string"
+        },
         "Confirm": {
           "$ref": "#/$defs/string"
         },
@@ -69,6 +72,7 @@
         "Cancel",
         "ChooseIcon",
         "ChooseImage",
+        "Close",
         "Confirm",
         "Create",
         "Delete",

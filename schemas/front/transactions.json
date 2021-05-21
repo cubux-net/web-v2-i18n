@@ -275,6 +275,33 @@
         "head": {
           "type": "object",
           "properties": {
+            "config": {
+              "type": "object",
+              "properties": {
+                "DisplayAdaptive": {
+                  "$ref": "#/$defs/string"
+                },
+                "DisplayAlways": {
+                  "$ref": "#/$defs/string"
+                },
+                "DisplayExtraColumns": {
+                  "$ref": "#/$defs/string"
+                },
+                "DisplayNever": {
+                  "$ref": "#/$defs/string"
+                },
+                "Title": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "DisplayAdaptive",
+                "DisplayAlways",
+                "DisplayExtraColumns",
+                "DisplayNever",
+                "Title"
+              ]
+            },
             "label": {
               "type": "object",
               "properties": {
@@ -316,6 +343,7 @@
             }
           },
           "required": [
+            "config",
             "label"
           ]
         }

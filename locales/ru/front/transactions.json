@@ -68,6 +68,13 @@
       }
     },
     "head": {
+      "config": {
+        "DisplayAdaptive": "Адаптивно",
+        "DisplayAlways": "Всегда",
+        "DisplayExtraColumns": "Выберите условия для вывода дополнительных столбцов.",
+        "DisplayNever": "Никогда",
+        "Title": "Настройка таблицы"
+      },
       "label": {
         "Account": "Счёт",
         "Amount": "Сумма",

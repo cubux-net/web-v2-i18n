@@ -68,6 +68,13 @@
       }
     },
     "head": {
+      "config": {
+        "DisplayAdaptive": "Adaptive",
+        "DisplayAlways": "Always",
+        "DisplayExtraColumns": "Choose conditions to display extra columns.",
+        "DisplayNever": "Never",
+        "Title": "Table configuration"
+      },
       "label": {
         "Account": "Account",
         "Amount": "Amount",
