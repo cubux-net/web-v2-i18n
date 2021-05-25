@@ -1,6 +1,7 @@
 {
   "message": {
     "ConfirmDeleteTransaction": "Are you sure to delete the transaction? This action cannot be undone.",
+    "ConfirmPlannedTransaction": "Are you sure to confirm the transaction?",
     "ConfirmSplitTransaction": "Are you sure to split this transfer?"
   },
   "multiDelete": {
@@ -96,5 +97,8 @@
       "ThisCanBeDoneWithCommission": "This can be done by creating a commission fee transaction for <1>{sum}</1>.",
       "YouAreGoingToJoinWhat": "You are requested to join into a transfer two transactions with different amounts:"
     }
+  },
+  "unconfirmed": {
+    "Title": "Unconfirmed transactions"
   }
 }

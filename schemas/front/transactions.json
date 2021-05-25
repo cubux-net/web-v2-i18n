@@ -14,12 +14,16 @@
         "ConfirmDeleteTransaction": {
           "$ref": "#/$defs/string"
         },
+        "ConfirmPlannedTransaction": {
+          "$ref": "#/$defs/string"
+        },
         "ConfirmSplitTransaction": {
           "$ref": "#/$defs/string"
         }
       },
       "required": [
         "ConfirmDeleteTransaction",
+        "ConfirmPlannedTransaction",
         "ConfirmSplitTransaction"
       ]
     },
@@ -394,6 +398,17 @@
         "button",
         "message"
       ]
+    },
+    "unconfirmed": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Title"
+      ]
     }
   },
   "required": [
@@ -401,6 +416,7 @@
     "multiDelete",
     "page",
     "table",
-    "transferJoin"
+    "transferJoin",
+    "unconfirmed"
   ]
 }
