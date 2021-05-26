@@ -99,6 +99,7 @@
     }
   },
   "unconfirmed": {
+    "EndTitle": "Regular transactions",
     "Title": "Unconfirmed transactions"
   }
 }

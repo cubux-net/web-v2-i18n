@@ -402,11 +402,15 @@
     "unconfirmed": {
       "type": "object",
       "properties": {
+        "EndTitle": {
+          "$ref": "#/$defs/string"
+        },
         "Title": {
           "$ref": "#/$defs/string"
         }
       },
       "required": [
+        "EndTitle",
         "Title"
       ]
     }
