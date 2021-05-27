@@ -525,13 +525,7 @@
         "AccessLevel": {
           "$ref": "#/$defs/string"
         },
-        "AccountsSetting": {
-          "$ref": "#/$defs/string"
-        },
         "Admin": {
-          "$ref": "#/$defs/string"
-        },
-        "FullAccess": {
           "$ref": "#/$defs/string"
         },
         "FullName": {
@@ -543,19 +537,65 @@
         "InviteUser": {
           "$ref": "#/$defs/string"
         },
+        "Invited": {
+          "$ref": "#/$defs/string"
+        },
         "RemoveQuest": {
           "$ref": "#/$defs/string"
+        },
+        "SetupAccess": {
+          "$ref": "#/$defs/string"
+        },
+        "User": {
+          "$ref": "#/$defs/string"
+        },
+        "setup": {
+          "type": "object",
+          "properties": {
+            "Account": {
+              "$ref": "#/$defs/string"
+            },
+            "Change": {
+              "$ref": "#/$defs/string"
+            },
+            "Deny": {
+              "$ref": "#/$defs/string"
+            },
+            "FullAccess": {
+              "$ref": "#/$defs/string"
+            },
+            "Read": {
+              "$ref": "#/$defs/string"
+            },
+            "RestrictedAccess": {
+              "$ref": "#/$defs/string"
+            },
+            "SubjectUser": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Account",
+            "Change",
+            "Deny",
+            "FullAccess",
+            "Read",
+            "RestrictedAccess",
+            "SubjectUser"
+          ]
         }
       },
       "required": [
         "AccessLevel",
-        "AccountsSetting",
         "Admin",
-        "FullAccess",
         "FullName",
         "Invite",
         "InviteUser",
-        "RemoveQuest"
+        "Invited",
+        "RemoveQuest",
+        "SetupAccess",
+        "User",
+        "setup"
       ]
     },
     "password": {

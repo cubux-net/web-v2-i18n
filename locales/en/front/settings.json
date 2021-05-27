@@ -129,13 +129,23 @@
   },
   "participants": {
     "AccessLevel": "Access level",
-    "AccountsSetting": "Configure accounts",
     "Admin": "Administrator",
-    "FullAccess": "Full access",
     "FullName": "Full name",
     "Invite": "Invite",
+    "Invited": "Invited",
     "InviteUser": "Invite a user to the team",
-    "RemoveQuest": "Are you sure to delete the user from team?"
+    "RemoveQuest": "Are you sure to delete the user from team?",
+    "setup": {
+      "Account": "Account",
+      "Change": "Change",
+      "Deny": "Deny",
+      "FullAccess": "Full access to Team.",
+      "Read": "Read",
+      "RestrictedAccess": "Restricted access to specified accounts.",
+      "SubjectUser": "Setup access for user"
+    },
+    "SetupAccess": "Setup access",
+    "User": "Restricted User"
   },
   "password": {
     "Current": "Current password",
