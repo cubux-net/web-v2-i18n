@@ -236,6 +236,9 @@
         "PleaseWait": {
           "$ref": "#/$defs/string"
         },
+        "TemporaryDisabled": {
+          "$ref": "#/$defs/string"
+        },
         "ThisActionCannotBeUndone": {
           "$ref": "#/$defs/string"
         },
@@ -252,6 +255,7 @@
         "CouldNotPerformOperation",
         "NoRecords",
         "PleaseWait",
+        "TemporaryDisabled",
         "ThisActionCannotBeUndone",
         "UncaughtErrorExplanation",
         "UnknownError"

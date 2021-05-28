@@ -59,6 +59,7 @@
     "CouldNotPerformOperation": "Couldn't perform operation.",
     "NoRecords": "Nothing here.",
     "PleaseWait": "Please, wait...",
+    "TemporaryDisabled": "Temporary disabled.",
     "ThisActionCannotBeUndone": "This action cannot be undone",
     "UncaughtErrorExplanation": "Sorry, an error occurred. Try to <1>reload page</1> first. If it didn't help, check internet connection and proxy settings. If it didn't help too, contact out support system.",
     "UnknownError": "Unknown error."
