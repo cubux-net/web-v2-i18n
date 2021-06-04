@@ -1,8 +1,12 @@
 {
   "dialog": {
+    "button": {
+      "OAuthGo": "Authenticate in bank"
+    },
     "comment": {
-      "Agreement": "By your continued use of this service you accept Terms of Use",
-      "AutoSync": "Data will synchronize automatically about once per day. You also would to request a sync manually, but not more often, then one per day."
+      "Agreement": "By your continued use of this service you accept <1>Terms of Use</1>.",
+      "AutoSync": "Data will synchronize automatically about once per day. You also would to request a sync manually, but not more often, then one per day.",
+      "OAuthIntro": "To continue you need to authenticate access in the bank."
     },
     "input": {
       "AnyCashAccount": "Cash or any account",

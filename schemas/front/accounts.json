@@ -17,6 +17,17 @@
         "TitleEdit": {
           "$ref": "#/$defs/string"
         },
+        "button": {
+          "type": "object",
+          "properties": {
+            "OAuthGo": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "OAuthGo"
+          ]
+        },
         "comment": {
           "type": "object",
           "properties": {
@@ -25,9 +36,16 @@
             },
             "AutoSync": {
               "$ref": "#/$defs/string"
+            },
+            "OAuthIntro": {
+              "$ref": "#/$defs/string"
             }
           },
-          "required": ["Agreement", "AutoSync"]
+          "required": [
+            "Agreement",
+            "AutoSync",
+            "OAuthIntro"
+          ]
         },
         "input": {
           "type": "object",
@@ -77,11 +95,24 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["BankSync", "Import", "NoSync"]
+          "required": [
+            "BankSync",
+            "Import",
+            "NoSync"
+          ]
         }
       },
-      "required": ["Title", "TitleEdit", "comment", "input", "title"]
+      "required": [
+        "Title",
+        "TitleEdit",
+        "button",
+        "comment",
+        "input",
+        "title"
+      ]
     }
   },
-  "required": ["dialog"]
+  "required": [
+    "dialog"
+  ]
 }
