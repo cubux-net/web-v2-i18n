@@ -21,10 +21,86 @@
           "required": [
             "AddAccount"
           ]
+        },
+        "hint": {
+          "type": "object",
+          "properties": {
+            "ClickToStartRefresh": {
+              "$ref": "#/$defs/string"
+            },
+            "NextRefreshPossibleAt": {
+              "$ref": "#/$defs/string"
+            },
+            "ReconnectToBank": {
+              "$ref": "#/$defs/string"
+            },
+            "WillAutoRefresh": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "ClickToStartRefresh",
+            "NextRefreshPossibleAt",
+            "ReconnectToBank",
+            "WillAutoRefresh"
+          ]
+        },
+        "messages": {
+          "type": "object",
+          "properties": {
+            "BankSyncLost": {
+              "$ref": "#/$defs/string"
+            },
+            "BankSyncNotFound": {
+              "$ref": "#/$defs/string"
+            },
+            "CannotRefreshRightNow": {
+              "$ref": "#/$defs/string"
+            },
+            "RefreshDidNotScheduled": {
+              "$ref": "#/$defs/string"
+            },
+            "RefreshScheduled": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "BankSyncLost",
+            "BankSyncNotFound",
+            "CannotRefreshRightNow",
+            "RefreshDidNotScheduled",
+            "RefreshScheduled"
+          ]
+        },
+        "syncLost": {
+          "type": "object",
+          "properties": {
+            "InteractiveTimeout": {
+              "$ref": "#/$defs/string"
+            },
+            "InvalidCredentials": {
+              "$ref": "#/$defs/string"
+            },
+            "RemoteAccountDeleted": {
+              "$ref": "#/$defs/string"
+            },
+            "RemoteAuthOutdated": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "InteractiveTimeout",
+            "InvalidCredentials",
+            "RemoteAccountDeleted",
+            "RemoteAuthOutdated"
+          ]
         }
       },
       "required": [
-        "button"
+        "button",
+        "hint",
+        "messages",
+        "syncLost"
       ]
     },
     "calendar": {

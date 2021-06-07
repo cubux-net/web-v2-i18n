@@ -2,6 +2,25 @@
   "accounts": {
     "button": {
       "AddAccount": "Add account"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Click to refresh data",
+      "NextRefreshPossibleAt": "Next refresh possible after {when}.",
+      "ReconnectToBank": "Configure bank connection",
+      "WillAutoRefresh": "This account will refresh automatically."
+    },
+    "messages": {
+      "BankSyncLost": "Connection with bank lost.",
+      "BankSyncNotFound": "Bank connection cannot be accessed. Only connection owner can access it.",
+      "CannotRefreshRightNow": "Cannot refresh data right now yet.",
+      "RefreshDidNotScheduled": "Refresh was not scheduled. Probably, connection setup is incomplete.",
+      "RefreshScheduled": "Data refreshing attempt is scheduled to near future."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Interactive confirmation timed out.",
+      "InvalidCredentials": "Invalid credentials.",
+      "RemoteAccountDeleted": "Remote account was deleted.",
+      "RemoteAuthOutdated": "Remote authentication is outdated."
     }
   },
   "calendar": {

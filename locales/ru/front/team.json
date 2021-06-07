@@ -2,6 +2,25 @@
   "accounts": {
     "button": {
       "AddAccount": "Добавить счёт"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Нажмите, чтобы начать обновление данных",
+      "NextRefreshPossibleAt": "Следующее обновление возможно после {when}.",
+      "ReconnectToBank": "Настроить подключение к банку",
+      "WillAutoRefresh": "Этот счёт обновляется автоматически."
+    },
+    "messages": {
+      "BankSyncLost": "Связь с банком прервана.",
+      "BankSyncNotFound": "Связь с банком недоступна. Только владелец имеет доступ.",
+      "CannotRefreshRightNow": "Пока ещё нельзя обновить данные.",
+      "RefreshDidNotScheduled": "Обновление невозможно. Вероятно, связь не была настроена до конца.",
+      "RefreshScheduled": "Попытка обновления данных запланирована на ближайшее время."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Интерактивное подтверждение не было проверено в отведённый срок.",
+      "InvalidCredentials": "Некорректные данные интерактивного подтверждения.",
+      "RemoteAccountDeleted": "Соответствующий счёт был удалён в банке.",
+      "RemoteAuthOutdated": "Данные для доступа устарели."
     }
   },
   "calendar": {
