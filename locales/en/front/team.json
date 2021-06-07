@@ -21,6 +21,9 @@
       "InvalidCredentials": "Invalid credentials.",
       "RemoteAccountDeleted": "Remote account was deleted.",
       "RemoteAuthOutdated": "Remote authentication is outdated."
+    },
+    "title": {
+      "Reconnect": "Reconnect bank account"
     }
   },
   "calendar": {

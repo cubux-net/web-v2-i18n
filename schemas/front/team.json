@@ -94,13 +94,25 @@
             "RemoteAccountDeleted",
             "RemoteAuthOutdated"
           ]
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "Reconnect": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Reconnect"
+          ]
         }
       },
       "required": [
         "button",
         "hint",
         "messages",
-        "syncLost"
+        "syncLost",
+        "title"
       ]
     },
     "calendar": {
