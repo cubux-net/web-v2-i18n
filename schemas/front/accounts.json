@@ -86,6 +86,17 @@
             "SearchPlaceholder"
           ]
         },
+        "state": {
+          "type": "object",
+          "properties": {
+            "SyncLost": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "SyncLost"
+          ]
+        },
         "title": {
           "type": "object",
           "properties": {
@@ -112,6 +123,7 @@
         "button",
         "comment",
         "input",
+        "state",
         "title"
       ]
     }

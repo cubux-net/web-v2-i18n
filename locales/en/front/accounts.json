@@ -18,6 +18,9 @@
       "Name": "Name",
       "SearchPlaceholder": "Start to type bank name to filter..."
     },
+    "state": {
+      "SyncLost": "Synchronization lost"
+    },
     "Title": "Add account",
     "title": {
       "BankSync": "Sync with bank",
