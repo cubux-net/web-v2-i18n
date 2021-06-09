@@ -65,6 +65,9 @@
             "InitialAmountDate": {
               "$ref": "#/$defs/string"
             },
+            "KeepSyncWithBank": {
+              "$ref": "#/$defs/string"
+            },
             "Name": {
               "$ref": "#/$defs/string"
             },
@@ -78,6 +81,7 @@
             "Currency",
             "InitialAmount",
             "InitialAmountDate",
+            "KeepSyncWithBank",
             "Name",
             "SearchPlaceholder"
           ]

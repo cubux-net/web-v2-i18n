@@ -134,6 +134,7 @@
       "OperationIsPending": "Operation is pending. Please, wait."
     },
     "procName": {
+      "AccountAuthUnlink": "Disconnect account from bank sync",
       "AccountDelete": "Delete account",
       "CategoryDelete": "Delete category",
       "CategoryDeleteWithMove": "Delete category keeping data",
@@ -149,6 +150,7 @@
         "Drafts": "Receipt (photo)",
         "Goods": "Shop lists: good suggestions",
         "Images": "Images",
+        "Initialization": "Initialization",
         "LoanAgents": "Loan agents",
         "LoanHistory": "Loan operations history",
         "PlanConfirms": "Unconfirmed transactions",

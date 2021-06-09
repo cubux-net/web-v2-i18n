@@ -533,6 +533,9 @@
         "procName": {
           "type": "object",
           "properties": {
+            "AccountAuthUnlink": {
+              "$ref": "#/$defs/string"
+            },
             "AccountDelete": {
               "$ref": "#/$defs/string"
             },
@@ -553,6 +556,7 @@
             }
           },
           "required": [
+            "AccountAuthUnlink",
             "AccountDelete",
             "CategoryDelete",
             "CategoryDeleteWithMove",
@@ -583,6 +587,9 @@
                   "$ref": "#/$defs/string"
                 },
                 "Images": {
+                  "$ref": "#/$defs/string"
+                },
+                "Initialization": {
                   "$ref": "#/$defs/string"
                 },
                 "LoanAgents": {
@@ -620,6 +627,7 @@
                 "Drafts",
                 "Goods",
                 "Images",
+                "Initialization",
                 "LoanAgents",
                 "LoanHistory",
                 "PlanConfirms",
