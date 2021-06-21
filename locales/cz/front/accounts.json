@@ -9,7 +9,7 @@
       "OAuthIntro": "Для продолжения Вам необходимо разрешить доступ в Банке."
     },
     "input": {
-      "AnyCashAccount": "Наличные или любой счет",
+      "AnyCashAccount": "Hotovost nebo libovolný účet",
       "Cash": "Hotovost",
       "Currency": "Валюта счета",
       "InitialAmount": "Начальный остаток",
