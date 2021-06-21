@@ -1,0 +1,209 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Добавить счёт"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Нажмите, чтобы начать обновление данных",
+      "NextRefreshPossibleAt": "Следующее обновление возможно после {when}.",
+      "ReconnectToBank": "Настроить подключение к банку",
+      "WillAutoRefresh": "Этот счёт обновляется автоматически."
+    },
+    "messages": {
+      "BankSyncLost": "Связь с банком прервана.",
+      "BankSyncNotFound": "Связь с банком недоступна. Только владелец имеет доступ.",
+      "CannotRefreshRightNow": "Пока ещё нельзя обновить данные.",
+      "RefreshDidNotScheduled": "Обновление невозможно. Вероятно, связь не была настроена до конца.",
+      "RefreshScheduled": "Попытка обновления данных запланирована на ближайшее время."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Интерактивное подтверждение не было проверено в отведённый срок.",
+      "InvalidCredentials": "Некорректные данные интерактивного подтверждения.",
+      "RemoteAccountDeleted": "Соответствующий счёт был удалён в банке.",
+      "RemoteAuthOutdated": "Данные для доступа устарели."
+    },
+    "title": {
+      "Reconnect": "Настройка синхронизации счета с банком"
+    }
+  },
+  "calendar": {
+    "label": {
+      "Account": "Счёт",
+      "Balance": "Баланс",
+      "Expenses": "Расходы",
+      "Incomes": "Доходы"
+    },
+    "message": {
+      "NoOperations": "Нет операций за этот день."
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Используется в основном бюджете"
+    },
+    "label": {
+      "AddCategory": "Добавить категорию",
+      "AddSubCategory": "Добавить подкатегорию",
+      "CategoryName": "Название категории",
+      "ChooseIcon": "Выберите иконку",
+      "EditCategory": "Редактировать категорию",
+      "Subcategories": "Подкатегории",
+      "Subcategory": "Подкатегория",
+      "SubCategoryName": "Название подкатегории"
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Сохранить и создать ещё одну"
+    },
+    "label": {
+      "currentOfTotal": "{current} из {total}",
+      "Description": "Описание",
+      "Limit": "Лимит",
+      "ofTotal": "из {total}",
+      "Plan": "План",
+      "syncWithGoogleCalendar": "Синхронизировать с Google Calendar",
+      "Totals_ExpensesAre": "Расходы <0>{amount}</0>",
+      "Totals_IncomesAre": "Доходы <0>{amount}</0>",
+      "TotalsByFilterAre": "Итог по выбранным критериям:"
+    }
+  },
+  "createTeam": {
+    "Title": "Создать команду"
+  },
+  "loan": {
+    "IDidObtain": "Я должен",
+    "IDidProvide": "Мне должны",
+    "pageTitle": "Долги",
+    "ReturnDate": "Дата возврата",
+    "SelectAgent": "Укажите контрагента",
+    "UntilDeadline": "не позднее {deadline}"
+  },
+  "loanAgent": {
+    "AddAgent": "Добавить контрагента",
+    "History": "История платежей",
+    "Name": "Имя"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Аналитика",
+      "Balance": "Баланс",
+      "Budget": "Бюджет",
+      "Calendar": "Календарь",
+      "CreateTeam": "Создать команду",
+      "Expenses": "Расходы",
+      "Goals": "Цели",
+      "Incomes": "Доходы",
+      "Loans": "Долги",
+      "LoansEmpty": "Отсутствуют",
+      "Logout": "Выход",
+      "Main": "Главная",
+      "ReturnToOldVersion": "Вернуться к старой версии",
+      "Settings": "Настройки",
+      "Support": "Поддержка"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Выберите счёт",
+    "AmountIsEmpty": "Укажите сумму",
+    "CategoryDidntSelect": "Выберите категорию"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Счета",
+      "BankAccounts": "Банковские счета"
+    }
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Каждый день",
+      "Monthly": "Каждый месяц",
+      "none": "нет",
+      "Quarterly": "Каждый квартал",
+      "Weekly": "Каждую неделю",
+      "Yearly": "Каждый год"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "задача создана"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "Операция завершена успешно.",
+      "OperationFailed": "Операция прервана из-за ошибок.",
+      "OperationIsPending": "Операция выполняется. Пожалуйста, подождите."
+    },
+    "procName": {
+      "AccountAuthUnlink": "Прекращение синхронизации счёта с банком",
+      "AccountDelete": "Удаление счёта",
+      "CategoryDelete": "Удаление категории",
+      "CategoryDeleteWithMove": "Удаление категории с сохранением данных",
+      "ImportConvert": "Импорт: чтение файла",
+      "ImportSave": "Импорт данных",
+      "TeamErase": "Очистка команды"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Счета",
+        "Budget": "Бюджет",
+        "Categories": "Категории",
+        "Drafts": "Чеки (фото)",
+        "Goods": "Списки покупок: подсказки",
+        "Images": "Изображения",
+        "Initialization": "Подготовка",
+        "LoanAgents": "Долговые агенты",
+        "LoanHistory": "Долговые операции",
+        "PlanConfirms": "Неподтверждённые транзакции",
+        "Plans": "Плановые операции",
+        "Receipts": "Чеки",
+        "ShopListItems": "Списки покупок: позиции",
+        "ShopLists": "Списки покупок",
+        "Targets": "Цели",
+        "Transactions": "Транзакции"
+      },
+      "accountDelete": {
+        "SelfDelete": "Счёт"
+      },
+      "teamErase": {
+        "InitNewData": "Создание начальных данных"
+      }
+    }
+  },
+  "project": {
+    "Name": "Название",
+    "title": {
+      "CreateProject": "Создание проекта",
+      "EditProject": "Редактирование проекта"
+    }
+  },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Ожидание извлечения данных.",
+      "Invalid": "Чек некорректен.",
+      "Rejected": "Чек был отклонён поставщиком данных.",
+      "Validation": "Ожидание проверки на корректность."
+    },
+    "label": {
+      "Positions": "Список позиций",
+      "TotalSum": "Итого",
+      "UnknownShop": "Неизвестный Магазин"
+    },
+    "message": {
+      "NoPositions": "Нет позиций",
+      "ShopNameIsEmpty": "Название магазина неизвестно. Пожалуйста, укажите."
+    }
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Сумма",
+      "Name": "Название",
+      "Price": "Цена",
+      "Qty": "Кол-во"
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Транзакции за {date}"
+    }
+  }
+}

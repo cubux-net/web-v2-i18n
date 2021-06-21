@@ -1,0 +1,272 @@
+{
+  "accounts": {
+    "button": {
+      "DeleteWithEverything": "УДАЛИТЬ ВСЁ"
+    },
+    "label": {
+      "CountryAndBank": "Страна, Банк",
+      "Name": "Название"
+    },
+    "message": {
+      "AlsoYouCanJustHideAccount": "Также вы можете просто скрыть счёт, чтобы он не показывался в списках.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Удаление счёта приведёт к изменению истории операций и остатков.",
+      "RemoveQuest": "Вы действительно хотите удалить выбранный счет вместе со всеми связанными данными?",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Вы собираетесь удалить счёт вместе со всеми связанными данными, включая следующее:"
+    },
+    "stateButton": {
+      "IsExcluded_off_exclude": "Учитывается в остатке",
+      "IsExcluded_on_include": "НЕ учитывается в остатке",
+      "IsHidden_off_hide": "Отображается - Скрыть",
+      "IsHidden_on_show": "Скрыт - Показать"
+    }
+  },
+  "actions": {
+    "Actions": "Действия",
+    "Remove": "Удалить",
+    "Reset": "Сбросить"
+  },
+  "categories": {
+    "AddCategory": "Добавить категорию",
+    "AddSubCategory": "Добавить подкатегорию",
+    "Expenses": "Расходы",
+    "Incomes": "Доходы",
+    "Name": "Название",
+    "RemoveError": "Во время операции возникла ошибка",
+    "removeErrorDialog": {
+      "CanDeleteOperation": "Или вы можете также удалить и операции",
+      "CanMoveOperation": "Вы можете переместить все операции в другую категорию.",
+      "DeleteOperation": "Удалить операции",
+      "HasOperation": "В данной категории имеется несколько операций.",
+      "MoveDataDelete": "Переместить данные и удалить категорию",
+      "NeedCategory": "Необходимо выбрать категорию"
+    },
+    "RemoveQuest": "Вы действительно хотите удалить выбранную категорию?"
+  },
+  "import": {
+    "configure": {
+      "button": {
+        "ApplyConfig": "Применить",
+        "ReloadData": "Перезагрузить данные предпросмотра",
+        "ShowHiddenColumnsBack": "Вернуть скрытые обратно",
+        "StartImport": "Начать импорт"
+      },
+      "column": {
+        "Account": "Счёт",
+        "AccountIncoming": "Счёт зачисления",
+        "Amount": "Сумма",
+        "AmountDelta": "± Сумма",
+        "AmountIncoming": "Сумма зачисления",
+        "Category": "Категория",
+        "Date": "Дата",
+        "Description": "Описание",
+        "Subcategory": "Подкатегория",
+        "Type": "Тип"
+      },
+      "columnOpt": {
+        "account": {
+          "ExistingAccount": "Существующий",
+          "NewAccount": "Создать новый"
+        },
+        "date": {
+          "Format": "Формат"
+        },
+        "dateFormat": {
+          "D": "Д",
+          "M": "М",
+          "Y": "Г"
+        },
+        "type": {
+          "ExpenseText": "Текст расхода",
+          "IncomeText": "Текст дохода",
+          "TransferText": "Текст перевода"
+        }
+      },
+      "csv": {
+        "Encoding": "Кодировка",
+        "HeaderLines": "Строки заголовка",
+        "Quote": "Кавычки",
+        "Separator": "Разделитель",
+        "separator": {
+          "Space": "Пробел",
+          "Tab": "Табуляция"
+        }
+      },
+      "message": {
+        "AtLeastOneOf": "Хотя бы один из",
+        "MissingAccountsAssignment": "Не назначены существующие счета для счетов из файла",
+        "MissingRequiredColumns": "Не выбраны обязательные столбцы",
+        "SomeColumnsWasHidden": "Некоторые столбцы были скрыты."
+      },
+      "Title": "Настройка импорта"
+    },
+    "convert": {
+      "message": {
+        "ConvertDone": "Чтение файла завершено успешно. Теперь можно импортировать прочитанные данные.",
+        "ConvertFailed": "Чтение файла прервано из-за ошибок.",
+        "ConvertPending": "Выполняется чтение файла. Это может занять некоторое время в зависимости от размера файла и загруженности сервера. Пожалуйста, подождите."
+      },
+      "Title": "Чтение данных из файла"
+    },
+    "label": {
+      "File": "Файл",
+      "Format": "Формат"
+    },
+    "placeholder": {
+      "SelectFormat": "Укажите формат"
+    },
+    "save": {
+      "button": {
+        "Done": "Готово",
+        "StartImport": "Начать импорт"
+      },
+      "message": {
+        "SaveDone": "Данные успешно импортированы.",
+        "SaveFailed": "Импорт прерван из-за ошибок.",
+        "SavePending": "Выполняется импорт данных в команду. Это может занять некоторое время. Пожалуйста, подождите."
+      },
+      "Title": "Импорт подготовленных данных"
+    }
+  },
+  "participants": {
+    "AccessLevel": "Уровень доступа",
+    "Admin": "Администратор",
+    "FullName": "Полное имя",
+    "Invite": "Пригласить",
+    "Invited": "Приглашён",
+    "InviteUser": "Пригласить пользователя в команду",
+    "RemoveQuest": "Вы действительно хотите удалить пользователя из команды?",
+    "setup": {
+      "Account": "Счёт",
+      "Change": "Изменение",
+      "Deny": "Нет",
+      "FullAccess": "Полный доступ ко всей команде.",
+      "Read": "Чтение",
+      "RestrictedAccess": "Ограниченный доступ к выбранным счетам.",
+      "SubjectUser": "Настройка прав для пользователя"
+    },
+    "SetupAccess": "Настроить доступ",
+    "User": "Ограниченный Пользователь"
+  },
+  "password": {
+    "Current": "Текущий пароль",
+    "message": {
+      "NewPasswordsDiffers": "Новый пароль не совпадает"
+    },
+    "New": "Новый пароль",
+    "RepeatNew": "Повторите новый пароль"
+  },
+  "profile": {
+    "Country": "Страна",
+    "DeleteButton": "Удалить профиль",
+    "DeleteCautionText": "Вы собираетесь удалить ваш профиль. Это приведёт к потере всех ваших данных. После удаления вы сможете вновь зарегистрироваться самостоятельно, если захотите, но все команды будут утрачены.",
+    "DeleteConfirmWithPassword": "Для подтверждения укажите ваш действующий пароль.",
+    "DeleteReason": "Причина удаления",
+    "DeleteReasonHelp": "Пожалуйста, расскажите нам о причинах, чтобы мы могли сделать наше приложение лучше",
+    "DeleteTitle": "Удаление профиля",
+    "Name": "Имя",
+    "NotifyLang": "Язык уведомлений",
+    "NotifyLangDefault": "По умолчанию",
+    "Or": "или",
+    "Surname": "Фамилия"
+  },
+  "projects": {
+    "AddProject": "Добавить проект",
+    "RemoveQuest": "Вы действительно хотите удалить выбранный проект?"
+  },
+  "subscription": {
+    "button": {
+      "Pay": "Оплатить",
+      "Prolong": "Продлить",
+      "ToPremium": "Перейти на премиум"
+    },
+    "feature": {
+      "appFull": {
+        "title": "Полный функционал всех возможностей в мобильном приложении версии 2.0"
+      },
+      "appSync": {
+        "title": "Синхронизация с мобильным приложением"
+      }
+    },
+    "label": {
+      "ActiveUntil": "Действует до",
+      "AvailableMoney": "Доступно на лицевом счету",
+      "EnterPromoCode": "Ввести промо код",
+      "status": {
+        "Free": "Бесплатный",
+        "Premium": "Премиум"
+      }
+    },
+    "payDialog": {
+      "label": {
+        "Country": "Укажите вашу страну",
+        "Period": "Период",
+        "PurseEnough": "Доступно {availableStr}",
+        "PurseNone": "Нет средств в нужной валюте",
+        "PurseNotEnough": "Недостаточно, доступно лишь {availableStr}",
+        "PurseStatus": "Состояние вашего лицевого счёта"
+      },
+      "message": {
+        "ConfirmSpendPurseOnly": "У вас есть достаточно средств на лицевом счету. Хотите потратить их на оплату?",
+        "GoToProviderToPay": "Перейти к поставщику для оплаты.",
+        "InvoiceAlreadyCompleted": "Счёт на оплату уже обработан.",
+        "InvoiceConfirmPayWithCommission": "Подтвердите оплату {confirmSum}, чтобы получить {invoiceSum}. Комиссия составляет {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Подтвердите оплату {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Подтвердите оплату {confirmSum}, чтобы получить {invoiceSum}.",
+        "InvoiceRefused": "Платёж отклонён.",
+        "PeriodMaximumIsV": "Максимум {value}.",
+        "PeriodMinimumIsV": "Минимум {value}.",
+        "PeriodNotANumber": "Укажите целое число.",
+        "ProviderDoesNotSupportCurrency": "Поставщик не поддерживает данную валюту."
+      },
+      "priceUnit": {
+        "month": "месяц",
+        "monthsPlural": "{months, plural, one{месяц} few{месяца} other{месяцев}}",
+        "year": "год",
+        "yearsPlural": "{years, plural, one{год} few{года} other{лет}}"
+      },
+      "Title": "Оплата подписки",
+      "TitleExternal": "Переход к оплате"
+    }
+  },
+  "tabs": {
+    "Accounts": "Счета",
+    "Categories": "Категории",
+    "Import": "Импорт",
+    "Participants": "Пользователи",
+    "Password": "Изменить пароль",
+    "Profile": "Профиль",
+    "Projects": "Проекты",
+    "Subscribes": "Подписки",
+    "Team": "Команда"
+  },
+  "team": {
+    "confirmDelete": {
+      "button": {
+        "Confirm": "УДАЛИТЬ СО ВСЕМИ ДАННЫМИ"
+      },
+      "message": {
+        "CautionOfDataLoss": "ПРЕДУПРЕЖДЕНИЕ! ВСЕ ДАННЫЕ КОМАНДЫ БУДУТ УДАЛЕНЫ!",
+        "ExplainWhatDeletionIs": "Это действие удалит всю команду целиком для всех её участников. Вы сможете продолжать работать в любой другой команде, и создать новую при необходимости."
+      },
+      "title": "Удаление команды"
+    },
+    "FloatingMonth": "Плавающий месяц",
+    "MainCurrency": "Основная валюта",
+    "MonthStart": "Начало отчётного месяца",
+    "TeamName": "Название команды",
+    "TimeZone": "Часовой пояс",
+    "WeekStart": "Начало недели"
+  },
+  "teamErase": {
+    "button": {
+      "EraseTeamData": "Удалить все данные в команде"
+    },
+    "message": {
+      "TaskIsBackground": "Удаление данных будет происходить поэтапно с фоновом режиме. Процесс удаления может занять некоторое время в зависимости от объема данных. Во время удаления данные на странице могут несколько раз обновляться.",
+      "WhatWillBeDeleted": "Будут удалены абсолютно все данные команды, в том числе Счета, Категории, Транзакция, Долги, Бюджет, Цели, Плановые операции и т.д.",
+      "WhatWillBeKept": "Следующие вещи останутся неизменными: Подписка, Участники команды."
+    },
+    "Title": "Очистить данные команды"
+  },
+  "Title": "Настройки"
+}

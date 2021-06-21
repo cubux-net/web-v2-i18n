@@ -1,0 +1,105 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "Вы уверены, что хотите удалить транзакцию? Операцию нельзя будет отменить.",
+    "ConfirmPlannedTransaction": "Вы уверены, что хотите подтвердить транзакцию?",
+    "ConfirmSplitTransaction": "Вы уверены, что хотите разделить этот перевод?"
+  },
+  "multiDelete": {
+    "confirm": {
+      "Content": "Вы уверены, что хотите удалить <1>{n, plural, one{# транзакцию} few{# транзакции} other{# транзакций}}</1>? Операцию нельзя будет отменить.",
+      "OK": "Удалить {n, plural, one{# транзакцию} few{# транзакции} other{# транзакций}}",
+      "Title": "Удаление отмеченных транзакций"
+    }
+  },
+  "page": {
+    "title": "Транзакции"
+  },
+  "table": {
+    "button": {
+      "MoreTransactions": "Ещё транзакции"
+    },
+    "content": {
+      "NothingWasFound": "Нет транзакций"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Выберите счёт"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "Укажите сумму"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Выберите категорию"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Выберите проект"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Расходы",
+          "Incomes": "Доходы",
+          "Loans": "Долги",
+          "Transfers": "Переводы"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "удалён",
+          "notInTeam": "не в команде",
+          "SelectUser": "Выберите пользователя"
+        }
+      }
+    },
+    "filterSummary": {
+      "label": {
+        "Account": "Счёт",
+        "Amount": "Сумма",
+        "Project": "Проект",
+        "Since": "С",
+        "Until": "По",
+        "User": "Пользователь"
+      }
+    },
+    "head": {
+      "config": {
+        "DisplayAdaptive": "Адаптивно",
+        "DisplayAlways": "Всегда",
+        "DisplayExtraColumns": "Выберите условия для вывода дополнительных столбцов.",
+        "DisplayNever": "Никогда",
+        "Title": "Настройка таблицы"
+      },
+      "label": {
+        "Account": "Счёт",
+        "Amount": "Сумма",
+        "Category": "Категория",
+        "CategoryDescription": "Категория, Описание",
+        "Date": "Дата",
+        "Project": "Проект",
+        "Remain": "Остаток",
+        "User": "Пользователь"
+      }
+    }
+  },
+  "transferJoin": {
+    "button": {
+      "Join": "Объединить в перевод"
+    },
+    "message": {
+      "ChooseCommissionCategory": "Пожалуйста, укажите категорию для создания расхода комиссии:",
+      "ThisCanBeDoneWithCommission": "Это может быть выполнено, если создать расходную транзакцию комиссии на сумму <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "Вы хотите объединить в перевод транзакции с разными суммами:"
+    }
+  },
+  "unconfirmed": {
+    "EndTitle": "Обычные транзакции",
+    "Title": "Неподтверждённые транзакции"
+  }
+}
