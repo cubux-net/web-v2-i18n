@@ -1,0 +1,84 @@
+{
+  "legend": {
+    "selector": {
+      "all": "Все",
+      "inverse": "Инв"
+    }
+  },
+  "toolbox": {
+    "brush": {
+      "title": {
+        "rect": "Прямоугольное выделение",
+        "polygon": "Произвольное выделение",
+        "lineX": "Горизонтальное выделение",
+        "lineY": "Вертикальное выделение",
+        "keep": "Хранить выделение",
+        "clear": "Очистить выделение"
+      }
+    },
+    "dataView": {
+      "title": "Данные",
+      "lang": ["Данные", "Закрыть", "Обновить"]
+    },
+    "dataZoom": {
+      "title": {
+        "zoom": "Масштаб",
+        "back": "Сбросить масштаб"
+      }
+    },
+    "magicType": {
+      "title": {
+        "line": "Переключить на линейчатый график",
+        "bar": "Переключить на столбцы",
+        "stack": "Стек",
+        "tiled": "Плитка"
+      }
+    },
+    "restore": {
+      "title": "Вернуть"
+    },
+    "saveAsImage": {
+      "title": "Сохранить как изображение",
+      "lang": ["Нажмите правой кнопкой, чтобы сохранить изображение"]
+    }
+  },
+  "series": {
+    "typeNames": {
+      "pie": "Круговой график",
+      "bar": "Столбцы",
+      "line": "Линейчатый график"
+    }
+  },
+  "aria": {
+    "general": {
+      "withTitle": "Диаграмма \"{title}\"",
+      "withoutTitle": "Диаграмма"
+    },
+    "series": {
+      "single": {
+        "prefix": "",
+        "withName": " with type {seriesType} named {seriesName}.",
+        "withoutName": " with type {seriesType}."
+      },
+      "multiple": {
+        "prefix": ". Она состоит из {seriesCount} набора(-ов) данных.",
+        "withName": " The {seriesId} series is a {seriesType} representing {seriesName}.",
+        "withoutName": " The {seriesId} series is a {seriesType}.",
+        "separator": {
+          "middle": "",
+          "end": ""
+        }
+      }
+    },
+    "data": {
+      "allData": "Все данные: ",
+      "partialData": "The first {displayCnt} items are: ",
+      "withName": "данные для {name} есть {value}",
+      "withoutName": "{value}",
+      "separator": {
+        "middle": ", ",
+        "end": ". "
+      }
+    }
+  }
+}

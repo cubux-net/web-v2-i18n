@@ -10,7 +10,7 @@
     },
     "input": {
       "AnyCashAccount": "Наличные или любой счет",
-      "Cash": "Наличные",
+      "Cash": "Hotovost",
       "Currency": "Валюта счета",
       "InitialAmount": "Начальный остаток",
       "InitialAmountDate": "Дата начального остатка",
