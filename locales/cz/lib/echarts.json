@@ -1,69 +1,69 @@
 {
   "legend": {
     "selector": {
-      "all": "Все",
-      "inverse": "Инв"
+      "all": "Všechno",
+      "inverse": "Inv"
     }
   },
   "toolbox": {
     "brush": {
       "title": {
-        "rect": "Прямоугольное выделение",
-        "polygon": "Произвольное выделение",
-        "lineX": "Горизонтальное выделение",
-        "lineY": "Вертикальное выделение",
-        "keep": "Хранить выделение",
-        "clear": "Очистить выделение"
+        "rect": "Obdélníkový výběr",
+        "polygon": "Libovolný výběr",
+        "lineX": "Horizontální výběr",
+        "lineY": "Vertikální výběr",
+        "keep": "Ponechat výběr",
+        "clear": "Vymazat výběr"
       }
     },
     "dataView": {
-      "title": "Данные",
-      "lang": ["Данные", "Закрыть", "Обновить"]
+      "title": "Data",
+      "lang": ["Data", "Zavřít", "Obnovit"]
     },
     "dataZoom": {
       "title": {
-        "zoom": "Масштаб",
-        "back": "Сбросить масштаб"
+        "zoom": "Měřítko",
+        "back": "Resetovat měřítko"
       }
     },
     "magicType": {
       "title": {
-        "line": "Переключить на линейчатый график",
-        "bar": "Переключить на столбцы",
-        "stack": "Стек",
-        "tiled": "Плитка"
+        "line": "Přepnout na lineární graf",
+        "bar": "Přepnout na sloupce",
+        "stack": "Zásobník",
+        "tiled": "Tabulka"
       }
     },
     "restore": {
-      "title": "Вернуть"
+      "title": "Vrátit"
     },
     "saveAsImage": {
-      "title": "Сохранить как изображение",
-      "lang": ["Нажмите правой кнопкой, чтобы сохранить изображение"]
+      "title": "Uložit jako obrázek",
+      "lang": ["Klepnutím pravým tlačítkem uložte obrázek"]
     }
   },
   "series": {
     "typeNames": {
-      "pie": "Круговой график",
-      "bar": "Столбцы",
-      "line": "Линейчатый график"
+      "pie": "Kruhový graf",
+      "bar": "Sloupce",
+      "line": "Lineární graf"
     }
   },
   "aria": {
     "general": {
-      "withTitle": "Диаграмма \"{title}\"",
-      "withoutTitle": "Диаграмма"
+      "withTitle": "Graf \"{title}\"",
+      "withoutTitle": "Graf"
     },
     "series": {
       "single": {
         "prefix": "",
-        "withName": " with type {seriesType} named {seriesName}.",
-        "withoutName": " with type {seriesType}."
+        "withName": " s typem {seriesType} s názvem {seriesName}.",
+        "withoutName": " s typem {seriesType}."
       },
       "multiple": {
-        "prefix": ". Она состоит из {seriesCount} набора(-ов) данных.",
-        "withName": " The {seriesId} series is a {seriesType} representing {seriesName}.",
-        "withoutName": " The {seriesId} series is a {seriesType}.",
+        "prefix": ". Skládá se z {seriesCount} souboru dat.",
+        "withName": " Řada {seriesId} je {seriesType} představující {seriesName}.",
+        "withoutName": " Série {seriesId} je {seriesType}.",
         "separator": {
           "middle": "",
           "end": ""
@@ -71,9 +71,9 @@
       }
     },
     "data": {
-      "allData": "Все данные: ",
+      "allData": "Všechna data: ",
       "partialData": "The first {displayCnt} items are: ",
-      "withName": "данные для {name} есть {value}",
+      "withName": "data pro {name} jsou {value}",
       "withoutName": "{value}",
       "separator": {
         "middle": ", ",

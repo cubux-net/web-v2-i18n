@@ -1,272 +1,272 @@
 {
   "accounts": {
     "button": {
-      "DeleteWithEverything": "УДАЛИТЬ ВСЁ"
+      "DeleteWithEverything": "ODSTRANIT VŠECHNO"
     },
     "label": {
-      "CountryAndBank": "Страна, Банк",
-      "Name": "Название"
+      "CountryAndBank": "Země, Banka",
+      "Name": "Název"
     },
     "message": {
-      "AlsoYouCanJustHideAccount": "Также вы можете просто скрыть счёт, чтобы он не показывался в списках.",
-      "ContinueToDeleteWillChangeHistoryAndBalance": "Удаление счёта приведёт к изменению истории операций и остатков.",
-      "RemoveQuest": "Вы действительно хотите удалить выбранный счет вместе со всеми связанными данными?",
-      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Вы собираетесь удалить счёт вместе со всеми связанными данными, включая следующее:"
+      "AlsoYouCanJustHideAccount": "Také můžete skrýt účet, aby se nezobrazoval v seznamech.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Odstranění účtu způsobí změnu historie operací a zůstatků.",
+      "RemoveQuest": "Opravdu chcete smazat vybraný účet spolu se všemi souvisejícími údaji?",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Chcete smazat účet spolu se všemi souvisejícími údaji, včetně následujících:"
     },
     "stateButton": {
-      "IsExcluded_off_exclude": "Учитывается в остатке",
-      "IsExcluded_on_include": "НЕ учитывается в остатке",
-      "IsHidden_off_hide": "Отображается - Скрыть",
-      "IsHidden_on_show": "Скрыт - Показать"
+      "IsExcluded_off_exclude": "Počítá se se zbytkem",
+      "IsExcluded_on_include": "Nezapočítává se do zbytku",
+      "IsHidden_off_hide": "Zobrazit-Skrýt",
+      "IsHidden_on_show": "Skryté-Zobrazit"
     }
   },
   "actions": {
-    "Actions": "Действия",
-    "Remove": "Удалить",
-    "Reset": "Сбросить"
+    "Actions": "Postup",
+    "Remove": "Odstranit",
+    "Reset": "Zrušit"
   },
   "categories": {
-    "AddCategory": "Добавить категорию",
-    "AddSubCategory": "Добавить подкатегорию",
-    "Expenses": "Расходы",
-    "Incomes": "Доходы",
-    "Name": "Название",
-    "RemoveError": "Во время операции возникла ошибка",
+    "AddCategory": "Přidat kategorii",
+    "AddSubCategory": "Přidat podkategorii",
+    "Expenses": "Výdaje",
+    "Incomes": "Příjmy",
+    "Name": "Název",
+    "RemoveError": "Během operace došlo k chybě",
     "removeErrorDialog": {
-      "CanDeleteOperation": "Или вы можете также удалить и операции",
-      "CanMoveOperation": "Вы можете переместить все операции в другую категорию.",
-      "DeleteOperation": "Удалить операции",
-      "HasOperation": "В данной категории имеется несколько операций.",
-      "MoveDataDelete": "Переместить данные и удалить категорию",
-      "NeedCategory": "Необходимо выбрать категорию"
+      "CanDeleteOperation": "Nebo můžete také odstranit i operace",
+      "CanMoveOperation": "Můžete přesunout všechny operace do jiné kategorie.",
+      "DeleteOperation": "Odstranit operace",
+      "HasOperation": "V této kategorii mate několik operací.",
+      "MoveDataDelete": "Přesunout data a odstranit kategorii",
+      "NeedCategory": "Je třeba vybrat kategorii"
     },
-    "RemoveQuest": "Вы действительно хотите удалить выбранную категорию?"
+    "RemoveQuest": "Opravdu chcete odstranit vybranou kategorii?"
   },
   "import": {
     "configure": {
       "button": {
-        "ApplyConfig": "Применить",
-        "ReloadData": "Перезагрузить данные предпросмотра",
-        "ShowHiddenColumnsBack": "Вернуть скрытые обратно",
-        "StartImport": "Начать импорт"
+        "ApplyConfig": "Použít",
+        "ReloadData": "Znovu načíst data náhledu",
+        "ShowHiddenColumnsBack": "Vrátit skryté zpět",
+        "StartImport": "Zahájit import"
       },
       "column": {
-        "Account": "Счёт",
-        "AccountIncoming": "Счёт зачисления",
-        "Amount": "Сумма",
-        "AmountDelta": "± Сумма",
-        "AmountIncoming": "Сумма зачисления",
-        "Category": "Категория",
-        "Date": "Дата",
-        "Description": "Описание",
-        "Subcategory": "Подкатегория",
-        "Type": "Тип"
+        "Account": "Účet",
+        "AccountIncoming": "Účet zápisu",
+        "Amount": "Částka",
+        "AmountDelta": "± Částka",
+        "AmountIncoming": "Částka zápisu",
+        "Category": "Kategorie",
+        "Date": "Datum",
+        "Description": "Popis",
+        "Subcategory": "Podkategorie",
+        "Type": "Typ"
       },
       "columnOpt": {
         "account": {
-          "ExistingAccount": "Существующий",
-          "NewAccount": "Создать новый"
+          "ExistingAccount": "Existující",
+          "NewAccount": "Vytvořit nový"
         },
         "date": {
-          "Format": "Формат"
+          "Format": "Formát"
         },
         "dateFormat": {
-          "D": "Д",
-          "M": "М",
-          "Y": "Г"
+          "D": "D",
+          "M": "M",
+          "Y": "R"
         },
         "type": {
-          "ExpenseText": "Текст расхода",
-          "IncomeText": "Текст дохода",
-          "TransferText": "Текст перевода"
+          "ExpenseText": "Text výdaje",
+          "IncomeText": "Text přijmu",
+          "TransferText": "Text převodu"
         }
       },
       "csv": {
-        "Encoding": "Кодировка",
-        "HeaderLines": "Строки заголовка",
-        "Quote": "Кавычки",
-        "Separator": "Разделитель",
+        "Encoding": "Kódování",
+        "HeaderLines": "Řádky záhlaví",
+        "Quote": "Uvozovky",
+        "Separator": "Oddělovač",
         "separator": {
-          "Space": "Пробел",
-          "Tab": "Табуляция"
+          "Space": "Mezera",
+          "Tab": "Tabulátory"
         }
       },
       "message": {
-        "AtLeastOneOf": "Хотя бы один из",
-        "MissingAccountsAssignment": "Не назначены существующие счета для счетов из файла",
-        "MissingRequiredColumns": "Не выбраны обязательные столбцы",
-        "SomeColumnsWasHidden": "Некоторые столбцы были скрыты."
+        "AtLeastOneOf": "Alespoň jeden z",
+        "MissingAccountsAssignment": "Nejsou přiřazeny existující účty pro účty ze souboru",
+        "MissingRequiredColumns": "Nejsou vybrány povinné sloupce",
+        "SomeColumnsWasHidden": "Některé sloupce byly skryty."
       },
-      "Title": "Настройка импорта"
+      "Title": "Nastavení importu"
     },
     "convert": {
       "message": {
-        "ConvertDone": "Чтение файла завершено успешно. Теперь можно импортировать прочитанные данные.",
-        "ConvertFailed": "Чтение файла прервано из-за ошибок.",
-        "ConvertPending": "Выполняется чтение файла. Это может занять некоторое время в зависимости от размера файла и загруженности сервера. Пожалуйста, подождите."
+        "ConvertDone": "Čtení souboru bylo úspěšně dokončeno. Nyní můžete importovat přečtená data.",
+        "ConvertFailed": "Čtení souboru bylo přerušeno kvůli chybám.",
+        "ConvertPending": "Čtení souboru se provádí. To může trvat nějakou dobu v závislosti na velikosti souboru a zatížení serveru. Prosím, počkejte."
       },
-      "Title": "Чтение данных из файла"
+      "Title": "Čtení dat ze souboru"
     },
     "label": {
-      "File": "Файл",
-      "Format": "Формат"
+      "File": "Soubor",
+      "Format": "Formát"
     },
     "placeholder": {
-      "SelectFormat": "Укажите формат"
+      "SelectFormat": "Zadejte formát"
     },
     "save": {
       "button": {
-        "Done": "Готово",
-        "StartImport": "Начать импорт"
+        "Done": "Hotovo",
+        "StartImport": "Zahájit import"
       },
       "message": {
-        "SaveDone": "Данные успешно импортированы.",
-        "SaveFailed": "Импорт прерван из-за ошибок.",
-        "SavePending": "Выполняется импорт данных в команду. Это может занять некоторое время. Пожалуйста, подождите."
+        "SaveDone": "Data byla úspěšně importována.",
+        "SaveFailed": "Import byl přerušen kvůli chybám.",
+        "SavePending": "Import dat se provádí do týmu. To může chvíli trvat. Prosím, počkejte."
       },
-      "Title": "Импорт подготовленных данных"
+      "Title": "Import připravených dat"
     }
   },
   "participants": {
-    "AccessLevel": "Уровень доступа",
-    "Admin": "Администратор",
-    "FullName": "Полное имя",
-    "Invite": "Пригласить",
-    "Invited": "Приглашён",
-    "InviteUser": "Пригласить пользователя в команду",
-    "RemoveQuest": "Вы действительно хотите удалить пользователя из команды?",
+    "AccessLevel": "Úroveň přístupu",
+    "Admin": "Správce",
+    "FullName": "Jméno",
+    "Invite": "Pozvat",
+    "Invited": "Pozván",
+    "InviteUser": "Pozvat uživatele do týmu",
+    "RemoveQuest": "Opravdu chcete odstranit uživatele z týmu?",
     "setup": {
-      "Account": "Счёт",
-      "Change": "Изменение",
-      "Deny": "Нет",
-      "FullAccess": "Полный доступ ко всей команде.",
-      "Read": "Чтение",
-      "RestrictedAccess": "Ограниченный доступ к выбранным счетам.",
-      "SubjectUser": "Настройка прав для пользователя"
+      "Account": "Účet",
+      "Change": "Změna",
+      "Deny": "Není",
+      "FullAccess": "Plný přístup k celému týmu.",
+      "Read": "Čtení",
+      "RestrictedAccess": "Omezený přístup k vybraným účtům.",
+      "SubjectUser": "Nastavení práv pro uživatele"
     },
-    "SetupAccess": "Настроить доступ",
-    "User": "Ограниченный Пользователь"
+    "SetupAccess": "Nastavit přístup",
+    "User": "Uživatel"
   },
   "password": {
-    "Current": "Текущий пароль",
+    "Current": "Aktuální heslo",
     "message": {
-      "NewPasswordsDiffers": "Новый пароль не совпадает"
+      "NewPasswordsDiffers": "Nové heslo se neshoduje"
     },
-    "New": "Новый пароль",
-    "RepeatNew": "Повторите новый пароль"
+    "New": "Nové heslo",
+    "RepeatNew": "Opakujte nové heslo"
   },
   "profile": {
-    "Country": "Страна",
-    "DeleteButton": "Удалить профиль",
-    "DeleteCautionText": "Вы собираетесь удалить ваш профиль. Это приведёт к потере всех ваших данных. После удаления вы сможете вновь зарегистрироваться самостоятельно, если захотите, но все команды будут утрачены.",
-    "DeleteConfirmWithPassword": "Для подтверждения укажите ваш действующий пароль.",
-    "DeleteReason": "Причина удаления",
-    "DeleteReasonHelp": "Пожалуйста, расскажите нам о причинах, чтобы мы могли сделать наше приложение лучше",
-    "DeleteTitle": "Удаление профиля",
-    "Name": "Имя",
-    "NotifyLang": "Язык уведомлений",
-    "NotifyLangDefault": "По умолчанию",
-    "Or": "или",
-    "Surname": "Фамилия"
+    "Country": "Země",
+    "DeleteButton": "Smazat profil",
+    "DeleteCautionText": "Chystáte se odstranit váš profil. To způsobí ztrátu všech vašich dat. Po odstranění se budete moci znovu zaregistrovat sami, pokud budete chtít, ale všechny týmy budou ztraceny.",
+    "DeleteConfirmWithPassword": "Pro potvrzení zadejte platné heslo.",
+    "DeleteReason": "Důvod k vymazání",
+    "DeleteReasonHelp": "Sdělte nám prosím své důvody, abychom mohli naši aplikaci vylepšit.",
+    "DeleteTitle": "Odstranění profilu",
+    "Name": "Jméno",
+    "NotifyLang": "Jazyk oznámení",
+    "NotifyLangDefault": "Výchozí",
+    "Or": "nebo",
+    "Surname": "Příjmení"
   },
   "projects": {
-    "AddProject": "Добавить проект",
-    "RemoveQuest": "Вы действительно хотите удалить выбранный проект?"
+    "AddProject": "Přidat projekt",
+    "RemoveQuest": "Opravdu chcete vybraný projekt odstranit?"
   },
   "subscription": {
     "button": {
-      "Pay": "Оплатить",
-      "Prolong": "Продлить",
-      "ToPremium": "Перейти на премиум"
+      "Pay": "Zaplatit",
+      "Prolong": "Prodloužit",
+      "ToPremium": "Přejít na Premium"
     },
     "feature": {
       "appFull": {
-        "title": "Полный функционал всех возможностей в мобильном приложении версии 2.0"
+        "title": "Plná funkčnost v mobilní aplikaci verze 2.0"
       },
       "appSync": {
-        "title": "Синхронизация с мобильным приложением"
+        "title": "Synchronizace s mobilní aplikací"
       }
     },
     "label": {
-      "ActiveUntil": "Действует до",
-      "AvailableMoney": "Доступно на лицевом счету",
-      "EnterPromoCode": "Ввести промо код",
+      "ActiveUntil": "Platí do",
+      "AvailableMoney": "K dispozici na osobním účtu",
+      "EnterPromoCode": "Zadat promo kód",
       "status": {
-        "Free": "Бесплатный",
-        "Premium": "Премиум"
+        "Free": "Zdarma",
+        "Premium": "Premium"
       }
     },
     "payDialog": {
       "label": {
-        "Country": "Укажите вашу страну",
-        "Period": "Период",
-        "PurseEnough": "Доступно {availableStr}",
-        "PurseNone": "Нет средств в нужной валюте",
-        "PurseNotEnough": "Недостаточно, доступно лишь {availableStr}",
-        "PurseStatus": "Состояние вашего лицевого счёта"
+        "Country": "Ukažte svou zemi",
+        "Period": "Období",
+        "PurseEnough": "K dispozici {availableStr}",
+        "PurseNone": "Žádné finanční prostředky ve správné měně",
+        "PurseNotEnough": "Nestačí, je k dispozici pouze {availableStr}",
+        "PurseStatus": "Stav vašeho osobního účtu"
       },
       "message": {
-        "ConfirmSpendPurseOnly": "У вас есть достаточно средств на лицевом счету. Хотите потратить их на оплату?",
-        "GoToProviderToPay": "Перейти к поставщику для оплаты.",
-        "InvoiceAlreadyCompleted": "Счёт на оплату уже обработан.",
-        "InvoiceConfirmPayWithCommission": "Подтвердите оплату {confirmSum}, чтобы получить {invoiceSum}. Комиссия составляет {commissionAmount} ({commissionPercent}%).",
-        "InvoiceConfirmPayX": "Подтвердите оплату {confirmSum}.",
-        "InvoiceConfirmPayXToGetY": "Подтвердите оплату {confirmSum}, чтобы получить {invoiceSum}.",
-        "InvoiceRefused": "Платёж отклонён.",
-        "PeriodMaximumIsV": "Максимум {value}.",
-        "PeriodMinimumIsV": "Минимум {value}.",
-        "PeriodNotANumber": "Укажите целое число.",
-        "ProviderDoesNotSupportCurrency": "Поставщик не поддерживает данную валюту."
+        "ConfirmSpendPurseOnly": "Máte dostatek finančních prostředků na osobním účtu. Chcete je utratit za platbu?",
+        "GoToProviderToPay": "Přejděte k dodavateli pro platbu.",
+        "InvoiceAlreadyCompleted": "Faktura již byla zpracována.",
+        "InvoiceConfirmPayWithCommission": "Potvrďte platbu {confirmSum}, abyste dostali {invoiceSum}. Provize je {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Potvrďte platbu {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Potvrďte platbu {confirmSum}, abyste dostali {invoiceSum}.",
+        "InvoiceRefused": "Platba byla zamítnuta.",
+        "PeriodMaximumIsV": "Maximum {value}.",
+        "PeriodMinimumIsV": "Minimální {value}.",
+        "PeriodNotANumber": "Zadejte celé číslo.",
+        "ProviderDoesNotSupportCurrency": "Dodavatel tuto měnu nepodporuje."
       },
       "priceUnit": {
-        "month": "месяц",
-        "monthsPlural": "{months, plural, one{месяц} few{месяца} other{месяцев}}",
+        "month": "měsíc",
+        "monthsPlural": "{months, plural, one{měsíc} few{měsíce} other{měsíců}}",
         "year": "год",
-        "yearsPlural": "{years, plural, one{год} few{года} other{лет}}"
+        "yearsPlural": "{years, plural, one{rok} few{roka} other{roků}}"
       },
-      "Title": "Оплата подписки",
-      "TitleExternal": "Переход к оплате"
+      "Title": "Platba za předplatné",
+      "TitleExternal": "Přechod na platbu"
     }
   },
   "tabs": {
-    "Accounts": "Счета",
-    "Categories": "Категории",
-    "Import": "Импорт",
-    "Participants": "Пользователи",
-    "Password": "Изменить пароль",
-    "Profile": "Профиль",
-    "Projects": "Проекты",
-    "Subscribes": "Подписки",
-    "Team": "Команда"
+    "Accounts": "Účty",
+    "Categories": "Kategorie",
+    "Import": "Import",
+    "Participants": "Uživatele",
+    "Password": "Změnit heslo",
+    "Profile": "Profil",
+    "Projects": "Projekty",
+    "Subscribes": "Předplatné",
+    "Team": "Tým"
   },
   "team": {
     "confirmDelete": {
       "button": {
-        "Confirm": "УДАЛИТЬ СО ВСЕМИ ДАННЫМИ"
+        "Confirm": "SMAZAT VŠECHNA DATA"
       },
       "message": {
-        "CautionOfDataLoss": "ПРЕДУПРЕЖДЕНИЕ! ВСЕ ДАННЫЕ КОМАНДЫ БУДУТ УДАЛЕНЫ!",
-        "ExplainWhatDeletionIs": "Это действие удалит всю команду целиком для всех её участников. Вы сможете продолжать работать в любой другой команде, и создать новую при необходимости."
+        "CautionOfDataLoss": "VAROVÁNÍ! VŠECHNA DATA TÝMU BUDOU SMAZÁNA!",
+        "ExplainWhatDeletionIs": "Tato akce odstraní celý tým pro všechny jeho účastníky. Budete moci pokračovat v práci v jakémkoli jiném týmu, a vytvořit nový v případě potřeby."
       },
-      "title": "Удаление команды"
+      "title": "Odstranění týmu"
     },
-    "FloatingMonth": "Плавающий месяц",
-    "MainCurrency": "Основная валюта",
-    "MonthStart": "Начало отчётного месяца",
-    "TeamName": "Название команды",
-    "TimeZone": "Часовой пояс",
-    "WeekStart": "Начало недели"
+    "FloatingMonth": "Plovoucí měsíc",
+    "MainCurrency": "Hlavní měna",
+    "MonthStart": "Začátek účetního měsíce",
+    "TeamName": "Název týmu",
+    "TimeZone": "Časové pásmo",
+    "WeekStart": "Začátek týdne"
   },
   "teamErase": {
     "button": {
-      "EraseTeamData": "Удалить все данные в команде"
+      "EraseTeamData": "Smazat všechna data v týmu"
     },
     "message": {
-      "TaskIsBackground": "Удаление данных будет происходить поэтапно с фоновом режиме. Процесс удаления может занять некоторое время в зависимости от объема данных. Во время удаления данные на странице могут несколько раз обновляться.",
-      "WhatWillBeDeleted": "Будут удалены абсолютно все данные команды, в том числе Счета, Категории, Транзакция, Долги, Бюджет, Цели, Плановые операции и т.д.",
-      "WhatWillBeKept": "Следующие вещи останутся неизменными: Подписка, Участники команды."
+      "TaskIsBackground": "Odstranění dat bude probíhat postupně na pozadí. Proces odstraňování může trvat nějakou dobu v závislosti na objemu dat. Během mazání mohou být data na stránce několikrát aktualizována.",
+      "WhatWillBeDeleted": "Budou smazána všechna týmová data, včetně účtů, kategorií, transakcí, dluhů, rozpočtu, cílů, plánovaných operací atd.",
+      "WhatWillBeKept": "Následující věci zůstanou stejné: Předplatné, Členové týmu."
     },
-    "Title": "Очистить данные команды"
+    "Title": "Vymazat data týmu"
   },
-  "Title": "Настройки"
+  "Title": "Nastavení"
 }
