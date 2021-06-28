@@ -81,8 +81,23 @@
   },
   "loanAgent": {
     "AddAgent": "Добавить контрагента",
+    "Comment": "Комментарий",
+    "deadline": {
+      "inDays": "за {n, plural, one{# день} few{# дня} other{# дней}}",
+      "INeedReturnUntil": "Вернуть не позднее",
+      "PromisedToMeReturnUntil": "Обещали вернуть",
+      "SendNoticeBefore": "Отправить уведомление",
+      "setDate": "указать дату"
+    },
     "History": "История платежей",
-    "Name": "Имя"
+    "Name": "Имя",
+    "NoticeToEmail": "E-mail получателя",
+    "NoticeToName": "Имя получателя",
+    "status": {
+      "YouHaveNoCredits": "У Вас нет долгов, это хорошо :)",
+      "YouHaveNoDebts": "Вам никто не должен."
+    },
+    "TotalLoan": "Общий долг"
   },
   "menu": {
     "label": {

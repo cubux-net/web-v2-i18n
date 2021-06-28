@@ -81,8 +81,23 @@
   },
   "loanAgent": {
     "AddAgent": "Add agent",
+    "Comment": "Comment",
+    "deadline": {
+      "inDays": "in {n, plural, one{# day} other{# days}}",
+      "INeedReturnUntil": "I should to return until",
+      "PromisedToMeReturnUntil": "Should be returned until",
+      "SendNoticeBefore": "Send notice before",
+      "setDate": "set date"
+    },
     "History": "Payments history",
-    "Name": "Name"
+    "Name": "Name",
+    "NoticeToEmail": "Recipient name",
+    "NoticeToName": "Recipient E-mail",
+    "status": {
+      "YouHaveNoCredits": "You haven't credits. This is fine :)",
+      "YouHaveNoDebts": "Nobody in debt to you."
+    },
+    "TotalLoan": "Total loan"
   },
   "menu": {
     "label": {

@@ -328,17 +328,77 @@
         "AddAgent": {
           "$ref": "#/$defs/string"
         },
+        "Comment": {
+          "$ref": "#/$defs/string"
+        },
         "History": {
           "$ref": "#/$defs/string"
         },
         "Name": {
           "$ref": "#/$defs/string"
+        },
+        "NoticeToEmail": {
+          "$ref": "#/$defs/string"
+        },
+        "NoticeToName": {
+          "$ref": "#/$defs/string"
+        },
+        "TotalLoan": {
+          "$ref": "#/$defs/string"
+        },
+        "deadline": {
+          "type": "object",
+          "properties": {
+            "INeedReturnUntil": {
+              "$ref": "#/$defs/string"
+            },
+            "PromisedToMeReturnUntil": {
+              "$ref": "#/$defs/string"
+            },
+            "SendNoticeBefore": {
+              "$ref": "#/$defs/string"
+            },
+            "inDays": {
+              "$ref": "#/$defs/string"
+            },
+            "setDate": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "INeedReturnUntil",
+            "PromisedToMeReturnUntil",
+            "SendNoticeBefore",
+            "inDays",
+            "setDate"
+          ]
+        },
+        "status": {
+          "type": "object",
+          "properties": {
+            "YouHaveNoCredits": {
+              "$ref": "#/$defs/string"
+            },
+            "YouHaveNoDebts": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "YouHaveNoCredits",
+            "YouHaveNoDebts"
+          ]
         }
       },
       "required": [
         "AddAgent",
+        "Comment",
         "History",
-        "Name"
+        "Name",
+        "NoticeToEmail",
+        "NoticeToName",
+        "TotalLoan",
+        "deadline",
+        "status"
       ]
     },
     "menu": {

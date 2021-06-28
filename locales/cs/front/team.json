@@ -81,8 +81,23 @@
   },
   "loanAgent": {
     "AddAgent": "Přidat protistranu",
+    "Comment": "",
+    "deadline": {
+      "inDays": "in {n, plural, one{# day} other{# days}}",
+      "INeedReturnUntil": "",
+      "PromisedToMeReturnUntil": "",
+      "SendNoticeBefore": "",
+      "setDate": ""
+    },
     "History": "Historie plateb",
-    "Name": "Jméno"
+    "Name": "Jméno",
+    "NoticeToEmail": "",
+    "NoticeToName": "",
+    "status": {
+      "YouHaveNoCredits": "",
+      "YouHaveNoDebts": ""
+    },
+    "TotalLoan": ""
   },
   "menu": {
     "label": {
