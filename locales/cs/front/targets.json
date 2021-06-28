@@ -1,32 +1,32 @@
 {
   "button": {
-    "AddTarget": "Добавить\nцель",
-    "Complete": "Завершить",
-    "PayManual": "Заплатить вручную"
+    "AddTarget": "Přidat \ncíl",
+    "Complete": "Dokončit",
+    "PayManual": "Zaplatit ručně"
   },
   "label": {
-    "Amount": "Сумма",
-    "CreateNewAccount": "Создать новый счёт для цели",
-    "HowToAccumulate": "Как учитывать накопленное?",
-    "Interval": "Периодичность",
-    "Name": "Название",
-    "NewAccountName": "Название счета для цели",
-    "PayAmount": "Откладывать по",
-    "PayFromAccount": "Откладывать со счёта",
-    "Remain": "Осталось",
-    "ReserveOnAccount": "Резервировать сумму на счёте",
-    "StartPaySince": "Начать откладывать с",
-    "TotalAmount": "Сумма"
+    "Amount": "Částka",
+    "CreateNewAccount": "Vytvořit nový účet pro cíl",
+    "HowToAccumulate": "Jak zohlednit nahromaděné?",
+    "Interval": "Periodicita",
+    "Name": "Název",
+    "NewAccountName": "Název účtu pro cíl",
+    "PayAmount": "Odložit na později",
+    "PayFromAccount": "Odložit z účtu",
+    "Remain": "Zbývá",
+    "ReserveOnAccount": "Rezervujte částku na účtu",
+    "StartPaySince": "Začít odkládat s",
+    "TotalAmount": "Částka"
   },
-  "RemoveQuest": "Вы действительно хотите удалить выбранную Цель? Это приведёт к удалению всех связанных транзакций, если таковые имеются, что может привести к изменению остатков на счетах.",
+  "RemoveQuest": "Opravdu chcete odstranit vybraný cíl? Tím se odstraní všechny související transakce, pokud existují, což může vést ke změně zůstatků na účtech.",
   "state": {
-    "Completed": "Выполненные",
-    "Pending": "Намеченные"
+    "Completed": "Splněné",
+    "Pending": "Zamýšlené"
   },
   "title": {
-    "CreateTarget": "Создание цели",
-    "OperationsHistory": "История платежей",
-    "page": "Цели",
-    "PayManual": "Заплатить вручную"
+    "CreateTarget": "Vytvoření cíle",
+    "OperationsHistory": "Historie plateb",
+    "page": "Cíly",
+    "PayManual": "Zaplatit ručně"
   }
 }

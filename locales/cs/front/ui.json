@@ -1,87 +1,87 @@
 {
   "button": {
-    "Add": "Добавить",
-    "Back": "Назад",
-    "Cancel": "Отмена",
-    "ChooseIcon": "Выбрать иконку",
-    "ChooseImage": "Выбрать изображение",
-    "Close": "Закрыть",
-    "Confirm": "Подтвердить",
-    "Create": "Создать",
-    "Delete": "Удалить",
-    "Edit": "Редактировать",
-    "ImportCsv": "Импорт CSV",
-    "Next": "Далее",
-    "No": "Нет",
+    "Add": "Přidat",
+    "Back": "Zpět",
+    "Cancel": "Storno",
+    "ChooseIcon": "Vybrat ikonu",
+    "ChooseImage": "Vybrat obrázek",
+    "Close": "Zavřít",
+    "Confirm": "Potvrdit",
+    "Create": "Vytvořit",
+    "Delete": "Smazat",
+    "Edit": "Upravit",
+    "ImportCsv": "Import CSV",
+    "Next": "Dále",
+    "No": "Není",
     "OK": "OK",
-    "Save": "Сохранить",
-    "SelectAccount": "Выберите счет",
-    "SelectPartner": "Выберите контрагента",
-    "Yes": "Да"
+    "Save": "Uložit",
+    "SelectAccount": "Vyberte účet",
+    "SelectPartner": "Vyberte protistranu",
+    "Yes": "ANO"
   },
   "check": {
-    "CheckAll": "Выбрать все"
+    "CheckAll": "Výbrat vše"
   },
   "date": {
     "label": {
-      "SelectRange": "Выберите диапазон",
-      "since": "с",
-      "Today": "Сегодня",
-      "until": "по"
+      "SelectRange": "Vyberte rozsah",
+      "since": "od",
+      "Today": "Dnes",
+      "until": "do"
     }
   },
   "downgrade": {
     "button": {
-      "Navigate": "Перейти"
+      "Navigate": "Přejít"
     },
     "message": {
-      "PleaseProvideUsAReason": "Пожалуйста, укажите причину, чтобы мы могли улучшить на сервис."
+      "PleaseProvideUsAReason": "Uveďte prosím důvod, abychom mohli zlepšit službu."
     },
-    "subtitle": "Это поможет стать нам лучше.",
-    "title": "Напишите, что вам не понравилось?"
+    "subtitle": "To nám pomůže zlepšít.",
+    "title": "Napište, co se vám nelíbilo?"
   },
   "field": {
-    "MonthLimit": "Лимит в месяц",
-    "MonthPlan": "План в месяц"
+    "MonthLimit": "Měsíční limit",
+    "MonthPlan": "Měsíční plán"
   },
   "label": {
-    "AskAQuestion": "Задать вопрос",
+    "AskAQuestion": "Položit otázku",
     "date": {
-      "sinceStart": "с начала",
-      "untilEnd": "до конца"
+      "sinceStart": "nejprve",
+      "untilEnd": "do konce"
     },
-    "DownloadAt": "Скачать в",
-    "FoundATypo": "Нашли опечатку?"
+    "DownloadAt": "Stáhnout z",
+    "FoundATypo": "Našli jste překlep?"
   },
   "message": {
-    "CautionAboutDataLoss": "ПРЕДУПРЕЖДЕНИЕ О ПОТЕРЕ ДАННЫХ!",
-    "CheckFormAndFixErrors": "Проверьте правильность заполнения полей и исправьте ошибки.",
-    "CouldNotPerformOperation": "Не удалось выполнить операцию.",
-    "NoRecords": "Ничего нет.",
-    "PleaseWait": "Пожалуйста, подождите...",
-    "TemporaryDisabled": "Временно отключено.",
-    "ThisActionCannotBeUndone": "Это действие нельзя будет отменить.",
-    "UncaughtErrorExplanation": "Извините, произошла ошибка. Для начала попробуйте <1>обновить страницу</1>. Если это не помогло, проверьте интернет соединение и настройки прокси. Если и это не помогло, обратитесь в нашу службу поддержки.",
-    "UnknownError": "Неизвестная ошибка."
+    "CautionAboutDataLoss": "UPOZORNĚNÍ NA ZTRÁTU DAT!",
+    "CheckFormAndFixErrors": "Zkontrolujte správné vyplnění polí a opravte chyby.",
+    "CouldNotPerformOperation": "Operace se nezdařila.",
+    "NoRecords": "Nic není.",
+    "PleaseWait": "Prosím, počkejte...",
+    "TemporaryDisabled": "Dočasně zakázáno.",
+    "ThisActionCannotBeUndone": "Tuto akci nelze zrušit.",
+    "UncaughtErrorExplanation": "Omlouvám se, došlo k chybě. Chcete-li začít, zkuste <1>aktualizovat stránku</1>. Pokud to nepomohlo, zkontrolujte připojení k internetu a nastavení proxy. Pokud to nepomohlo, kontaktujte náš tým podpory.",
+    "UnknownError": "Neznámá chyba."
   },
   "placeholder": {
-    "Search": "Поиск",
-    "SelectCountry": "Выберите страну",
-    "SelectCurrency": "Выберите валюту",
-    "SelectDate": "Выберите дату",
-    "SelectLanguage": "Выберите язык"
+    "Search": "Vyhledávání",
+    "SelectCountry": "Vyberte zemi",
+    "SelectCurrency": "Zvolte měnu",
+    "SelectDate": "Zvolte datum",
+    "SelectLanguage": "Vyberte jazyk"
   },
   "select": {
     "payInterval": {
-      "Empty": "Вручную",
-      "m": "1 раз в месяц",
-      "q": "1 раз в квартал",
-      "w": "1 раз в неделю"
+      "Empty": "Ručně",
+      "m": "1x měsíčně",
+      "q": "1x za čtvrtletí",
+      "w": "1x týdně"
     },
-    "UseDefault": "Использовать по умолчанию"
+    "UseDefault": "Použít výchozí"
   },
   "state": {
-    "Error": "Ошибка",
-    "Loading": "Загрузка..."
+    "Error": "Chyba",
+    "Loading": "Načítání..."
   }
 }

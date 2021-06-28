@@ -1,105 +1,105 @@
 {
   "message": {
-    "ConfirmDeleteTransaction": "Вы уверены, что хотите удалить транзакцию? Операцию нельзя будет отменить.",
-    "ConfirmPlannedTransaction": "Вы уверены, что хотите подтвердить транзакцию?",
-    "ConfirmSplitTransaction": "Вы уверены, что хотите разделить этот перевод?"
+    "ConfirmDeleteTransaction": "Určitě chcete transakci odstranit? Operace nelze stornovat",
+    "ConfirmPlannedTransaction": "Určitě chcete transakci potvrdit?",
+    "ConfirmSplitTransaction": "Určitě chcete tento převod rozdělit?"
   },
   "multiDelete": {
     "confirm": {
-      "Content": "Вы уверены, что хотите удалить <1>{n, plural, one{# транзакцию} few{# транзакции} other{# транзакций}}</1>? Операцию нельзя будет отменить.",
-      "OK": "Удалить {n, plural, one{# транзакцию} few{# транзакции} other{# транзакций}}",
-      "Title": "Удаление отмеченных транзакций"
+      "Content": "Jste si jisti, že chcete smazat <1>{n, plural, one{# transakci} few{# transakce} other{# transakcí}}</1>? Operace nelze stornovat",
+      "OK": "Smazat {n, plural, one{# transakci} few{# transakce} other{# transakcí}}",
+      "Title": "Odstranění označených transakcí"
     }
   },
   "page": {
-    "title": "Транзакции"
+    "title": "Transakce"
   },
   "table": {
     "button": {
-      "MoreTransactions": "Ещё транзакции"
+      "MoreTransactions": "Další transakce"
     },
     "content": {
-      "NothingWasFound": "Нет транзакций"
+      "NothingWasFound": "Žádné transakce"
     },
     "filter": {
       "account": {
         "label": {
-          "SelectAccount": "Выберите счёт"
+          "SelectAccount": "Zvolte účet"
         }
       },
       "amount": {
         "label": {
-          "Amount": "Укажите сумму"
+          "Amount": "Uveďte částku"
         }
       },
       "category": {
         "label": {
-          "SelectCategory": "Выберите категорию"
+          "SelectCategory": "Vyberte kategorii"
         }
       },
       "project": {
         "label": {
-          "SelectProject": "Выберите проект"
+          "SelectProject": "Vyberte projekt"
         }
       },
       "type": {
         "label": {
-          "Expenses": "Расходы",
-          "Incomes": "Доходы",
-          "Loans": "Долги",
-          "Transfers": "Переводы"
+          "Expenses": "Výdaje",
+          "Incomes": "Příjmy",
+          "Loans": "Dluhy",
+          "Transfers": "Převody"
         }
       },
       "user": {
         "label": {
-          "deleted": "удалён",
-          "notInTeam": "не в команде",
-          "SelectUser": "Выберите пользователя"
+          "deleted": "odstraněn",
+          "notInTeam": "není v týmu",
+          "SelectUser": "Vyberte uživatele"
         }
       }
     },
     "filterSummary": {
       "label": {
-        "Account": "Счёт",
-        "Amount": "Сумма",
-        "Project": "Проект",
-        "Since": "С",
-        "Until": "По",
-        "User": "Пользователь"
+        "Account": "Účet",
+        "Amount": "Častka",
+        "Project": "Projekt",
+        "Since": "Od",
+        "Until": "Do",
+        "User": "Uživatel"
       }
     },
     "head": {
       "config": {
-        "DisplayAdaptive": "Адаптивно",
-        "DisplayAlways": "Всегда",
-        "DisplayExtraColumns": "Выберите условия для вывода дополнительных столбцов.",
-        "DisplayNever": "Никогда",
-        "Title": "Настройка таблицы"
+        "DisplayAdaptive": "Adaptivní",
+        "DisplayAlways": "Vždy",
+        "DisplayExtraColumns": "Zvolte podmínky pro výstup dalších sloupců.",
+        "DisplayNever": "Nikdy",
+        "Title": "Nastavení tabulky"
       },
       "label": {
-        "Account": "Счёт",
-        "Amount": "Сумма",
-        "Category": "Категория",
-        "CategoryDescription": "Категория, Описание",
-        "Date": "Дата",
-        "Project": "Проект",
-        "Remain": "Остаток",
-        "User": "Пользователь"
+        "Account": "Účet",
+        "Amount": "Častka",
+        "Category": "Kategorie",
+        "CategoryDescription": "Kategorie, Popis",
+        "Date": "Datum",
+        "Project": "Projekt",
+        "Remain": "Zůstatek",
+        "User": "Uživatel"
       }
     }
   },
   "transferJoin": {
     "button": {
-      "Join": "Объединить в перевод"
+      "Join": "Sloučit do převodu"
     },
     "message": {
-      "ChooseCommissionCategory": "Пожалуйста, укажите категорию для создания расхода комиссии:",
-      "ThisCanBeDoneWithCommission": "Это может быть выполнено, если создать расходную транзакцию комиссии на сумму <1>{sum}</1>.",
-      "YouAreGoingToJoinWhat": "Вы хотите объединить в перевод транзакции с разными суммами:"
+      "ChooseCommissionCategory": "Uveďte prosím kategorii pro vytvoření výdaje - komise:",
+      "ThisCanBeDoneWithCommission": "To může být provedeno, pokud vytvoříte výdajovou transakci komise ve výši <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "Chcete kombinovat transakce s různými částkami:"
     }
   },
   "unconfirmed": {
-    "EndTitle": "Обычные транзакции",
-    "Title": "Неподтверждённые транзакции"
+    "EndTitle": "Běžné transakce",
+    "Title": "Nepotvrzené transakce"
   }
 }

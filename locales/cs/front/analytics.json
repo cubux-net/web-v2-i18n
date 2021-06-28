@@ -1,37 +1,37 @@
 {
   "filter": {
     "button": {
-      "ExportExcel": "Экспорт в Excel"
+      "ExportExcel": "Export do aplikace Excel"
     },
     "chart": {
-      "Chart": "График"
+      "Chart": "Grafik"
     },
     "date": {
-      "Period": "Период",
-      "SetPeriod": "Период",
-      "SetYear": "Год"
+      "Period": "Období",
+      "SetPeriod": "Období",
+      "SetYear": "Rok"
     },
     "groupBy": {
-      "Categories": "по Категориям",
-      "Months": "по Месяцам"
+      "Categories": "podle kategorií",
+      "Months": "po měsících"
     },
     "limit": {
-      "Accounts": "Счета",
-      "Categories": "Категории",
-      "ExtraFilters": "Дополнительные фильтры:",
-      "Projects": "Проекты",
-      "Users": "Пользователи"
+      "Accounts": "Účty",
+      "Categories": "Kategorie",
+      "ExtraFilters": "Další filtry:",
+      "Projects": "Projekty",
+      "Users": "Uživatele"
     },
     "type": {
-      "Expenses": "Расходы",
-      "Incomes": "Доходы",
-      "WithTransfers": "Учитывать переводы"
+      "Expenses": "Náklady",
+      "Incomes": "Příjmy",
+      "WithTransfers": "Počítat převody"
     }
   },
   "page": {
     "message": {
-      "NoChartData": "Нет данных для отображения по выбранным критериям."
+      "NoChartData": "Neexistují žádná data, která by se zobrazovala podle zvolených kritérií."
     },
-    "Title": "Аналитика"
+    "Title": "Analytika"
   }
 }

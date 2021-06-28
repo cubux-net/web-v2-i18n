@@ -1,5 +1,5 @@
 {
-  "InvalidValue": "Некорректное значение",
-  "MinStringLength": "Минимум {length, plural, one{# символ} few{# символа} other{# символов}}",
-  "Required": "Необходимо указать значение"
+  "InvalidValue": "Nesprávná hodnota",
+  "MinStringLength": "Minimum {length, plural, one{# symbol} few{# symbolu} other{# symbolů}}",
+  "Required": "Je třeba zadat hodnotu"
 }

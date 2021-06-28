@@ -1,42 +1,42 @@
 {
   "operation": {
     "label": {
-      "Commission": "Комиссия",
-      "CommissionCategory": "Категория комиссии",
-      "CurrencyRate": "Курс",
-      "NeedConfirmation": "Нужно подтверждение",
-      "Project": "Проект",
-      "Repetition": "Повторяемость",
-      "SelectAccount": "Выберите счёт",
-      "SelectCategory": "Выберите категорию",
-      "SelectDate": "Укажите дату"
+      "Commission": "Komise",
+      "CommissionCategory": "Kategorie komise",
+      "CurrencyRate": "Kurz",
+      "NeedConfirmation": "Potřebujeme potvrzení",
+      "Project": "Projekt",
+      "Repetition": "Opakovatelnost",
+      "SelectAccount": "Zvolte účet",
+      "SelectCategory": "Vyberte kategorii",
+      "SelectDate": "Zadejte datum"
     },
     "message": {
-      "SelectDestinationAccount": "Укажите целевой счёт",
-      "SelectSourceAccount": "Укажите счёт списания",
-      "TransferSameAccount": "Счет списания и целевой счет совпадают"
+      "SelectDestinationAccount": "Zadejte cílový účet",
+      "SelectSourceAccount": "Zadejte účet odpisu",
+      "TransferSameAccount": "Účet odpisů a cílový účet se shodují"
     }
   },
   "page": {
     "button": {
-      "AddCategory": "Добавить категорию",
-      "AddSubcategory": "Добавить подкатегорию"
+      "AddCategory": "Přidat kategorii",
+      "AddSubcategory": "Přidat podkategorii"
     },
     "filter": {
       "dateRange": {
-        "AllTime": "За все время",
-        "Month": "За месяц",
-        "Year": "За год"
+        "AllTime": "Za celou dobu",
+        "Month": "Za měsíc",
+        "Year": "Za rok"
       }
     },
     "message": {
-      "CategoryNotFound": "Категория не найдена. Попробуйте вернуться и посмотреть <1>все категории</1> или обновить страницу."
+      "CategoryNotFound": "Kategorie nebyla nalezena. Zkuste se vrátit a zobrazit <1>všechny kategorie</1> nebo aktualizovat stránku."
     },
     "title": {
-      "Expenses": "Расходы",
-      "ExpensesByCategories": "Расходы по категориям",
-      "Incomes": "Доходы",
-      "IncomesByCategories": "Доходы по категориям"
+      "Expenses": "Výdaje",
+      "ExpensesByCategories": "Výdaje podle kategorií",
+      "Incomes": "Příjmy",
+      "IncomesByCategories": "Příjmy podle kategorií"
     }
   }
 }

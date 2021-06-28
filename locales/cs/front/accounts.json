@@ -1,32 +1,32 @@
 {
   "dialog": {
     "button": {
-      "OAuthGo": "Перейти в банк"
+      "OAuthGo": "Přejít do banky"
     },
     "comment": {
-      "Agreement": "Продолжая использовать сервис, Вы соглашаетесь с <1>Условиями использования</1>.",
-      "AutoSync": "Данные будут синхронизироваться автоматически примерно один раз в сутки. Также Вы можете запрашивать обновления вручную, но не чаще, чем один раз в час.",
-      "OAuthIntro": "Для продолжения Вам необходимо разрешить доступ в Банке."
+      "Agreement": "Při používání služby souhlasíte s <1>podmínkami použití</1>.",
+      "AutoSync": "Data budou automaticky synchronizována přibližně jednou denně. Také můžete požádat o aktualizace ručně, ale ne častěji než jednou za hodinu.",
+      "OAuthIntro": "Chcete-li pokračovat, musíte povolit přístup do banky."
     },
     "input": {
-      "AnyCashAccount": "Наличные или любой счет",
+      "AnyCashAccount": "Hotovost nebo libovolný účet",
       "Cash": "Hotovost",
-      "Currency": "Валюта счета",
-      "InitialAmount": "Начальный остаток",
-      "InitialAmountDate": "Дата начального остатка",
-      "KeepSyncWithBank": "Продолжать синхронизацию с банком",
-      "Name": "Название счета",
-      "SearchPlaceholder": "Начните набирать название банка для фильтрации..."
+      "Currency": "Měna účtu",
+      "InitialAmount": "Počáteční stav",
+      "InitialAmountDate": "Datum vložení počatečního stavu",
+      "KeepSyncWithBank": "Pokračovat v synchronizaci s bankou",
+      "Name": "Název účtu",
+      "SearchPlaceholder": "Začněte psát název banky pro filtrování..."
     },
     "state": {
-      "SyncLost": "Синхронизация прервана"
+      "SyncLost": "Synchronizace přerušena"
     },
-    "Title": "Добавить счет",
+    "Title": "Přidat účet",
     "title": {
-      "BankSync": "Синхронизировать с банком",
-      "Import": "Импортировать счета с транзакциями:",
-      "NoSync": "Без синхронизации"
+      "BankSync": "Synchronizace s bankou",
+      "Import": "Importujte účty s transakcemi:",
+      "NoSync": "Bez zapnutí synchronizace"
     },
-    "TitleEdit": "Редактировать счет"
+    "TitleEdit": "Upravit účet"
   }
 }

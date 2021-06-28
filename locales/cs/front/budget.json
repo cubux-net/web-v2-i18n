@@ -1,52 +1,52 @@
 {
   "entry": {
     "loop": {
-      "Month": "На месяц",
-      "Year": "На год"
+      "Month": "Na měsíc",
+      "Year": "Na rok"
     },
     "message": {
-      "AssignCategoriesByEdit": "Запланируйте категории с помощью кнопки \"Редактировать\".",
-      "DeleteConfirm": "Вы действительно хотите удалить данный бюджет?",
-      "DeleteConfirmOldNotice": "Этот бюджет связан со старым бюджетом. Если Вы его удалите, а затем кто-либо изменит старый бюджет (на старой веб-версии или в приложении со старым бюджетом), то автоматически создастся новый бюджет вместо этого.",
-      "NoCategoriesAssignedToShowFacts": "Нет запланированных категорий, чтобы показать операции."
+      "AssignCategoriesByEdit": "Naplánujte Kategorie pomocí tlačítka \"Upravit\".",
+      "DeleteConfirm": "Opravdu chcete tento rozpočet smazat?",
+      "DeleteConfirmOldNotice": "Tento rozpočet je spojen se starým rozpočtem. Pokud jej odstraníte a pak někdo změní starý rozpočet (na staré webové verzi nebo v aplikaci se starým rozpočtem), automaticky se místo toho vytvoří nový rozpočet.",
+      "NoCategoriesAssignedToShowFacts": "Žádné plánované kategorie pro zobrazení operací."
     },
     "property": {
-      "Loop": "Период",
-      "Name": "Название"
+      "Loop": "Období",
+      "Name": "Název"
     },
     "title": {
-      "Create": "Добавить бюджет",
-      "Delete": "Удалить бюджет"
+      "Create": "Přidat rozpočet",
+      "Delete": "Odstranit rozpočet"
     },
     "type": {
-      "Expense": "Расходы",
-      "Income": "Доходы"
+      "Expense": "Náklady",
+      "Income": "Příjmy"
     },
     "validation": {
-      "EndDateAfterStartDate": "Дата окончания должна быть позже даты начала."
+      "EndDateAfterStartDate": "Datum ukončení by mělo být později než datum zahájení."
     }
   },
   "page": {
     "label": {
-      "Budgets": "Бюджеты",
-      "Category": "Категория",
-      "Difference": "Разница",
-      "ExpensesByCategories": "Расходы по категориям бюджета:",
-      "Fact": "Факт",
-      "IncomesByCategories": "Доходы по категориям бюджета:",
-      "Plan": "План",
-      "Progress": "Выполнение"
+      "Budgets": "Rozpočet",
+      "Category": "Kategorie",
+      "Difference": "Rozdíl",
+      "ExpensesByCategories": "Výdaje podle rozpočtových kategorií:",
+      "Fact": "Skutečnost",
+      "IncomesByCategories": "Příjmy podle rozpočtových kategorií:",
+      "Plan": "Plán",
+      "Progress": "Provedení"
     },
-    "Title": "Бюджет"
+    "Title": "Rozpočet"
   },
   "period": {
     "property": {
-      "Inherit": "Для всех будущих дат"
+      "Inherit": "Pro všechny budoucí data"
     }
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Показать все"
+      "ShowAllCategories": "Zobrazit vše"
     }
   }
 }

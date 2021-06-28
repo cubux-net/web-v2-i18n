@@ -1,209 +1,209 @@
 {
   "accounts": {
     "button": {
-      "AddAccount": "Добавить счёт"
+      "AddAccount": "Přidat účet"
     },
     "hint": {
-      "ClickToStartRefresh": "Нажмите, чтобы начать обновление данных",
-      "NextRefreshPossibleAt": "Следующее обновление возможно после {when}.",
-      "ReconnectToBank": "Настроить подключение к банку",
-      "WillAutoRefresh": "Этот счёт обновляется автоматически."
+      "ClickToStartRefresh": "Kliknutím spustíte aktualizaci dat",
+      "NextRefreshPossibleAt": "Další aktualizace je možná po {when}.",
+      "ReconnectToBank": "Nastavit připojení k bance",
+      "WillAutoRefresh": "Tento účet se aktualizuje automaticky."
     },
     "messages": {
-      "BankSyncLost": "Связь с банком прервана.",
-      "BankSyncNotFound": "Связь с банком недоступна. Только владелец имеет доступ.",
-      "CannotRefreshRightNow": "Пока ещё нельзя обновить данные.",
-      "RefreshDidNotScheduled": "Обновление невозможно. Вероятно, связь не была настроена до конца.",
-      "RefreshScheduled": "Попытка обновления данных запланирована на ближайшее время."
+      "BankSyncLost": "Spojení s bankou bylo přerušeno.",
+      "BankSyncNotFound": "Komunikace s bankou není k dispozici. Přístup má pouze vlastník.",
+      "CannotRefreshRightNow": "Data zatím nelze aktualizovat.",
+      "RefreshDidNotScheduled": "Aktualizace není možná. Pravděpodobně připojení nebylo plně nakonfigurováno.",
+      "RefreshScheduled": "Pokus o aktualizaci dat je naplánován na blízkou budoucnost."
     },
     "syncLost": {
-      "InteractiveTimeout": "Интерактивное подтверждение не было проверено в отведённый срок.",
-      "InvalidCredentials": "Некорректные данные интерактивного подтверждения.",
-      "RemoteAccountDeleted": "Соответствующий счёт был удалён в банке.",
-      "RemoteAuthOutdated": "Данные для доступа устарели."
+      "InteractiveTimeout": "Potvrzení online nebylo ve stanovené lhůtě ověřeno.",
+      "InvalidCredentials": "Nesprávné údaje o interaktivním potvrzení.",
+      "RemoteAccountDeleted": "Příslušný účet byl v bance smazán.",
+      "RemoteAuthOutdated": "Přístupová data jsou zastaralá."
     },
     "title": {
-      "Reconnect": "Настройка синхронизации счета с банком"
+      "Reconnect": "Nastavení synchronizace účtu s bankou"
     }
   },
   "calendar": {
     "label": {
-      "Account": "Счёт",
-      "Balance": "Баланс",
-      "Expenses": "Расходы",
-      "Incomes": "Доходы"
+      "Account": "Účet",
+      "Balance": "Zůstatek",
+      "Expenses": "Výdaje",
+      "Incomes": "Příjmy"
     },
     "message": {
-      "NoOperations": "Нет операций за этот день."
+      "NoOperations": "Žádné operace za tento den."
     }
   },
   "category": {
     "help": {
-      "limit": "Используется в основном бюджете"
+      "limit": "Používá se hlavním v rozpočtu"
     },
     "label": {
-      "AddCategory": "Добавить категорию",
-      "AddSubCategory": "Добавить подкатегорию",
-      "CategoryName": "Название категории",
-      "ChooseIcon": "Выберите иконку",
-      "EditCategory": "Редактировать категорию",
-      "Subcategories": "Подкатегории",
-      "Subcategory": "Подкатегория",
-      "SubCategoryName": "Название подкатегории"
+      "AddCategory": "Přidat kategorii",
+      "AddSubCategory": "Přidat podkategorii",
+      "CategoryName": "Název kategorie",
+      "ChooseIcon": "Vyberte ikonu",
+      "EditCategory": "Upravit kategorii",
+      "Subcategories": "Podkategorie",
+      "Subcategory": "Podkategorie",
+      "SubCategoryName": "Název podkategorie"
     }
   },
   "common": {
     "button": {
-      "CreateOneMore": "Сохранить и создать ещё одну"
+      "CreateOneMore": "Uložit a vytvořit další"
     },
     "label": {
-      "currentOfTotal": "{current} из {total}",
-      "Description": "Описание",
-      "Limit": "Лимит",
-      "ofTotal": "из {total}",
-      "Plan": "План",
-      "syncWithGoogleCalendar": "Синхронизировать с Google Calendar",
-      "Totals_ExpensesAre": "Расходы <0>{amount}</0>",
-      "Totals_IncomesAre": "Доходы <0>{amount}</0>",
-      "TotalsByFilterAre": "Итог по выбранным критериям:"
+      "currentOfTotal": "{current} z {total}",
+      "Description": "Popis",
+      "Limit": "Limit",
+      "ofTotal": "z {total}",
+      "Plan": "Plán",
+      "syncWithGoogleCalendar": "Synchronizace s Kalendářem Google",
+      "Totals_ExpensesAre": "Výdaje <0>{amount}</0>",
+      "Totals_IncomesAre": "Příjmy <0>{amount}</0>",
+      "TotalsByFilterAre": "Výsledek podle vybraných kritérií:"
     }
   },
   "createTeam": {
-    "Title": "Создать команду"
+    "Title": "Vytvořit tým"
   },
   "loan": {
-    "IDidObtain": "Я должен",
-    "IDidProvide": "Мне должны",
-    "pageTitle": "Долги",
-    "ReturnDate": "Дата возврата",
-    "SelectAgent": "Укажите контрагента",
-    "UntilDeadline": "не позднее {deadline}"
+    "IDidObtain": "Já dlužím",
+    "IDidProvide": "Dluží mně",
+    "pageTitle": "Dluhy",
+    "ReturnDate": "Datum vrácení",
+    "SelectAgent": "Zadejte protistranu",
+    "UntilDeadline": "nejpozději {deadline}"
   },
   "loanAgent": {
-    "AddAgent": "Добавить контрагента",
-    "History": "История платежей",
-    "Name": "Имя"
+    "AddAgent": "Přidat protistranu",
+    "History": "Historie plateb",
+    "Name": "Jméno"
   },
   "menu": {
     "label": {
-      "Analytics": "Аналитика",
-      "Balance": "Баланс",
-      "Budget": "Бюджет",
-      "Calendar": "Календарь",
-      "CreateTeam": "Создать команду",
-      "Expenses": "Расходы",
-      "Goals": "Цели",
-      "Incomes": "Доходы",
-      "Loans": "Долги",
-      "LoansEmpty": "Отсутствуют",
-      "Logout": "Выход",
-      "Main": "Главная",
-      "ReturnToOldVersion": "Вернуться к старой версии",
-      "Settings": "Настройки",
-      "Support": "Поддержка"
+      "Analytics": "Analytika",
+      "Balance": "Zůstatek",
+      "Budget": "Rozpočet",
+      "Calendar": "Kalendář",
+      "CreateTeam": "Vytvořit tým",
+      "Expenses": "Výdaje",
+      "Goals": "Cíle",
+      "Incomes": "Příjmy",
+      "Loans": "Dluhy",
+      "LoansEmpty": "Nemáte dluhy",
+      "Logout": "Východ",
+      "Main": "Hlavní",
+      "ReturnToOldVersion": "Zpět na starou verzi",
+      "Settings": "Nastavení",
+      "Support": "Podpora"
     }
   },
   "message": {
-    "AccountDidntSelect": "Выберите счёт",
-    "AmountIsEmpty": "Укажите сумму",
-    "CategoryDidntSelect": "Выберите категорию"
+    "AccountDidntSelect": "Zvolte účet",
+    "AmountIsEmpty": "Uveďte částku",
+    "CategoryDidntSelect": "Vyberte kategorii"
   },
   "page": {
     "label": {
-      "Accounts": "Счета",
-      "BankAccounts": "Банковские счета"
+      "Accounts": "Účty",
+      "BankAccounts": "Bankovní účet"
     }
   },
   "plan": {
     "repeat": {
-      "Daily": "Каждый день",
-      "Monthly": "Каждый месяц",
-      "none": "нет",
-      "Quarterly": "Каждый квартал",
-      "Weekly": "Каждую неделю",
-      "Yearly": "Каждый год"
+      "Daily": "Každý den",
+      "Monthly": "Měsíčně",
+      "none": "není",
+      "Quarterly": "Každé čtvrtletí",
+      "Weekly": "Každý týden",
+      "Yearly": "Každý rok"
     }
   },
   "procStatus": {
     "label": {
-      "created": "задача создана"
+      "created": "úkol vytvořen"
     },
     "message": {
-      "OperationCompletedSuccessfully": "Операция завершена успешно.",
-      "OperationFailed": "Операция прервана из-за ошибок.",
-      "OperationIsPending": "Операция выполняется. Пожалуйста, подождите."
+      "OperationCompletedSuccessfully": "Operace byla úspěšně dokončena.",
+      "OperationFailed": "Operace byla přerušena kvůli chybám.",
+      "OperationIsPending": "Operace se provádí. Prosím, počkejte."
     },
     "procName": {
-      "AccountAuthUnlink": "Прекращение синхронизации счёта с банком",
-      "AccountDelete": "Удаление счёта",
-      "CategoryDelete": "Удаление категории",
-      "CategoryDeleteWithMove": "Удаление категории с сохранением данных",
-      "ImportConvert": "Импорт: чтение файла",
-      "ImportSave": "Импорт данных",
-      "TeamErase": "Очистка команды"
+      "AccountAuthUnlink": "Ukončení synchronizace účtu s bankou",
+      "AccountDelete": "Odstranění účtu",
+      "CategoryDelete": "Odstranění kategorie",
+      "CategoryDeleteWithMove": "Odstranění kategorie s uložením dat",
+      "ImportConvert": "Import: čtení souboru",
+      "ImportSave": "Import dat",
+      "TeamErase": "Čištění týmu"
     },
     "procPhase": {
       "_common": {
-        "Accounts": "Счета",
-        "Budget": "Бюджет",
-        "Categories": "Категории",
-        "Drafts": "Чеки (фото)",
-        "Goods": "Списки покупок: подсказки",
-        "Images": "Изображения",
-        "Initialization": "Подготовка",
-        "LoanAgents": "Долговые агенты",
-        "LoanHistory": "Долговые операции",
-        "PlanConfirms": "Неподтверждённые транзакции",
-        "Plans": "Плановые операции",
-        "Receipts": "Чеки",
-        "ShopListItems": "Списки покупок: позиции",
-        "ShopLists": "Списки покупок",
-        "Targets": "Цели",
-        "Transactions": "Транзакции"
+        "Accounts": "Účty",
+        "Budget": "Rozpočet",
+        "Categories": "Kategorie",
+        "Drafts": "Účtenky (foto)",
+        "Goods": "Nákupní seznamy: tipy",
+        "Images": "Obrázek",
+        "Initialization": "Příprava",
+        "LoanAgents": "Dluhové protistrany",
+        "LoanHistory": "Dluhové operace",
+        "PlanConfirms": "Nepotvrzené transakce",
+        "Plans": "Plánované transakce",
+        "Receipts": "Účtenky",
+        "ShopListItems": "Nákupní seznamy: pozice",
+        "ShopLists": "Nákupní seznamy",
+        "Targets": "Cíle",
+        "Transactions": "Transakce"
       },
       "accountDelete": {
-        "SelfDelete": "Счёт"
+        "SelfDelete": "Účet"
       },
       "teamErase": {
-        "InitNewData": "Создание начальных данных"
+        "InitNewData": "Vytváření počátečních dat"
       }
     }
   },
   "project": {
-    "Name": "Название",
+    "Name": "Název",
     "title": {
-      "CreateProject": "Создание проекта",
-      "EditProject": "Редактирование проекта"
+      "CreateProject": "Vytvoření projektu",
+      "EditProject": "Úprava projektu"
     }
   },
   "receipt": {
     "fetchState": {
-      "Fetching": "Ожидание извлечения данных.",
-      "Invalid": "Чек некорректен.",
-      "Rejected": "Чек был отклонён поставщиком данных.",
-      "Validation": "Ожидание проверки на корректность."
+      "Fetching": "Čekání na extrakci dat.",
+      "Invalid": "Účtenka není správná.",
+      "Rejected": "Účtenka byla odmítnuta poskytovatelem dat.",
+      "Validation": "Čekání na kontrolu korektnosti."
     },
     "label": {
-      "Positions": "Список позиций",
-      "TotalSum": "Итого",
-      "UnknownShop": "Неизвестный Магазин"
+      "Positions": "Seznam pozic",
+      "TotalSum": "Celkem",
+      "UnknownShop": "Neznámý Obchod"
     },
     "message": {
-      "NoPositions": "Нет позиций",
-      "ShopNameIsEmpty": "Название магазина неизвестно. Пожалуйста, укажите."
+      "NoPositions": "Žádné pozice",
+      "ShopNameIsEmpty": "Název obchodu není znám. Uveďte prosím."
     }
   },
   "receiptPos": {
     "label": {
-      "Cost": "Сумма",
-      "Name": "Название",
-      "Price": "Цена",
-      "Qty": "Кол-во"
+      "Cost": "Častka",
+      "Name": "Název",
+      "Price": "Cena",
+      "Qty": "Množství"
     }
   },
   "transactions": {
     "label": {
-      "TransactionsForDate": "Транзакции за {date}"
+      "TransactionsForDate": "Transakce dne {date}"
     }
   }
 }
