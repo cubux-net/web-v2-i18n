@@ -96,7 +96,7 @@
       "Incomes": "Příjmy",
       "Loans": "Dluhy",
       "LoansEmpty": "Nemáte dluhy",
-      "Logout": "Východ",
+      "Logout": "Odejít",
       "Main": "Hlavní",
       "ReturnToOldVersion": "Zpět na starou verzi",
       "Settings": "Nastavení",
@@ -111,7 +111,7 @@
   "page": {
     "label": {
       "Accounts": "Účty",
-      "BankAccounts": "Bankovní účet"
+      "BankAccounts": "Bankovní účty"
     }
   },
   "plan": {

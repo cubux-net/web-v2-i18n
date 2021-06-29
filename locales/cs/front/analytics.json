@@ -4,7 +4,7 @@
       "ExportExcel": "Export do aplikace Excel"
     },
     "chart": {
-      "Chart": "Grafik"
+      "Chart": "Graf"
     },
     "date": {
       "Period": "Období",
@@ -13,7 +13,7 @@
     },
     "groupBy": {
       "Categories": "podle kategorií",
-      "Months": "po měsících"
+      "Months": "podle měsíců"
     },
     "limit": {
       "Accounts": "Účty",
@@ -23,7 +23,7 @@
       "Users": "Uživatele"
     },
     "type": {
-      "Expenses": "Náklady",
+      "Expenses": "Výdaje",
       "Incomes": "Příjmy",
       "WithTransfers": "Počítat převody"
     }
