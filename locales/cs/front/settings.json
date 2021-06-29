@@ -14,10 +14,10 @@
       "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Chcete smazat účet spolu se všemi souvisejícími údaji, včetně následujících:"
     },
     "stateButton": {
-      "IsExcluded_off_exclude": "Počítá se se zbytkem",
-      "IsExcluded_on_include": "Nezapočítává se do zbytku",
+      "IsExcluded_off_exclude": "Započítává se do zůstatku",
+      "IsExcluded_on_include": "Nezapočítává se do zůstatku",
       "IsHidden_off_hide": "Zobrazit-Skrýt",
-      "IsHidden_on_show": "Skryté-Zobrazit"
+      "IsHidden_on_show": "Skrýt-Zobrazit"
     }
   },
   "actions": {

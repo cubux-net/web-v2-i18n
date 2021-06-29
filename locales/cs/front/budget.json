@@ -19,7 +19,7 @@
       "Delete": "Odstranit rozpočet"
     },
     "type": {
-      "Expense": "Náklady",
+      "Expense": "Výdaje",
       "Income": "Příjmy"
     },
     "validation": {
