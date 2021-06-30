@@ -181,7 +181,8 @@
     },
     "feature": {
       "appFull": {
-        "title": "Plná funkčnost v mobilní aplikaci verze 2.0"
+        "JointAccess": "",
+        "Loans": ""
       },
       "appSync": {
         "title": "Synchronizace s mobilní aplikací"
@@ -226,6 +227,10 @@
       },
       "Title": "Platba za předplatné",
       "TitleExternal": "Přechod na platbu"
+    },
+    "where": {
+      "FreeVersion": "",
+      "MobileApp": ""
     }
   },
   "tabs": {

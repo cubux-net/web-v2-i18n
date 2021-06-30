@@ -306,9 +306,6 @@
         "SelectAgent": {
           "$ref": "#/$defs/string"
         },
-        "UntilDeadline": {
-          "$ref": "#/$defs/string"
-        },
         "pageTitle": {
           "$ref": "#/$defs/string"
         }
@@ -318,7 +315,6 @@
         "IDidProvide",
         "ReturnDate",
         "SelectAgent",
-        "UntilDeadline",
         "pageTitle"
       ]
     },

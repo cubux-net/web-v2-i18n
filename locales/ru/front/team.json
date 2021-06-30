@@ -76,8 +76,7 @@
     "IDidProvide": "Мне должны",
     "pageTitle": "Долги",
     "ReturnDate": "Дата возврата",
-    "SelectAgent": "Укажите контрагента",
-    "UntilDeadline": "не позднее {deadline}"
+    "SelectAgent": "Укажите контрагента"
   },
   "loanAgent": {
     "AddAgent": "Добавить контрагента",

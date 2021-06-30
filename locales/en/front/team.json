@@ -76,8 +76,7 @@
     "IDidProvide": "I did provide",
     "pageTitle": "Loans",
     "ReturnDate": "Return date",
-    "SelectAgent": "Select an agent",
-    "UntilDeadline": "until {deadline}"
+    "SelectAgent": "Select an agent"
   },
   "loanAgent": {
     "AddAgent": "Add agent",

@@ -76,8 +76,7 @@
     "IDidProvide": "Dluží mně",
     "pageTitle": "Dluhy",
     "ReturnDate": "Datum vrácení",
-    "SelectAgent": "Zadejte protistranu",
-    "UntilDeadline": "nejpozději {deadline}"
+    "SelectAgent": "Zadejte protistranu"
   },
   "loanAgent": {
     "AddAgent": "Přidat protistranu",

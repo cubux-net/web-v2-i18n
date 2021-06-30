@@ -181,7 +181,8 @@
     },
     "feature": {
       "appFull": {
-        "title": "All features unlocked in mobile app 2.0"
+        "JointAccess": "Joint access",
+        "Loans": "Loans"
       },
       "appSync": {
         "title": "Sync mobile app 2.0 with server"
@@ -226,6 +227,10 @@
       },
       "Title": "Purchase subscription",
       "TitleExternal": "Go to purchase"
+    },
+    "where": {
+      "FreeVersion": "Free version",
+      "MobileApp": "Mobile app"
     }
   },
   "tabs": {
