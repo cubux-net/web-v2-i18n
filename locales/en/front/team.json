@@ -71,6 +71,12 @@
   "createTeam": {
     "Title": "Create team"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Currencies in accounts",
+      "OtherCurrencies": "Other currencies"
+    }
+  },
   "loan": {
     "IDidObtain": "I did obtain",
     "IDidProvide": "I did provide",
@@ -97,6 +103,15 @@
       "YouHaveNoDebts": "Nobody in debt to you."
     },
     "TotalLoan": "Total loan"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "I did obtain",
+      "IDidProvide": "I did provide"
+    },
+    "AmountFromAccount": "Amount taken from account",
+    "AmountToAccount": "Amount given to account",
+    "DealWithAccounts": "Does affect accounts"
   },
   "menu": {
     "label": {

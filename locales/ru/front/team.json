@@ -71,6 +71,12 @@
   "createTeam": {
     "Title": "Создать команду"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Валюты счетов",
+      "OtherCurrencies": "Другие валюты"
+    }
+  },
   "loan": {
     "IDidObtain": "Я должен",
     "IDidProvide": "Мне должны",
@@ -97,6 +103,15 @@
       "YouHaveNoDebts": "Вам никто не должен."
     },
     "TotalLoan": "Общий долг"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Я получил",
+      "IDidProvide": "Я отдал"
+    },
+    "AmountFromAccount": "Сумма списания со счёта",
+    "AmountToAccount": "Сумма зачисления на счёт",
+    "DealWithAccounts": "Влияет на остатки на счетах"
   },
   "menu": {
     "label": {

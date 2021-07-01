@@ -71,6 +71,12 @@
   "createTeam": {
     "Title": "Vytvořit tým"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "",
+      "OtherCurrencies": ""
+    }
+  },
   "loan": {
     "IDidObtain": "Já dlužím",
     "IDidProvide": "Dluží mně",
@@ -97,6 +103,15 @@
       "YouHaveNoDebts": ""
     },
     "TotalLoan": ""
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "",
+      "IDidProvide": ""
+    },
+    "AmountFromAccount": "",
+    "AmountToAccount": "",
+    "DealWithAccounts": ""
   },
   "menu": {
     "label": {

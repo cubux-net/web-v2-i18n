@@ -291,6 +291,29 @@
         "Title"
       ]
     },
+    "currency": {
+      "type": "object",
+      "properties": {
+        "Select": {
+          "type": "object",
+          "properties": {
+            "CurrenciesInAccounts": {
+              "$ref": "#/$defs/string"
+            },
+            "OtherCurrencies": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CurrenciesInAccounts",
+            "OtherCurrencies"
+          ]
+        }
+      },
+      "required": [
+        "Select"
+      ]
+    },
     "loan": {
       "type": "object",
       "properties": {
@@ -395,6 +418,41 @@
         "TotalLoan",
         "deadline",
         "status"
+      ]
+    },
+    "loanOperation": {
+      "type": "object",
+      "properties": {
+        "AmountFromAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "AmountToAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "DealWithAccounts": {
+          "$ref": "#/$defs/string"
+        },
+        "amount": {
+          "type": "object",
+          "properties": {
+            "IDidObtain": {
+              "$ref": "#/$defs/string"
+            },
+            "IDidProvide": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "IDidObtain",
+            "IDidProvide"
+          ]
+        }
+      },
+      "required": [
+        "AmountFromAccount",
+        "AmountToAccount",
+        "DealWithAccounts",
+        "amount"
       ]
     },
     "menu": {
@@ -883,8 +941,10 @@
     "category",
     "common",
     "createTeam",
+    "currency",
     "loan",
     "loanAgent",
+    "loanOperation",
     "menu",
     "message",
     "page",
