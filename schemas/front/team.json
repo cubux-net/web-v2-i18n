@@ -429,6 +429,12 @@
         "AmountToAccount": {
           "$ref": "#/$defs/string"
         },
+        "ConfirmDelete": {
+          "$ref": "#/$defs/string"
+        },
+        "ConfirmDeleteMayKeepTransaction": {
+          "$ref": "#/$defs/string"
+        },
         "DealWithAccounts": {
           "$ref": "#/$defs/string"
         },
@@ -446,13 +452,31 @@
             "IDidObtain",
             "IDidProvide"
           ]
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "DeleteKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransaction": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DeleteKeepTransaction",
+            "DeleteWithTransaction"
+          ]
         }
       },
       "required": [
         "AmountFromAccount",
         "AmountToAccount",
+        "ConfirmDelete",
+        "ConfirmDeleteMayKeepTransaction",
         "DealWithAccounts",
-        "amount"
+        "amount",
+        "button"
       ]
     },
     "menu": {

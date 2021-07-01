@@ -111,6 +111,12 @@
     },
     "AmountFromAccount": "",
     "AmountToAccount": "",
+    "button": {
+      "DeleteKeepTransaction": "",
+      "DeleteWithTransaction": ""
+    },
+    "ConfirmDelete": "",
+    "ConfirmDeleteMayKeepTransaction": "",
     "DealWithAccounts": ""
   },
   "menu": {
