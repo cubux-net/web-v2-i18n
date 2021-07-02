@@ -73,8 +73,8 @@
   },
   "currency": {
     "Select": {
-      "CurrenciesInAccounts": "",
-      "OtherCurrencies": ""
+      "CurrenciesInAccounts": "Měny účtů",
+      "OtherCurrencies": "Jiné měny"
     }
   },
   "loan": {
@@ -86,38 +86,38 @@
   },
   "loanAgent": {
     "AddAgent": "Přidat protistranu",
-    "Comment": "",
+    "Comment": "Komentař",
     "deadline": {
-      "inDays": "in {n, plural, one{# day} other{# days}}",
-      "INeedReturnUntil": "",
-      "PromisedToMeReturnUntil": "",
-      "SendNoticeBefore": "",
-      "setDate": ""
+      "inDays": "za {n, plural, one{# den} few{# dne} other{# dnů}}",
+      "INeedReturnUntil": "Vrátit do",
+      "PromisedToMeReturnUntil": "Datum vrácení",
+      "SendNoticeBefore": "Odeslat oznámení",
+      "setDate": "určit datum"
     },
     "History": "Historie plateb",
     "Name": "Jméno",
-    "NoticeToEmail": "",
-    "NoticeToName": "",
+    "NoticeToEmail": "E-mail příjemce",
+    "NoticeToName": "Jméno příjemce",
     "status": {
-      "YouHaveNoCredits": "",
-      "YouHaveNoDebts": ""
+      "YouHaveNoCredits": "Nemáte dluhy, to je dobře :)",
+      "YouHaveNoDebts": "Nikdo vám nic nedluží."
     },
-    "TotalLoan": ""
+    "TotalLoan": "Celkový dluh"
   },
   "loanOperation": {
     "amount": {
-      "IDidObtain": "",
-      "IDidProvide": ""
+      "IDidObtain": "Dostal jsem",
+      "IDidProvide": "Vrátil jsem"
     },
-    "AmountFromAccount": "",
-    "AmountToAccount": "",
+    "AmountFromAccount": "Částka, která má být odepsána z účtu",
+    "AmountToAccount": "Částka připsaná na účet",
     "button": {
-      "DeleteKeepTransaction": "",
-      "DeleteWithTransaction": ""
+      "DeleteKeepTransaction": "Smazat pouze dluh",
+      "DeleteWithTransaction": "Smazat spolu s transakcí"
     },
-    "ConfirmDelete": "",
-    "ConfirmDeleteMayKeepTransaction": "",
-    "DealWithAccounts": ""
+    "ConfirmDelete": "Opravdu chcete smazat dluhovou transakci? Zůstatky na účtu nebudou ovlivněny.",
+    "ConfirmDeleteMayKeepTransaction": "Tato dluhová operace je spojena s transakcí. Při smazání této dluhové operace můžete transakci buď nechat, nebo ji smazat.",
+    "DealWithAccounts": "Ovlivňuje zůstatky na účtu"
   },
   "menu": {
     "label": {

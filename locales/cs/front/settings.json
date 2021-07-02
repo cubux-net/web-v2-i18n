@@ -181,8 +181,8 @@
     },
     "feature": {
       "appFull": {
-        "JointAccess": "",
-        "Loans": ""
+        "JointAccess": "Společné účetnictví",
+        "Loans": "Dluhy"
       },
       "appSync": {
         "title": "Synchronizace s mobilní aplikací"
@@ -229,8 +229,8 @@
       "TitleExternal": "Přechod na platbu"
     },
     "where": {
-      "FreeVersion": "",
-      "MobileApp": ""
+      "FreeVersion": "V bezplatné verzi",
+      "MobileApp": "V mobilní aplikaci"
     }
   },
   "tabs": {

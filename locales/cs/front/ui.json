@@ -23,7 +23,7 @@
     "CheckAll": "Výbrat vše"
   },
   "currencyRateHint": {
-    "ExchangeCurrency": ""
+    "ExchangeCurrency": "Směnný kurz"
   },
   "date": {
     "label": {
@@ -61,7 +61,7 @@
     "CheckFormAndFixErrors": "Zkontrolujte správné vyplnění polí a opravte chyby.",
     "CouldNotPerformOperation": "Operace se nezdařila.",
     "NoRecords": "Nic není.",
-    "NothingWasFound": "",
+    "NothingWasFound": "Nic nenalezeno.",
     "PleaseWait": "Prosím, počkejte...",
     "TemporaryDisabled": "Dočasně zakázáno.",
     "ThisActionCannotBeUndone": "Tuto akci nelze zrušit.",
