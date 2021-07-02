@@ -19,6 +19,7 @@
     "TotalAmount": "Total amount"
   },
   "RemoveQuest": "Are you sure to delete the Goal with all related transactions? It may change accounts balance.",
+  "RemoveQuestSimple": "Are you sure to delete the Goal?",
   "state": {
     "Completed": "Completed",
     "Pending": "Pending"

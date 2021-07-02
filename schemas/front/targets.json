@@ -11,6 +11,9 @@
     "RemoveQuest": {
       "$ref": "#/$defs/string"
     },
+    "RemoveQuestSimple": {
+      "$ref": "#/$defs/string"
+    },
     "button": {
       "type": "object",
       "properties": {
@@ -126,6 +129,7 @@
   },
   "required": [
     "RemoveQuest",
+    "RemoveQuestSimple",
     "button",
     "label",
     "state",
