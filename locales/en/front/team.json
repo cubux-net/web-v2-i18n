@@ -106,6 +106,7 @@
       "SendNoticeBefore": "Send notice before",
       "setDate": "set date"
     },
+    "EditAgent": "Edit agent",
     "History": "Payments history",
     "Name": "Name",
     "NoticeToEmail": "Recipient name",

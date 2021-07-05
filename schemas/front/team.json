@@ -350,6 +350,9 @@
         "Comment": {
           "$ref": "#/$defs/string"
         },
+        "EditAgent": {
+          "$ref": "#/$defs/string"
+        },
         "History": {
           "$ref": "#/$defs/string"
         },
@@ -458,6 +461,7 @@
       "required": [
         "AddAgent",
         "Comment",
+        "EditAgent",
         "History",
         "Name",
         "NoticeToEmail",

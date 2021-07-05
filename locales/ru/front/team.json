@@ -106,6 +106,7 @@
       "SendNoticeBefore": "Отправить уведомление",
       "setDate": "указать дату"
     },
+    "EditAgent": "Изменить контрагента",
     "History": "История платежей",
     "Name": "Имя",
     "NoticeToEmail": "E-mail получателя",
