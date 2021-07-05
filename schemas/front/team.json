@@ -365,6 +365,53 @@
         "TotalLoan": {
           "$ref": "#/$defs/string"
         },
+        "button": {
+          "type": "object",
+          "properties": {
+            "credit": {
+              "type": "object",
+              "properties": {
+                "Finish": {
+                  "$ref": "#/$defs/string"
+                },
+                "Return": {
+                  "$ref": "#/$defs/string"
+                },
+                "TakeMore": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "Finish",
+                "Return",
+                "TakeMore"
+              ]
+            },
+            "debit": {
+              "type": "object",
+              "properties": {
+                "Finish": {
+                  "$ref": "#/$defs/string"
+                },
+                "GiveMore": {
+                  "$ref": "#/$defs/string"
+                },
+                "Take": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "Finish",
+                "GiveMore",
+                "Take"
+              ]
+            }
+          },
+          "required": [
+            "credit",
+            "debit"
+          ]
+        },
         "deadline": {
           "type": "object",
           "properties": {
@@ -416,6 +463,7 @@
         "NoticeToEmail",
         "NoticeToName",
         "TotalLoan",
+        "button",
         "deadline",
         "status"
       ]
