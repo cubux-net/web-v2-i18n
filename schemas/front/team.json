@@ -371,6 +371,12 @@
         "button": {
           "type": "object",
           "properties": {
+            "DeleteKeepTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransactions": {
+              "$ref": "#/$defs/string"
+            },
             "credit": {
               "type": "object",
               "properties": {
@@ -411,6 +417,8 @@
             }
           },
           "required": [
+            "DeleteKeepTransactions",
+            "DeleteWithTransactions",
             "credit",
             "debit"
           ]
@@ -442,6 +450,29 @@
             "setDate"
           ]
         },
+        "delete": {
+          "type": "object",
+          "properties": {
+            "AllRelatedTransactionsDeleteChoice": {
+              "$ref": "#/$defs/string"
+            },
+            "CaseIfDeleteTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "CaseIfKeepTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "YouAreGoingToDeleteAgent": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "AllRelatedTransactionsDeleteChoice",
+            "CaseIfDeleteTransactions",
+            "CaseIfKeepTransactions",
+            "YouAreGoingToDeleteAgent"
+          ]
+        },
         "status": {
           "type": "object",
           "properties": {
@@ -469,6 +500,7 @@
         "TotalLoan",
         "button",
         "deadline",
+        "delete",
         "status"
       ]
     },
@@ -741,6 +773,9 @@
             "ImportSave": {
               "$ref": "#/$defs/string"
             },
+            "LoanAgentDelete": {
+              "$ref": "#/$defs/string"
+            },
             "TeamErase": {
               "$ref": "#/$defs/string"
             }
@@ -752,6 +787,7 @@
             "CategoryDeleteWithMove",
             "ImportConvert",
             "ImportSave",
+            "LoanAgentDelete",
             "TeamErase"
           ]
         },
@@ -840,6 +876,17 @@
                 "SelfDelete"
               ]
             },
+            "loanAgentDelete": {
+              "type": "object",
+              "properties": {
+                "SelfDelete": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "SelfDelete"
+              ]
+            },
             "teamErase": {
               "type": "object",
               "properties": {
@@ -855,6 +902,7 @@
           "required": [
             "_common",
             "accountDelete",
+            "loanAgentDelete",
             "teamErase"
           ]
         }

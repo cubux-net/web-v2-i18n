@@ -96,7 +96,9 @@
         "Finish": "Finish",
         "GiveMore": "Give more",
         "Take": "Take"
-      }
+      },
+      "DeleteKeepTransactions": "Delete agent, keep transactions",
+      "DeleteWithTransactions": "Delete with transactions"
     },
     "Comment": "Comment",
     "deadline": {
@@ -105,6 +107,12 @@
       "PromisedToMeReturnUntil": "Should be returned until",
       "SendNoticeBefore": "Send notice before",
       "setDate": "set date"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "All related transactions will become usual income and expense transactions. Also you can delete transactions too with agent.",
+      "CaseIfDeleteTransactions": "Deletion with transactions may cause accounts balances to change.",
+      "CaseIfKeepTransactions": "If you keep transactions they will become usual income and expense transactions and will not affect accounts balances.",
+      "YouAreGoingToDeleteAgent": "You are going to delete Loan Agent \"<1>{name}</1>\"."
     },
     "EditAgent": "Edit agent",
     "History": "Payments history",
@@ -188,6 +196,7 @@
       "CategoryDeleteWithMove": "Delete category keeping data",
       "ImportConvert": "Import reading file",
       "ImportSave": "Import data",
+      "LoanAgentDelete": "Delete loan agent",
       "TeamErase": "Erase team data"
     },
     "procPhase": {
@@ -211,6 +220,9 @@
       },
       "accountDelete": {
         "SelfDelete": "Account itself"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Loan agent"
       },
       "teamErase": {
         "InitNewData": "Create initial data"
