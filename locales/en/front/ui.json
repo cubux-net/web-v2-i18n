@@ -22,6 +22,9 @@
   "check": {
     "CheckAll": "Check all"
   },
+  "currencyRateHint": {
+    "ExchangeCurrency": "Exchange rate"
+  },
   "date": {
     "label": {
       "SelectRange": "Select a range",
@@ -58,6 +61,7 @@
     "CheckFormAndFixErrors": "Check data correctness and fix errors.",
     "CouldNotPerformOperation": "Couldn't perform operation.",
     "NoRecords": "Nothing here.",
+    "NothingWasFound": "Nothing was found.",
     "PleaseWait": "Please, wait...",
     "TemporaryDisabled": "Temporary disabled.",
     "ThisActionCannotBeUndone": "This action cannot be undone",

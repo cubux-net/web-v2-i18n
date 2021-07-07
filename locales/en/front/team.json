@@ -71,18 +71,74 @@
   "createTeam": {
     "Title": "Create team"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Currencies in accounts",
+      "OtherCurrencies": "Other currencies"
+    }
+  },
   "loan": {
     "IDidObtain": "I did obtain",
     "IDidProvide": "I did provide",
     "pageTitle": "Loans",
     "ReturnDate": "Return date",
-    "SelectAgent": "Select an agent",
-    "UntilDeadline": "until {deadline}"
+    "SelectAgent": "Select an agent"
   },
   "loanAgent": {
     "AddAgent": "Add agent",
+    "button": {
+      "credit": {
+        "Finish": "Finish",
+        "Return": "Return",
+        "TakeMore": "Take more"
+      },
+      "debit": {
+        "Finish": "Finish",
+        "GiveMore": "Give more",
+        "Take": "Take"
+      },
+      "DeleteKeepTransactions": "Delete agent, keep transactions",
+      "DeleteWithTransactions": "Delete with transactions"
+    },
+    "Comment": "Comment",
+    "deadline": {
+      "inDays": "in {n, plural, one{# day} other{# days}}",
+      "INeedReturnUntil": "I should to return until",
+      "PromisedToMeReturnUntil": "Should be returned until",
+      "SendNoticeBefore": "Send notice before",
+      "setDate": "set date"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "All related transactions will become usual income and expense transactions. Also you can delete transactions too with agent.",
+      "CaseIfDeleteTransactions": "Deletion with transactions may cause accounts balances to change.",
+      "CaseIfKeepTransactions": "If you keep transactions they will become usual income and expense transactions and will not affect accounts balances.",
+      "YouAreGoingToDeleteAgent": "You are going to delete Loan Agent \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Edit agent",
     "History": "Payments history",
-    "Name": "Name"
+    "Name": "Name",
+    "NoticeToEmail": "Recipient name",
+    "NoticeToName": "Recipient E-mail",
+    "status": {
+      "YouHaveNoCredits": "You haven't credits. This is fine :)",
+      "YouHaveNoDebts": "Nobody in debt to you."
+    },
+    "TotalLoan": "Total loan"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "I did obtain",
+      "IDidProvide": "I did provide"
+    },
+    "AmountFromAccount": "Amount taken from account",
+    "AmountToAccount": "Amount given to account",
+    "button": {
+      "DeleteKeepTransaction": "Delete only loan",
+      "DeleteWithTransaction": "Delete WITH transaction"
+    },
+    "ConfirmDelete": "Are you sure to delete this loan operation? This action will not change accounts balance.",
+    "ConfirmDeleteMayKeepTransaction": "This loan operation is linked with transaction. You can keep the transaction or delete it too while deleting loan operation.",
+    "DealWithAccounts": "Does affect accounts"
   },
   "menu": {
     "label": {
@@ -140,6 +196,7 @@
       "CategoryDeleteWithMove": "Delete category keeping data",
       "ImportConvert": "Import reading file",
       "ImportSave": "Import data",
+      "LoanAgentDelete": "Delete loan agent",
       "TeamErase": "Erase team data"
     },
     "procPhase": {
@@ -163,6 +220,9 @@
       },
       "accountDelete": {
         "SelfDelete": "Account itself"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Loan agent"
       },
       "teamErase": {
         "InitNewData": "Create initial data"

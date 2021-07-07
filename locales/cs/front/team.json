@@ -71,18 +71,74 @@
   "createTeam": {
     "Title": "Vytvořit tým"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Měny účtů",
+      "OtherCurrencies": "Jiné měny"
+    }
+  },
   "loan": {
     "IDidObtain": "Já dlužím",
     "IDidProvide": "Dluží mně",
     "pageTitle": "Dluhy",
     "ReturnDate": "Datum vrácení",
-    "SelectAgent": "Zadejte protistranu",
-    "UntilDeadline": "nejpozději {deadline}"
+    "SelectAgent": "Zadejte protistranu"
   },
   "loanAgent": {
     "AddAgent": "Přidat protistranu",
+    "button": {
+      "credit": {
+        "Finish": "Splatit celý dluh",
+        "Return": "Splatit",
+        "TakeMore": "Půjčit si další"
+      },
+      "debit": {
+        "Finish": "Splatit celý dluh",
+        "GiveMore": "Přidat",
+        "Take": "Splatili"
+      },
+      "DeleteKeepTransactions": "Smazat, ale ponechat transakce",
+      "DeleteWithTransactions": "Smazat spolu s transakcemi"
+    },
+    "Comment": "Komentař",
+    "deadline": {
+      "inDays": "za {n, plural, one{# den} few{# dne} other{# dnů}}",
+      "INeedReturnUntil": "Vrátit do",
+      "PromisedToMeReturnUntil": "Datum vrácení",
+      "SendNoticeBefore": "Odeslat oznámení",
+      "setDate": "určit datum"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "Všechny dluhové transakce se stanou běžnými transakcemi. Transakce můžete také smazat společně s protistranou.",
+      "CaseIfDeleteTransactions": "Vymazání spolu s transakcemi může změnit zůstatky na účtech.",
+      "CaseIfKeepTransactions": "Pokud transakce ponecháte, promění se v běžné příjmy a výdaje beze změny zůstatků na účtu.",
+      "YouAreGoingToDeleteAgent": "Chystáte se smazat protistranu dluhu \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Změnit protistranu",
     "History": "Historie plateb",
-    "Name": "Jméno"
+    "Name": "Jméno",
+    "NoticeToEmail": "E-mail příjemce",
+    "NoticeToName": "Jméno příjemce",
+    "status": {
+      "YouHaveNoCredits": "Nemáte dluhy, to je dobře :)",
+      "YouHaveNoDebts": "Nikdo vám nic nedluží."
+    },
+    "TotalLoan": "Celkový dluh"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Dostal jsem",
+      "IDidProvide": "Vrátil jsem"
+    },
+    "AmountFromAccount": "Částka, která má být odepsána z účtu",
+    "AmountToAccount": "Částka připsaná na účet",
+    "button": {
+      "DeleteKeepTransaction": "Smazat pouze dluh",
+      "DeleteWithTransaction": "Smazat spolu s transakcí"
+    },
+    "ConfirmDelete": "Opravdu chcete smazat dluhovou transakci? Zůstatky na účtu nebudou ovlivněny.",
+    "ConfirmDeleteMayKeepTransaction": "Tato dluhová operace je spojena s transakcí. Při smazání této dluhové operace můžete transakci buď nechat, nebo ji smazat.",
+    "DealWithAccounts": "Ovlivňuje zůstatky na účtu"
   },
   "menu": {
     "label": {
@@ -96,7 +152,7 @@
       "Incomes": "Příjmy",
       "Loans": "Dluhy",
       "LoansEmpty": "Nemáte dluhy",
-      "Logout": "Východ",
+      "Logout": "Odejít",
       "Main": "Hlavní",
       "ReturnToOldVersion": "Zpět na starou verzi",
       "Settings": "Nastavení",
@@ -111,7 +167,7 @@
   "page": {
     "label": {
       "Accounts": "Účty",
-      "BankAccounts": "Bankovní účet"
+      "BankAccounts": "Bankovní účty"
     }
   },
   "plan": {
@@ -140,6 +196,7 @@
       "CategoryDeleteWithMove": "Odstranění kategorie s uložením dat",
       "ImportConvert": "Import: čtení souboru",
       "ImportSave": "Import dat",
+      "LoanAgentDelete": "Výmaz protistrany dluhu",
       "TeamErase": "Čištění týmu"
     },
     "procPhase": {
@@ -163,6 +220,9 @@
       },
       "accountDelete": {
         "SelfDelete": "Účet"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Dluhový agent"
       },
       "teamErase": {
         "InitNewData": "Vytváření počátečních dat"

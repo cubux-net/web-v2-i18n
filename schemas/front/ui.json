@@ -98,6 +98,17 @@
         "CheckAll"
       ]
     },
+    "currencyRateHint": {
+      "type": "object",
+      "properties": {
+        "ExchangeCurrency": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "ExchangeCurrency"
+      ]
+    },
     "date": {
       "type": "object",
       "properties": {
@@ -233,6 +244,9 @@
         "NoRecords": {
           "$ref": "#/$defs/string"
         },
+        "NothingWasFound": {
+          "$ref": "#/$defs/string"
+        },
         "PleaseWait": {
           "$ref": "#/$defs/string"
         },
@@ -254,6 +268,7 @@
         "CheckFormAndFixErrors",
         "CouldNotPerformOperation",
         "NoRecords",
+        "NothingWasFound",
         "PleaseWait",
         "TemporaryDisabled",
         "ThisActionCannotBeUndone",
@@ -342,6 +357,7 @@
   "required": [
     "button",
     "check",
+    "currencyRateHint",
     "date",
     "downgrade",
     "field",

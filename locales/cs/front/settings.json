@@ -14,10 +14,10 @@
       "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Chcete smazat účet spolu se všemi souvisejícími údaji, včetně následujících:"
     },
     "stateButton": {
-      "IsExcluded_off_exclude": "Počítá se se zbytkem",
-      "IsExcluded_on_include": "Nezapočítává se do zbytku",
+      "IsExcluded_off_exclude": "Započítává se do zůstatku",
+      "IsExcluded_on_include": "Nezapočítává se do zůstatku",
       "IsHidden_off_hide": "Zobrazit-Skrýt",
-      "IsHidden_on_show": "Skryté-Zobrazit"
+      "IsHidden_on_show": "Skrýt-Zobrazit"
     }
   },
   "actions": {
@@ -181,7 +181,8 @@
     },
     "feature": {
       "appFull": {
-        "title": "Plná funkčnost v mobilní aplikaci verze 2.0"
+        "JointAccess": "Společné účetnictví",
+        "Loans": "Dluhy"
       },
       "appSync": {
         "title": "Synchronizace s mobilní aplikací"
@@ -226,6 +227,10 @@
       },
       "Title": "Platba za předplatné",
       "TitleExternal": "Přechod na platbu"
+    },
+    "where": {
+      "FreeVersion": "V bezplatné verzi",
+      "MobileApp": "V mobilní aplikaci"
     }
   },
   "tabs": {

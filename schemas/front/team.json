@@ -291,6 +291,29 @@
         "Title"
       ]
     },
+    "currency": {
+      "type": "object",
+      "properties": {
+        "Select": {
+          "type": "object",
+          "properties": {
+            "CurrenciesInAccounts": {
+              "$ref": "#/$defs/string"
+            },
+            "OtherCurrencies": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CurrenciesInAccounts",
+            "OtherCurrencies"
+          ]
+        }
+      },
+      "required": [
+        "Select"
+      ]
+    },
     "loan": {
       "type": "object",
       "properties": {
@@ -306,9 +329,6 @@
         "SelectAgent": {
           "$ref": "#/$defs/string"
         },
-        "UntilDeadline": {
-          "$ref": "#/$defs/string"
-        },
         "pageTitle": {
           "$ref": "#/$defs/string"
         }
@@ -318,7 +338,6 @@
         "IDidProvide",
         "ReturnDate",
         "SelectAgent",
-        "UntilDeadline",
         "pageTitle"
       ]
     },
@@ -328,17 +347,220 @@
         "AddAgent": {
           "$ref": "#/$defs/string"
         },
+        "Comment": {
+          "$ref": "#/$defs/string"
+        },
+        "EditAgent": {
+          "$ref": "#/$defs/string"
+        },
         "History": {
           "$ref": "#/$defs/string"
         },
         "Name": {
           "$ref": "#/$defs/string"
+        },
+        "NoticeToEmail": {
+          "$ref": "#/$defs/string"
+        },
+        "NoticeToName": {
+          "$ref": "#/$defs/string"
+        },
+        "TotalLoan": {
+          "$ref": "#/$defs/string"
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "DeleteKeepTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "credit": {
+              "type": "object",
+              "properties": {
+                "Finish": {
+                  "$ref": "#/$defs/string"
+                },
+                "Return": {
+                  "$ref": "#/$defs/string"
+                },
+                "TakeMore": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "Finish",
+                "Return",
+                "TakeMore"
+              ]
+            },
+            "debit": {
+              "type": "object",
+              "properties": {
+                "Finish": {
+                  "$ref": "#/$defs/string"
+                },
+                "GiveMore": {
+                  "$ref": "#/$defs/string"
+                },
+                "Take": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "Finish",
+                "GiveMore",
+                "Take"
+              ]
+            }
+          },
+          "required": [
+            "DeleteKeepTransactions",
+            "DeleteWithTransactions",
+            "credit",
+            "debit"
+          ]
+        },
+        "deadline": {
+          "type": "object",
+          "properties": {
+            "INeedReturnUntil": {
+              "$ref": "#/$defs/string"
+            },
+            "PromisedToMeReturnUntil": {
+              "$ref": "#/$defs/string"
+            },
+            "SendNoticeBefore": {
+              "$ref": "#/$defs/string"
+            },
+            "inDays": {
+              "$ref": "#/$defs/string"
+            },
+            "setDate": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "INeedReturnUntil",
+            "PromisedToMeReturnUntil",
+            "SendNoticeBefore",
+            "inDays",
+            "setDate"
+          ]
+        },
+        "delete": {
+          "type": "object",
+          "properties": {
+            "AllRelatedTransactionsDeleteChoice": {
+              "$ref": "#/$defs/string"
+            },
+            "CaseIfDeleteTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "CaseIfKeepTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "YouAreGoingToDeleteAgent": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "AllRelatedTransactionsDeleteChoice",
+            "CaseIfDeleteTransactions",
+            "CaseIfKeepTransactions",
+            "YouAreGoingToDeleteAgent"
+          ]
+        },
+        "status": {
+          "type": "object",
+          "properties": {
+            "YouHaveNoCredits": {
+              "$ref": "#/$defs/string"
+            },
+            "YouHaveNoDebts": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "YouHaveNoCredits",
+            "YouHaveNoDebts"
+          ]
         }
       },
       "required": [
         "AddAgent",
+        "Comment",
+        "EditAgent",
         "History",
-        "Name"
+        "Name",
+        "NoticeToEmail",
+        "NoticeToName",
+        "TotalLoan",
+        "button",
+        "deadline",
+        "delete",
+        "status"
+      ]
+    },
+    "loanOperation": {
+      "type": "object",
+      "properties": {
+        "AmountFromAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "AmountToAccount": {
+          "$ref": "#/$defs/string"
+        },
+        "ConfirmDelete": {
+          "$ref": "#/$defs/string"
+        },
+        "ConfirmDeleteMayKeepTransaction": {
+          "$ref": "#/$defs/string"
+        },
+        "DealWithAccounts": {
+          "$ref": "#/$defs/string"
+        },
+        "amount": {
+          "type": "object",
+          "properties": {
+            "IDidObtain": {
+              "$ref": "#/$defs/string"
+            },
+            "IDidProvide": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "IDidObtain",
+            "IDidProvide"
+          ]
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "DeleteKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransaction": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DeleteKeepTransaction",
+            "DeleteWithTransaction"
+          ]
+        }
+      },
+      "required": [
+        "AmountFromAccount",
+        "AmountToAccount",
+        "ConfirmDelete",
+        "ConfirmDeleteMayKeepTransaction",
+        "DealWithAccounts",
+        "amount",
+        "button"
       ]
     },
     "menu": {
@@ -551,6 +773,9 @@
             "ImportSave": {
               "$ref": "#/$defs/string"
             },
+            "LoanAgentDelete": {
+              "$ref": "#/$defs/string"
+            },
             "TeamErase": {
               "$ref": "#/$defs/string"
             }
@@ -562,6 +787,7 @@
             "CategoryDeleteWithMove",
             "ImportConvert",
             "ImportSave",
+            "LoanAgentDelete",
             "TeamErase"
           ]
         },
@@ -650,6 +876,17 @@
                 "SelfDelete"
               ]
             },
+            "loanAgentDelete": {
+              "type": "object",
+              "properties": {
+                "SelfDelete": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "SelfDelete"
+              ]
+            },
             "teamErase": {
               "type": "object",
               "properties": {
@@ -665,6 +902,7 @@
           "required": [
             "_common",
             "accountDelete",
+            "loanAgentDelete",
             "teamErase"
           ]
         }
@@ -827,8 +1065,10 @@
     "category",
     "common",
     "createTeam",
+    "currency",
     "loan",
     "loanAgent",
+    "loanOperation",
     "menu",
     "message",
     "page",

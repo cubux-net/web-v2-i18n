@@ -22,6 +22,9 @@
   "check": {
     "CheckAll": "Выбрать все"
   },
+  "currencyRateHint": {
+    "ExchangeCurrency": "Обмен по курсу"
+  },
   "date": {
     "label": {
       "SelectRange": "Выберите диапазон",
@@ -58,6 +61,7 @@
     "CheckFormAndFixErrors": "Проверьте правильность заполнения полей и исправьте ошибки.",
     "CouldNotPerformOperation": "Не удалось выполнить операцию.",
     "NoRecords": "Ничего нет.",
+    "NothingWasFound": "Ничего не найдено.",
     "PleaseWait": "Пожалуйста, подождите...",
     "TemporaryDisabled": "Временно отключено.",
     "ThisActionCannotBeUndone": "Это действие нельзя будет отменить.",

@@ -727,12 +727,16 @@
             "appFull": {
               "type": "object",
               "properties": {
-                "title": {
+                "JointAccess": {
+                  "$ref": "#/$defs/string"
+                },
+                "Loans": {
                   "$ref": "#/$defs/string"
                 }
               },
               "required": [
-                "title"
+                "JointAccess",
+                "Loans"
               ]
             },
             "appSync": {
@@ -909,13 +913,29 @@
             "message",
             "priceUnit"
           ]
+        },
+        "where": {
+          "type": "object",
+          "properties": {
+            "FreeVersion": {
+              "$ref": "#/$defs/string"
+            },
+            "MobileApp": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "FreeVersion",
+            "MobileApp"
+          ]
         }
       },
       "required": [
         "button",
         "feature",
         "label",
-        "payDialog"
+        "payDialog",
+        "where"
       ]
     },
     "tabs": {

@@ -11,14 +11,15 @@
     "Interval": "Periodicita",
     "Name": "Název",
     "NewAccountName": "Název účtu pro cíl",
-    "PayAmount": "Odložit na později",
+    "PayAmount": "Odložit částku",
     "PayFromAccount": "Odložit z účtu",
     "Remain": "Zbývá",
     "ReserveOnAccount": "Rezervujte částku na účtu",
     "StartPaySince": "Začít odkládat s",
     "TotalAmount": "Částka"
   },
-  "RemoveQuest": "Opravdu chcete odstranit vybraný cíl? Tím se odstraní všechny související transakce, pokud existují, což může vést ke změně zůstatků na účtech.",
+  "RemoveQuest": "Opravdu chcete odstranit vybraný cíl? Tím se odstraní všechny související transakce, což může vést ke změně zůstatků na účtech.",
+  "RemoveQuestSimple": "Opravdu chcete odstranit vybraný cíl?",
   "state": {
     "Completed": "Splněné",
     "Pending": "Zamýšlené"

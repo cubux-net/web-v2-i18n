@@ -71,18 +71,74 @@
   "createTeam": {
     "Title": "Создать команду"
   },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Валюты счетов",
+      "OtherCurrencies": "Другие валюты"
+    }
+  },
   "loan": {
     "IDidObtain": "Я должен",
     "IDidProvide": "Мне должны",
     "pageTitle": "Долги",
     "ReturnDate": "Дата возврата",
-    "SelectAgent": "Укажите контрагента",
-    "UntilDeadline": "не позднее {deadline}"
+    "SelectAgent": "Укажите контрагента"
   },
   "loanAgent": {
     "AddAgent": "Добавить контрагента",
+    "button": {
+      "credit": {
+        "Finish": "Погасить",
+        "Return": "Вернуть",
+        "TakeMore": "Взять ещё"
+      },
+      "debit": {
+        "Finish": "Погасить",
+        "GiveMore": "Дать ещё",
+        "Take": "Вернули"
+      },
+      "DeleteKeepTransactions": "Удалить, но оставить транзакции",
+      "DeleteWithTransactions": "Удалить вместе с транзакциями"
+    },
+    "Comment": "Комментарий",
+    "deadline": {
+      "inDays": "за {n, plural, one{# день} few{# дня} other{# дней}}",
+      "INeedReturnUntil": "Вернуть не позднее",
+      "PromisedToMeReturnUntil": "Обещали вернуть",
+      "SendNoticeBefore": "Отправить уведомление",
+      "setDate": "указать дату"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "Все связанные транзакции станут обычными транзакциями. Также вы можете удалить и транзакции вместе с контрагентом.",
+      "CaseIfDeleteTransactions": "Удаление вместе с транзакциями может изменить остатки на счетах.",
+      "CaseIfKeepTransactions": "Если оставить транзакции, они превратятся в обычные доходы и расходы, не меняя остатки на счетах.",
+      "YouAreGoingToDeleteAgent": "Вы собираетесь удалить долгового контрагента \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Изменить контрагента",
     "History": "История платежей",
-    "Name": "Имя"
+    "Name": "Имя",
+    "NoticeToEmail": "E-mail получателя",
+    "NoticeToName": "Имя получателя",
+    "status": {
+      "YouHaveNoCredits": "У Вас нет долгов, это хорошо :)",
+      "YouHaveNoDebts": "Вам никто не должен."
+    },
+    "TotalLoan": "Общий долг"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Я получил",
+      "IDidProvide": "Я отдал"
+    },
+    "AmountFromAccount": "Сумма списания со счёта",
+    "AmountToAccount": "Сумма зачисления на счёт",
+    "button": {
+      "DeleteKeepTransaction": "Удалить только долг",
+      "DeleteWithTransaction": "Удалить вместе с транзакцией"
+    },
+    "ConfirmDelete": "Вы уверены, что хотите удалить долговую операцию? Это не затронет остатки на счетах.",
+    "ConfirmDeleteMayKeepTransaction": "Эта долговая операция связана с транзакцией. При удалении этой долговой операции вы можете как оставить транзакцию, так и удалить её.",
+    "DealWithAccounts": "Влияет на остатки на счетах"
   },
   "menu": {
     "label": {
@@ -140,6 +196,7 @@
       "CategoryDeleteWithMove": "Удаление категории с сохранением данных",
       "ImportConvert": "Импорт: чтение файла",
       "ImportSave": "Импорт данных",
+      "LoanAgentDelete": "Удаление долгового контрагента",
       "TeamErase": "Очистка команды"
     },
     "procPhase": {
@@ -163,6 +220,9 @@
       },
       "accountDelete": {
         "SelfDelete": "Счёт"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Долговой агент"
       },
       "teamErase": {
         "InitNewData": "Создание начальных данных"
