@@ -264,6 +264,12 @@
   "transactions": {
     "label": {
       "TransactionsForDate": "Транзакции за {date}"
+    },
+    "title": {
+      "CreateOperation": "Создать операцию",
+      "CreateTransfer": "Создать перевод",
+      "EditOperation": "Изменить операцию",
+      "EditTransfer": "Изменить перевод"
     }
   }
 }

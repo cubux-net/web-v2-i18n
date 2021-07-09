@@ -16,7 +16,11 @@
   },
   "table": {
     "button": {
-      "MoreTransactions": "Ещё транзакции"
+      "ConfigureTable": "Настроить таблицу",
+      "CreateCopy": "Создать копию",
+      "MoreTransactions": "Ещё транзакции",
+      "ShowReceipt": "Показать чек",
+      "SplitTransfer": "Разделить перевод"
     },
     "content": {
       "NothingWasFound": "Нет транзакций"

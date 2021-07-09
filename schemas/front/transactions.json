@@ -71,12 +71,28 @@
         "button": {
           "type": "object",
           "properties": {
+            "ConfigureTable": {
+              "$ref": "#/$defs/string"
+            },
+            "CreateCopy": {
+              "$ref": "#/$defs/string"
+            },
             "MoreTransactions": {
+              "$ref": "#/$defs/string"
+            },
+            "ShowReceipt": {
+              "$ref": "#/$defs/string"
+            },
+            "SplitTransfer": {
               "$ref": "#/$defs/string"
             }
           },
           "required": [
-            "MoreTransactions"
+            "ConfigureTable",
+            "CreateCopy",
+            "MoreTransactions",
+            "ShowReceipt",
+            "SplitTransfer"
           ]
         },
         "content": {

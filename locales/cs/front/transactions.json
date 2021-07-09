@@ -16,7 +16,11 @@
   },
   "table": {
     "button": {
-      "MoreTransactions": "Další transakce"
+      "ConfigureTable": "Přizpůsobit tabulku",
+      "CreateCopy": "Vytvořte kopii",
+      "MoreTransactions": "Další transakce",
+      "ShowReceipt": "Zobrazit účtenku",
+      "SplitTransfer": "Rozdělit převod"
     },
     "content": {
       "NothingWasFound": "Žádné transakce"

@@ -264,6 +264,12 @@
   "transactions": {
     "label": {
       "TransactionsForDate": "Transakce dne {date}"
+    },
+    "title": {
+      "CreateOperation": "Vytvořit transakci",
+      "CreateTransfer": "Vytvořit převod",
+      "EditOperation": "Změnit transakci",
+      "EditTransfer": "Změnit převod"
     }
   }
 }

@@ -16,7 +16,11 @@
   },
   "table": {
     "button": {
-      "MoreTransactions": "More transactions"
+      "ConfigureTable": "Configure table",
+      "CreateCopy": "Create a copy",
+      "MoreTransactions": "More transactions",
+      "ShowReceipt": "Show receipt",
+      "SplitTransfer": "Split transfer"
     },
     "content": {
       "NothingWasFound": "There are no transactions"

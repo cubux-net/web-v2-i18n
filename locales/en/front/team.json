@@ -264,6 +264,12 @@
   "transactions": {
     "label": {
       "TransactionsForDate": "Transactions for {date}"
+    },
+    "title": {
+      "CreateOperation": "Create operation",
+      "CreateTransfer": "Create transfer",
+      "EditOperation": "Edit operation",
+      "EditTransfer": "Edit transfer"
     }
   }
 }

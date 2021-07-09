@@ -1052,10 +1052,34 @@
           "required": [
             "TransactionsForDate"
           ]
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "CreateOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "CreateTransfer": {
+              "$ref": "#/$defs/string"
+            },
+            "EditOperation": {
+              "$ref": "#/$defs/string"
+            },
+            "EditTransfer": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreateOperation",
+            "CreateTransfer",
+            "EditOperation",
+            "EditTransfer"
+          ]
         }
       },
       "required": [
-        "label"
+        "label",
+        "title"
       ]
     }
   },
