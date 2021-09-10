@@ -44,6 +44,9 @@
         "ImportCsv": {
           "$ref": "#/$defs/string"
         },
+        "Insert": {
+          "$ref": "#/$defs/string"
+        },
         "Next": {
           "$ref": "#/$defs/string"
         },
@@ -51,6 +54,9 @@
           "$ref": "#/$defs/string"
         },
         "OK": {
+          "$ref": "#/$defs/string"
+        },
+        "Retry": {
           "$ref": "#/$defs/string"
         },
         "Save": {
@@ -78,9 +84,11 @@
         "Delete",
         "Edit",
         "ImportCsv",
+        "Insert",
         "Next",
         "No",
         "OK",
+        "Retry",
         "Save",
         "SelectAccount",
         "SelectPartner",
@@ -241,6 +249,9 @@
         "CouldNotPerformOperation": {
           "$ref": "#/$defs/string"
         },
+        "Done": {
+          "$ref": "#/$defs/string"
+        },
         "NoRecords": {
           "$ref": "#/$defs/string"
         },
@@ -267,6 +278,7 @@
         "CautionAboutDataLoss",
         "CheckFormAndFixErrors",
         "CouldNotPerformOperation",
+        "Done",
         "NoRecords",
         "NothingWasFound",
         "PleaseWait",

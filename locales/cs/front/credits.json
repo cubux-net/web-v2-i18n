@@ -1,0 +1,72 @@
+{
+  "button": {
+    "AddCredit": ""
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": ""
+  },
+  "form": {
+    "hint": {
+      "Duration": ""
+    },
+    "label": {
+      "Duration": "",
+      "EndDate": "",
+      "FeeFromAccounts": "",
+      "Name": "",
+      "OnlyCurrency": "",
+      "PlanType": "",
+      "Rate": "",
+      "ReceiveCreditToAccount": "",
+      "RemainToFee": "",
+      "StartDate": "",
+      "TotalCreditAmount": "",
+      "TotalPayAmount": ""
+    },
+    "planType": {
+      "Ann": "",
+      "Diff": ""
+    },
+    "title": {
+      "CreateCredit": "",
+      "EditCredit": ""
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "",
+      "Date": "",
+      "PaidAmount": ""
+    },
+    "title": {
+      "CreatePlan": "",
+      "EditPlan": ""
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "",
+      "Pending": ""
+    },
+    "Title": ""
+  },
+  "pageItem": {
+    "button": {
+      "PayNow": ""
+    },
+    "label": {
+      "AlreadyPaidAmount": "",
+      "CreatePayCalendar": "",
+      "NextPayment": "",
+      "ViewPayCalendar": ""
+    },
+    "message": {
+      "DeleteConfirm": ""
+    },
+    "title": {
+      "DeleteCredit": "",
+      "Operations": "",
+      "PaymentsChart": ""
+    }
+  }
+}
