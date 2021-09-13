@@ -32,6 +32,14 @@
       "EditCredit": ""
     }
   },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Ovlivňuje zůstatky na účtu",
+      "LinkToPlan": "",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": ""
+    }
+  },
   "formPlan": {
     "label": {
       "Amount": "",

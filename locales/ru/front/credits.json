@@ -32,6 +32,14 @@
       "EditCredit": "Изменить кредит"
     }
   },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Влияет на остатки на счетах",
+      "LinkToPlan": "Привязать к графику",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "вне плана"
+    }
+  },
   "formPlan": {
     "label": {
       "Amount": "Сумма",

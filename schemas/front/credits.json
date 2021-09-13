@@ -137,6 +137,37 @@
         "title"
       ]
     },
+    "formOperation": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "DealWithAccounts": {
+              "$ref": "#/$defs/string"
+            },
+            "LinkToPlan": {
+              "$ref": "#/$defs/string"
+            },
+            "LinkToPlanItem": {
+              "$ref": "#/$defs/string"
+            },
+            "NoLinkToPlan": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DealWithAccounts",
+            "LinkToPlan",
+            "LinkToPlanItem",
+            "NoLinkToPlan"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
     "formPlan": {
       "type": "object",
       "properties": {
@@ -287,6 +318,7 @@
     "button",
     "error",
     "form",
+    "formOperation",
     "formPlan",
     "page",
     "pageItem"
