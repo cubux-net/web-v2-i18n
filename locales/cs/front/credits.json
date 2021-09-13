@@ -60,6 +60,8 @@
   },
   "pageItem": {
     "button": {
+      "DeleteKeepTransaction": "Smazat, ale ponechat transakce",
+      "DeleteWithTransaction": "Smazat spolu s transakcí",
       "PayNow": ""
     },
     "label": {
@@ -69,6 +71,8 @@
       "ViewPayCalendar": ""
     },
     "message": {
+      "ConfirmDelete": "Opravdu chcete smazat КРЕДИТНУЮ transakci? Zůstatky na účtu nebudou ovlivněny.",
+      "ConfirmDeleteMayKeepTransaction": "Tato КРЕДИТНАЯ operace je spojena s transakcí. Při smazání této КРЕДИТНОЙ operace můžete transakci buď nechat, nebo ji smazat.",
       "DeleteConfirm": ""
     },
     "title": {

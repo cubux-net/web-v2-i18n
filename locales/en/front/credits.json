@@ -60,6 +60,8 @@
   },
   "pageItem": {
     "button": {
+      "DeleteKeepTransaction": "Delete operation, keep transactions",
+      "DeleteWithTransaction": "Delete WITH transaction",
       "PayNow": "Pay now"
     },
     "label": {
@@ -69,6 +71,8 @@
       "ViewPayCalendar": "View payments plan"
     },
     "message": {
+      "ConfirmDelete": "Are you sure to delete this credit operation? This action will not change accounts balance.",
+      "ConfirmDeleteMayKeepTransaction": "This credit operation is linked with transaction. You can keep the transaction or delete it too while deleting credit operation.",
       "DeleteConfirm": "Are you sure to delete this credit completely?"
     },
     "title": {

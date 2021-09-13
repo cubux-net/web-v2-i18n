@@ -244,11 +244,19 @@
         "button": {
           "type": "object",
           "properties": {
+            "DeleteKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransaction": {
+              "$ref": "#/$defs/string"
+            },
             "PayNow": {
               "$ref": "#/$defs/string"
             }
           },
           "required": [
+            "DeleteKeepTransaction",
+            "DeleteWithTransaction",
             "PayNow"
           ]
         },
@@ -278,11 +286,19 @@
         "message": {
           "type": "object",
           "properties": {
+            "ConfirmDelete": {
+              "$ref": "#/$defs/string"
+            },
+            "ConfirmDeleteMayKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
             "DeleteConfirm": {
               "$ref": "#/$defs/string"
             }
           },
           "required": [
+            "ConfirmDelete",
+            "ConfirmDeleteMayKeepTransaction",
             "DeleteConfirm"
           ]
         },
