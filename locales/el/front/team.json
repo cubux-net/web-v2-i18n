@@ -1,0 +1,276 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Προσθήκη λογαριασμού"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Κάντε κλικ για ανανέωση δεδομένων",
+      "NextRefreshPossibleAt": "Η επόμενη ανανέωση είναι δυνατή μετά από {when}.",
+      "ReconnectToBank": "Ρύθμιση παραμέτρων τραπεζικής σύνδεσης",
+      "WillAutoRefresh": "Αυτός ο λογαριασμός θα ανανεωθεί αυτόματα."
+    },
+    "messages": {
+      "BankSyncLost": "Η σύνδεση με την τράπεζα χάθηκε.",
+      "BankSyncNotFound": "Δεν είναι δυνατή η πρόσβαση σε τραπεζική σύνδεση. Μόνο ο κάτοχος της σύνδεσης μπορεί να έχει πρόσβαση σε αυτή.",
+      "CannotRefreshRightNow": "Δεν είναι δυνατή η ανανέωση δεδομένων αυτήν τη στιγμή.",
+      "RefreshDidNotScheduled": "Η ανανέωση δεν προγραμματίστηκε. Πιθανώς, η ρύθμιση της σύνδεσης δεν είναι πλήρης.",
+      "RefreshScheduled": "Η προσπάθεια ανανέωσης των δεδομένων έχει προγραμματιστεί για το εγγύς μέλλον."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Έληξε το χρονικό όριο της αλληλεπιδραστικής επιβεβαίωσης.",
+      "InvalidCredentials": "Μη έγκυρα διαπιστευτήρια.",
+      "RemoteAccountDeleted": "Ο απομακρυσμένος λογαριασμός διαγράφηκε.",
+      "RemoteAuthOutdated": "Ο απομακρυσμένος έλεγχος ταυτότητας είναι ξεπερασμένος."
+    },
+    "title": {
+      "Reconnect": "Επανασύνδεση τραπεζικού λογαριασμού"
+    }
+  },
+  "calendar": {
+    "label": {
+      "Account": "Λογαριασμός",
+      "Balance": "Ισορροπία",
+      "Expenses": "Έξοδα",
+      "Incomes": "Εισοδήματα"
+    },
+    "message": {
+      "NoOperations": "Δεν βρέθηκαν εργασίες για αυτή την ημέρα."
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Χρήση στον κύριο προϋπολογισμό"
+    },
+    "label": {
+      "AddCategory": "Προσθήκη κατηγορίας",
+      "AddSubCategory": "Προσθήκη υποκατηγορίας",
+      "CategoryName": "Όνομα κατηγορίας",
+      "ChooseIcon": "Επιλογή εικονιδίου",
+      "EditCategory": "Επεξεργασία κατηγορίας",
+      "Subcategories": "Υποκατηγορίες",
+      "Subcategory": "Υποκατηγορία",
+      "SubCategoryName": "Όνομα υποκατηγορίας"
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Αποθήκευση και δημιουργία ενός ακόμη"
+    },
+    "label": {
+      "currentOfTotal": "{current} of {total}",
+      "Description": "Περιγραφή",
+      "Limit": "Όριο",
+      "ofTotal": "of {total}",
+      "Plan": "Σχέδιο",
+      "syncWithGoogleCalendar": "Συγχρονισμός με το Ημερολόγιο Google",
+      "Totals_ExpensesAre": "Έξοδα<0>{amount}</0>",
+      "Totals_IncomesAre": "Εισοδήματα <0>{amount}</0>",
+      "TotalsByFilterAre": "Σύνολα για τα συγκεκριμένα κριτήρια:"
+    }
+  },
+  "createTeam": {
+    "Title": "Δημιουργία ομάδας"
+  },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Νομίσματα σε λογαριασμούς",
+      "OtherCurrencies": "Άλλα νομίσματα"
+    }
+  },
+  "loan": {
+    "IDidObtain": "Απέκτησα",
+    "IDidProvide": "Παρείχα",
+    "pageTitle": "Δάνεια",
+    "ReturnDate": "Ημερομηνία επιστροφής",
+    "SelectAgent": "Επιλογή παράγοντα"
+  },
+  "loanAgent": {
+    "AddAgent": "Προσθήκη παράγοντα",
+    "button": {
+      "credit": {
+        "Finish": "Τέλος",
+        "Return": "Επιστροφή",
+        "TakeMore": "Λήψη περισσότερων"
+      },
+      "debit": {
+        "Finish": "Τέλος",
+        "GiveMore": "Δώστε περισσότερα",
+        "Take": "Λήψη"
+      },
+      "DeleteKeepTransactions": "Διαγραφή παράγοντα, διατήρηση συναλλαγών",
+      "DeleteWithTransactions": "Διαγραφή με τις συναλλαγές"
+    },
+    "Comment": "Σχόλιο",
+    "deadline": {
+      "inDays": "in {n, plural, one{# day} other{# days}}",
+      "INeedReturnUntil": "Πρέπει να επιστρέψω μέχρι",
+      "PromisedToMeReturnUntil": "Θα πρέπει να επιστραφεί μέχρι",
+      "SendNoticeBefore": "Αποστολή ειδοποίησης πριν",
+      "setDate": "ορισμός ημερομηνίας"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "Όλες οι σχετικές συναλλαγές θα γίνουν συνήθεις συναλλαγές εσόδων και εξόδων. Επίσης μπορείτε να διαγράψετε συναλλαγές πάρα πολύ με τον παράγοντα. ",
+      "CaseIfDeleteTransactions": "Η διαγραφή με συναλλαγές μπορεί να προκαλέσει αλλαγή των υπολοίπων λογαριασμών.",
+      "CaseIfKeepTransactions": "Αν διατηρείτε συναλλαγές θα γίνονται συνήθεις συναλλαγές εσόδων και εξόδων και δεν θα επηρεάζουν τα υπόλοιπα των λογαριασμών.",
+      "YouAreGoingToDeleteAgent": "Πρόκειται να διαγράψετε τον παράγοντα δανείου \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Επεξεργασία Παράγοντα",
+    "History": "Ιστορικό πληρωμών",
+    "Name": "Όνομα",
+    "NoticeToEmail": "Όνομα παραλήπτη",
+    "NoticeToName": "Ηλεκτρονικό ταχυδρομείο παραλήπτη",
+    "status": {
+      "YouHaveNoCredits": "Δεν έχετε πιστώσεις. Αυτό είναι μια χαρά :)",
+      "YouHaveNoDebts": "Κανείς δεν σου χρωστάει."
+    },
+    "TotalLoan": "Συνολικό δάνειο"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Απέκτησα",
+      "IDidProvide": "Παρείχα"
+    },
+    "AmountFromAccount": "Ποσό που λαμβάνεται υπόψη",
+    "AmountToAccount": "Ποσό που έχει δοθεί στον λογαριασμό",
+    "button": {
+      "DeleteKeepTransaction": "Διαγραφή μόνο δανείου",
+      "DeleteWithTransaction": "Διαγραφή ΜΕ συναλλαγή"
+    },
+    "ConfirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη λειτουργία δανείου; Αυτή η ενέργεια δεν θα αλλάξει το υπόλοιπο των λογαριασμών. ",
+    "ConfirmDeleteMayKeepTransaction": "Αυτή η δανειακή πράξη συνδέεται με τη συναλλαγή. Μπορείτε να διατηρήσετε τη συναλλαγή ή να τη διαγράψετε επίσης κατά τη διαγραφή της λειτουργίας δανείου.",
+    "DealWithAccounts": "Επηρεάζει τους λογαριασμούς"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Αναλυτικά στοιχεία",
+      "Balance": "Ισορροπία",
+      "Budget": "Προϋπολογισμός",
+      "Calendar": "Ημερολόγιο",
+      "CreateTeam": "Δημιουργία ομάδας",
+      "Credits": "",
+      "Expenses": "Έξοδα",
+      "Goals": "Στόχοι",
+      "Incomes": "Εισοδήματα",
+      "Loans": "Δάνεια",
+      "LoansEmpty": "Απουσία",
+      "Logout": "Αποσύνδεση",
+      "Main": "Κύρια",
+      "ReturnToOldVersion": "Επιστροφή στην παλιά έκδοση",
+      "Settings": "Ρυθμίσεις",
+      "Support": "Υποστήριξη"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Επιλέξτε λογαριασμό",
+    "AmountIsEmpty": "Πληκτρολογήστε ένα ποσό",
+    "CategoryDidntSelect": "Επιλογή κατηγορίας"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Λογαριασμοί",
+      "BankAccounts": "Τραπεζικοί λογαριασμοί"
+    }
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Καθημερινά",
+      "Monthly": "Μηνιαία",
+      "none": "κανένα",
+      "Quarterly": "Τριμηνιαία",
+      "Weekly": "Εβδομαδιαία",
+      "Yearly": "Ετήσια"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "εργασία που δημιουργήθηκε"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "Η λειτουργία ολοκληρώθηκε με επιτυχία.",
+      "OperationFailed": "Η λειτουργία ματαιώθηκε λόγω σφαλμάτων.",
+      "OperationIsPending": "Η λειτουργία εκκρεμεί. Παρακαλώ, περιμένετε."
+    },
+    "procName": {
+      "AccountAuthUnlink": "Αποσύνδεση λογαριασμού από συγχρονισμό τραπεζών",
+      "AccountDelete": "Διαγραφή λογαριασμού",
+      "CategoryDelete": "Διαγραφή κατηγορίας",
+      "CategoryDeleteWithMove": "Διαγραφή δεδομένων διατήρησης κατηγορίας",
+      "ImportConvert": "Εισαγωγή αρχείου ανάγνωσης",
+      "ImportSave": "Εισαγωγή δεδομένων",
+      "LoanAgentDelete": "Διαγραφή παράγοντα δανείου",
+      "TeamErase": "Διαγραφή δεδομένων ομάδας"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Λογαριασμοί",
+        "Budget": "Προϋπολογισμός",
+        "Categories": "Κατηγορίες",
+        "Drafts": "Απόδειξη (photo)",
+        "Goods": "Λίστες καταστημάτων: καλές προτάσεις",
+        "Images": "Εικόνες",
+        "Initialization": "Αρχικοποίηση",
+        "LoanAgents": "Δάνειο παράγοντες",
+        "LoanHistory": "Ιστορικό δανείων",
+        "PlanConfirms": "Ανεπιβεβαίωτες συναλλαγές",
+        "Plans": "Προγραμματισμένες λειτουργίες",
+        "Receipts": "Αποδείξεις",
+        "ShopListItems": "Λίστες καταστημάτων: θέσεις",
+        "ShopLists": "Κατάλογοι καταστημάτων",
+        "Targets": "Στόχοι",
+        "Transactions": "Συναλλαγές"
+      },
+      "accountDelete": {
+        "SelfDelete": "Ο ίδιος ο λογαριασμός"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Δάνειο παράγοντας"
+      },
+      "teamErase": {
+        "InitNewData": "Δημιουργία αρχικών δεδομένων"
+      }
+    }
+  },
+  "project": {
+    "Name": "Όνομα",
+    "title": {
+      "CreateProject": "Δημιουργία έργου",
+      "EditProject": "Επεξεργασία έργου"
+    }
+  },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Αναμονή για λήψη δεδομένων.",
+      "Invalid": "Η απόδειξη δεν είναι έγκυρη.",
+      "Rejected": "Η απόδειξη απορρίφθηκε από την υπηρεσία παροχής δεδομένων.",
+      "Validation": "Αναμονή για επικύρωση."
+    },
+    "label": {
+      "Positions": "Κατάλογος θέσεων",
+      "TotalSum": "Σύνολο",
+      "UnknownShop": "Άγνωστο κατάστημα"
+    },
+    "message": {
+      "NoPositions": "Χωρίς θέσεις",
+      "ShopNameIsEmpty": "Το όνομα του καταστήματος είναι άγνωστο. Παρακαλώ, διευκρινίστε το όνομα του καταστήματος."
+    }
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Κόστος",
+      "Name": "Όνομα",
+      "Price": "Τιμή",
+      "Qty": "Ποσότητα"
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Συναλλαγές για {date}"
+    },
+    "title": {
+      "CreateOperation": "Δημιουργία λειτουργίας",
+      "CreateTransfer": "Δημιουργία μεταφοράς",
+      "EditOperation": "Λειτουργία επεξεργασίας",
+      "EditTransfer": "Επεξεργασία μεταφοράς"
+    }
+  }
+}

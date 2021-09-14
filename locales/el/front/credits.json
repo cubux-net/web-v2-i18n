@@ -1,0 +1,84 @@
+{
+  "button": {
+    "AddCredit": ""
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": ""
+  },
+  "form": {
+    "hint": {
+      "Duration": ""
+    },
+    "label": {
+      "Duration": "",
+      "EndDate": "",
+      "FeeFromAccounts": "",
+      "Name": "",
+      "OnlyCurrency": "",
+      "PlanType": "",
+      "Rate": "",
+      "ReceiveCreditToAccount": "",
+      "RemainToFee": "",
+      "StartDate": "",
+      "TotalCreditAmount": "",
+      "TotalPayAmount": ""
+    },
+    "planType": {
+      "Ann": "",
+      "Diff": ""
+    },
+    "title": {
+      "CreateCredit": "",
+      "EditCredit": ""
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "",
+      "LinkToPlan": "",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": ""
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "",
+      "Date": "",
+      "PaidAmount": ""
+    },
+    "title": {
+      "CreatePlan": "",
+      "EditPlan": ""
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "",
+      "Pending": ""
+    },
+    "Title": ""
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "",
+      "DeleteWithTransaction": "",
+      "PayNow": ""
+    },
+    "label": {
+      "AlreadyPaidAmount": "",
+      "CreatePayCalendar": "",
+      "NextPayment": "",
+      "ViewPayCalendar": ""
+    },
+    "message": {
+      "ConfirmDelete": "",
+      "ConfirmDeleteMayKeepTransaction": "",
+      "DeleteConfirm": ""
+    },
+    "title": {
+      "DeleteCredit": "",
+      "Operations": "",
+      "PaymentsChart": ""
+    }
+  }
+}

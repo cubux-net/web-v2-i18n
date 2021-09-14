@@ -1,0 +1,5 @@
+{
+  "InvalidValue": "Μη έγκυρη τιμή",
+  "MinStringLength": "Τουλάχιστον {length, plural, one{# char} other{# chars}}",
+  "Required": "Απαιτείται τιμή"
+}

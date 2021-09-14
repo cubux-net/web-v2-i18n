@@ -1,0 +1,42 @@
+{
+  "operation": {
+    "label": {
+      "Commission": "Επιτροπή",
+      "CommissionCategory": "Κατηγορία Επιτροπής",
+      "CurrencyRate": "Ποσοστό",
+      "NeedConfirmation": "Χρειάζεται επιβεβαίωση",
+      "Project": "Έργο",
+      "Repetition": "Επανάληψη",
+      "SelectAccount": "Επιλογή λογαριασμού",
+      "SelectCategory": "Επιλογή κατηγορίας",
+      "SelectDate": "Επιλογή ημερομηνίας"
+    },
+    "message": {
+      "SelectDestinationAccount": "Επιλογή λογαριασμού προορισμού",
+      "SelectSourceAccount": "Επιλέξτε λογαριασμό προέλευσης",
+      "TransferSameAccount": "Η προέλευση και ο προορισμός είναι ο ίδιος λογαριασμός"
+    }
+  },
+  "page": {
+    "button": {
+      "AddCategory": "Προσθήκη κατηγορίας",
+      "AddSubcategory": "Προσθήκη υποκατηγορίας"
+    },
+    "filter": {
+      "dateRange": {
+        "AllTime": "Όλος ο χρόνος",
+        "Month": "Μήνας",
+        "Year": "Έτος"
+      }
+    },
+    "message": {
+      "CategoryNotFound": "Δεν υπάρχει τέτοια κατηγορία. Προσπαθήστε να επιστρέψετε σε <1>όλες τις κατηγορίες</1> ή στη σελίδα ανανέωσης."
+    },
+    "title": {
+      "Expenses": "Έξοδα",
+      "ExpensesByCategories": "Έξοδα ανά κατηγορίες",
+      "Incomes": "Εισοδήματα",
+      "IncomesByCategories": "Εισοδήματα ανά κατηγορίες"
+    }
+  }
+}

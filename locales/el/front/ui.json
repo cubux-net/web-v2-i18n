@@ -1,0 +1,94 @@
+{
+  "button": {
+    "Add": "Προσθήκη",
+    "Back": "Πίσω",
+    "Cancel": "Ακύρωση",
+    "ChooseIcon": "Επιλογή εικονιδίου",
+    "ChooseImage": "Επιλογή εικόνας",
+    "Close": "Κλείσιμο",
+    "Confirm": "Επιβεβαίωση",
+    "Create": "Δημιουργία",
+    "Delete": "Διαγραφή",
+    "Edit": "Επεξεργασία",
+    "ImportCsv": "Εισαγωγή CSV",
+    "Insert": "",
+    "Next": "Επόμενο",
+    "No": "Όχι",
+    "OK": "OK",
+    "Retry": "",
+    "Save": "Αποθήκευση",
+    "SelectAccount": "Επιλογή λογαριασμού",
+    "SelectPartner": "Επιλογή συνεργάτη",
+    "Yes": "Ναι"
+  },
+  "check": {
+    "CheckAll": "Έλεγχος όλων"
+  },
+  "currencyRateHint": {
+    "ExchangeCurrency": "Συναλλαγματική ισοτιμία"
+  },
+  "date": {
+    "label": {
+      "SelectRange": "Επιλογή περιοχής",
+      "since": "Από",
+      "Today": "Σήμερα",
+      "until": "Μέχρι"
+    }
+  },
+  "downgrade": {
+    "button": {
+      "Navigate": "Πλοήγηση"
+    },
+    "message": {
+      "PleaseProvideUsAReason": "Δώστε μας ένα λόγο, ώστε να βελτιώσουμε την υπηρεσία μας."
+    },
+    "subtitle": "Θα μας βοηθήσει να γίνουμε καλύτεροι.",
+    "title": "Γράψτε μας τι δεν σας άρεσε?"
+  },
+  "field": {
+    "MonthLimit": "Όριο μήνα",
+    "MonthPlan": "Σχέδιο μήνα"
+  },
+  "label": {
+    "AskAQuestion": "Κάντε μια ερώτηση",
+    "date": {
+      "sinceStart": "έναρξη",
+      "untilEnd": "Τέλος"
+    },
+    "DownloadAt": "Κατεβάστε στο",
+    "FoundATypo": "Βρέθηκε σφάλμα?"
+  },
+  "message": {
+    "CautionAboutDataLoss": "ΠΡΟΣΟΧΗ ΓΙΑ ΤΗΝ ΑΠΩΛΕΙΑ ΔΕΔΟΜΕΝΩΝ!",
+    "CheckFormAndFixErrors": "Έλεγχος ορθότητας δεδομένων και επιδιόρθωση σφαλμάτων.",
+    "CouldNotPerformOperation": "Δεν ήταν δυνατή η εκτέλεση της λειτουργίας.",
+    "Done": "",
+    "NoRecords": "Τίποτα εδώ.",
+    "NothingWasFound": "Δεν βρέθηκε τίποτα.",
+    "PleaseWait": "Παρακαλώ, περιμένετε...",
+    "TemporaryDisabled": "Προσωρινά απενεργοποιημένο.",
+    "ThisActionCannotBeUndone": "Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας",
+    "UncaughtErrorExplanation": "Συγγνώμη, παρουσιάστηκε σφάλμα. Προσπαθήστε πρώτα να <1>αναφορτώσετε τη σελίδα</1>. Εάν δεν βοήθησε, ελέγξτε τις ρυθμίσεις σύνδεσης στο internet και διακομιστή μεσολάβησης. Αν δεν βοήθησε επίσης, επικοινωνήστε με το σύστημα υποστήριξης.",
+    "UnknownError": "Άγνωστο σφάλμα."
+  },
+  "placeholder": {
+    "Search": "Αναζήτηση",
+    "SelectCountry": "Επιλογή χώρας",
+    "SelectCurrency": "Επιλογή νομίσματος",
+    "SelectDate": "Επιλογή ημερομηνίας",
+    "SelectLanguage": "Επιλογή γλώσσας"
+  },
+  "select": {
+    "payInterval": {
+      "Empty": "Κανένας",
+      "m": "κάθε μήνα",
+      "q": "κάθε τρίμηνο",
+      "w": "κάθε εβδομάδα"
+    },
+    "UseDefault": "Χρήση προεπιλογής"
+  },
+  "state": {
+    "Error": "Σφάλμα",
+    "Loading": "Φόρτωση..."
+  }
+}
