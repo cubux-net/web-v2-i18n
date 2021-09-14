@@ -1,0 +1,37 @@
+{
+  "filter": {
+    "button": {
+      "ExportExcel": "Εξαγωγή στο Excel"
+    },
+    "chart": {
+      "Chart": "Διάγραμμα "
+    },
+    "date": {
+      "Period": "Περίοδος",
+      "SetPeriod": "Περίοδος",
+      "SetYear": "Έτος"
+    },
+    "groupBy": {
+      "Categories": "ανά Κατηγορίες ",
+      "Months": "κατά μήνες"
+    },
+    "limit": {
+      "Accounts": "Λογαριασμοί",
+      "Categories": "Κατηγορίες",
+      "ExtraFilters": "Πρόσθετα φίλτρα:",
+      "Projects": "Εργα",
+      "Users": "Χρήστες"
+    },
+    "type": {
+      "Expenses": "Έξοδα",
+      "Incomes": "Εισοδήματα",
+      "WithTransfers": "Με μεταφορές"
+    }
+  },
+  "page": {
+    "message": {
+      "NoChartData": "Δεν υπάρχουν δεδομένα για εμφάνιση με τα δεδομένα κριτήρια."
+    },
+    "Title": "Αναλυτικά στοιχεία"
+  }
+}

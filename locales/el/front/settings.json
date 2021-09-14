@@ -1,0 +1,277 @@
+{
+  "accounts": {
+    "button": {
+      "DeleteWithEverything": "ΔΙΑΓΡΑΦΗ ΤΑ ΠΑΝΤΑ"
+    },
+    "label": {
+      "CountryAndBank": "Χώρα, Τράπεζα",
+      "Name": "Όνομα"
+    },
+    "message": {
+      "AlsoYouCanJustHideAccount": "Επίσης μπορείτε απλά να κρύψετε τον λογαριασμό για να μην εμφανίζεται στις λίστες.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Η συνέχιση της διαγραφής λογαριασμού θα αλλάξει το ιστορικό και το υπόλοιπο των λειτουργιών.",
+      "RemoveQuest": "Είστε βέβαιοι ότι θα διαγράψετε το λογαριασμό με όλα τα συνδεδεμένα δεδομένα;",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Πρόκειται να διαγράψετε τον λογαριασμό με όλα τα σχετικά δεδομένα συμπεριλαμβανομένων παρακάτω:"
+    },
+    "stateButton": {
+      "IsExcluded_off_exclude": "Περιλαμβάνεται στα υπόλοιπα",
+      "IsExcluded_on_include": "Εξαιρούνται από τα υπόλοιπα",
+      "IsHidden_off_hide": "Ορατό, απόκρυψη",
+      "IsHidden_on_show": "Κρυφό, Εμφάνιση"
+    }
+  },
+  "actions": {
+    "Actions": "Ενέργειες",
+    "Remove": "Αφαίρεση",
+    "Reset": "Επαναφορά"
+  },
+  "categories": {
+    "AddCategory": "Προσθήκη κατηγορίας",
+    "AddSubCategory": "Προσθήκη υποκατηγορίας",
+    "Expenses": "Έξοδα",
+    "Incomes": "Εισοδήματα",
+    "Name": "Όνομα",
+    "RemoveError": "Παρουσιάστηκε σφάλμα κατά την εκτέλεση της λειτουργίας",
+    "removeErrorDialog": {
+      "CanDeleteOperation": "Ή μπορείτε επίσης να διαγράψετε συναλλαγές.",
+      "CanMoveOperation": "Μπορείτε επίσης να μετακινήσετε συναλλαγές σε άλλη κατηγορία.",
+      "DeleteOperation": "Διαγραφή συναλλαγών",
+      "HasOperation": "Η κατηγορία έχει κάποιες συναλλαγές.",
+      "MoveDataDelete": "Μετακίνηση συναλλαγών σε άλλη κατηγορία",
+      "NeedCategory": "Επιλογή κατηγορίας"
+    },
+    "RemoveQuest": "Είστε βέβαιοι να διαγράψετε την κατηγορία?"
+  },
+  "import": {
+    "configure": {
+      "button": {
+        "ApplyConfig": "Ισχύουν",
+        "ReloadData": "Επαναφόρτωση προεπισκόπησης δεδομένων",
+        "ShowHiddenColumnsBack": "Πάρτε κρυμμένο πίσω",
+        "StartImport": "Έναρξη εισαγωγής"
+      },
+      "column": {
+        "Account": "Λογαριασμός",
+        "AccountIncoming": "Εισερχόμενος λογαριασμός",
+        "Amount": "Ποσό",
+        "AmountDelta": "± Ποσό",
+        "AmountIncoming": "Εισερχόμενο ποσό",
+        "Category": "Κατηγορία",
+        "Date": "Ημερομηνία",
+        "Description": "Περιγραφή",
+        "Subcategory": "Υποκατηγορία",
+        "Type": "Τύπος"
+      },
+      "columnOpt": {
+        "account": {
+          "ExistingAccount": "Υπάρχον",
+          "NewAccount": "Δημιουργία νέου"
+        },
+        "date": {
+          "Format": "Διαμόρφωση"
+        },
+        "dateFormat": {
+          "D": "D",
+          "M": "M",
+          "Y": "Y"
+        },
+        "type": {
+          "ExpenseText": "Κείμενο εξόδων",
+          "IncomeText": "Κείμενο εισοδήματος",
+          "TransferText": "Μεταφορά κειμένου"
+        }
+      },
+      "csv": {
+        "Encoding": "и",
+        "HeaderLines": "Γραμμές επικεφαλίδας",
+        "Quote": "Απόσπασμα",
+        "Separator": "Διαχωριστής",
+        "separator": {
+          "Space": "Διάστημα",
+          "Tab": "Καρτέλα"
+        }
+      },
+      "message": {
+        "AtLeastOneOf": "Τουλάχιστον ένα από",
+        "MissingAccountsAssignment": "Ορισμένοι υπάρχοντες λογαριασμοί δεν έχουν αντιστοιχιστεί",
+        "MissingRequiredColumns": "Ορισμένες απαιτούμενες στήλες δεν έχουν αντιστοιχιστεί",
+        "SomeColumnsWasHidden": "Ορισμένες στήλες έχουν κρυφτεί."
+      },
+      "Title": "Ρύθμιση παραμέτρων πριν από την εισαγωγή"
+    },
+    "convert": {
+      "message": {
+        "ConvertDone": "Η ανάγνωση αρχείων ολοκληρώθηκε με επιτυχία.",
+        "ConvertFailed": "Η ανάγνωση του αρχείου ματαιώθηκε λόγω σφαλμάτων.",
+        "ConvertPending": "Ανάγνωση δεδομένων από αρχείο. Αυτό μπορεί να διαρκέσει λίγο ανάλογα με το μέγεθος του αρχείου και το φορτίο του διακομιστή. Παρακαλώ περίμενε."
+      },
+      "Title": "Ανάγνωση δεδομένων από αρχείο"
+    },
+    "label": {
+      "File": "Αρχείο",
+      "Format": "Διαμόρφωση"
+    },
+    "placeholder": {
+      "SelectFormat": "Επιλογή μορφής"
+    },
+    "save": {
+      "button": {
+        "Done": "Ολοκληρώθηκε",
+        "StartImport": "Έναρξη εισαγωγής"
+      },
+      "message": {
+        "SaveDone": "Η εισαγωγή ολοκληρώθηκε με επιτυχία.",
+        "SaveFailed": "Η εισαγωγή ματαιώθηκε λόγω σφαλμάτων.",
+        "SavePending": "Εισαγωγή δεδομένων στην ομάδα. Αυτό μπορεί να διαρκέσει λίγο. Παρακαλώ, περιμένετε."
+      },
+      "Title": "Εισαγωγή δεδομένων"
+    }
+  },
+  "participants": {
+    "AccessLevel": "Επίπεδο πρόσβασης",
+    "Admin": "Διαχειριστής",
+    "FullName": "Πλήρες όνομα",
+    "Invite": "Πρόσκληση",
+    "Invited": "Προσκλήθηκε",
+    "InviteUser": "Προσκαλέστε έναν χρήστη στην ομάδα",
+    "RemoveQuest": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον χρήστη από την ομάδα;",
+    "setup": {
+      "Account": "Λογαριασμός",
+      "Change": "Αλλαγή",
+      "Deny": "Άρνηση",
+      "FullAccess": "Πλήρης πρόσβαση στην ομάδα.",
+      "Read": "Διαβάστε",
+      "RestrictedAccess": "Περιορισμένη πρόσβαση σε συγκεκριμένους λογαριασμούς.",
+      "SubjectUser": "Πρόσβαση εγκατάστασης για τον χρήστη"
+    },
+    "SetupAccess": "Πρόσβαση εγκατάστασης",
+    "User": "Περιορισμένος χρήστης"
+  },
+  "password": {
+    "Current": "Τρέχων κωδικός πρόσβασης",
+    "message": {
+      "NewPasswordsDiffers": "Οι νέοι κωδικοί πρόσβασης είναι διαφορετικοί"
+    },
+    "New": "Νέος κωδικός πρόσβασης",
+    "RepeatNew": "Επανάληψη νέου κωδικού πρόσβασης"
+  },
+  "profile": {
+    "Country": "Χώρα",
+    "DeleteButton": "Διαγραφή προφίλ",
+    "DeleteCautionText": "Θα διαγράψετε το προφίλ σας. Αυτό θα προκαλέσει απώλεια όλων των δεδομένων σας. Μετά τη διαγραφή θα θέλατε να εγγραφείτε ξανά μόνοι σας, αλλά όλες οι ομάδες σας θα χαθούν",
+    "DeleteConfirmWithPassword": "Πληκτρολογήστε τον τρέχοντα κωδικό πρόσβασης για να επιβεβαιώσετε τη διαγραφή.",
+    "DeleteReason": "Λόγοι διαγραφής",
+    "DeleteReasonHelp": "Παρακαλούμε, δώστε τους λόγους της διαγραφής σας για να μας βοηθήσετε να βελτιώσουμε την εφαρμογή μας",
+    "DeleteTitle": "Διαγραφή προφίλ",
+    "Name": "Όνομα",
+    "NotifyLang": "Γλώσσα ειδοποιήσεων",
+    "NotifyLangDefault": "Χρήση προεπιλεγμένου διακομιστή",
+    "Or": "ή",
+    "Surname": "Επώνυμο"
+  },
+  "projects": {
+    "AddProject": "Προσθήκη έργου",
+    "RemoveQuest": "Είστε βέβαιοι ότι θέλετε να διαγράψετε το έργο;"
+  },
+  "subscription": {
+    "button": {
+      "Pay": "Πληρωμή",
+      "Prolong": "Παράταση",
+      "ToPremium": "To Premuim"
+    },
+    "feature": {
+      "appFull": {
+        "JointAccess": "Κοινή πρόσβαση",
+        "Loans": "Δάνεια"
+      },
+      "appSync": {
+        "title": "Συγχρονισμός της εφαρμογής για κινητές συσκευές 2.0 με τον διακομιστή"
+      }
+    },
+    "label": {
+      "ActiveUntil": "Ενεργό μέχρι",
+      "AvailableMoney": "Διαθέσιμα χρήματα",
+      "EnterPromoCode": "Εισαγάγετε κωδικό προσφοράς",
+      "status": {
+        "Free": "Δωρεάν",
+        "Premium": "Premuim"
+      }
+    },
+    "payDialog": {
+      "label": {
+        "Country": "Επιλέξτε τη χώρα σας",
+        "Period": "Περίοδος",
+        "PurseEnough": "Διαθέσιμο {availableStr}",
+        "PurseNone": "Όχι στο απαραίτητο νόμισμα",
+        "PurseNotEnough": "Όχι αρκετά, μόνο {availableStr} διαθέσιμο",
+        "PurseStatus": "Η κατάσταση του πορτοφολιού σας"
+      },
+      "message": {
+        "ConfirmSpendPurseOnly": "Έχετε κάποια διαθέσιμα χρήματα στον προσωπικό σας λογαριασμό. Θέλεις να το ξοδέψεις πρώτα για την αγορά;",
+        "GoToProviderToPay": "Μεταβείτε στον ιστότοπο του παρόχου για να πληρώσετε.",
+        "InvoiceAlreadyCompleted": "Το τιμολόγιο έχει ήδη ολοκληρωθεί.",
+        "InvoiceConfirmPayWithCommission": "Επιβεβαίωση πληρωμής {confirmSum} για να αποκτήσετε {invoiceSum}. Επιτροπή είναι {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Επιβεβαίωση πληρωμής {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Επιβεβαίωση πληρωμής {confirmSum} για να αποκτήσετε {invoiceSum}.",
+        "InvoiceRefused": "Η πληρωμή απορρίφθηκε.",
+        "PeriodMaximumIsV": "Η περίοδος δεν πρέπει να είναι μεγαλύτερη από {value}.",
+        "PeriodMinimumIsV": "Η περίοδος πρέπει να είναι τουλάχιστον {value}.",
+        "PeriodNotANumber": "Εισάγετε ακέραιο αριθμό.",
+        "ProviderDoesNotSupportCurrency": "Ο πάροχος δεν υποστηρίζει το νόμισμα."
+      },
+      "priceUnit": {
+        "month": "μήνας",
+        "monthsPlural": "{months, plural, one{month} other{months}}",
+        "year": "έτος",
+        "yearsPlural": "{years, plural, one{year} other{years}}"
+      },
+      "Title": "Αγορά συνδρομής",
+      "TitleExternal": "Πηγαίνετε για αγορά"
+    },
+    "where": {
+      "FreeVersion": "Δωρεάν έκδοση",
+      "MobileApp": "Εφαρμογή για κινητά"
+    }
+  },
+  "tabs": {
+    "Accounts": "Λογαριασμοί",
+    "Categories": "Κατηγορίες",
+    "Import": "Εισαγωγή",
+    "Participants": "Συμμετέχοντες",
+    "Password": "Κωδικός πρόσβασης",
+    "Profile": "Προφίλ",
+    "Projects": "Έργα",
+    "Subscribes": "Εγγραφείτε",
+    "Team": "Ομάδα"
+  },
+  "team": {
+    "confirmDelete": {
+      "button": {
+        "Confirm": "ΔΙΑΓΡΑΦΗ ΟΜΑΔΑΣ ΜΕ ΟΛΑ ΤΑ ΔΕΔΟΜΕΝΑ"
+      },
+      "message": {
+        "CautionOfDataLoss": "ΠΡΟΣΟΧΗ! ΟΛΑ ΤΑ ΔΕΔΟΜΕΝΑ ΘΑ ΧΑΘΟΥΝ!!!",
+        "ExplainWhatDeletionIs": "Αυτή η ενέργεια θα διαγράψει πλήρως την ομάδα για όλους τους συμμετέχοντες. Θα συνέχιζες να εργάζεσαι σε άλλες ομάδες και θα δημιουργούσες μια νέα ομάδα"
+      },
+      "title": "Διαγραφή της ομάδας"
+    },
+    "FloatingMonth": "Κυμαινόμενος μήνας",
+    "MainCurrency": "Κύριο νόμισμα",
+    "MonthStart": "Έναρξη μήνα",
+    "TeamName": "Όνομα ομάδας",
+    "TimeZone": "Ζώνη ώρας",
+    "WeekStart": "Έναρξη εβδομάδας"
+  },
+  "teamErase": {
+    "button": {
+      "EraseTeamData": "Διαγραφή όλων των στοιχείων στην ομάδα"
+    },
+    "message": {
+      "TaskIsBackground": "Τα δεδομένα θα διαγραφούν στο παρασκήνιο. Η διαδικασία μπορεί να διαρκέσει κάποιο χρόνο για να ολοκληρωθεί. Τα δεδομένα που απομένουν στη σελίδα μπορούν να ενημερώνονται αυτόματα κατά την εκτέλεση της διαδικασίας.",
+      "WhatWillBeDeleted": "Όλα τα μέλη της ομάδας θα διαγραφούν. Περιλαμβάνονται λογαριασμοί, κατηγορίες, συναλλαγές, δάνεια, προϋπολογισμός, στόχοι, προγραμματισμένες δραστηριότητες, κ.λπ.",
+      "WhatWillBeKept": "Τα ακόλουθα πράγματα θα παραμείνουν ανέγγιχτα: Συνδρομή, Συμπαίκτες."
+    },
+    "Title": "Διαγραφή δεδομένων ομάδας"
+  },
+  "Title": "Ρυθμίσεις"
+}

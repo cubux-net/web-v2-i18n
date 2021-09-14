@@ -1,0 +1,109 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τη συναλλαγή; Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.",
+    "ConfirmPlannedTransaction": "Είστε βέβαιοι να επιβεβαιώσετε τη συναλλαγή;",
+    "ConfirmSplitTransaction": "Είστε βέβαιοι ότι θέλετε να διαιρέσετε αυτήν τη μεταφορά?"
+  },
+  "multiDelete": {
+    "confirm": {
+      "Content": "Είστε βέβαιοι ότι θέλετε να διαγράψετε <1>{n, plural, one{# transaction} other{# transactions}}</1>? Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.",
+      "OK": "Διαγραφή {n, plural, one{# transaction} other{# transactions}}",
+      "Title": "Διαγραφή επιλεγμένων συναλλαγών"
+    }
+  },
+  "page": {
+    "title": "Συναλλαγές"
+  },
+  "table": {
+    "button": {
+      "ConfigureTable": "Ρύθμιση πίνακα",
+      "CreateCopy": "Δημιουργία αντιγράφου",
+      "MoreTransactions": "Περισσότερες συναλλαγές",
+      "ShowReceipt": "Εμφάνιση απόδειξης",
+      "SplitTransfer": "Διαίρεση μεταφοράς"
+    },
+    "content": {
+      "NothingWasFound": "Δεν υπάρχουν συναλλαγές"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Επιλογή λογαριασμού"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "Καταχωρίστε ένα ποσό"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Επιλογή κατηγορίας"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Επιλογή έργου"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Έξοδα",
+          "Incomes": "Εισοδήματα",
+          "Loans": "Δάνεια",
+          "Transfers": "Μεταφορές"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "διαγράφηκε",
+          "notInTeam": "δεν ανήκει στην ομάδα",
+          "SelectUser": "Επιλογή χρήστη"
+        }
+      }
+    },
+    "filterSummary": {
+      "label": {
+        "Account": "Λογαριασμός",
+        "Amount": "Ποσό",
+        "Project": "Έργο",
+        "Since": "Από",
+        "Until": "Μέχρι",
+        "User": "Χρήστης"
+      }
+    },
+    "head": {
+      "config": {
+        "DisplayAdaptive": "Προσαρμοστική",
+        "DisplayAlways": "Πάντα",
+        "DisplayExtraColumns": "Επιλογή συνθηκών για εμφάνιση επιπλέον στηλών.",
+        "DisplayNever": "Ποτέ",
+        "Title": "Ρύθμιση παραμέτρων πίνακα"
+      },
+      "label": {
+        "Account": "Λογαριασμός",
+        "Amount": "Ποσό",
+        "Category": "Κατηγορία",
+        "CategoryDescription": "Κατηγορία, περιγραφή",
+        "Date": "Ημερομηνία",
+        "Project": "Έργο",
+        "Remain": "Παραμένουν",
+        "User": "Χρήστης"
+      }
+    }
+  },
+  "transferJoin": {
+    "button": {
+      "Join": "Σύνδεση για μεταφορά"
+    },
+    "message": {
+      "ChooseCommissionCategory": "Επιλέξτε μια κατηγορία για συναλλαγή με προμήθεια:",
+      "ThisCanBeDoneWithCommission": "Αυτό μπορεί να γίνει με τη δημιουργία μιας συναλλαγής προμήθειας για <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "Σας ζητείται να συμμετάσχετε σε μια μεταφορά δύο συναλλαγών με διαφορετικά ποσά:"
+    }
+  },
+  "unconfirmed": {
+    "EndTitle": "Τακτικές συναλλαγές",
+    "Title": "Μη επιβεβαιωμένες συναλλαγές"
+  }
+}
