@@ -587,6 +587,9 @@
             "Credits": {
               "$ref": "#/$defs/string"
             },
+            "CreditsEmpty": {
+              "$ref": "#/$defs/string"
+            },
             "Expenses": {
               "$ref": "#/$defs/string"
             },
@@ -625,6 +628,7 @@
             "Calendar",
             "CreateTeam",
             "Credits",
+            "CreditsEmpty",
             "Expenses",
             "Goals",
             "Incomes",
