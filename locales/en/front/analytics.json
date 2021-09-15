@@ -25,6 +25,8 @@
     "type": {
       "Expenses": "Expenses",
       "Incomes": "Incomes",
+      "WithCredits": "With credits",
+      "WithLoans": "With loans",
       "WithTransfers": "With transfers"
     }
   },

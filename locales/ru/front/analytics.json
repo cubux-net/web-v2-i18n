@@ -25,6 +25,8 @@
     "type": {
       "Expenses": "Расходы",
       "Incomes": "Доходы",
+      "WithCredits": "Учитывать кредиты",
+      "WithLoans": "Учитывать долги",
       "WithTransfers": "Учитывать переводы"
     }
   },

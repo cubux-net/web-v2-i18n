@@ -25,6 +25,8 @@
     "type": {
       "Expenses": "Έξοδα",
       "Incomes": "Εισοδήματα",
+      "WithCredits": "",
+      "WithLoans": "",
       "WithTransfers": "Με μεταφορές"
     }
   },

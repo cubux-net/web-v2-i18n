@@ -103,6 +103,12 @@
             "Incomes": {
               "$ref": "#/$defs/string"
             },
+            "WithCredits": {
+              "$ref": "#/$defs/string"
+            },
+            "WithLoans": {
+              "$ref": "#/$defs/string"
+            },
             "WithTransfers": {
               "$ref": "#/$defs/string"
             }
@@ -110,6 +116,8 @@
           "required": [
             "Expenses",
             "Incomes",
+            "WithCredits",
+            "WithLoans",
             "WithTransfers"
           ]
         }
