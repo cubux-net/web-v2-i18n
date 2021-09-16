@@ -14,7 +14,7 @@
       "EndDate": "Дата окончания",
       "FeeFromAccounts": "Выплачивать автоматически со счетов",
       "Name": "Название",
-      "OnlyCurrency": "Только валюта",
+      "OnlyCurrency": "Не зачислять на счёт",
       "PlanType": "Тип выплат",
       "Rate": "Ставка",
       "ReceiveCreditToAccount": "Зачислить на счёт",

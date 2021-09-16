@@ -14,7 +14,7 @@
       "EndDate": "End date",
       "FeeFromAccounts": "Pay automatically from accounts",
       "Name": "Name",
-      "OnlyCurrency": "Only set currency",
+      "OnlyCurrency": "Don't add to account",
       "PlanType": "Plan type",
       "Rate": "Rate",
       "ReceiveCreditToAccount": "Receive credit to account",
