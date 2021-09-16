@@ -94,9 +94,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "CheckAll"
-      ]
+      "required": ["CheckAll"]
     },
     "currencyRateHint": {
       "type": "object",
@@ -105,9 +103,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "ExchangeCurrency"
-      ]
+      "required": ["ExchangeCurrency"]
     },
     "date": {
       "type": "object",
@@ -128,17 +124,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "SelectRange",
-            "Today",
-            "since",
-            "until"
-          ]
+          "required": ["SelectRange", "Today", "since", "until"]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     },
     "downgrade": {
       "type": "object",
@@ -150,9 +139,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Navigate"
-          ]
+          "required": ["Navigate"]
         },
         "message": {
           "type": "object",
@@ -161,9 +148,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "PleaseProvideUsAReason"
-          ]
+          "required": ["PleaseProvideUsAReason"]
         },
         "subtitle": {
           "$ref": "#/$defs/string"
@@ -172,12 +157,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "button",
-        "message",
-        "subtitle",
-        "title"
-      ]
+      "required": ["button", "message", "subtitle", "title"]
     },
     "field": {
       "type": "object",
@@ -189,10 +169,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "MonthLimit",
-        "MonthPlan"
-      ]
+      "required": ["MonthLimit", "MonthPlan"]
     },
     "label": {
       "type": "object",
@@ -206,6 +183,9 @@
         "FoundATypo": {
           "$ref": "#/$defs/string"
         },
+        "and": {
+          "$ref": "#/$defs/string"
+        },
         "date": {
           "type": "object",
           "properties": {
@@ -216,18 +196,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "sinceStart",
-            "untilEnd"
-          ]
+          "required": ["sinceStart", "untilEnd"]
         }
       },
-      "required": [
-        "AskAQuestion",
-        "DownloadAt",
-        "FoundATypo",
-        "date"
-      ]
+      "required": ["AskAQuestion", "DownloadAt", "FoundATypo", "and", "date"]
     },
     "message": {
       "type": "object",
@@ -325,18 +297,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Empty",
-            "m",
-            "q",
-            "w"
-          ]
+          "required": ["Empty", "m", "q", "w"]
         }
       },
-      "required": [
-        "UseDefault",
-        "payInterval"
-      ]
+      "required": ["UseDefault", "payInterval"]
     },
     "state": {
       "type": "object",
@@ -348,10 +312,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "Error",
-        "Loading"
-      ]
+      "required": ["Error", "Loading"]
     }
   },
   "required": [

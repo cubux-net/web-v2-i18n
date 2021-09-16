@@ -48,6 +48,7 @@
     "MonthPlan": "Měsíční plán"
   },
   "label": {
+    "and": "a",
     "AskAQuestion": "Položit otázku",
     "date": {
       "sinceStart": "nejprve",
