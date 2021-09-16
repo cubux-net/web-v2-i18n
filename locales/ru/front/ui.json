@@ -50,6 +50,7 @@
     "MonthPlan": "План в месяц"
   },
   "label": {
+    "and": "и",
     "AskAQuestion": "Задать вопрос",
     "date": {
       "sinceStart": "с начала",

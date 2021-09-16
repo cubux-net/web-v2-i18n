@@ -50,6 +50,7 @@
     "MonthPlan": "Σχέδιο μήνα"
   },
   "label": {
+    "and": "και",
     "AskAQuestion": "Κάντε μια ερώτηση",
     "date": {
       "sinceStart": "έναρξη",

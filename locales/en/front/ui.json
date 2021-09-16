@@ -50,6 +50,7 @@
     "MonthPlan": "Month plan"
   },
   "label": {
+    "and": "and",
     "AskAQuestion": "Ask a question",
     "date": {
       "sinceStart": "start",
