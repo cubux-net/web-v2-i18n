@@ -10,7 +10,13 @@
     "message": {
       "AlsoYouCanJustHideAccount": "Také můžete skrýt účet, aby se nezobrazoval v seznamech.",
       "ContinueToDeleteWillChangeHistoryAndBalance": "Odstranění účtu způsobí změnu historie operací a zůstatků.",
+      "delete": {
+        "CanMoveOperation": "Můžete přesunout všechny operace do jiné účet",
+        "MoveDataDelete": "Přesunout data a odstranit účet"
+      },
+      "RemoveError": "Během operace došlo k chybě",
       "RemoveQuest": "Opravdu chcete smazat vybraný účet spolu se všemi souvisejícími údaji?",
+      "RemoveQuestSimple": "Opravdu chcete smazat vybraný účet?",
       "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Chcete smazat účet spolu se všemi souvisejícími údaji, včetně následujících:"
     },
     "stateButton": {

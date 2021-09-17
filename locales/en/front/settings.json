@@ -10,7 +10,13 @@
     "message": {
       "AlsoYouCanJustHideAccount": "Also you can just hide account to let it not to show in lists.",
       "ContinueToDeleteWillChangeHistoryAndBalance": "Continue to delete account will change operations history and balance.",
+      "delete": {
+        "CanMoveOperation": "You can also move transactions to another account.",
+        "MoveDataDelete": "Move transactions to another account"
+      },
+      "RemoveError": "An error occurred while performing operation",
       "RemoveQuest": "Are you sure to delete the account with all linked data?",
+      "RemoveQuestSimple": "Are you sure to delete the account?",
       "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "You are going to delete account with all related data including following:"
     },
     "stateButton": {
