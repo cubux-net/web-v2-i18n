@@ -1,0 +1,84 @@
+{
+  "button": {
+    "AddCredit": "Přidat\nÚvěr"
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": "Některé změny nebylo možné uložit kvůli chybám."
+  },
+  "form": {
+    "hint": {
+      "Duration": "Měsíce"
+    },
+    "label": {
+      "Duration": "Období",
+      "EndDate": "Datum ukončení",
+      "FeeFromAccounts": "Platit automaticky z účtů",
+      "Name": "Název",
+      "OnlyCurrency": "Nezapočítat na účet",
+      "PlanType": "Typ splátek",
+      "Rate": "Úrokova sazba",
+      "ReceiveCreditToAccount": "Připsat na účet",
+      "RemainToFee": "Zbývá splatit",
+      "StartDate": "Datum začátku",
+      "TotalCreditAmount": "Přijatá částka",
+      "TotalPayAmount": "Celková částka plateb"
+    },
+    "planType": {
+      "Ann": "Anuitní",
+      "Diff": "Diferencovaný"
+    },
+    "title": {
+      "CreateCredit": "Přidat úvěr",
+      "EditCredit": "Upravit úvěr"
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Ovlivňuje zůstatky na účtu",
+      "LinkToPlan": "Vázat na splátkový kalendář",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "mimo plán výplaty"
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "Částka",
+      "Date": "Datum",
+      "PaidAmount": "Splaceno"
+    },
+    "title": {
+      "CreatePlan": "Vytvořte si výplatní kalendář",
+      "EditPlan": "Upravit výplatní kalendář"
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "Splaceno",
+      "Pending": "Aktualní"
+    },
+    "Title": "Úvěry"
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "Smazat, ale ponechat transakce",
+      "DeleteWithTransaction": "Smazat spolu s transakcí",
+      "PayNow": "Zaplatit teď"
+    },
+    "label": {
+      "AlreadyPaidAmount": "Splaceno",
+      "CreatePayCalendar": "Vytvořte si výplatní kalendář",
+      "NextPayment": "Další splátka",
+      "ViewPayCalendar": "Zobrazit výplatní kalendář"
+    },
+    "message": {
+      "ConfirmDelete": "Opravdu chcete smazat úvěrovou transakci? Zůstatky na účtu nebudou ovlivněny.",
+      "ConfirmDeleteMayKeepTransaction": "Tato úvěrová operace je spojena s transakcí. Při smazání této úvěrovou operace můžete transakci buď nechat, nebo ji smazat.",
+      "DeleteConfirm": "Opravdu chcete tento úvěr smazat?"
+    },
+    "title": {
+      "DeleteCredit": "Odstranění Úvěru",
+      "Operations": "Historie operací",
+      "PaymentsChart": "Splátkový kalendář"
+    }
+  }
+}

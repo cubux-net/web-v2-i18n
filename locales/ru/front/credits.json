@@ -1,0 +1,84 @@
+{
+  "button": {
+    "AddCredit": "Добавить\nКредит"
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": "Некоторые изменения не удалось сохранить из-за ошибок."
+  },
+  "form": {
+    "hint": {
+      "Duration": "Месяцев"
+    },
+    "label": {
+      "Duration": "Срок",
+      "EndDate": "Дата окончания",
+      "FeeFromAccounts": "Выплачивать автоматически со счетов",
+      "Name": "Название",
+      "OnlyCurrency": "Не зачислять на счёт",
+      "PlanType": "Тип выплат",
+      "Rate": "Ставка",
+      "ReceiveCreditToAccount": "Зачислить на счёт",
+      "RemainToFee": "Осталось выплатить",
+      "StartDate": "Дата начала",
+      "TotalCreditAmount": "Полученная сумма",
+      "TotalPayAmount": "Общая сумма выплат"
+    },
+    "planType": {
+      "Ann": "Аннуитетный",
+      "Diff": "Дифференцированный"
+    },
+    "title": {
+      "CreateCredit": "Добавить кредит",
+      "EditCredit": "Изменить кредит"
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Влияет на остатки на счетах",
+      "LinkToPlan": "Привязать к графику",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "вне плана"
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "Сумма",
+      "Date": "Дата",
+      "PaidAmount": "Выплачено"
+    },
+    "title": {
+      "CreatePlan": "Создать календарь выплат",
+      "EditPlan": "Изменить календарь выплат"
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "Выплаченные",
+      "Pending": "Актуальные"
+    },
+    "Title": "Кредиты"
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "Удалить, но оставить транзакцию",
+      "DeleteWithTransaction": "Удалить вместе с транзакцией",
+      "PayNow": "Заплатить сейчас"
+    },
+    "label": {
+      "AlreadyPaidAmount": "Выплачено",
+      "CreatePayCalendar": "Создать календарь выплат",
+      "NextPayment": "Следующий платёж",
+      "ViewPayCalendar": "Посмотреть календарь выплат"
+    },
+    "message": {
+      "ConfirmDelete": "Вы уверены, что хотите удалить кредитную операцию? Это не затронет остатки на счетах.",
+      "ConfirmDeleteMayKeepTransaction": "Эта кредитная операция связана с транзакцией. При удалении этой кредитной операции вы можете как оставить транзакцию, так и удалить её.",
+      "DeleteConfirm": "Вы уверены, что хотите удалить этот кредит?"
+    },
+    "title": {
+      "DeleteCredit": "Удаление Кредита",
+      "Operations": "История операций",
+      "PaymentsChart": "График платежей"
+    }
+  }
+}

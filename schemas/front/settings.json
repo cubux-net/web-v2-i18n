@@ -49,18 +49,42 @@
             "ContinueToDeleteWillChangeHistoryAndBalance": {
               "$ref": "#/$defs/string"
             },
+            "RemoveError": {
+              "$ref": "#/$defs/string"
+            },
             "RemoveQuest": {
+              "$ref": "#/$defs/string"
+            },
+            "RemoveQuestSimple": {
               "$ref": "#/$defs/string"
             },
             "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": {
               "$ref": "#/$defs/string"
+            },
+            "delete": {
+              "type": "object",
+              "properties": {
+                "CanMoveOperation": {
+                  "$ref": "#/$defs/string"
+                },
+                "MoveDataDelete": {
+                  "$ref": "#/$defs/string"
+                }
+              },
+              "required": [
+                "CanMoveOperation",
+                "MoveDataDelete"
+              ]
             }
           },
           "required": [
             "AlsoYouCanJustHideAccount",
             "ContinueToDeleteWillChangeHistoryAndBalance",
+            "RemoveError",
             "RemoveQuest",
-            "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing"
+            "RemoveQuestSimple",
+            "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing",
+            "delete"
           ]
         },
         "stateButton": {

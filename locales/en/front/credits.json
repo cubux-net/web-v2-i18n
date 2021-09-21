@@ -1,0 +1,84 @@
+{
+  "button": {
+    "AddCredit": "Add\nCredit"
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": "Some changes was not saved due to errors."
+  },
+  "form": {
+    "hint": {
+      "Duration": "Months"
+    },
+    "label": {
+      "Duration": "Duration",
+      "EndDate": "End date",
+      "FeeFromAccounts": "Pay automatically from accounts",
+      "Name": "Name",
+      "OnlyCurrency": "Don't add to account",
+      "PlanType": "Plan type",
+      "Rate": "Rate",
+      "ReceiveCreditToAccount": "Receive credit to account",
+      "RemainToFee": "Remain to fee",
+      "StartDate": "Start date",
+      "TotalCreditAmount": "Total credit amount",
+      "TotalPayAmount": "Total pay amount"
+    },
+    "planType": {
+      "Ann": "Annuity",
+      "Diff": "Differential"
+    },
+    "title": {
+      "CreateCredit": "Add credit",
+      "EditCredit": "Edit credit"
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Does affect accounts",
+      "LinkToPlan": "Link to plan",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "out of plan"
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "Amount",
+      "Date": "Date",
+      "PaidAmount": "Paid"
+    },
+    "title": {
+      "CreatePlan": "Create plan",
+      "EditPlan": "Edit plan"
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "Finished",
+      "Pending": "Actual"
+    },
+    "Title": "Credits"
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "Delete operation, keep transactions",
+      "DeleteWithTransaction": "Delete WITH transaction",
+      "PayNow": "Pay now"
+    },
+    "label": {
+      "AlreadyPaidAmount": "Already paid",
+      "CreatePayCalendar": "Create payments plan",
+      "NextPayment": "Next payment",
+      "ViewPayCalendar": "View payments plan"
+    },
+    "message": {
+      "ConfirmDelete": "Are you sure to delete this credit operation? This action will not change accounts balance.",
+      "ConfirmDeleteMayKeepTransaction": "This credit operation is linked with transaction. You can keep the transaction or delete it too while deleting credit operation.",
+      "DeleteConfirm": "Are you sure to delete this credit completely?"
+    },
+    "title": {
+      "DeleteCredit": "Deleting Credit",
+      "Operations": "Operations history",
+      "PaymentsChart": "Payments chart"
+    }
+  }
+}

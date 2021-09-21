@@ -1,0 +1,342 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "button": {
+      "type": "object",
+      "properties": {
+        "AddCredit": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "AddCredit"
+      ]
+    },
+    "error": {
+      "type": "object",
+      "properties": {
+        "SomePlanChangedWasNotSaved": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "SomePlanChangedWasNotSaved"
+      ]
+    },
+    "form": {
+      "type": "object",
+      "properties": {
+        "hint": {
+          "type": "object",
+          "properties": {
+            "Duration": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Duration"
+          ]
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "Duration": {
+              "$ref": "#/$defs/string"
+            },
+            "EndDate": {
+              "$ref": "#/$defs/string"
+            },
+            "FeeFromAccounts": {
+              "$ref": "#/$defs/string"
+            },
+            "Name": {
+              "$ref": "#/$defs/string"
+            },
+            "OnlyCurrency": {
+              "$ref": "#/$defs/string"
+            },
+            "PlanType": {
+              "$ref": "#/$defs/string"
+            },
+            "Rate": {
+              "$ref": "#/$defs/string"
+            },
+            "ReceiveCreditToAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "RemainToFee": {
+              "$ref": "#/$defs/string"
+            },
+            "StartDate": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalCreditAmount": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalPayAmount": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Duration",
+            "EndDate",
+            "FeeFromAccounts",
+            "Name",
+            "OnlyCurrency",
+            "PlanType",
+            "Rate",
+            "ReceiveCreditToAccount",
+            "RemainToFee",
+            "StartDate",
+            "TotalCreditAmount",
+            "TotalPayAmount"
+          ]
+        },
+        "planType": {
+          "type": "object",
+          "properties": {
+            "Ann": {
+              "$ref": "#/$defs/string"
+            },
+            "Diff": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Ann",
+            "Diff"
+          ]
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "CreateCredit": {
+              "$ref": "#/$defs/string"
+            },
+            "EditCredit": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreateCredit",
+            "EditCredit"
+          ]
+        }
+      },
+      "required": [
+        "hint",
+        "label",
+        "planType",
+        "title"
+      ]
+    },
+    "formOperation": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "DealWithAccounts": {
+              "$ref": "#/$defs/string"
+            },
+            "LinkToPlan": {
+              "$ref": "#/$defs/string"
+            },
+            "LinkToPlanItem": {
+              "$ref": "#/$defs/string"
+            },
+            "NoLinkToPlan": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DealWithAccounts",
+            "LinkToPlan",
+            "LinkToPlanItem",
+            "NoLinkToPlan"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "formPlan": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "Amount": {
+              "$ref": "#/$defs/string"
+            },
+            "Date": {
+              "$ref": "#/$defs/string"
+            },
+            "PaidAmount": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Amount",
+            "Date",
+            "PaidAmount"
+          ]
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "CreatePlan": {
+              "$ref": "#/$defs/string"
+            },
+            "EditPlan": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreatePlan",
+            "EditPlan"
+          ]
+        }
+      },
+      "required": [
+        "label",
+        "title"
+      ]
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "state": {
+          "type": "object",
+          "properties": {
+            "Completed": {
+              "$ref": "#/$defs/string"
+            },
+            "Pending": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "Completed",
+            "Pending"
+          ]
+        }
+      },
+      "required": [
+        "Title",
+        "state"
+      ]
+    },
+    "pageItem": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "DeleteKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteWithTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "PayNow": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DeleteKeepTransaction",
+            "DeleteWithTransaction",
+            "PayNow"
+          ]
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "AlreadyPaidAmount": {
+              "$ref": "#/$defs/string"
+            },
+            "CreatePayCalendar": {
+              "$ref": "#/$defs/string"
+            },
+            "NextPayment": {
+              "$ref": "#/$defs/string"
+            },
+            "ViewPayCalendar": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "AlreadyPaidAmount",
+            "CreatePayCalendar",
+            "NextPayment",
+            "ViewPayCalendar"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "ConfirmDelete": {
+              "$ref": "#/$defs/string"
+            },
+            "ConfirmDeleteMayKeepTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "DeleteConfirm": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "ConfirmDelete",
+            "ConfirmDeleteMayKeepTransaction",
+            "DeleteConfirm"
+          ]
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "DeleteCredit": {
+              "$ref": "#/$defs/string"
+            },
+            "Operations": {
+              "$ref": "#/$defs/string"
+            },
+            "PaymentsChart": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "DeleteCredit",
+            "Operations",
+            "PaymentsChart"
+          ]
+        }
+      },
+      "required": [
+        "button",
+        "label",
+        "message",
+        "title"
+      ]
+    }
+  },
+  "required": [
+    "button",
+    "error",
+    "form",
+    "formOperation",
+    "formPlan",
+    "page",
+    "pageItem"
+  ]
+}
