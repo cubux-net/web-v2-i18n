@@ -1,84 +1,84 @@
 {
   "button": {
-    "AddCredit": ""
+    "AddCredit": "Προσθήκη\nΠιστωτική"
   },
   "error": {
-    "SomePlanChangedWasNotSaved": ""
+    "SomePlanChangedWasNotSaved": "Ορισμένες αλλαγές δεν ήταν δυνατό να αποθηκευτούν λόγω σφαλμάτων."
   },
   "form": {
     "hint": {
-      "Duration": ""
+      "Duration": "Μήνες"
     },
     "label": {
-      "Duration": "",
-      "EndDate": "",
-      "FeeFromAccounts": "",
-      "Name": "",
-      "OnlyCurrency": "",
-      "PlanType": "",
-      "Rate": "",
-      "ReceiveCreditToAccount": "",
-      "RemainToFee": "",
-      "StartDate": "",
-      "TotalCreditAmount": "",
-      "TotalPayAmount": ""
+      "Duration": "Ορος",
+      "EndDate": "ημερομηνία λήξης",
+      "FeeFromAccounts": "Πληρώστε αυτόματα από λογαριασμούς",
+      "Name": "Ονομα",
+      "OnlyCurrency": "Μην πιστώσετε",
+      "PlanType": "Τρόπος πληρωμής",
+      "Rate": "Προσφορά",
+      "ReceiveCreditToAccount": "Πίστωση σε λογαριασμό",
+      "RemainToFee": "Μένει να πληρώσει",
+      "StartDate": "ημερομηνία έναρξης",
+      "TotalCreditAmount": "Ποσό που έχει εισπραχθεί",
+      "TotalPayAmount": "Συνολικές πληρωμές"
     },
     "planType": {
-      "Ann": "",
-      "Diff": ""
+      "Ann": "Πρόσοδος",
+      "Diff": "Διαφοροποιημένο"
     },
     "title": {
-      "CreateCredit": "",
-      "EditCredit": ""
+      "CreateCredit": "Προσθέστε πίστωση",
+      "EditCredit": "Αλλαγή δανείου"
     }
   },
   "formOperation": {
     "label": {
-      "DealWithAccounts": "",
-      "LinkToPlan": "",
+      "DealWithAccounts": "Επηρεάζει τα υπόλοιπα λογαριασμών",
+      "LinkToPlan": "Κλείστε στο γράφημα",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": ""
+      "NoLinkToPlan": "εκτός σχεδίου"
     }
   },
   "formPlan": {
     "label": {
-      "Amount": "",
-      "Date": "",
-      "PaidAmount": ""
+      "Amount": "Αθροισμα",
+      "Date": "ημερομηνία",
+      "PaidAmount": "Εξοφλήθηκε"
     },
     "title": {
-      "CreatePlan": "",
-      "EditPlan": ""
+      "CreatePlan": "Δημιουργήστε ένα ημερολόγιο πληρωμής",
+      "EditPlan": "Αλλάξτε το ημερολόγιο πληρωμής"
     }
   },
   "page": {
     "state": {
-      "Completed": "",
-      "Pending": ""
+      "Completed": "Εξοφλήθηκε",
+      "Pending": "Τοπικός"
     },
-    "Title": ""
+    "Title": "Δάνεια"
   },
   "pageItem": {
     "button": {
-      "DeleteKeepTransaction": "",
-      "DeleteWithTransaction": "",
-      "PayNow": ""
+      "DeleteKeepTransaction": "Διαγραφή αλλά διατήρηση της συναλλαγής",
+      "DeleteWithTransaction": "Διαγραφή μαζί με τη συναλλαγή",
+      "PayNow": "Πλήρωσε τώρα"
     },
     "label": {
-      "AlreadyPaidAmount": "",
-      "CreatePayCalendar": "",
-      "NextPayment": "",
-      "ViewPayCalendar": ""
+      "AlreadyPaidAmount": "Εξοφλήθηκε",
+      "CreatePayCalendar": "Δημιουργήστε ένα ημερολόγιο πληρωμής",
+      "NextPayment": "Επόμενη πληρωμή",
+      "ViewPayCalendar": "Προβολή ημερολογίου πληρωμής"
     },
     "message": {
-      "ConfirmDelete": "",
-      "ConfirmDeleteMayKeepTransaction": "",
-      "DeleteConfirm": ""
+      "ConfirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τη συναλλαγή πίστωσης; Τα υπόλοιπα λογαριασμών δεν θα επηρεαστούν.",
+      "ConfirmDeleteMayKeepTransaction": "Αυτή η συναλλαγή πίστωσης σχετίζεται με μια συναλλαγή. Κατά τη διαγραφή αυτής της πιστωτικής λειτουργίας, μπορείτε είτε να αποχωρήσετε από τη συναλλαγή είτε να τη διαγράψετε.",
+      "DeleteConfirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το δάνειο;"
     },
     "title": {
-      "DeleteCredit": "",
-      "Operations": "",
-      "PaymentsChart": ""
+      "DeleteCredit": "Κατάργηση πίστωσης",
+      "Operations": "Ιστορικό λειτουργιών",
+      "PaymentsChart": "ΠΡΟΓΡΑΜΜΑ ΠΛΗΡΩΜΩΝ"
     }
   }
 }

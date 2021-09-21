@@ -1,84 +1,84 @@
 {
   "button": {
-    "AddCredit": ""
+    "AddCredit": "Přidat\nÚvěr"
   },
   "error": {
-    "SomePlanChangedWasNotSaved": ""
+    "SomePlanChangedWasNotSaved": "Některé změny nebylo možné uložit kvůli chybám."
   },
   "form": {
     "hint": {
-      "Duration": ""
+      "Duration": "Měsíce"
     },
     "label": {
-      "Duration": "",
-      "EndDate": "",
-      "FeeFromAccounts": "",
-      "Name": "",
-      "OnlyCurrency": "",
-      "PlanType": "",
-      "Rate": "",
-      "ReceiveCreditToAccount": "",
-      "RemainToFee": "",
-      "StartDate": "",
-      "TotalCreditAmount": "",
-      "TotalPayAmount": ""
+      "Duration": "Období",
+      "EndDate": "Datum ukončení",
+      "FeeFromAccounts": "Platit automaticky z účtů",
+      "Name": "Název",
+      "OnlyCurrency": "Nezapočítat na účet",
+      "PlanType": "Typ splátek",
+      "Rate": "Úrokova sazba",
+      "ReceiveCreditToAccount": "Připsat na účet",
+      "RemainToFee": "Zbývá splatit",
+      "StartDate": "Datum začátku",
+      "TotalCreditAmount": "Přijatá částka",
+      "TotalPayAmount": "Celková částka plateb"
     },
     "planType": {
-      "Ann": "",
-      "Diff": ""
+      "Ann": "Anuitní",
+      "Diff": "Diferencovaný"
     },
     "title": {
-      "CreateCredit": "",
-      "EditCredit": ""
+      "CreateCredit": "Přidat úvěr",
+      "EditCredit": "Upravit úvěr"
     }
   },
   "formOperation": {
     "label": {
       "DealWithAccounts": "Ovlivňuje zůstatky na účtu",
-      "LinkToPlan": "",
+      "LinkToPlan": "Vázat na splátkový kalendář",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": ""
+      "NoLinkToPlan": "mimo plán výplaty"
     }
   },
   "formPlan": {
     "label": {
-      "Amount": "",
-      "Date": "",
-      "PaidAmount": ""
+      "Amount": "Částka",
+      "Date": "Datum",
+      "PaidAmount": "Splaceno"
     },
     "title": {
-      "CreatePlan": "",
-      "EditPlan": ""
+      "CreatePlan": "Vytvořte si výplatní kalendář",
+      "EditPlan": "Upravit výplatní kalendář"
     }
   },
   "page": {
     "state": {
-      "Completed": "",
-      "Pending": ""
+      "Completed": "Splaceno",
+      "Pending": "Aktualní"
     },
-    "Title": ""
+    "Title": "Úvěry"
   },
   "pageItem": {
     "button": {
       "DeleteKeepTransaction": "Smazat, ale ponechat transakce",
       "DeleteWithTransaction": "Smazat spolu s transakcí",
-      "PayNow": ""
+      "PayNow": "Zaplatit teď"
     },
     "label": {
-      "AlreadyPaidAmount": "",
-      "CreatePayCalendar": "",
-      "NextPayment": "",
-      "ViewPayCalendar": ""
+      "AlreadyPaidAmount": "Splaceno",
+      "CreatePayCalendar": "Vytvořte si výplatní kalendář",
+      "NextPayment": "Další splátka",
+      "ViewPayCalendar": "Zobrazit výplatní kalendář"
     },
     "message": {
-      "ConfirmDelete": "Opravdu chcete smazat КРЕДИТНУЮ transakci? Zůstatky na účtu nebudou ovlivněny.",
-      "ConfirmDeleteMayKeepTransaction": "Tato КРЕДИТНАЯ operace je spojena s transakcí. Při smazání této КРЕДИТНОЙ operace můžete transakci buď nechat, nebo ji smazat.",
-      "DeleteConfirm": ""
+      "ConfirmDelete": "Opravdu chcete smazat úvěrovou transakci? Zůstatky na účtu nebudou ovlivněny.",
+      "ConfirmDeleteMayKeepTransaction": "Tato úvěrová operace je spojena s transakcí. Při smazání této úvěrovou operace můžete transakci buď nechat, nebo ji smazat.",
+      "DeleteConfirm": "Opravdu chcete tento úvěr smazat?"
     },
     "title": {
-      "DeleteCredit": "",
-      "Operations": "",
-      "PaymentsChart": ""
+      "DeleteCredit": "Odstranění Úvěru",
+      "Operations": "Historie operací",
+      "PaymentsChart": "Splátkový kalendář"
     }
   }
 }

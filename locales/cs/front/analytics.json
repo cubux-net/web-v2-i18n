@@ -25,8 +25,8 @@
     "type": {
       "Expenses": "Výdaje",
       "Incomes": "Příjmy",
-      "WithCredits": "",
-      "WithLoans": "",
+      "WithCredits": "Počítat úvěry",
+      "WithLoans": "Počítat dluhy",
       "WithTransfers": "Počítat převody"
     }
   },
