@@ -1,0 +1,17 @@
+{
+  "label": {
+    "item": {
+      "NextDate": "",
+      "Repeat": ""
+    }
+  },
+  "message": {
+    "ConfirmDelete": ""
+  },
+  "page": {
+    "title": ""
+  },
+  "when": {
+    "quarter": "{date} of {quartMonth, select, 1{1st month} 2{2nd month} 3{3rd month} other{}}"
+  }
+}
