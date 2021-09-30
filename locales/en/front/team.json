@@ -165,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Select an account",
     "AmountIsEmpty": "Type an amount",
-    "CategoryDidntSelect": "Select a category"
+    "CategoryDidntSelect": "Select a category",
+    "PlanScheduleListIsEmpty": "Select dates to repetition"
   },
   "page": {
     "label": {

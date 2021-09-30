@@ -165,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Выберите счёт",
     "AmountIsEmpty": "Укажите сумму",
-    "CategoryDidntSelect": "Выберите категорию"
+    "CategoryDidntSelect": "Выберите категорию",
+    "PlanScheduleListIsEmpty": "Укажите даты для повторения"
   },
   "page": {
     "label": {

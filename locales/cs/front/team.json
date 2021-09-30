@@ -165,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Zvolte účet",
     "AmountIsEmpty": "Uveďte částku",
-    "CategoryDidntSelect": "Vyberte kategorii"
+    "CategoryDidntSelect": "Vyberte kategorii",
+    "PlanScheduleListIsEmpty": ""
   },
   "page": {
     "label": {
