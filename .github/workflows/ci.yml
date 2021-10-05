@@ -1,6 +1,6 @@
 # https://github.com/actions/starter-workflows/blob/main/ci/node.js.yml
 
-name: Test workflow
+name: Test
 
 on:
   push:

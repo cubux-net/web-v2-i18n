@@ -1,6 +1,6 @@
 # I18N for cubux.net web v2
 
-![Tests status](https://github.com/cubux-net/web-v2-i18n/actions/workflows/ci.yml/badge.svg)
+[![Tests status](https://github.com/cubux-net/web-v2-i18n/actions/workflows/ci.yml/badge.svg)](https://github.com/cubux-net/web-v2-i18n/actions/workflows/ci.yml)
 
 This repository contains i18n data for [cubux.net web version v2][web-v2].
 
