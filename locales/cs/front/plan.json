@@ -1,0 +1,17 @@
+{
+  "label": {
+    "item": {
+      "NextDate": "Příští datum",
+      "Repeat": "Opakovat"
+    }
+  },
+  "message": {
+    "ConfirmDelete": "Opravdu chcete tuto naplánovanou transakci smazat?"
+  },
+  "page": {
+    "title": "Plánované transakce"
+  },
+  "when": {
+    "quarter": "{date}-ého {quartMonth, select, 1{1. měsic} 2{2. měsic} 3{3. měsic} other{}}"
+  }
+}

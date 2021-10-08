@@ -156,6 +156,7 @@
       "LoansEmpty": "Nemáte dluhy",
       "Logout": "Odejít",
       "Main": "Hlavní",
+      "Plan": "Plán",
       "ReturnToOldVersion": "Zpět na starou verzi",
       "Settings": "Nastavení",
       "Support": "Podpora"
@@ -164,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Zvolte účet",
     "AmountIsEmpty": "Uveďte částku",
-    "CategoryDidntSelect": "Vyberte kategorii"
+    "CategoryDidntSelect": "Vyberte kategorii",
+    "PlanScheduleListIsEmpty": "Zadejte data pro opakující se transakce"
   },
   "page": {
     "label": {

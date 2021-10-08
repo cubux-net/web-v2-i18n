@@ -156,6 +156,7 @@
       "LoansEmpty": "Absence",
       "Logout": "Logout",
       "Main": "Main",
+      "Plan": "Plan",
       "ReturnToOldVersion": "Return to old version",
       "Settings": "Settings",
       "Support": "Support"
@@ -164,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Select an account",
     "AmountIsEmpty": "Type an amount",
-    "CategoryDidntSelect": "Select a category"
+    "CategoryDidntSelect": "Select a category",
+    "PlanScheduleListIsEmpty": "Select dates to repetition"
   },
   "page": {
     "label": {

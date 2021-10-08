@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "object",
+          "properties": {
+            "NextDate": {
+              "$ref": "#/$defs/string"
+            },
+            "Repeat": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "NextDate",
+            "Repeat"
+          ]
+        }
+      },
+      "required": [
+        "item"
+      ]
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "ConfirmDelete": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "ConfirmDelete"
+      ]
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    },
+    "when": {
+      "type": "object",
+      "properties": {
+        "quarter": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "quarter"
+      ]
+    }
+  },
+  "required": [
+    "label",
+    "message",
+    "page",
+    "when"
+  ]
+}

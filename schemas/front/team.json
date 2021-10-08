@@ -611,6 +611,9 @@
             "Main": {
               "$ref": "#/$defs/string"
             },
+            "Plan": {
+              "$ref": "#/$defs/string"
+            },
             "ReturnToOldVersion": {
               "$ref": "#/$defs/string"
             },
@@ -636,6 +639,7 @@
             "LoansEmpty",
             "Logout",
             "Main",
+            "Plan",
             "ReturnToOldVersion",
             "Settings",
             "Support"
@@ -657,12 +661,16 @@
         },
         "CategoryDidntSelect": {
           "$ref": "#/$defs/string"
+        },
+        "PlanScheduleListIsEmpty": {
+          "$ref": "#/$defs/string"
         }
       },
       "required": [
         "AccountDidntSelect",
         "AmountIsEmpty",
-        "CategoryDidntSelect"
+        "CategoryDidntSelect",
+        "PlanScheduleListIsEmpty"
       ]
     },
     "page": {

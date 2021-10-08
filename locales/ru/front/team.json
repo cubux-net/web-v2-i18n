@@ -156,6 +156,7 @@
       "LoansEmpty": "Отсутствуют",
       "Logout": "Выход",
       "Main": "Главная",
+      "Plan": "План",
       "ReturnToOldVersion": "Вернуться к старой версии",
       "Settings": "Настройки",
       "Support": "Поддержка"
@@ -164,7 +165,8 @@
   "message": {
     "AccountDidntSelect": "Выберите счёт",
     "AmountIsEmpty": "Укажите сумму",
-    "CategoryDidntSelect": "Выберите категорию"
+    "CategoryDidntSelect": "Выберите категорию",
+    "PlanScheduleListIsEmpty": "Укажите даты для повторения"
   },
   "page": {
     "label": {
