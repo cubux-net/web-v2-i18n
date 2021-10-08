@@ -156,7 +156,7 @@
       "LoansEmpty": "Απουσία",
       "Logout": "Αποσύνδεση",
       "Main": "Κύρια",
-      "Plan": "",
+      "Plan": "Σχέδιο",
       "ReturnToOldVersion": "Επιστροφή στην παλιά έκδοση",
       "Settings": "Ρυθμίσεις",
       "Support": "Υποστήριξη"
@@ -166,7 +166,7 @@
     "AccountDidntSelect": "Επιλέξτε λογαριασμό",
     "AmountIsEmpty": "Πληκτρολογήστε ένα ποσό",
     "CategoryDidntSelect": "Επιλογή κατηγορίας",
-    "PlanScheduleListIsEmpty": ""
+    "PlanScheduleListIsEmpty": "Καθορίστε ημερομηνίες για επανάληψη"
   },
   "page": {
     "label": {

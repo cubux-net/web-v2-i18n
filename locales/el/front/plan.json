@@ -1,17 +1,17 @@
 {
   "label": {
     "item": {
-      "NextDate": "",
-      "Repeat": ""
+      "NextDate": "Επόμενη ημερομηνία",
+      "Repeat": "Επαναλαμβάνω"
     }
   },
   "message": {
-    "ConfirmDelete": ""
+    "ConfirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την προγραμματισμένη συναλλαγή;"
   },
   "page": {
-    "title": ""
+    "title": "Προγραμματισμένες Συναλλαγές"
   },
   "when": {
-    "quarter": "{date} of {quartMonth, select, 1{1st month} 2{2nd month} 3{3rd month} other{}}"
+    "quarter": "{date}-ος {quartMonth, select, 1{1. μήνας} 2{2. μήνας} 3{3. μήνας} other{}}"
   }
 }
