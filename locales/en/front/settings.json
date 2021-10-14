@@ -36,6 +36,7 @@
     "AddSubCategory": "Add subcategory",
     "Expenses": "Expenses",
     "Incomes": "Incomes",
+    "Misc": "Other",
     "Name": "Name",
     "RemoveError": "An error occurred while performing operation",
     "removeErrorDialog": {

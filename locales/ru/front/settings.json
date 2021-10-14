@@ -36,6 +36,7 @@
     "AddSubCategory": "Добавить подкатегорию",
     "Expenses": "Расходы",
     "Incomes": "Доходы",
+    "Misc": "Другие",
     "Name": "Название",
     "RemoveError": "Во время операции возникла ошибка",
     "removeErrorDialog": {

@@ -36,6 +36,7 @@
     "AddSubCategory": "Přidat podkategorii",
     "Expenses": "Výdaje",
     "Incomes": "Příjmy",
+    "Misc": "Ostatní",
     "Name": "Název",
     "RemoveError": "Během operace došlo k chybě",
     "removeErrorDialog": {

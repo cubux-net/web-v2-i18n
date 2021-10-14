@@ -21,9 +21,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "DeleteWithEverything"
-          ]
+          "required": ["DeleteWithEverything"]
         },
         "label": {
           "type": "object",
@@ -35,10 +33,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CountryAndBank",
-            "Name"
-          ]
+          "required": ["CountryAndBank", "Name"]
         },
         "message": {
           "type": "object",
@@ -71,10 +66,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "CanMoveOperation",
-                "MoveDataDelete"
-              ]
+              "required": ["CanMoveOperation", "MoveDataDelete"]
             }
           },
           "required": [
@@ -111,12 +103,7 @@
           ]
         }
       },
-      "required": [
-        "button",
-        "label",
-        "message",
-        "stateButton"
-      ]
+      "required": ["button", "label", "message", "stateButton"]
     },
     "actions": {
       "type": "object",
@@ -131,11 +118,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "Actions",
-        "Remove",
-        "Reset"
-      ]
+      "required": ["Actions", "Remove", "Reset"]
     },
     "categories": {
       "type": "object",
@@ -150,6 +133,9 @@
           "$ref": "#/$defs/string"
         },
         "Incomes": {
+          "$ref": "#/$defs/string"
+        },
+        "Misc": {
           "$ref": "#/$defs/string"
         },
         "Name": {
@@ -198,6 +184,7 @@
         "AddSubCategory",
         "Expenses",
         "Incomes",
+        "Misc",
         "Name",
         "RemoveError",
         "RemoveQuest",
@@ -296,10 +283,7 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "ExistingAccount",
-                    "NewAccount"
-                  ]
+                  "required": ["ExistingAccount", "NewAccount"]
                 },
                 "date": {
                   "type": "object",
@@ -308,9 +292,7 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "Format"
-                  ]
+                  "required": ["Format"]
                 },
                 "dateFormat": {
                   "type": "object",
@@ -325,11 +307,7 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "D",
-                    "M",
-                    "Y"
-                  ]
+                  "required": ["D", "M", "Y"]
                 },
                 "type": {
                   "type": "object",
@@ -344,19 +322,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "ExpenseText",
-                    "IncomeText",
-                    "TransferText"
-                  ]
+                  "required": ["ExpenseText", "IncomeText", "TransferText"]
                 }
               },
-              "required": [
-                "account",
-                "date",
-                "dateFormat",
-                "type"
-              ]
+              "required": ["account", "date", "dateFormat", "type"]
             },
             "csv": {
               "type": "object",
@@ -383,10 +352,7 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "Space",
-                    "Tab"
-                  ]
+                  "required": ["Space", "Tab"]
                 }
               },
               "required": [
@@ -449,17 +415,10 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "ConvertDone",
-                "ConvertFailed",
-                "ConvertPending"
-              ]
+              "required": ["ConvertDone", "ConvertFailed", "ConvertPending"]
             }
           },
-          "required": [
-            "Title",
-            "message"
-          ]
+          "required": ["Title", "message"]
         },
         "label": {
           "type": "object",
@@ -471,10 +430,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "File",
-            "Format"
-          ]
+          "required": ["File", "Format"]
         },
         "placeholder": {
           "type": "object",
@@ -483,9 +439,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "SelectFormat"
-          ]
+          "required": ["SelectFormat"]
         },
         "save": {
           "type": "object",
@@ -503,10 +457,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Done",
-                "StartImport"
-              ]
+              "required": ["Done", "StartImport"]
             },
             "message": {
               "type": "object",
@@ -521,27 +472,13 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "SaveDone",
-                "SaveFailed",
-                "SavePending"
-              ]
+              "required": ["SaveDone", "SaveFailed", "SavePending"]
             }
           },
-          "required": [
-            "Title",
-            "button",
-            "message"
-          ]
+          "required": ["Title", "button", "message"]
         }
       },
-      "required": [
-        "configure",
-        "convert",
-        "label",
-        "placeholder",
-        "save"
-      ]
+      "required": ["configure", "convert", "label", "placeholder", "save"]
     },
     "participants": {
       "type": "object",
@@ -641,17 +578,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NewPasswordsDiffers"
-          ]
+          "required": ["NewPasswordsDiffers"]
         }
       },
-      "required": [
-        "Current",
-        "New",
-        "RepeatNew",
-        "message"
-      ]
+      "required": ["Current", "New", "RepeatNew", "message"]
     },
     "profile": {
       "type": "object",
@@ -718,10 +648,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "AddProject",
-        "RemoveQuest"
-      ]
+      "required": ["AddProject", "RemoveQuest"]
     },
     "subscription": {
       "type": "object",
@@ -739,11 +666,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Pay",
-            "Prolong",
-            "ToPremium"
-          ]
+          "required": ["Pay", "Prolong", "ToPremium"]
         },
         "feature": {
           "type": "object",
@@ -758,10 +681,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "JointAccess",
-                "Loans"
-              ]
+              "required": ["JointAccess", "Loans"]
             },
             "appSync": {
               "type": "object",
@@ -770,15 +690,10 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "title"
-              ]
+              "required": ["title"]
             }
           },
-          "required": [
-            "appFull",
-            "appSync"
-          ]
+          "required": ["appFull", "appSync"]
         },
         "label": {
           "type": "object",
@@ -802,10 +717,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Free",
-                "Premium"
-              ]
+              "required": ["Free", "Premium"]
             }
           },
           "required": [
@@ -922,12 +834,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "month",
-                "monthsPlural",
-                "year",
-                "yearsPlural"
-              ]
+              "required": ["month", "monthsPlural", "year", "yearsPlural"]
             }
           },
           "required": [
@@ -948,19 +855,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "FreeVersion",
-            "MobileApp"
-          ]
+          "required": ["FreeVersion", "MobileApp"]
         }
       },
-      "required": [
-        "button",
-        "feature",
-        "label",
-        "payDialog",
-        "where"
-      ]
+      "required": ["button", "feature", "label", "payDialog", "where"]
     },
     "tabs": {
       "type": "object",
@@ -1036,9 +934,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Confirm"
-              ]
+              "required": ["Confirm"]
             },
             "message": {
               "type": "object",
@@ -1050,20 +946,13 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "CautionOfDataLoss",
-                "ExplainWhatDeletionIs"
-              ]
+              "required": ["CautionOfDataLoss", "ExplainWhatDeletionIs"]
             },
             "title": {
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "button",
-            "message",
-            "title"
-          ]
+          "required": ["button", "message", "title"]
         }
       },
       "required": [
@@ -1089,9 +978,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "EraseTeamData"
-          ]
+          "required": ["EraseTeamData"]
         },
         "message": {
           "type": "object",
@@ -1113,11 +1000,7 @@
           ]
         }
       },
-      "required": [
-        "Title",
-        "button",
-        "message"
-      ]
+      "required": ["Title", "button", "message"]
     }
   },
   "required": [
