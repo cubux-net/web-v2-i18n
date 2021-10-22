@@ -92,11 +92,11 @@
         "Encoding": "и",
         "HeaderLines": "Header lines",
         "Quote": "Quote",
-        "Separator": "Separator",
         "separator": {
           "Space": "Space",
           "Tab": "Tab"
-        }
+        },
+        "Separator": "Separator"
       },
       "message": {
         "AtLeastOneOf": "At least one of",

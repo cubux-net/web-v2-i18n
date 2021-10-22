@@ -21,12 +21,12 @@
     "state": {
       "SyncLost": "Synchronizace přerušena"
     },
-    "Title": "Přidat účet",
     "title": {
       "BankSync": "Synchronizace s bankou",
       "Import": "Importujte účty s transakcemi:",
       "NoSync": "Bez zapnutí synchronizace"
     },
+    "Title": "Přidat účet",
     "TitleEdit": "Upravit účet"
   }
 }

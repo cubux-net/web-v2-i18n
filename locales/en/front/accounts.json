@@ -21,12 +21,12 @@
     "state": {
       "SyncLost": "Synchronization lost"
     },
-    "Title": "Add account",
     "title": {
       "BankSync": "Sync with bank",
       "Import": "Import accounts and transactions",
       "NoSync": "No sync"
     },
+    "Title": "Add account",
     "TitleEdit": "Edit account"
   }
 }

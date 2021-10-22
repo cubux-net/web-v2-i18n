@@ -92,11 +92,11 @@
         "Encoding": "Кодировка",
         "HeaderLines": "Строки заголовка",
         "Quote": "Кавычки",
-        "Separator": "Разделитель",
         "separator": {
           "Space": "Пробел",
           "Tab": "Табуляция"
-        }
+        },
+        "Separator": "Разделитель"
       },
       "message": {
         "AtLeastOneOf": "Хотя бы один из",

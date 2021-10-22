@@ -92,11 +92,11 @@
         "Encoding": "и",
         "HeaderLines": "Γραμμές επικεφαλίδας",
         "Quote": "Απόσπασμα",
-        "Separator": "Διαχωριστής",
         "separator": {
           "Space": "Διάστημα",
           "Tab": "Καρτέλα"
-        }
+        },
+        "Separator": "Διαχωριστής"
       },
       "message": {
         "AtLeastOneOf": "Τουλάχιστον ένα από",

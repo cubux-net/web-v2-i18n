@@ -92,11 +92,11 @@
         "Encoding": "Kódování",
         "HeaderLines": "Řádky záhlaví",
         "Quote": "Uvozovky",
-        "Separator": "Oddělovač",
         "separator": {
           "Space": "Mezera",
           "Tab": "Tabulátory"
-        }
+        },
+        "Separator": "Oddělovač"
       },
       "message": {
         "AtLeastOneOf": "Alespoň jeden z",
