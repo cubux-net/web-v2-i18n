@@ -15,9 +15,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "AddCredit"
-      ]
+      "required": ["AddCredit"]
     },
     "error": {
       "type": "object",
@@ -26,9 +24,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "SomePlanChangedWasNotSaved"
-      ]
+      "required": ["SomePlanChangedWasNotSaved"]
     },
     "form": {
       "type": "object",
@@ -38,10 +34,18 @@
           "properties": {
             "Duration": {
               "$ref": "#/$defs/string"
+            },
+            "FeeFromSyncAccountsAll": {
+              "$ref": "#/$defs/string"
+            },
+            "FeeFromSyncAccountsSome": {
+              "$ref": "#/$defs/string"
             }
           },
           "required": [
-            "Duration"
+            "Duration",
+            "FeeFromSyncAccountsAll",
+            "FeeFromSyncAccountsSome"
           ]
         },
         "label": {
@@ -109,10 +113,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Ann",
-            "Diff"
-          ]
+          "required": ["Ann", "Diff"]
         },
         "title": {
           "type": "object",
@@ -124,18 +125,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CreateCredit",
-            "EditCredit"
-          ]
+          "required": ["CreateCredit", "EditCredit"]
         }
       },
-      "required": [
-        "hint",
-        "label",
-        "planType",
-        "title"
-      ]
+      "required": ["hint", "label", "planType", "title"]
     },
     "formOperation": {
       "type": "object",
@@ -154,19 +147,41 @@
             },
             "NoLinkToPlan": {
               "$ref": "#/$defs/string"
+            },
+            "SelectTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "TransactionLinked": {
+              "$ref": "#/$defs/string"
+            },
+            "TransactionNotLinked": {
+              "$ref": "#/$defs/string"
             }
           },
           "required": [
             "DealWithAccounts",
             "LinkToPlan",
             "LinkToPlanItem",
-            "NoLinkToPlan"
+            "NoLinkToPlan",
+            "SelectTransaction",
+            "TransactionLinked",
+            "TransactionNotLinked"
           ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "SelectTransaction": {
+              "$ref": "#/$defs/string"
+            },
+            "TransactionFetchFailed": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["SelectTransaction", "TransactionFetchFailed"]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label", "message"]
     },
     "formPlan": {
       "type": "object",
@@ -184,11 +199,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Amount",
-            "Date",
-            "PaidAmount"
-          ]
+          "required": ["Amount", "Date", "PaidAmount"]
         },
         "title": {
           "type": "object",
@@ -200,16 +211,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CreatePlan",
-            "EditPlan"
-          ]
+          "required": ["CreatePlan", "EditPlan"]
         }
       },
-      "required": [
-        "label",
-        "title"
-      ]
+      "required": ["label", "title"]
     },
     "page": {
       "type": "object",
@@ -227,16 +232,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Completed",
-            "Pending"
-          ]
+          "required": ["Completed", "Pending"]
         }
       },
-      "required": [
-        "Title",
-        "state"
-      ]
+      "required": ["Title", "state"]
     },
     "pageItem": {
       "type": "object",
@@ -315,19 +314,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "DeleteCredit",
-            "Operations",
-            "PaymentsChart"
-          ]
+          "required": ["DeleteCredit", "Operations", "PaymentsChart"]
         }
       },
-      "required": [
-        "button",
-        "label",
-        "message",
-        "title"
-      ]
+      "required": ["button", "label", "message", "title"]
     }
   },
   "required": [

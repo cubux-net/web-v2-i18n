@@ -7,7 +7,9 @@
   },
   "form": {
     "hint": {
-      "Duration": "Μήνες"
+      "Duration": "Μήνες",
+      "FeeFromSyncAccountsAll": "Οι αυτόματες πληρωμές δεν θα λειτουργούν για συγχρονισμένους λογαριασμούς.",
+      "FeeFromSyncAccountsSome": "Οι αυτόματες πληρωμές δεν θα λειτουργούν για συγχρονισμένους λογαριασμούς."
     },
     "label": {
       "Duration": "Ορος",
@@ -37,7 +39,14 @@
       "DealWithAccounts": "Επηρεάζει τα υπόλοιπα λογαριασμών",
       "LinkToPlan": "Κλείστε στο γράφημα",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": "εκτός σχεδίου"
+      "NoLinkToPlan": "εκτός σχεδίου",
+      "SelectTransaction": "Επιλέξτε μια συναλλαγή...",
+      "TransactionLinked": "Δεσμευμένη συναλλαγή για {amount} για {date}{ifAccountValid, select, 0{ σε άλλο λογαριασμό} other{}}",
+      "TransactionNotLinked": "Η συναλλαγή δεν είναι δεσμευμένη"
+    },
+    "message": {
+      "SelectTransaction": "Καθορίστε τη συναλλαγή.",
+      "TransactionFetchFailed": "Αποτυχία λήψης λεπτομερειών για την επιλεγμένη συναλλαγή."
     }
   },
   "formPlan": {

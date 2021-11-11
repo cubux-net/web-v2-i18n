@@ -7,7 +7,9 @@
   },
   "form": {
     "hint": {
-      "Duration": "Months"
+      "Duration": "Months",
+      "FeeFromSyncAccountsAll": "Automated payment will not work with synchronized accounts.",
+      "FeeFromSyncAccountsSome": "Automated payment will not work with synchronized accounts."
     },
     "label": {
       "Duration": "Duration",
@@ -37,7 +39,14 @@
       "DealWithAccounts": "Does affect accounts",
       "LinkToPlan": "Link to plan",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": "out of plan"
+      "NoLinkToPlan": "out of plan",
+      "SelectTransaction": "Select transaction...",
+      "TransactionLinked": "Linked transaction for {amount} at {date}{ifAccountValid, select, 0{ with another account} other{}}",
+      "TransactionNotLinked": "No transaction linked"
+    },
+    "message": {
+      "SelectTransaction": "Please, select transaction.",
+      "TransactionFetchFailed": "Could not fetch details for linked transaction."
     }
   },
   "formPlan": {

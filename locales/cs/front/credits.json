@@ -7,7 +7,9 @@
   },
   "form": {
     "hint": {
-      "Duration": "Měsíce"
+      "Duration": "Měsíce",
+      "FeeFromSyncAccountsAll": "Automatické platby nebudou fungovat pro synchronizované účty.",
+      "FeeFromSyncAccountsSome": "Automatické platby nebudou fungovat pro synchronizované účty."
     },
     "label": {
       "Duration": "Období",
@@ -37,7 +39,14 @@
       "DealWithAccounts": "Ovlivňuje zůstatky na účtu",
       "LinkToPlan": "Vázat na splátkový kalendář",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": "mimo plán výplaty"
+      "NoLinkToPlan": "mimo plán výplaty",
+      "SelectTransaction": "Vyberte transakci...",
+      "TransactionLinked": "Vázaná transakce ve výši {amount} za {date}{ifAccountValid, select, 0{ z jiného účtu} other{}}",
+      "TransactionNotLinked": "Transakce není vázána"
+    },
+    "message": {
+      "SelectTransaction": "Zadejte transakci.",
+      "TransactionFetchFailed": "Nepodařilo se získat podrobnosti o vybrané transakci."
     }
   },
   "formPlan": {

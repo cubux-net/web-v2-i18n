@@ -7,7 +7,9 @@
   },
   "form": {
     "hint": {
-      "Duration": "Месяцев"
+      "Duration": "Месяцев",
+      "FeeFromSyncAccountsAll": "Автоматические платежи не будут работать для синхронизированных счетов.",
+      "FeeFromSyncAccountsSome": "Автоматические платежи не будут работать для синхронизированных счетов."
     },
     "label": {
       "Duration": "Срок",
@@ -37,7 +39,14 @@
       "DealWithAccounts": "Влияет на остатки на счетах",
       "LinkToPlan": "Привязать к графику",
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
-      "NoLinkToPlan": "вне плана"
+      "NoLinkToPlan": "вне плана",
+      "SelectTransaction": "Выберите транзакцию...",
+      "TransactionLinked": "Привязана транзакция на {amount} за {date}{ifAccountValid, select, 0{ по другому счёту} other{}}",
+      "TransactionNotLinked": "Транзакция не привязана"
+    },
+    "message": {
+      "SelectTransaction": "Укажите транзакцию.",
+      "TransactionFetchFailed": "Не удалось получить детали по выбранной транзакции."
     }
   },
   "formPlan": {
