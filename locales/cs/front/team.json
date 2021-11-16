@@ -157,6 +157,7 @@
       "Logout": "Odejít",
       "Main": "Hlavní",
       "Plan": "Plán",
+      "ReceiptsStats": "",
       "ReturnToOldVersion": "Zpět na starou verzi",
       "Settings": "Nastavení",
       "Support": "Podpora"
@@ -263,6 +264,13 @@
       "Name": "Název",
       "Price": "Cena",
       "Qty": "Množství"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "",
+      "TotalShoppingSum": "",
+      "TotalShopsCount": ""
     }
   },
   "transactions": {

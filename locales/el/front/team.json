@@ -157,6 +157,7 @@
       "Logout": "Αποσύνδεση",
       "Main": "Κύρια",
       "Plan": "Σχέδιο",
+      "ReceiptsStats": "",
       "ReturnToOldVersion": "Επιστροφή στην παλιά έκδοση",
       "Settings": "Ρυθμίσεις",
       "Support": "Υποστήριξη"
@@ -263,6 +264,13 @@
       "Name": "Όνομα",
       "Price": "Τιμή",
       "Qty": "Ποσότητα"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "",
+      "TotalShoppingSum": "",
+      "TotalShopsCount": ""
     }
   },
   "transactions": {

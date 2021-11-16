@@ -1,0 +1,14 @@
+{
+  "button": {
+    "InputReceiptManually": "",
+    "InputReceiptManuallyByPositions": ""
+  },
+  "statsPage": {
+    "label": {
+      "byCategories": "",
+      "byPositions": "",
+      "byShops": ""
+    },
+    "Title": ""
+  }
+}

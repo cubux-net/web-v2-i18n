@@ -1,0 +1,14 @@
+{
+  "button": {
+    "InputReceiptManually": "Input receipt manually",
+    "InputReceiptManuallyByPositions": "Input receipt manually by positions"
+  },
+  "statsPage": {
+    "label": {
+      "byCategories": "By categories",
+      "byPositions": "By positions",
+      "byShops": "By shops"
+    },
+    "Title": "Shopping statistic"
+  }
+}

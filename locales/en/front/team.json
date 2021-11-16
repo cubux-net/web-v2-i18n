@@ -157,6 +157,7 @@
       "Logout": "Logout",
       "Main": "Main",
       "Plan": "Plan",
+      "ReceiptsStats": "Shopping statistic",
       "ReturnToOldVersion": "Return to old version",
       "Settings": "Settings",
       "Support": "Support"
@@ -263,6 +264,13 @@
       "Name": "Name",
       "Price": "Price",
       "Qty": "Qty"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "Receipts count",
+      "TotalShoppingSum": "Total receipts sum",
+      "TotalShopsCount": "Shops"
     }
   },
   "transactions": {

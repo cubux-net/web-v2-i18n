@@ -1,0 +1,14 @@
+{
+  "button": {
+    "InputReceiptManually": "Ввод чека вручную",
+    "InputReceiptManuallyByPositions": "Ввод чека вручную по наименованиям"
+  },
+  "statsPage": {
+    "label": {
+      "byCategories": "По категориям",
+      "byPositions": "По товарам",
+      "byShops": "По магазинам"
+    },
+    "Title": "Статистика покупок"
+  }
+}

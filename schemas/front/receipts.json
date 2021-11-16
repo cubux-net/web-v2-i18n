@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "button": {
+      "type": "object",
+      "properties": {
+        "InputReceiptManually": {
+          "$ref": "#/$defs/string"
+        },
+        "InputReceiptManuallyByPositions": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "InputReceiptManually",
+        "InputReceiptManuallyByPositions"
+      ]
+    },
+    "statsPage": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "byCategories": {
+              "$ref": "#/$defs/string"
+            },
+            "byPositions": {
+              "$ref": "#/$defs/string"
+            },
+            "byShops": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "byCategories",
+            "byPositions",
+            "byShops"
+          ]
+        }
+      },
+      "required": [
+        "Title",
+        "label"
+      ]
+    }
+  },
+  "required": [
+    "button",
+    "statsPage"
+  ]
+}
