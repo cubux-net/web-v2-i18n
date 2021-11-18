@@ -4,10 +4,18 @@
     "InputReceiptManuallyByPositions": "Ввод чека вручную по наименованиям"
   },
   "statsPage": {
+    "button": {
+      "MoreReceipts": "Еще чеки"
+    },
     "label": {
       "byCategories": "По категориям",
       "byPositions": "По товарам",
-      "byShops": "По магазинам"
+      "byShops": "По магазинам",
+      "Shopping": "Покупки",
+      "unknownShop": "магазин неизвестен"
+    },
+    "message": {
+      "NoPositions": "Нет позиций"
     },
     "Title": "Статистика покупок"
   }

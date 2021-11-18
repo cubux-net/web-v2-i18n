@@ -4,10 +4,18 @@
     "InputReceiptManuallyByPositions": "Input receipt manually by positions"
   },
   "statsPage": {
+    "button": {
+      "MoreReceipts": "More receipts"
+    },
     "label": {
       "byCategories": "By categories",
       "byPositions": "By positions",
-      "byShops": "By shops"
+      "byShops": "By shops",
+      "Shopping": "Shopping",
+      "unknownShop": "unknown shop"
+    },
+    "message": {
+      "NoPositions": "No positions"
     },
     "Title": "Shopping statistic"
   }

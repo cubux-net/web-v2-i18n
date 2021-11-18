@@ -29,9 +29,23 @@
         "Title": {
           "$ref": "#/$defs/string"
         },
+        "button": {
+          "type": "object",
+          "properties": {
+            "MoreReceipts": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "MoreReceipts"
+          ]
+        },
         "label": {
           "type": "object",
           "properties": {
+            "Shopping": {
+              "$ref": "#/$defs/string"
+            },
             "byCategories": {
               "$ref": "#/$defs/string"
             },
@@ -40,18 +54,36 @@
             },
             "byShops": {
               "$ref": "#/$defs/string"
+            },
+            "unknownShop": {
+              "$ref": "#/$defs/string"
             }
           },
           "required": [
+            "Shopping",
             "byCategories",
             "byPositions",
-            "byShops"
+            "byShops",
+            "unknownShop"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NoPositions": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "NoPositions"
           ]
         }
       },
       "required": [
         "Title",
-        "label"
+        "button",
+        "label",
+        "message"
       ]
     }
   },
