@@ -11,11 +11,13 @@
       "byCategories": "По категориям",
       "byPositions": "По товарам",
       "byShops": "По магазинам",
+      "PositionPriceVary": "Изменение цены товара",
       "Shopping": "Покупки",
       "unknownShop": "магазин неизвестен"
     },
     "message": {
-      "NoPositions": "Нет позиций"
+      "NoPositions": "Нет позиций",
+      "SelectPositionsToTrack": "Выберите {maxCount, plural, =1{позицию} one{до # позиции} few{до # позиций} other{до # позиций}} для просмотра цен."
     },
     "Title": "Статистика покупок"
   }

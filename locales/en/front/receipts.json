@@ -11,11 +11,13 @@
       "byCategories": "By categories",
       "byPositions": "By positions",
       "byShops": "By shops",
+      "PositionPriceVary": "Position price varying",
       "Shopping": "Shopping",
       "unknownShop": "unknown shop"
     },
     "message": {
-      "NoPositions": "No positions"
+      "NoPositions": "No positions",
+      "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
     },
     "Title": "Shopping statistic"
   }

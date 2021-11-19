@@ -11,11 +11,13 @@
       "byCategories": "",
       "byPositions": "",
       "byShops": "",
+      "PositionPriceVary": "",
       "Shopping": "",
       "unknownShop": ""
     },
     "message": {
-      "NoPositions": ""
+      "NoPositions": "",
+      "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
     },
     "Title": ""
   }

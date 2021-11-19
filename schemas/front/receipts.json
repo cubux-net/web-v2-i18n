@@ -43,6 +43,9 @@
         "label": {
           "type": "object",
           "properties": {
+            "PositionPriceVary": {
+              "$ref": "#/$defs/string"
+            },
             "Shopping": {
               "$ref": "#/$defs/string"
             },
@@ -60,6 +63,7 @@
             }
           },
           "required": [
+            "PositionPriceVary",
             "Shopping",
             "byCategories",
             "byPositions",
@@ -72,10 +76,14 @@
           "properties": {
             "NoPositions": {
               "$ref": "#/$defs/string"
+            },
+            "SelectPositionsToTrack": {
+              "$ref": "#/$defs/string"
             }
           },
           "required": [
-            "NoPositions"
+            "NoPositions",
+            "SelectPositionsToTrack"
           ]
         }
       },
