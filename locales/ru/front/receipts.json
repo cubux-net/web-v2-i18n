@@ -11,7 +11,10 @@
       "byCategories": "По категориям",
       "byPositions": "По товарам",
       "byShops": "По магазинам",
+      "mostCheapPrice": "Самая низкая",
+      "mostExpensivePrice": "Самая высокая",
       "PositionPriceVary": "Изменение цены товара",
+      "priceDifference": "Разница",
       "Shopping": "Покупки",
       "unknownShop": "магазин неизвестен"
     },

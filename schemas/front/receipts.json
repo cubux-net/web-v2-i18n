@@ -58,6 +58,15 @@
             "byShops": {
               "$ref": "#/$defs/string"
             },
+            "mostCheapPrice": {
+              "$ref": "#/$defs/string"
+            },
+            "mostExpensivePrice": {
+              "$ref": "#/$defs/string"
+            },
+            "priceDifference": {
+              "$ref": "#/$defs/string"
+            },
             "unknownShop": {
               "$ref": "#/$defs/string"
             }
@@ -68,6 +77,9 @@
             "byCategories",
             "byPositions",
             "byShops",
+            "mostCheapPrice",
+            "mostExpensivePrice",
+            "priceDifference",
             "unknownShop"
           ]
         },

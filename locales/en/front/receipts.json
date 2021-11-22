@@ -11,7 +11,10 @@
       "byCategories": "By categories",
       "byPositions": "By positions",
       "byShops": "By shops",
+      "mostCheapPrice": "Cheapest",
+      "mostExpensivePrice": "Most expensive",
       "PositionPriceVary": "Position price varying",
+      "priceDifference": "Difference",
       "Shopping": "Shopping",
       "unknownShop": "unknown shop"
     },

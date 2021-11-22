@@ -11,7 +11,10 @@
       "byCategories": "",
       "byPositions": "",
       "byShops": "",
+      "mostCheapPrice": "",
+      "mostExpensivePrice": "",
       "PositionPriceVary": "",
+      "priceDifference": "",
       "Shopping": "",
       "unknownShop": ""
     },
