@@ -1,53 +1,53 @@
 {
   "button": {
-    "CreateReceiptAndLeave": "",
-    "InputReceiptManually": "",
-    "InputReceiptManuallyByPositions": ""
+    "CreateReceiptAndLeave": "Δημιουργήστε μια επιταγή και φύγετε",
+    "InputReceiptManually": "Χειροκίνητη εισαγωγή επιταγής",
+    "InputReceiptManuallyByPositions": "Χειροκίνητη εισαγωγή μιας επιταγής με το όνομα"
   },
   "fetchState": {
-    "Fetching": "",
-    "Fulfilled": "",
-    "Invalid": "",
-    "Rejected": "",
-    "Validation": ""
+    "Fetching": "Αναμονή για δεδομένα",
+    "Fulfilled": "Ελήφθη",
+    "Invalid": "Ανακριβής",
+    "Rejected": "Απορρίφθηκε",
+    "Validation": "Επαλήθευση σε εκκρεμότητα"
   },
   "label": {
-    "Date": "",
-    "FetchAttempts": "",
-    "FetchState": "",
-    "LastFetchAt": "",
-    "NextFetchAfter": "",
-    "Shop": "",
-    "Sum": ""
+    "Date": "ημερομηνία",
+    "FetchAttempts": "Ολοκληρώθηκαν οι προσπάθειες",
+    "FetchState": "Κατάσταση ουράς",
+    "LastFetchAt": "Η τελευταία προσπάθεια ήταν",
+    "NextFetchAfter": "Επόμενη προσπάθεια μετά",
+    "Shop": "Κατάστημα",
+    "Sum": "Αθροισμα"
   },
   "manual": {
     "message": {
-      "CreateUnfinishedReceiptAndLeave": "",
-      "ReceiptDataReadyCheckAndSave": "",
-      "ReceiptIsInvalidOfMissing": "",
-      "StayHereAndWait": "",
-      "WaitingReceiptDataThisMayBeLong": ""
+      "CreateUnfinishedReceiptAndLeave": "Μπορείτε να δημιουργήσετε μια ημιτελή επιταγή αυτή τη στιγμή και να φύγετε. Ο έλεγχος θα υποβληθεί σε επεξεργασία όταν έρθει η σειρά.",
+      "ReceiptDataReadyCheckAndSave": "Τα δεδομένα παραλαβής ελήφθησαν με επιτυχία.",
+      "ReceiptIsInvalidOfMissing": "Δεν είναι δυνατή η λήψη δεδομένων ελέγχου. Ο έλεγχος είτε δεν είναι σωστός είτε τα δεδομένα δεν βρέθηκαν.",
+      "StayHereAndWait": "Μπορείτε να περιμένετε για το αποτέλεσμα και μόνο τότε να δημιουργήσετε μια απόδειξη.",
+      "WaitingReceiptDataThisMayBeLong": "Η επιταγή βρίσκεται στην ουρά για επεξεργασία. Αυτό μπορεί να διαρκέσει πολύ, ανάλογα με τη συμφόρηση της ουράς."
     }
   },
   "statsPage": {
     "button": {
-      "MoreReceipts": ""
+      "MoreReceipts": "Περισσότεροι έλεγχοι"
     },
     "label": {
-      "byCategories": "",
-      "byPositions": "",
-      "byShops": "",
-      "mostCheapPrice": "",
-      "mostExpensivePrice": "",
-      "PositionPriceVary": "",
-      "priceDifference": "",
-      "Shopping": "",
-      "unknownShop": ""
+      "byCategories": "Ανά κατηγορία",
+      "byPositions": "Με αγαθά",
+      "byShops": "Ψώνια",
+      "mostCheapPrice": "Χαμηλότερο",
+      "mostExpensivePrice": "Το ψηλότερο",
+      "PositionPriceVary": "Αλλαγή τιμής προϊόντος",
+      "priceDifference": "Διαφορά",
+      "Shopping": "Ψώνια",
+      "unknownShop": "άγνωστο κατάστημα"
     },
     "message": {
-      "NoPositions": "",
-      "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
+      "NoPositions": "Χωρίς θέσεις",
+      "SelectPositionsToTrack": "Παρακαλώ επιλέξτε {maxCount, plural, =1{θέση} one{πριν # θέσεις} few{πριν # θέσεις} other{πριν # θέσεις}} για να δείτε τις τιμές."
     },
-    "Title": ""
+    "Title": "Στατιστικά στοιχεία αγορών"
   }
 }

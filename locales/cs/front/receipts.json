@@ -1,53 +1,53 @@
 {
   "button": {
-    "CreateReceiptAndLeave": "",
-    "InputReceiptManually": "",
-    "InputReceiptManuallyByPositions": ""
+    "CreateReceiptAndLeave": "Vytvořit účtenku a odejít",
+    "InputReceiptManually": "Ruční zadání účtenky",
+    "InputReceiptManuallyByPositions": "Ruční zadání účtenky podle jména"
   },
   "fetchState": {
-    "Fetching": "",
-    "Fulfilled": "",
-    "Invalid": "",
-    "Rejected": "",
-    "Validation": ""
+    "Fetching": "Čekání na data",
+    "Fulfilled": "Přijato",
+    "Invalid": "Nesprávný",
+    "Rejected": "Odmítnuto",
+    "Validation": "Čeká na ověření"
   },
   "label": {
-    "Date": "",
-    "FetchAttempts": "",
-    "FetchState": "",
-    "LastFetchAt": "",
-    "NextFetchAfter": "",
-    "Shop": "",
-    "Sum": ""
+    "Date": "Datum",
+    "FetchAttempts": "Počet pokusu",
+    "FetchState": "Stav ve frontě",
+    "LastFetchAt": "Poslední pokus byl",
+    "NextFetchAfter": "Další pokus",
+    "Shop": "Prodejna",
+    "Sum": "Součet"
   },
   "manual": {
     "message": {
-      "CreateUnfinishedReceiptAndLeave": "",
-      "ReceiptDataReadyCheckAndSave": "",
-      "ReceiptIsInvalidOfMissing": "",
-      "StayHereAndWait": "",
-      "WaitingReceiptDataThisMayBeLong": ""
+      "CreateUnfinishedReceiptAndLeave": "Právě teď můžete vytvořit nedokončenou účtenku a odejít. Účtenka bude zpracována až přijde řada.",
+      "ReceiptDataReadyCheckAndSave": "Údaje o účtence byly úspěšně přijaty.",
+      "ReceiptIsInvalidOfMissing": "Nelze získat data o účtence. Účtenka buď není správná, nebo data nebyla nalezena.",
+      "StayHereAndWait": "Můžete počkat na výsledek a teprve poté vytvořit účtenku.",
+      "WaitingReceiptDataThisMayBeLong": "Účtenka je ve frontě na zpracování. To může trvat dlouho v závislosti na přetížení fronty."
     }
   },
   "statsPage": {
     "button": {
-      "MoreReceipts": ""
+      "MoreReceipts": "Více účtenek"
     },
     "label": {
-      "byCategories": "",
-      "byPositions": "",
-      "byShops": "",
-      "mostCheapPrice": "",
-      "mostExpensivePrice": "",
-      "PositionPriceVary": "",
-      "priceDifference": "",
-      "Shopping": "",
-      "unknownShop": ""
+      "byCategories": "Podle kategorie",
+      "byPositions": "Podle zboží",
+      "byShops": "Podle prodejny",
+      "mostCheapPrice": "Nejnižší",
+      "mostExpensivePrice": "Nejvyšší",
+      "PositionPriceVary": "Změna ceny zboží",
+      "priceDifference": "Rozdíl",
+      "Shopping": "Zboží",
+      "unknownShop": "obchod neznámý"
     },
     "message": {
-      "NoPositions": "",
-      "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
+      "NoPositions": "Žádné pozice",
+      "SelectPositionsToTrack": "Prosím vyberte {maxCount, plural, =1{pozice} one{do # pozice} few{do # pozicí} other{do # pozice}} pro zobrazení cen."
     },
-    "Title": ""
+    "Title": "Statistika nákupů"
   }
 }

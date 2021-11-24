@@ -157,7 +157,7 @@
       "Logout": "Αποσύνδεση",
       "Main": "Κύρια",
       "Plan": "Σχέδιο",
-      "ReceiptsStats": "",
+      "ReceiptsStats": "Στατιστικά στοιχεία αγορών",
       "ReturnToOldVersion": "Επιστροφή στην παλιά έκδοση",
       "Settings": "Ρυθμίσεις",
       "Support": "Υποστήριξη"
@@ -268,9 +268,9 @@
   },
   "receiptStats": {
     "label": {
-      "TotalReceiptsCount": "",
-      "TotalShoppingSum": "",
-      "TotalShopsCount": ""
+      "TotalReceiptsCount": "Αριθμός ελέγχων",
+      "TotalShoppingSum": "Έλεγχοι για το ποσό",
+      "TotalShopsCount": "Καταστήματα"
     }
   },
   "transactions": {
