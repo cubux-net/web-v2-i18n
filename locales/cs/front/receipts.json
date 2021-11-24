@@ -1,7 +1,33 @@
 {
   "button": {
+    "CreateReceiptAndLeave": "",
     "InputReceiptManually": "",
     "InputReceiptManuallyByPositions": ""
+  },
+  "fetchState": {
+    "Fetching": "",
+    "Fulfilled": "",
+    "Invalid": "",
+    "Rejected": "",
+    "Validation": ""
+  },
+  "label": {
+    "Date": "",
+    "FetchAttempts": "",
+    "FetchState": "",
+    "LastFetchAt": "",
+    "NextFetchAfter": "",
+    "Shop": "",
+    "Sum": ""
+  },
+  "manual": {
+    "message": {
+      "CreateUnfinishedReceiptAndLeave": "",
+      "ReceiptDataReadyCheckAndSave": "",
+      "ReceiptIsInvalidOfMissing": "",
+      "StayHereAndWait": "",
+      "WaitingReceiptDataThisMayBeLong": ""
+    }
   },
   "statsPage": {
     "button": {

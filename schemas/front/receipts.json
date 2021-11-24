@@ -11,6 +11,9 @@
     "button": {
       "type": "object",
       "properties": {
+        "CreateReceiptAndLeave": {
+          "$ref": "#/$defs/string"
+        },
         "InputReceiptManually": {
           "$ref": "#/$defs/string"
         },
@@ -19,8 +22,106 @@
         }
       },
       "required": [
+        "CreateReceiptAndLeave",
         "InputReceiptManually",
         "InputReceiptManuallyByPositions"
+      ]
+    },
+    "fetchState": {
+      "type": "object",
+      "properties": {
+        "Fetching": {
+          "$ref": "#/$defs/string"
+        },
+        "Fulfilled": {
+          "$ref": "#/$defs/string"
+        },
+        "Invalid": {
+          "$ref": "#/$defs/string"
+        },
+        "Rejected": {
+          "$ref": "#/$defs/string"
+        },
+        "Validation": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Fetching",
+        "Fulfilled",
+        "Invalid",
+        "Rejected",
+        "Validation"
+      ]
+    },
+    "label": {
+      "type": "object",
+      "properties": {
+        "Date": {
+          "$ref": "#/$defs/string"
+        },
+        "FetchAttempts": {
+          "$ref": "#/$defs/string"
+        },
+        "FetchState": {
+          "$ref": "#/$defs/string"
+        },
+        "LastFetchAt": {
+          "$ref": "#/$defs/string"
+        },
+        "NextFetchAfter": {
+          "$ref": "#/$defs/string"
+        },
+        "Shop": {
+          "$ref": "#/$defs/string"
+        },
+        "Sum": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Date",
+        "FetchAttempts",
+        "FetchState",
+        "LastFetchAt",
+        "NextFetchAfter",
+        "Shop",
+        "Sum"
+      ]
+    },
+    "manual": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "CreateUnfinishedReceiptAndLeave": {
+              "$ref": "#/$defs/string"
+            },
+            "ReceiptDataReadyCheckAndSave": {
+              "$ref": "#/$defs/string"
+            },
+            "ReceiptIsInvalidOfMissing": {
+              "$ref": "#/$defs/string"
+            },
+            "StayHereAndWait": {
+              "$ref": "#/$defs/string"
+            },
+            "WaitingReceiptDataThisMayBeLong": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreateUnfinishedReceiptAndLeave",
+            "ReceiptDataReadyCheckAndSave",
+            "ReceiptIsInvalidOfMissing",
+            "StayHereAndWait",
+            "WaitingReceiptDataThisMayBeLong"
+          ]
+        }
+      },
+      "required": [
+        "message"
       ]
     },
     "statsPage": {
@@ -109,6 +210,9 @@
   },
   "required": [
     "button",
+    "fetchState",
+    "label",
+    "manual",
     "statsPage"
   ]
 }
