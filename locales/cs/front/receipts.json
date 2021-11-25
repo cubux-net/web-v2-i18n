@@ -26,7 +26,7 @@
       "ReceiptDataReadyCheckAndSave": "Údaje o účtence byly úspěšně přijaty.",
       "ReceiptIsInvalidOfMissing": "Nelze získat data o účtence. Účtenka buď není správná, nebo data nebyla nalezena.",
       "StayHereAndWait": "Můžete počkat na výsledek a teprve poté vytvořit účtenku.",
-      "WaitingReceiptDataThisMayBeLong": "Účtenka je ve frontě na zpracování. To může trvat dlouho v závislosti na přetížení fronty."
+      "WaitingReceiptDataThisMayBeLong": "Účtenka je ve frontě na zpracování. To může trvat dlouho, v závislosti na přetížení fronty."
     }
   },
   "statsPage": {
@@ -39,10 +39,10 @@
       "byShops": "Podle prodejny",
       "mostCheapPrice": "Nejnižší",
       "mostExpensivePrice": "Nejvyšší",
-      "PositionPriceVary": "Změna ceny zboží",
+      "PositionPriceVary": "Vývoj ceny zboží",
       "priceDifference": "Rozdíl",
       "Shopping": "Zboží",
-      "unknownShop": "obchod neznámý"
+      "unknownShop": "neznámý obchod"
     },
     "message": {
       "NoPositions": "Žádné pozice",
