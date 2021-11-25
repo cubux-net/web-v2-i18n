@@ -1,0 +1,53 @@
+{
+  "button": {
+    "CreateReceiptAndLeave": "Create receipt and leave",
+    "InputReceiptManually": "Input receipt manually",
+    "InputReceiptManuallyByPositions": "Input receipt manually by positions"
+  },
+  "fetchState": {
+    "Fetching": "Waiting for data",
+    "Fulfilled": "Fulfilled",
+    "Invalid": "Invalid",
+    "Rejected": "Rejected",
+    "Validation": "Waiting for validation"
+  },
+  "label": {
+    "Date": "Date",
+    "FetchAttempts": "Attempts performed",
+    "FetchState": "Status in queue",
+    "LastFetchAt": "Last attempt was at",
+    "NextFetchAfter": "Next attempt after",
+    "Shop": "Shop",
+    "Sum": "Sum"
+  },
+  "manual": {
+    "message": {
+      "CreateUnfinishedReceiptAndLeave": "You can create unfinished receipt right now. The receipt will be processed with respect to queue.",
+      "ReceiptDataReadyCheckAndSave": "Receipt data fulfilled successfully.",
+      "ReceiptIsInvalidOfMissing": "Unable to get data for the receipt. Either receipt in invalid, or data was not found.",
+      "StayHereAndWait": "You can stay here and wait for the result. After then you would save the receipt.",
+      "WaitingReceiptDataThisMayBeLong": "The receipt is in queue. This may take long time depending on queue load."
+    }
+  },
+  "statsPage": {
+    "button": {
+      "MoreReceipts": "More receipts"
+    },
+    "label": {
+      "byCategories": "By categories",
+      "byPositions": "By positions",
+      "byShops": "By shops",
+      "mostCheapPrice": "Cheapest",
+      "mostExpensivePrice": "Most expensive",
+      "PositionPriceVary": "Position price varying",
+      "priceDifference": "Difference",
+      "Shopping": "Shopping",
+      "unknownShop": "unknown shop"
+    },
+    "message": {
+      "NoPositions": "No positions",
+      "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
+    },
+    "Title": "Shopping statistic"
+  }
+}

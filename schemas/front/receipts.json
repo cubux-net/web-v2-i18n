@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$defs": {
+    "string": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "properties": {
+    "button": {
+      "type": "object",
+      "properties": {
+        "CreateReceiptAndLeave": {
+          "$ref": "#/$defs/string"
+        },
+        "InputReceiptManually": {
+          "$ref": "#/$defs/string"
+        },
+        "InputReceiptManuallyByPositions": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "CreateReceiptAndLeave",
+        "InputReceiptManually",
+        "InputReceiptManuallyByPositions"
+      ]
+    },
+    "fetchState": {
+      "type": "object",
+      "properties": {
+        "Fetching": {
+          "$ref": "#/$defs/string"
+        },
+        "Fulfilled": {
+          "$ref": "#/$defs/string"
+        },
+        "Invalid": {
+          "$ref": "#/$defs/string"
+        },
+        "Rejected": {
+          "$ref": "#/$defs/string"
+        },
+        "Validation": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Fetching",
+        "Fulfilled",
+        "Invalid",
+        "Rejected",
+        "Validation"
+      ]
+    },
+    "label": {
+      "type": "object",
+      "properties": {
+        "Date": {
+          "$ref": "#/$defs/string"
+        },
+        "FetchAttempts": {
+          "$ref": "#/$defs/string"
+        },
+        "FetchState": {
+          "$ref": "#/$defs/string"
+        },
+        "LastFetchAt": {
+          "$ref": "#/$defs/string"
+        },
+        "NextFetchAfter": {
+          "$ref": "#/$defs/string"
+        },
+        "Shop": {
+          "$ref": "#/$defs/string"
+        },
+        "Sum": {
+          "$ref": "#/$defs/string"
+        }
+      },
+      "required": [
+        "Date",
+        "FetchAttempts",
+        "FetchState",
+        "LastFetchAt",
+        "NextFetchAfter",
+        "Shop",
+        "Sum"
+      ]
+    },
+    "manual": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "CreateUnfinishedReceiptAndLeave": {
+              "$ref": "#/$defs/string"
+            },
+            "ReceiptDataReadyCheckAndSave": {
+              "$ref": "#/$defs/string"
+            },
+            "ReceiptIsInvalidOfMissing": {
+              "$ref": "#/$defs/string"
+            },
+            "StayHereAndWait": {
+              "$ref": "#/$defs/string"
+            },
+            "WaitingReceiptDataThisMayBeLong": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "CreateUnfinishedReceiptAndLeave",
+            "ReceiptDataReadyCheckAndSave",
+            "ReceiptIsInvalidOfMissing",
+            "StayHereAndWait",
+            "WaitingReceiptDataThisMayBeLong"
+          ]
+        }
+      },
+      "required": [
+        "message"
+      ]
+    },
+    "statsPage": {
+      "type": "object",
+      "properties": {
+        "Title": {
+          "$ref": "#/$defs/string"
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "MoreReceipts": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "MoreReceipts"
+          ]
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "PositionPriceVary": {
+              "$ref": "#/$defs/string"
+            },
+            "Shopping": {
+              "$ref": "#/$defs/string"
+            },
+            "byCategories": {
+              "$ref": "#/$defs/string"
+            },
+            "byPositions": {
+              "$ref": "#/$defs/string"
+            },
+            "byShops": {
+              "$ref": "#/$defs/string"
+            },
+            "mostCheapPrice": {
+              "$ref": "#/$defs/string"
+            },
+            "mostExpensivePrice": {
+              "$ref": "#/$defs/string"
+            },
+            "priceDifference": {
+              "$ref": "#/$defs/string"
+            },
+            "unknownShop": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "PositionPriceVary",
+            "Shopping",
+            "byCategories",
+            "byPositions",
+            "byShops",
+            "mostCheapPrice",
+            "mostExpensivePrice",
+            "priceDifference",
+            "unknownShop"
+          ]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "NoPositions": {
+              "$ref": "#/$defs/string"
+            },
+            "SelectPositionsToTrack": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "NoPositions",
+            "SelectPositionsToTrack"
+          ]
+        }
+      },
+      "required": [
+        "Title",
+        "button",
+        "label",
+        "message"
+      ]
+    }
+  },
+  "required": [
+    "button",
+    "fetchState",
+    "label",
+    "manual",
+    "statsPage"
+  ]
+}

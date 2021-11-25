@@ -614,6 +614,9 @@
             "Plan": {
               "$ref": "#/$defs/string"
             },
+            "ReceiptsStats": {
+              "$ref": "#/$defs/string"
+            },
             "ReturnToOldVersion": {
               "$ref": "#/$defs/string"
             },
@@ -640,6 +643,7 @@
             "Logout",
             "Main",
             "Plan",
+            "ReceiptsStats",
             "ReturnToOldVersion",
             "Settings",
             "Support"
@@ -1055,6 +1059,33 @@
         "label"
       ]
     },
+    "receiptStats": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "object",
+          "properties": {
+            "TotalReceiptsCount": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalShoppingSum": {
+              "$ref": "#/$defs/string"
+            },
+            "TotalShopsCount": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": [
+            "TotalReceiptsCount",
+            "TotalShoppingSum",
+            "TotalShopsCount"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
     "transactions": {
       "type": "object",
       "properties": {
@@ -1117,6 +1148,7 @@
     "project",
     "receipt",
     "receiptPos",
+    "receiptStats",
     "transactions"
   ]
 }

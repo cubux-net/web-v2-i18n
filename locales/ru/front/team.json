@@ -157,6 +157,7 @@
       "Logout": "Выход",
       "Main": "Главная",
       "Plan": "План",
+      "ReceiptsStats": "Статистика покупок",
       "ReturnToOldVersion": "Вернуться к старой версии",
       "Settings": "Настройки",
       "Support": "Поддержка"
@@ -259,10 +260,17 @@
   },
   "receiptPos": {
     "label": {
-      "Cost": "Сумма",
+      "Cost": "Стоимость",
       "Name": "Название",
       "Price": "Цена",
       "Qty": "Кол-во"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "Количество чеков",
+      "TotalShoppingSum": "Чеков на сумму",
+      "TotalShopsCount": "Магазинов"
     }
   },
   "transactions": {

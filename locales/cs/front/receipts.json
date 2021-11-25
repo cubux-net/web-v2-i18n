@@ -1,0 +1,53 @@
+{
+  "button": {
+    "CreateReceiptAndLeave": "Vytvořit účtenku a odejít",
+    "InputReceiptManually": "Ruční zadání účtenky",
+    "InputReceiptManuallyByPositions": "Ruční zadání účtenky podle jména"
+  },
+  "fetchState": {
+    "Fetching": "Čekání na data",
+    "Fulfilled": "Přijato",
+    "Invalid": "Nesprávný",
+    "Rejected": "Odmítnuto",
+    "Validation": "Čeká na ověření"
+  },
+  "label": {
+    "Date": "Datum",
+    "FetchAttempts": "Počet pokusu",
+    "FetchState": "Stav ve frontě",
+    "LastFetchAt": "Poslední pokus byl",
+    "NextFetchAfter": "Další pokus",
+    "Shop": "Prodejna",
+    "Sum": "Součet"
+  },
+  "manual": {
+    "message": {
+      "CreateUnfinishedReceiptAndLeave": "Právě teď můžete vytvořit nedokončenou účtenku a odejít. Účtenka bude zpracována až přijde řada.",
+      "ReceiptDataReadyCheckAndSave": "Údaje o účtence byly úspěšně přijaty.",
+      "ReceiptIsInvalidOfMissing": "Nelze získat data o účtence. Účtenka buď není správná, nebo data nebyla nalezena.",
+      "StayHereAndWait": "Můžete počkat na výsledek a teprve poté vytvořit účtenku.",
+      "WaitingReceiptDataThisMayBeLong": "Účtenka je ve frontě na zpracování. To může trvat dlouho, v závislosti na přetížení fronty."
+    }
+  },
+  "statsPage": {
+    "button": {
+      "MoreReceipts": "Více účtenek"
+    },
+    "label": {
+      "byCategories": "Podle kategorie",
+      "byPositions": "Podle zboží",
+      "byShops": "Podle prodejny",
+      "mostCheapPrice": "Nejnižší",
+      "mostExpensivePrice": "Nejvyšší",
+      "PositionPriceVary": "Vývoj ceny zboží",
+      "priceDifference": "Rozdíl",
+      "Shopping": "Zboží",
+      "unknownShop": "neznámý obchod"
+    },
+    "message": {
+      "NoPositions": "Žádné pozice",
+      "SelectPositionsToTrack": "Prosím vyberte {maxCount, plural, =1{pozice} one{do # pozice} few{do # pozicí} other{do # pozice}} pro zobrazení cen."
+    },
+    "Title": "Statistika nákupů"
+  }
+}
