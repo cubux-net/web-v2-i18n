@@ -7,7 +7,6 @@
     "message": {
       "AssignCategoriesByEdit": "Naplánujte Kategorie pomocí tlačítka \"Upravit\".",
       "DeleteConfirm": "Opravdu chcete tento rozpočet smazat?",
-      "DeleteConfirmOldNotice": "Tento rozpočet je spojen se starým rozpočtem. Pokud jej odstraníte a pak někdo změní starý rozpočet (na staré webové verzi nebo v aplikaci se starým rozpočtem), automaticky se místo toho vytvoří nový rozpočet.",
       "NoCategoriesAssignedToShowFacts": "Žádné plánované kategorie pro zobrazení operací."
     },
     "property": {

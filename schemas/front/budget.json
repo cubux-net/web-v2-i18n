@@ -21,10 +21,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Month",
-            "Year"
-          ]
+          "required": ["Month", "Year"]
         },
         "message": {
           "type": "object",
@@ -35,9 +32,6 @@
             "DeleteConfirm": {
               "$ref": "#/$defs/string"
             },
-            "DeleteConfirmOldNotice": {
-              "$ref": "#/$defs/string"
-            },
             "NoCategoriesAssignedToShowFacts": {
               "$ref": "#/$defs/string"
             }
@@ -45,7 +39,6 @@
           "required": [
             "AssignCategoriesByEdit",
             "DeleteConfirm",
-            "DeleteConfirmOldNotice",
             "NoCategoriesAssignedToShowFacts"
           ]
         },
@@ -59,10 +52,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Loop",
-            "Name"
-          ]
+          "required": ["Loop", "Name"]
         },
         "title": {
           "type": "object",
@@ -74,10 +64,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Create",
-            "Delete"
-          ]
+          "required": ["Create", "Delete"]
         },
         "type": {
           "type": "object",
@@ -89,10 +76,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Expense",
-            "Income"
-          ]
+          "required": ["Expense", "Income"]
         },
         "validation": {
           "type": "object",
@@ -101,19 +85,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "EndDateAfterStartDate"
-          ]
+          "required": ["EndDateAfterStartDate"]
         }
       },
-      "required": [
-        "loop",
-        "message",
-        "property",
-        "title",
-        "type",
-        "validation"
-      ]
+      "required": ["loop", "message", "property", "title", "type", "validation"]
     },
     "page": {
       "type": "object",
@@ -161,10 +136,7 @@
           ]
         }
       },
-      "required": [
-        "Title",
-        "label"
-      ]
+      "required": ["Title", "label"]
     },
     "period": {
       "type": "object",
@@ -176,14 +148,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Inherit"
-          ]
+          "required": ["Inherit"]
         }
       },
-      "required": [
-        "property"
-      ]
+      "required": ["property"]
     },
     "timeline": {
       "type": "object",
@@ -195,20 +163,11 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "ShowAllCategories"
-          ]
+          "required": ["ShowAllCategories"]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     }
   },
-  "required": [
-    "entry",
-    "page",
-    "period",
-    "timeline"
-  ]
+  "required": ["entry", "page", "period", "timeline"]
 }
