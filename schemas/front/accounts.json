@@ -71,6 +71,9 @@
             "Name": {
               "$ref": "#/$defs/string"
             },
+            "OptionalFetchSince": {
+              "$ref": "#/$defs/string"
+            },
             "SearchPlaceholder": {
               "$ref": "#/$defs/string"
             }
@@ -83,6 +86,7 @@
             "InitialAmountDate",
             "KeepSyncWithBank",
             "Name",
+            "OptionalFetchSince",
             "SearchPlaceholder"
           ]
         },
