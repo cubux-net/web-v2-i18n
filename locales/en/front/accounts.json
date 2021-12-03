@@ -16,6 +16,7 @@
       "InitialAmountDate": "Initial amount date",
       "KeepSyncWithBank": "Keep synchronization with bank",
       "Name": "Name",
+      "OptionalFetchSince": "Optional. Fetch since",
       "SearchPlaceholder": "Start to type bank name to filter..."
     },
     "state": {

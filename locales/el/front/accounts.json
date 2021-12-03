@@ -16,6 +16,7 @@
       "InitialAmountDate": "Ημερομηνία αρχικού ποσού",
       "KeepSyncWithBank": "Διατήρηση συγχρονισμού με τράπεζα",
       "Name": "Όνομα",
+      "OptionalFetchSince": "",
       "SearchPlaceholder": "Αρχίστε να πληκτρολογείτε το όνομα της τράπεζας για φιλτράρισμα..."
     },
     "state": {
