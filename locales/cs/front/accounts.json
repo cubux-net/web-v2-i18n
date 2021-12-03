@@ -16,7 +16,7 @@
       "InitialAmountDate": "Datum vložení počatečního stavu",
       "KeepSyncWithBank": "Pokračovat v synchronizaci s bankou",
       "Name": "Název účtu",
-      "OptionalFetchSince": "",
+      "OptionalFetchSince": "Volitelný. Načíst od",
       "SearchPlaceholder": "Začněte psát název banky pro filtrování..."
     },
     "state": {
