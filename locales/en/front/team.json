@@ -1,13 +1,17 @@
 {
   "accounts": {
     "button": {
-      "AddAccount": "Add account"
+      "AddAccount": "Add account",
+      "AddGroup": "Add group"
     },
     "hint": {
       "ClickToStartRefresh": "Click to refresh data",
       "NextRefreshPossibleAt": "Next refresh possible after {when}.",
       "ReconnectToBank": "Configure bank connection",
       "WillAutoRefresh": "This account will refresh automatically."
+    },
+    "label": {
+      "WithoutGroup": "Without group"
     },
     "messages": {
       "BankSyncLost": "Connection with bank lost.",
@@ -171,8 +175,7 @@
   },
   "page": {
     "label": {
-      "Accounts": "Accounts",
-      "BankAccounts": "Bank accounts"
+      "Accounts": "Accounts"
     }
   },
   "plan": {

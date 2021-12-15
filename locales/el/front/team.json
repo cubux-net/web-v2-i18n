@@ -1,13 +1,17 @@
 {
   "accounts": {
     "button": {
-      "AddAccount": "Προσθήκη λογαριασμού"
+      "AddAccount": "Προσθήκη λογαριασμού",
+      "AddGroup": "Προσθήκη ομάδας"
     },
     "hint": {
       "ClickToStartRefresh": "Κάντε κλικ για ανανέωση δεδομένων",
       "NextRefreshPossibleAt": "Η επόμενη ανανέωση είναι δυνατή μετά από {when}.",
       "ReconnectToBank": "Ρύθμιση παραμέτρων τραπεζικής σύνδεσης",
       "WillAutoRefresh": "Αυτός ο λογαριασμός θα ανανεωθεί αυτόματα."
+    },
+    "label": {
+      "WithoutGroup": "Χωρίς ομάδα"
     },
     "messages": {
       "BankSyncLost": "Η σύνδεση με την τράπεζα χάθηκε.",
@@ -171,8 +175,7 @@
   },
   "page": {
     "label": {
-      "Accounts": "Λογαριασμοί",
-      "BankAccounts": "Τραπεζικοί λογαριασμοί"
+      "Accounts": "Λογαριασμοί"
     }
   },
   "plan": {

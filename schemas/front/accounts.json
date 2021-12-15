@@ -24,9 +24,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "OAuthGo"
-          ]
+          "required": ["OAuthGo"]
         },
         "comment": {
           "type": "object",
@@ -41,11 +39,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Agreement",
-            "AutoSync",
-            "OAuthIntro"
-          ]
+          "required": ["Agreement", "AutoSync", "OAuthIntro"]
         },
         "input": {
           "type": "object",
@@ -57,6 +51,9 @@
               "$ref": "#/$defs/string"
             },
             "Currency": {
+              "$ref": "#/$defs/string"
+            },
+            "Group": {
               "$ref": "#/$defs/string"
             },
             "InitialAmount": {
@@ -82,6 +79,7 @@
             "AnyCashAccount",
             "Cash",
             "Currency",
+            "Group",
             "InitialAmount",
             "InitialAmountDate",
             "KeepSyncWithBank",
@@ -97,9 +95,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "SyncLost"
-          ]
+          "required": ["SyncLost"]
         },
         "title": {
           "type": "object",
@@ -114,11 +110,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "BankSync",
-            "Import",
-            "NoSync"
-          ]
+          "required": ["BankSync", "Import", "NoSync"]
         }
       },
       "required": [
@@ -132,7 +124,5 @@
       ]
     }
   },
-  "required": [
-    "dialog"
-  ]
+  "required": ["dialog"]
 }

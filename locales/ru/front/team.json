@@ -1,13 +1,17 @@
 {
   "accounts": {
     "button": {
-      "AddAccount": "Добавить счёт"
+      "AddAccount": "Добавить счёт",
+      "AddGroup": "Добавить группу"
     },
     "hint": {
       "ClickToStartRefresh": "Нажмите, чтобы начать обновление данных",
       "NextRefreshPossibleAt": "Следующее обновление возможно после {when}.",
       "ReconnectToBank": "Настроить подключение к банку",
       "WillAutoRefresh": "Этот счёт обновляется автоматически."
+    },
+    "label": {
+      "WithoutGroup": "Без группы"
     },
     "messages": {
       "BankSyncLost": "Связь с банком прервана.",
@@ -171,8 +175,7 @@
   },
   "page": {
     "label": {
-      "Accounts": "Счета",
-      "BankAccounts": "Банковские счета"
+      "Accounts": "Счета"
     }
   },
   "plan": {

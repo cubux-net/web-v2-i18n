@@ -12,6 +12,7 @@
       "AnyCashAccount": "Наличные или любой счет",
       "Cash": "Наличные",
       "Currency": "Валюта счета",
+      "Group": "Группа",
       "InitialAmount": "Начальный остаток",
       "InitialAmountDate": "Дата начального остатка",
       "KeepSyncWithBank": "Продолжать синхронизацию с банком",

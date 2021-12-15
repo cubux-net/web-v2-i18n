@@ -16,11 +16,12 @@
           "properties": {
             "AddAccount": {
               "$ref": "#/$defs/string"
+            },
+            "AddGroup": {
+              "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "AddAccount"
-          ]
+          "required": ["AddAccount", "AddGroup"]
         },
         "hint": {
           "type": "object",
@@ -44,6 +45,15 @@
             "ReconnectToBank",
             "WillAutoRefresh"
           ]
+        },
+        "label": {
+          "type": "object",
+          "properties": {
+            "WithoutGroup": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["WithoutGroup"]
         },
         "messages": {
           "type": "object",
@@ -102,18 +112,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Reconnect"
-          ]
+          "required": ["Reconnect"]
         }
       },
-      "required": [
-        "button",
-        "hint",
-        "messages",
-        "syncLost",
-        "title"
-      ]
+      "required": ["button", "hint", "label", "messages", "syncLost", "title"]
     },
     "calendar": {
       "type": "object",
@@ -134,12 +136,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Account",
-            "Balance",
-            "Expenses",
-            "Incomes"
-          ]
+          "required": ["Account", "Balance", "Expenses", "Incomes"]
         },
         "message": {
           "type": "object",
@@ -148,15 +145,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NoOperations"
-          ]
+          "required": ["NoOperations"]
         }
       },
-      "required": [
-        "label",
-        "message"
-      ]
+      "required": ["label", "message"]
     },
     "category": {
       "type": "object",
@@ -168,9 +160,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "limit"
-          ]
+          "required": ["limit"]
         },
         "label": {
           "type": "object",
@@ -212,10 +202,7 @@
           ]
         }
       },
-      "required": [
-        "help",
-        "label"
-      ]
+      "required": ["help", "label"]
     },
     "common": {
       "type": "object",
@@ -227,9 +214,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CreateOneMore"
-          ]
+          "required": ["CreateOneMore"]
         },
         "label": {
           "type": "object",
@@ -275,10 +260,7 @@
           ]
         }
       },
-      "required": [
-        "button",
-        "label"
-      ]
+      "required": ["button", "label"]
     },
     "createTeam": {
       "type": "object",
@@ -287,9 +269,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "Title"
-      ]
+      "required": ["Title"]
     },
     "currency": {
       "type": "object",
@@ -304,15 +284,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CurrenciesInAccounts",
-            "OtherCurrencies"
-          ]
+          "required": ["CurrenciesInAccounts", "OtherCurrencies"]
         }
       },
-      "required": [
-        "Select"
-      ]
+      "required": ["Select"]
     },
     "loan": {
       "type": "object",
@@ -390,11 +365,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Finish",
-                "Return",
-                "TakeMore"
-              ]
+              "required": ["Finish", "Return", "TakeMore"]
             },
             "debit": {
               "type": "object",
@@ -409,11 +380,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Finish",
-                "GiveMore",
-                "Take"
-              ]
+              "required": ["Finish", "GiveMore", "Take"]
             }
           },
           "required": [
@@ -483,10 +450,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "YouHaveNoCredits",
-            "YouHaveNoDebts"
-          ]
+          "required": ["YouHaveNoCredits", "YouHaveNoDebts"]
         }
       },
       "required": [
@@ -532,10 +496,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "IDidObtain",
-            "IDidProvide"
-          ]
+          "required": ["IDidObtain", "IDidProvide"]
         },
         "button": {
           "type": "object",
@@ -547,10 +508,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "DeleteKeepTransaction",
-            "DeleteWithTransaction"
-          ]
+          "required": ["DeleteKeepTransaction", "DeleteWithTransaction"]
         }
       },
       "required": [
@@ -650,9 +608,7 @@
           ]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     },
     "message": {
       "type": "object",
@@ -685,20 +641,12 @@
           "properties": {
             "Accounts": {
               "$ref": "#/$defs/string"
-            },
-            "BankAccounts": {
-              "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Accounts",
-            "BankAccounts"
-          ]
+          "required": ["Accounts"]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     },
     "plan": {
       "type": "object",
@@ -735,9 +683,7 @@
           ]
         }
       },
-      "required": [
-        "repeat"
-      ]
+      "required": ["repeat"]
     },
     "procStatus": {
       "type": "object",
@@ -749,9 +695,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "created"
-          ]
+          "required": ["created"]
         },
         "message": {
           "type": "object",
@@ -892,9 +836,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "SelfDelete"
-              ]
+              "required": ["SelfDelete"]
             },
             "loanAgentDelete": {
               "type": "object",
@@ -903,9 +845,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "SelfDelete"
-              ]
+              "required": ["SelfDelete"]
             },
             "teamErase": {
               "type": "object",
@@ -914,9 +854,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "InitNewData"
-              ]
+              "required": ["InitNewData"]
             }
           },
           "required": [
@@ -927,12 +865,7 @@
           ]
         }
       },
-      "required": [
-        "label",
-        "message",
-        "procName",
-        "procPhase"
-      ]
+      "required": ["label", "message", "procName", "procPhase"]
     },
     "project": {
       "type": "object",
@@ -950,16 +883,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CreateProject",
-            "EditProject"
-          ]
+          "required": ["CreateProject", "EditProject"]
         }
       },
-      "required": [
-        "Name",
-        "title"
-      ]
+      "required": ["Name", "title"]
     },
     "receipt": {
       "type": "object",
@@ -980,12 +907,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Fetching",
-            "Invalid",
-            "Rejected",
-            "Validation"
-          ]
+          "required": ["Fetching", "Invalid", "Rejected", "Validation"]
         },
         "label": {
           "type": "object",
@@ -1000,11 +922,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Positions",
-            "TotalSum",
-            "UnknownShop"
-          ]
+          "required": ["Positions", "TotalSum", "UnknownShop"]
         },
         "message": {
           "type": "object",
@@ -1016,17 +934,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NoPositions",
-            "ShopNameIsEmpty"
-          ]
+          "required": ["NoPositions", "ShopNameIsEmpty"]
         }
       },
-      "required": [
-        "fetchState",
-        "label",
-        "message"
-      ]
+      "required": ["fetchState", "label", "message"]
     },
     "receiptPos": {
       "type": "object",
@@ -1047,17 +958,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Cost",
-            "Name",
-            "Price",
-            "Qty"
-          ]
+          "required": ["Cost", "Name", "Price", "Qty"]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     },
     "receiptStats": {
       "type": "object",
@@ -1082,9 +986,7 @@
           ]
         }
       },
-      "required": [
-        "label"
-      ]
+      "required": ["label"]
     },
     "transactions": {
       "type": "object",
@@ -1096,9 +998,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "TransactionsForDate"
-          ]
+          "required": ["TransactionsForDate"]
         },
         "title": {
           "type": "object",
@@ -1124,10 +1024,7 @@
           ]
         }
       },
-      "required": [
-        "label",
-        "title"
-      ]
+      "required": ["label", "title"]
     }
   },
   "required": [

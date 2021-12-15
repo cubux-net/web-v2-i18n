@@ -12,6 +12,7 @@
       "AnyCashAccount": "Cash or any account",
       "Cash": "Cash",
       "Currency": "Currency",
+      "Group": "Group",
       "InitialAmount": "Initial amount",
       "InitialAmountDate": "Initial amount date",
       "KeepSyncWithBank": "Keep synchronization with bank",

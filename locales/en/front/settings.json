@@ -5,15 +5,19 @@
     },
     "label": {
       "CountryAndBank": "Country, Bank",
+      "GroupName": "Group name",
       "Name": "Name"
     },
     "message": {
       "AlsoYouCanJustHideAccount": "Also you can just hide account to let it not to show in lists.",
+      "ConfirmDeleteGroup": "Are you sure to delete the Group? Accounts in the group will just become \"Without group\".",
       "ContinueToDeleteWillChangeHistoryAndBalance": "Continue to delete account will change operations history and balance.",
       "delete": {
         "CanMoveOperation": "You can also move transactions to another account.",
         "MoveDataDelete": "Move transactions to another account"
       },
+      "GroupCreateError": "Could not create group.",
+      "GroupUpdateError": "Could not update group.",
       "RemoveError": "An error occurred while performing operation",
       "RemoveQuest": "Are you sure to delete the account with all linked data?",
       "RemoveQuestSimple": "Are you sure to delete the account?",

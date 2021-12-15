@@ -29,11 +29,14 @@
             "CountryAndBank": {
               "$ref": "#/$defs/string"
             },
+            "GroupName": {
+              "$ref": "#/$defs/string"
+            },
             "Name": {
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["CountryAndBank", "Name"]
+          "required": ["CountryAndBank", "GroupName", "Name"]
         },
         "message": {
           "type": "object",
@@ -41,7 +44,16 @@
             "AlsoYouCanJustHideAccount": {
               "$ref": "#/$defs/string"
             },
+            "ConfirmDeleteGroup": {
+              "$ref": "#/$defs/string"
+            },
             "ContinueToDeleteWillChangeHistoryAndBalance": {
+              "$ref": "#/$defs/string"
+            },
+            "GroupCreateError": {
+              "$ref": "#/$defs/string"
+            },
+            "GroupUpdateError": {
               "$ref": "#/$defs/string"
             },
             "RemoveError": {
@@ -71,7 +83,10 @@
           },
           "required": [
             "AlsoYouCanJustHideAccount",
+            "ConfirmDeleteGroup",
             "ContinueToDeleteWillChangeHistoryAndBalance",
+            "GroupCreateError",
+            "GroupUpdateError",
             "RemoveError",
             "RemoveQuest",
             "RemoveQuestSimple",

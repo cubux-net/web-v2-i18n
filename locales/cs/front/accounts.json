@@ -12,6 +12,7 @@
       "AnyCashAccount": "Hotovost nebo libovolný účet",
       "Cash": "Hotovost",
       "Currency": "Měna účtu",
+      "Group": "Skupina",
       "InitialAmount": "Počáteční stav",
       "InitialAmountDate": "Datum vložení počatečního stavu",
       "KeepSyncWithBank": "Pokračovat v synchronizaci s bankou",

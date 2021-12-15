@@ -1,13 +1,17 @@
 {
   "accounts": {
     "button": {
-      "AddAccount": "Přidat účet"
+      "AddAccount": "Přidat účet",
+      "AddGroup": "Přidat skupinu"
     },
     "hint": {
       "ClickToStartRefresh": "Kliknutím spustíte aktualizaci dat",
       "NextRefreshPossibleAt": "Další aktualizace je možná po {when}.",
       "ReconnectToBank": "Nastavit připojení k bance",
       "WillAutoRefresh": "Tento účet se aktualizuje automaticky."
+    },
+    "label": {
+      "WithoutGroup": "Bez skupiny"
     },
     "messages": {
       "BankSyncLost": "Spojení s bankou bylo přerušeno.",
@@ -171,8 +175,7 @@
   },
   "page": {
     "label": {
-      "Accounts": "Účty",
-      "BankAccounts": "Bankovní účty"
+      "Accounts": "Účty"
     }
   },
   "plan": {

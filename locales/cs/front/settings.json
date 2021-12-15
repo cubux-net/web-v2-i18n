@@ -5,15 +5,19 @@
     },
     "label": {
       "CountryAndBank": "Země, Banka",
+      "GroupName": "Název skupiny",
       "Name": "Název"
     },
     "message": {
       "AlsoYouCanJustHideAccount": "Také můžete skrýt účet, aby se nezobrazoval v seznamech.",
+      "ConfirmDeleteGroup": "Opravdu chcete smazat tuto skupinu? Skupinové účty se jednoduše stanou \"Bez skupiny\"",
       "ContinueToDeleteWillChangeHistoryAndBalance": "Odstranění účtu způsobí změnu historie operací a zůstatků.",
       "delete": {
         "CanMoveOperation": "Můžete přesunout všechny operace do jiné účet",
         "MoveDataDelete": "Přesunout data a odstranit účet"
       },
+      "GroupCreateError": "Během operace došlo k chybě",
+      "GroupUpdateError": "Během operace došlo k chybě",
       "RemoveError": "Během operace došlo k chybě",
       "RemoveQuest": "Opravdu chcete smazat vybraný účet spolu se všemi souvisejícími údaji?",
       "RemoveQuestSimple": "Opravdu chcete smazat vybraný účet?",
