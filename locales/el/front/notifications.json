@@ -1,5 +1,14 @@
 {
   "DialogTitle": "Ειδοποιήσεις",
+  "messages": {
+    "button": {
+      "Earlier": "Νωρίτερα",
+      "Later": "Αργότερα"
+    },
+    "message": {
+      "ConfirmDelete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το μήνυμα?"
+    }
+  },
   "tabs": {
     "BackgroundTasks": "Εργασίες παρασκηνίου",
     "Messages": "Μηνύματα"

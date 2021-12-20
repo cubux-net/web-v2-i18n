@@ -11,6 +11,33 @@
     "DialogTitle": {
       "$ref": "#/$defs/string"
     },
+    "messages": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "object",
+          "properties": {
+            "Earlier": {
+              "$ref": "#/$defs/string"
+            },
+            "Later": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["Earlier", "Later"]
+        },
+        "message": {
+          "type": "object",
+          "properties": {
+            "ConfirmDelete": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["ConfirmDelete"]
+        }
+      },
+      "required": ["button", "message"]
+    },
     "tabs": {
       "type": "object",
       "properties": {
@@ -24,5 +51,5 @@
       "required": ["BackgroundTasks", "Messages"]
     }
   },
-  "required": ["DialogTitle", "tabs"]
+  "required": ["DialogTitle", "messages", "tabs"]
 }

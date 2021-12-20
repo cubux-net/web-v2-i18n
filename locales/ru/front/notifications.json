@@ -1,5 +1,14 @@
 {
   "DialogTitle": "Уведомления",
+  "messages": {
+    "button": {
+      "Earlier": "Ранее",
+      "Later": "Позднее"
+    },
+    "message": {
+      "ConfirmDelete": "Вы уверены, что хотите удалить это сообщение?"
+    }
+  },
   "tabs": {
     "BackgroundTasks": "Фоновые задачи",
     "Messages": "Сообщения"

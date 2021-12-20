@@ -50,9 +50,6 @@
             "ContinueToDeleteWillChangeHistoryAndBalance": {
               "$ref": "#/$defs/string"
             },
-            "GroupCreateError": {
-              "$ref": "#/$defs/string"
-            },
             "GroupUpdateError": {
               "$ref": "#/$defs/string"
             },
@@ -85,7 +82,6 @@
             "AlsoYouCanJustHideAccount",
             "ConfirmDeleteGroup",
             "ContinueToDeleteWillChangeHistoryAndBalance",
-            "GroupCreateError",
             "GroupUpdateError",
             "RemoveError",
             "RemoveQuest",

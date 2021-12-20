@@ -1,5 +1,14 @@
 {
   "DialogTitle": "Notifications",
+  "messages": {
+    "button": {
+      "Earlier": "Earlier",
+      "Later": "Later"
+    },
+    "message": {
+      "ConfirmDelete": "Are you sure to delete this message?"
+    }
+  },
   "tabs": {
     "BackgroundTasks": "Background tasks",
     "Messages": "Messages"

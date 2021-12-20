@@ -16,7 +16,6 @@
         "CanMoveOperation": "Můžete přesunout všechny operace do jiné účet",
         "MoveDataDelete": "Přesunout data a odstranit účet"
       },
-      "GroupCreateError": "Během operace došlo k chybě",
       "GroupUpdateError": "Během operace došlo k chybě",
       "RemoveError": "Během operace došlo k chybě",
       "RemoveQuest": "Opravdu chcete smazat vybraný účet spolu se všemi souvisejícími údaji?",
