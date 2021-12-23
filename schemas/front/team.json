@@ -292,6 +292,9 @@
     "loan": {
       "type": "object",
       "properties": {
+        "Finished": {
+          "$ref": "#/$defs/string"
+        },
         "IDidObtain": {
           "$ref": "#/$defs/string"
         },
@@ -309,6 +312,7 @@
         }
       },
       "required": [
+        "Finished",
         "IDidObtain",
         "IDidProvide",
         "ReturnDate",

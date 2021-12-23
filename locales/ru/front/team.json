@@ -82,6 +82,7 @@
     }
   },
   "loan": {
+    "Finished": "Выполнено",
     "IDidObtain": "Я должен",
     "IDidProvide": "Мне должны",
     "pageTitle": "Долги",

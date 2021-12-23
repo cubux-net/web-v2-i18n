@@ -82,6 +82,7 @@
     }
   },
   "loan": {
+    "Finished": "Ολοκληρώθηκε",
     "IDidObtain": "Απέκτησα",
     "IDidProvide": "Παρείχα",
     "pageTitle": "Δάνεια",

@@ -82,6 +82,7 @@
     }
   },
   "loan": {
+    "Finished": "Finished",
     "IDidObtain": "I did obtain",
     "IDidProvide": "I did provide",
     "pageTitle": "Loans",
