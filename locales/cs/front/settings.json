@@ -191,6 +191,7 @@
     },
     "feature": {
       "appFull": {
+        "ExportToXLS": "Export do Excel",
         "JointAccess": "Společné účetnictví",
         "Loans": "Dluhy"
       },

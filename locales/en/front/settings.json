@@ -191,6 +191,7 @@
     },
     "feature": {
       "appFull": {
+        "ExportToXLS": "Export to Excel",
         "JointAccess": "Joint access",
         "Loans": "Loans"
       },

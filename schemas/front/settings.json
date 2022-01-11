@@ -685,6 +685,9 @@
             "appFull": {
               "type": "object",
               "properties": {
+                "ExportToXLS": {
+                  "$ref": "#/$defs/string"
+                },
                 "JointAccess": {
                   "$ref": "#/$defs/string"
                 },
@@ -692,7 +695,7 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": ["JointAccess", "Loans"]
+              "required": ["ExportToXLS", "JointAccess", "Loans"]
             },
             "appSync": {
               "type": "object",

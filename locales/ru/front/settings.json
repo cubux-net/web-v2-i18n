@@ -191,6 +191,7 @@
     },
     "feature": {
       "appFull": {
+        "ExportToXLS": "Экспорт в Excel",
         "JointAccess": "Совместный доступ",
         "Loans": "Долги"
       },
