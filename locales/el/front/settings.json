@@ -191,6 +191,7 @@
     },
     "feature": {
       "appFull": {
+        "ExportToXLS": "Εξαγωγή σε Excel",
         "JointAccess": "Κοινή πρόσβαση",
         "Loans": "Δάνεια"
       },
