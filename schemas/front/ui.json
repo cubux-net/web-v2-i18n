@@ -305,6 +305,9 @@
         "SelectCountry": {
           "$ref": "#/$defs/string"
         },
+        "SelectCryptExchanger": {
+          "$ref": "#/$defs/string"
+        },
         "SelectCurrency": {
           "$ref": "#/$defs/string"
         },
@@ -318,6 +321,7 @@
       "required": [
         "Search",
         "SelectCountry",
+        "SelectCryptExchanger",
         "SelectCurrency",
         "SelectDate",
         "SelectLanguage"

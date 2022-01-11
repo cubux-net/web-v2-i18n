@@ -11,6 +11,10 @@
     "input": {
       "AnyCashAccount": "Cash or any account",
       "Cash": "Cash",
+      "CryptAccount": "Crypt",
+      "CryptDisplayCurrency": "Currency to display balance",
+      "CryptExchanger": "Crypt exchanger",
+      "Crypto": "Crypt",
       "Currency": "Currency",
       "Group": "Group",
       "InitialAmount": "Initial amount",
@@ -29,6 +33,7 @@
       "NoSync": "No sync"
     },
     "Title": "Add account",
+    "TitleCrypto": "Add crypt account",
     "TitleEdit": "Edit account"
   }
 }

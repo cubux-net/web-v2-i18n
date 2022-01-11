@@ -76,6 +76,7 @@
   "placeholder": {
     "Search": "Search",
     "SelectCountry": "Select country",
+    "SelectCryptExchanger": "Select crypt exchanger",
     "SelectCurrency": "Select currency",
     "SelectDate": "Select date",
     "SelectLanguage": "Select language"

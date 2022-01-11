@@ -11,6 +11,10 @@
     "input": {
       "AnyCashAccount": "Hotovost nebo libovolný účet",
       "Cash": "Hotovost",
+      "CryptAccount": "",
+      "CryptDisplayCurrency": "",
+      "CryptExchanger": "",
+      "Crypto": "",
       "Currency": "Měna účtu",
       "Group": "Skupina",
       "InitialAmount": "Počáteční stav",
@@ -29,6 +33,7 @@
       "NoSync": "Bez zapnutí synchronizace"
     },
     "Title": "Přidat účet",
+    "TitleCrypto": "",
     "TitleEdit": "Upravit účet"
   }
 }

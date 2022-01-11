@@ -76,6 +76,7 @@
   "placeholder": {
     "Search": "Αναζήτηση",
     "SelectCountry": "Επιλογή χώρας",
+    "SelectCryptExchanger": "",
     "SelectCurrency": "Επιλογή νομίσματος",
     "SelectDate": "Επιλογή ημερομηνίας",
     "SelectLanguage": "Επιλογή γλώσσας"

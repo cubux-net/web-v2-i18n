@@ -76,6 +76,7 @@
   "placeholder": {
     "Search": "Vyhledávání",
     "SelectCountry": "Vyberte zemi",
+    "SelectCryptExchanger": "",
     "SelectCurrency": "Zvolte měnu",
     "SelectDate": "Zvolte datum",
     "SelectLanguage": "Vyberte jazyk"

@@ -11,6 +11,10 @@
     "input": {
       "AnyCashAccount": "Μετρητά ή οποιοσδήποτε λογαριασμός",
       "Cash": "Μετρητά",
+      "CryptAccount": "",
+      "CryptDisplayCurrency": "",
+      "CryptExchanger": "",
+      "Crypto": "",
       "Currency": "Νόμισμα",
       "Group": "Ομάδα",
       "InitialAmount": "Αρχικό ποσό",
@@ -29,6 +33,7 @@
       "NoSync": "Χωρίς συγχρονισμό"
     },
     "Title": "Προσθήκη λογαριασμού",
+    "TitleCrypto": "",
     "TitleEdit": "Επεξεργασία λογαριασμού"
   }
 }

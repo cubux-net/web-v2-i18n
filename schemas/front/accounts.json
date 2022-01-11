@@ -14,6 +14,9 @@
         "Title": {
           "$ref": "#/$defs/string"
         },
+        "TitleCrypto": {
+          "$ref": "#/$defs/string"
+        },
         "TitleEdit": {
           "$ref": "#/$defs/string"
         },
@@ -24,7 +27,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["OAuthGo"]
+          "required": [
+            "OAuthGo"
+          ]
         },
         "comment": {
           "type": "object",
@@ -39,7 +44,11 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Agreement", "AutoSync", "OAuthIntro"]
+          "required": [
+            "Agreement",
+            "AutoSync",
+            "OAuthIntro"
+          ]
         },
         "input": {
           "type": "object",
@@ -48,6 +57,18 @@
               "$ref": "#/$defs/string"
             },
             "Cash": {
+              "$ref": "#/$defs/string"
+            },
+            "CryptAccount": {
+              "$ref": "#/$defs/string"
+            },
+            "CryptDisplayCurrency": {
+              "$ref": "#/$defs/string"
+            },
+            "CryptExchanger": {
+              "$ref": "#/$defs/string"
+            },
+            "Crypto": {
               "$ref": "#/$defs/string"
             },
             "Currency": {
@@ -78,6 +99,10 @@
           "required": [
             "AnyCashAccount",
             "Cash",
+            "CryptAccount",
+            "CryptDisplayCurrency",
+            "CryptExchanger",
+            "Crypto",
             "Currency",
             "Group",
             "InitialAmount",
@@ -95,7 +120,9 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["SyncLost"]
+          "required": [
+            "SyncLost"
+          ]
         },
         "title": {
           "type": "object",
@@ -110,11 +137,16 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["BankSync", "Import", "NoSync"]
+          "required": [
+            "BankSync",
+            "Import",
+            "NoSync"
+          ]
         }
       },
       "required": [
         "Title",
+        "TitleCrypto",
         "TitleEdit",
         "button",
         "comment",
@@ -124,5 +156,7 @@
       ]
     }
   },
-  "required": ["dialog"]
+  "required": [
+    "dialog"
+  ]
 }
