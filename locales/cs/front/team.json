@@ -172,6 +172,7 @@
     "AccountDidntSelect": "Zvolte účet",
     "AmountIsEmpty": "Uveďte částku",
     "CategoryDidntSelect": "Vyberte kategorii",
+    "PlanConfirmMinDate": "Datum pro nepotvrzenou transakci nesmí být dříve než {minDate}",
     "PlanScheduleListIsEmpty": "Zadejte data pro opakující se transakce"
   },
   "page": {

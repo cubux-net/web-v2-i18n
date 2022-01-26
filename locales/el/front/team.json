@@ -172,6 +172,7 @@
     "AccountDidntSelect": "Επιλέξτε λογαριασμό",
     "AmountIsEmpty": "Πληκτρολογήστε ένα ποσό",
     "CategoryDidntSelect": "Επιλογή κατηγορίας",
+    "PlanConfirmMinDate": "Η ημερομηνία για μια μη επιβεβαιωμένη συναλλαγή δεν πρέπει να είναι νωρίτερα από τις {minDate}",
     "PlanScheduleListIsEmpty": "Καθορίστε ημερομηνίες για επανάληψη"
   },
   "page": {

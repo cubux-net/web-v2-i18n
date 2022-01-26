@@ -172,6 +172,7 @@
     "AccountDidntSelect": "Select an account",
     "AmountIsEmpty": "Type an amount",
     "CategoryDidntSelect": "Select a category",
+    "PlanConfirmMinDate": "A date for unconfirmed transaction cannot be earlier than {minDate}",
     "PlanScheduleListIsEmpty": "Select dates to repetition"
   },
   "page": {
