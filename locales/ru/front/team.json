@@ -172,6 +172,7 @@
     "AccountDidntSelect": "Выберите счёт",
     "AmountIsEmpty": "Укажите сумму",
     "CategoryDidntSelect": "Выберите категорию",
+    "PlanConfirmMinDate": "Дата для неподтверждённой транзакции не должна быть ранее {minDate}",
     "PlanScheduleListIsEmpty": "Укажите даты для повторения"
   },
   "page": {
