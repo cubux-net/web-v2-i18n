@@ -76,6 +76,7 @@
   "placeholder": {
     "Search": "Пошук",
     "SelectCountry": "Виберіть країну",
+    "SelectCryptExchanger": "Виберіть біржу криптовалют",
     "SelectCurrency": "Виберіть валюту",
     "SelectDate": "Виберіть дату",
     "SelectLanguage": "Виберіть мову"
