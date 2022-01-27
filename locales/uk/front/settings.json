@@ -1,0 +1,288 @@
+{
+  "accounts": {
+    "button": {
+      "DeleteWithEverything": "ВИДАЛИТИ ВСЕ"
+    },
+    "label": {
+      "CountryAndBank": "Країна, Банк",
+      "GroupName": "Назва групи",
+      "Name": "Назва"
+    },
+    "message": {
+      "AlsoYouCanJustHideAccount": "Ви також можете приховати рахунок, щоби він не відображався у списках.",
+      "ConfirmDeleteGroup": "Ви справді бажаєте видалити цю групу? Рахунки в групі отримають статус \"Без групи\".",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Видалення рахунка призведе до зміни історії операцій та залишків.",
+      "delete": {
+        "CanMoveOperation": "Ви можете перемістити всі операції на інший рахунок.",
+        "MoveDataDelete": "Перемістити дані і видалити рахунок"
+      },
+      "GroupUpdateError": "Не вдалося змінити групу.",
+      "RemoveError": "Під час виконання операції виникла помилка",
+      "RemoveQuest": "Ви справді бажаєте видалити вибраний рахунок разом зі всіма пов'язаними даними?",
+      "RemoveQuestSimple": "Ви справді бажаєте видалити вибраний рахунок?",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Ви намагаєтеся видалити рахунок разом зі всіма пов'язаними даними включно з такими:"
+    },
+    "stateButton": {
+      "IsExcluded_off_exclude": "Враховується в залишку",
+      "IsExcluded_on_include": "НЕ враховується в залишку",
+      "IsHidden_off_hide": "Відображено - Приховати",
+      "IsHidden_on_show": "Приховано - Відобразити"
+    }
+  },
+  "actions": {
+    "Actions": "Дії",
+    "Remove": "Видалити",
+    "Reset": "Скинути"
+  },
+  "categories": {
+    "AddCategory": "Додати категорію",
+    "AddSubCategory": "Додати підкатегорію",
+    "Expenses": "Витрати",
+    "Incomes": "Доходи",
+    "Misc": "Інше",
+    "Name": "Назва",
+    "RemoveError": "Під час виконання операції виникла помилка",
+    "removeErrorDialog": {
+      "CanDeleteOperation": "Або Ви можете видалити також й операції",
+      "CanMoveOperation": "Ви можете перемістити всі операції в іншу категорію.",
+      "DeleteOperation": "Видалити операції",
+      "HasOperation": "В цій категорії є кілька операцій.",
+      "MoveDataDelete": "Перемістити дані та видалити категорію",
+      "NeedCategory": "Потрібно вибрати категорію"
+    },
+    "RemoveQuest": "Ви справді бажаєте видалити вибрану категорію?"
+  },
+  "import": {
+    "configure": {
+      "button": {
+        "ApplyConfig": "Застосувати",
+        "ReloadData": "Перезавантажити дані попереднього перегляду",
+        "ShowHiddenColumnsBack": "Повернути приховані назад",
+        "StartImport": "Розпочати імпорт"
+      },
+      "column": {
+        "Account": "Рахунок",
+        "AccountIncoming": "Рахунок для зарахування",
+        "Amount": "Сума",
+        "AmountDelta": "± Сума",
+        "AmountIncoming": "Сума зарахування",
+        "Category": "Категорія",
+        "Date": "Дата",
+        "Description": "Опис",
+        "Subcategory": "Підкатегорія",
+        "Type": "Тип"
+      },
+      "columnOpt": {
+        "account": {
+          "ExistingAccount": "Існуючий",
+          "NewAccount": "Створити новий"
+        },
+        "date": {
+          "Format": "Формат"
+        },
+        "dateFormat": {
+          "D": "Д",
+          "M": "М",
+          "Y": "Р"
+        },
+        "type": {
+          "ExpenseText": "Текст витрати",
+          "IncomeText": "Текст доходу",
+          "TransferText": "Текст переказу"
+        }
+      },
+      "csv": {
+        "Encoding": "Кодування",
+        "HeaderLines": "Рядки заголовка",
+        "Quote": "Лапки",
+        "separator": {
+          "Space": "Пробіл",
+          "Tab": "Табуляція"
+        },
+        "Separator": "Роздільник"
+      },
+      "message": {
+        "AtLeastOneOf": "Принамні один із",
+        "MissingAccountsAssignment": "Не призначені існуючі рахунки для рахунків з файла",
+        "MissingRequiredColumns": "Не выбрані обов'язкові стовпці",
+        "SomeColumnsWasHidden": "Деякі стовпці було приховано."
+      },
+      "Title": "Налаштування імпорту"
+    },
+    "convert": {
+      "message": {
+        "ConvertDone": "Читання файла успішно завершено. Тепер можна імпортувати прочитані дані.",
+        "ConvertFailed": "Читання файла перервано через помилки.",
+        "ConvertPending": "Виконується читання файла. Це може тривати деякий час залежно від розміру файла та завантаженості сервера. Зачекайте, будь ласка."
+      },
+      "Title": "Читання даних з файла"
+    },
+    "label": {
+      "File": "Файл",
+      "Format": "Формат"
+    },
+    "placeholder": {
+      "SelectFormat": "Вкажіть формат"
+    },
+    "save": {
+      "button": {
+        "Done": "Готово",
+        "StartImport": "Розпочати імпорт"
+      },
+      "message": {
+        "SaveDone": "Дані успішно імпортовані.",
+        "SaveFailed": "Імпорт перервано через помилки.",
+        "SavePending": "Виконується імпорт даних в команду. Це може тривати деякий час. Зачекайте, будь ласка."
+      },
+      "Title": "Імпорт підготовлених даних"
+    }
+  },
+  "participants": {
+    "AccessLevel": "Рівень доступу",
+    "Admin": "Адміністратор",
+    "FullName": "Повне ім'я",
+    "Invite": "Запросити",
+    "Invited": "Запрошений",
+    "InviteUser": "Запросити користувача в команду",
+    "RemoveQuest": "Ви справді бажаєте видалити користувача з  команди?",
+    "setup": {
+      "Account": "Рахунок",
+      "Change": "Змінити",
+      "Deny": "Відмовити",
+      "FullAccess": "Повний доступ до всієї команди.",
+      "Read": "Читання",
+      "RestrictedAccess": "Обмежений доступ до вибраних рахунків.",
+      "SubjectUser": "Налаштування прав користувача"
+    },
+    "SetupAccess": "Налаштувати доступ",
+    "User": "Користувач з обмеженими правами доступу"
+  },
+  "password": {
+    "Current": "Поточний пароль",
+    "message": {
+      "NewPasswordsDiffers": "Новий пароль не співпадає"
+    },
+    "New": "Новий пароль",
+    "RepeatNew": "Повторіть новий пароль"
+  },
+  "profile": {
+    "Country": "Країна",
+    "DeleteButton": "Видалити профіль",
+    "DeleteCautionText": "Ви намагаєтеся видалити Ваш профіль. Це спричинить втрату всіх Ваших даних. Після видалення Ви зможете зареєструватися знову самостійно, якщо забажаєте, однак всі команди будуть втрачені.",
+    "DeleteConfirmWithPassword": "Для підтвердження введіть Ваш поточний пароль.",
+    "DeleteReason": "Причина видалення",
+    "DeleteReasonHelp": "Будь ласка, повідомте нам про причини, щоб ми могли вдосконалити наш застосунок",
+    "DeleteTitle": "Видалення профілю",
+    "Name": "Ім'я",
+    "NotifyLang": "Мова сповіщень",
+    "NotifyLangDefault": "За замовчуванням",
+    "Or": "або",
+    "Surname": "Прізвище"
+  },
+  "projects": {
+    "AddProject": "Додати проєкт",
+    "RemoveQuest": "Ви справді бажаєте видалити вибраний проєкт?"
+  },
+  "subscription": {
+    "button": {
+      "Pay": "Оплатити",
+      "Prolong": "Продовжити",
+      "ToPremium": "Перейти на преміум"
+    },
+    "feature": {
+      "appFull": {
+        "ExportToXLS": "Експорт в Excel",
+        "JointAccess": "Спільний доступ",
+        "Loans": "Борги"
+      },
+      "appSync": {
+        "title": "Синхронізація з мобільним застосунком"
+      }
+    },
+    "label": {
+      "ActiveUntil": "Чинний до",
+      "AvailableMoney": "Доступно на особовому рахунку",
+      "EnterPromoCode": "Ввести промо код",
+      "status": {
+        "Free": "Безкоштовний",
+        "Premium": "Преміум"
+      }
+    },
+    "payDialog": {
+      "label": {
+        "Country": "Виберіть країну",
+        "Period": "Періоод",
+        "PurseEnough": "Доступно {availableStr}",
+        "PurseNone": "Відсутні кошти в потрібній валюті",
+        "PurseNotEnough": "Недостатньо коштів, доступно лише {availableStr}",
+        "PurseStatus": "Стан Вашого особового рахунка"
+      },
+      "message": {
+        "ConfirmSpendPurseOnly": "У Вас достатньо коштів на особовому рахунку. Бажаєте витратити їх на оплату?",
+        "GoToProviderToPay": "Перейти на сайт провайдера для оплати.",
+        "InvoiceAlreadyCompleted": "Рахунок на оплату оброблений.",
+        "InvoiceConfirmPayWithCommission": "Підтвердіть оплату {confirmSum}, щоб отримати {invoiceSum}. Комісія складає {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Підтвердіть оплату {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Підтвердіть оплату {confirmSum}, щоб отримати {invoiceSum}.",
+        "InvoiceRefused": "Платіж відхилено.",
+        "PeriodMaximumIsV": "Максимум {value}.",
+        "PeriodMinimumIsV": "Мінімум {value}.",
+        "PeriodNotANumber": "Введіть ціле число.",
+        "ProviderDoesNotSupportCurrency": "Провайдер не підтримує цю валюту."
+      },
+      "priceUnit": {
+        "month": "місяць",
+        "monthsPlural": "{months, plural, one{місяць} few{місяці} other{місяців}}",
+        "year": "рік",
+        "yearsPlural": "{years, plural, one{рік} few{роки} other{років}}"
+      },
+      "Title": "Оплата підписки",
+      "TitleExternal": "Перейти до оплати"
+    },
+    "where": {
+      "FreeVersion": "В безкоштовній версії",
+      "MobileApp": "В мобильному застосунку"
+    }
+  },
+  "tabs": {
+    "Accounts": "Рахунки",
+    "Categories": "Категорії",
+    "Import": "Імпорт",
+    "Participants": "Користувачі",
+    "Password": "Змінити пароль",
+    "Profile": "Профіль",
+    "Projects": "Проєкти",
+    "Subscribes": "Підписки",
+    "Team": "Команда"
+  },
+  "team": {
+    "confirmDelete": {
+      "button": {
+        "Confirm": "ВИДАЛИТИ З УСІМА ДАНИМИ"
+      },
+      "message": {
+        "CautionOfDataLoss": "ПОПЕРЕДЖЕННЯ! ВСІ ДАНІ КОМАНДИ БУДУТЬ ВИДАЛЕНІ!",
+        "ExplainWhatDeletionIs": "Ця дія видалить всю команду повністю для всіх її учасників. Ви зможете продовжувати працювати в будь-якій іншій команді та створити нову при потребі."
+      },
+      "title": "Видалити команду"
+    },
+    "FloatingMonth": "Рухомий місяць",
+    "MainCurrency": "Основна валюта",
+    "MonthStart": "Початок звітного місяця",
+    "TeamName": "Назва команди",
+    "TimeZone": "Часовой пояс",
+    "WeekStart": "Початок тижня"
+  },
+  "teamErase": {
+    "button": {
+      "EraseTeamData": "Видалити всі дані в команді"
+    },
+    "message": {
+      "TaskIsBackground": "Видалення даних відбуватиметься поетапно в фоновому режимі. Процес видалення може тривати деякий час залежно від обсягу даних. Під час видалення дані на сторінці можуть кілька разів оновлятися.",
+      "WhatWillBeDeleted": "Будуть видалені абсолютно всі дані команди, в тому числі Рахунки, Категорії, Транзакції, Борги, Бюджети, Цілі, Заплановані операції і т.д.",
+      "WhatWillBeKept": "Без змін залишаться: Підписка, Участники команди."
+    },
+    "Title": "Очистити дані команди"
+  },
+  "Title": "Налаштування"
+}

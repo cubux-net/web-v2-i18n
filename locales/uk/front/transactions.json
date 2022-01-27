@@ -1,0 +1,109 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "Ви справді бажаєте видалити транзакцію? Цю операцію неможливо скасувати.",
+    "ConfirmPlannedTransaction": "Ви справді бажаєте підтвердити транзакцію?",
+    "ConfirmSplitTransaction": "Ви справді бажаєте розділити цей переказ?"
+  },
+  "multiDelete": {
+    "confirm": {
+      "Content": "Ви справді бажаєте видалити <1>{n, plural, one{# транзакцію} few{# транзакції} other{# транзакцій}}</1>? Цю операцію неможливо буде скасувати.",
+      "OK": "Видалити {n, plural, one{# транзакцію} few{# транзакції} other{# транзакцій}}",
+      "Title": "Видалення вибраних транзакцій"
+    }
+  },
+  "page": {
+    "title": "Транзакції"
+  },
+  "table": {
+    "button": {
+      "ConfigureTable": "Налаштувати таблицю",
+      "CreateCopy": "Створити копію",
+      "MoreTransactions": "Ще транзакції",
+      "ShowReceipt": "Показати чек",
+      "SplitTransfer": "Розділити переказ"
+    },
+    "content": {
+      "NothingWasFound": "Немає транзакцій"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Виберіть рахунок"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "Зазначте суму"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Виберіть категорію"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Виберіть проєкт"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Витрати",
+          "Incomes": "Доходи",
+          "Loans": "Борги",
+          "Transfers": "Перекази"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "видалений",
+          "notInTeam": "поза командою",
+          "SelectUser": "Виберіть користувача"
+        }
+      }
+    },
+    "filterSummary": {
+      "label": {
+        "Account": "Рахунок",
+        "Amount": "Сума",
+        "Project": "Проєкт",
+        "Since": "З",
+        "Until": "По",
+        "User": "Користувач"
+      }
+    },
+    "head": {
+      "config": {
+        "DisplayAdaptive": "Адаптувати",
+        "DisplayAlways": "Завжди",
+        "DisplayExtraColumns": "Виберіть умови для відображення додаткових стовпців.",
+        "DisplayNever": "Ніколи",
+        "Title": "Налаштування таблиці"
+      },
+      "label": {
+        "Account": "Рахунок",
+        "Amount": "Сума",
+        "Category": "Категорія",
+        "CategoryDescription": "Категорія, Опис",
+        "Date": "Дата",
+        "Project": "Проєкт",
+        "Remain": "Залишок",
+        "User": "Користувач"
+      }
+    }
+  },
+  "transferJoin": {
+    "button": {
+      "Join": "Об'єднати в переказ"
+    },
+    "message": {
+      "ChooseCommissionCategory": "Будь ласка, вкажіть категорію для створення витрати комісії:",
+      "ThisCanBeDoneWithCommission": "Це можна зробити, створивши транзакцію (витрату) для комісії на суму <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "Бажаєте об'єднати в переказ транзакції з різними сумами:"
+    }
+  },
+  "unconfirmed": {
+    "EndTitle": "Звичайні транзакції",
+    "Title": "Непідтверджені транзакції"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "button": {
+    "Add": "Додати",
+    "Back": "Назад",
+    "Cancel": "Відміна",
+    "ChooseIcon": "Вибрати іконку",
+    "ChooseImage": "Вибрати зображення",
+    "Close": "Закрити",
+    "Confirm": "Підтвердити",
+    "Create": "Створити",
+    "Delete": "Видалити",
+    "Details": "Детальніше",
+    "Edit": "Редагувати",
+    "ImportCsv": "Імпорт CSV",
+    "Insert": "Вставити",
+    "Next": "Далі",
+    "No": "Ні",
+    "OK": "OK",
+    "Retry": "Повторити",
+    "Save": "Зберегти",
+    "SelectAccount": "Виберіть рахунок",
+    "SelectPartner": "Виберіть контрагента",
+    "Yes": "Так"
+  },
+  "check": {
+    "CheckAll": "Вибрати все"
+  },
+  "currencyRateHint": {
+    "ExchangeCurrency": "Курс обміну"
+  },
+  "date": {
+    "label": {
+      "SelectRange": "Виберіть діапазон",
+      "since": "з",
+      "Today": "Сьогодні",
+      "until": "по"
+    }
+  },
+  "downgrade": {
+    "button": {
+      "Navigate": "Перейти"
+    },
+    "message": {
+      "PleaseProvideUsAReason": "Будь ласка, зазначте причину, щоб ми могли вдосконалити наш сервіс."
+    },
+    "subtitle": "Це допоможе нам стати кращими.",
+    "title": "Напишіть, що Вам не сподобалось?"
+  },
+  "field": {
+    "MonthLimit": "Ліміт на місяць",
+    "MonthPlan": "План на місяць"
+  },
+  "label": {
+    "and": "и",
+    "AskAQuestion": "Поставити питання",
+    "date": {
+      "sinceStart": "з початку",
+      "untilEnd": "до кінця"
+    },
+    "DownloadAt": "Завантажити в",
+    "FoundATypo": "Знашли одруківку?"
+  },
+  "message": {
+    "CautionAboutDataLoss": "ПОПЕРЕДЖЕННЯ ПРО ВТРАТУ ДАНИХ!",
+    "CheckFormAndFixErrors": "Перевірте правильність заповнення полів та виправте помилки.",
+    "CouldNotPerformOperation": "Не вдалося виконати операцію.",
+    "Done": "Готово.",
+    "NoRecords": "Тут немає нічого.",
+    "NothingWasFound": "Нічого не знайдено.",
+    "PleaseWait": "Зачекайте, будь ласка...",
+    "TemporaryDisabled": "Тимчасово недоступно.",
+    "ThisActionCannotBeUndone": "Цю дію неможливо скасувати.",
+    "UncaughtErrorExplanation": "Вибачте, сталася помилка. Для початку спробуйте <1>оновити сторінку</1>. Якщо це не допомогло, перевірте з'єднання з інтернетом та налаштування проксі. Якщо і це не допомогло, зверніться в нашу службу підтримки.",
+    "UnknownError": "Невідома помилка."
+  },
+  "placeholder": {
+    "Search": "Пошук",
+    "SelectCountry": "Виберіть країну",
+    "SelectCurrency": "Виберіть валюту",
+    "SelectDate": "Виберіть дату",
+    "SelectLanguage": "Виберіть мову"
+  },
+  "select": {
+    "payInterval": {
+      "Empty": "Вручну",
+      "m": "1 раз на місяць",
+      "q": "1 раз в квартал",
+      "w": "1 раз на тиждень"
+    },
+    "UseDefault": "Використовувати за замовчуванням"
+  },
+  "state": {
+    "Error": "Помилка",
+    "Loading": "Завантаження..."
+  }
+}

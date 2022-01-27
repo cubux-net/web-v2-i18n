@@ -1,0 +1,84 @@
+{
+  "legend": {
+    "selector": {
+      "all": "Всі",
+      "inverse": "Інв"
+    }
+  },
+  "toolbox": {
+    "brush": {
+      "title": {
+        "rect": "Прямокутне виділення",
+        "polygon": "Довільне виділення",
+        "lineX": "Горизонтальне виділення",
+        "lineY": "Вертикальне виділення",
+        "keep": "Зберігати виділення",
+        "clear": "Очистити виділення"
+      }
+    },
+    "dataView": {
+      "title": "Дані",
+      "lang": ["Дані", "Закрити", "Оновити"]
+    },
+    "dataZoom": {
+      "title": {
+        "zoom": "Масштаб",
+        "back": "Скинути масштаб"
+      }
+    },
+    "magicType": {
+      "title": {
+        "line": "Перейти до лінійного графіка",
+        "bar": "Перейти до стовпців",
+        "stack": "Стек",
+        "tiled": "Плитка"
+      }
+    },
+    "restore": {
+      "title": "Повернутися"
+    },
+    "saveAsImage": {
+      "title": "Зберегти як зображення",
+      "lang": ["Натисніть праву клавішу, щоб зберегти зображення"]
+    }
+  },
+  "series": {
+    "typeNames": {
+      "pie": "Секторна діаграма",
+      "bar": "Стовпці",
+      "line": "Лінійний графік"
+    }
+  },
+  "aria": {
+    "general": {
+      "withTitle": "Діаграма \"{title}\"",
+      "withoutTitle": "Діаграма"
+    },
+    "series": {
+      "single": {
+        "prefix": "",
+        "withName": " за типом {seriesType} за назвою {seriesName}.",
+        "withoutName": " за типом {seriesType}."
+      },
+      "multiple": {
+        "prefix": ". Складається з {seriesCount} набору(-ів) даних.",
+        "withName": " The {seriesId} series is a {seriesType} representing {seriesName}.",
+        "withoutName": " The {seriesId} series is a {seriesType}.",
+        "separator": {
+          "middle": "",
+          "end": ""
+        }
+      }
+    },
+    "data": {
+      "allData": "Всі дані: ",
+      "partialData": "Перші{displayCnt} позицій - це: ",
+      "withName": "дані для {name} мають значення {value}",
+      "withoutName": "{value}",
+      "separator": {
+        "middle": ", ",
+        "end": ". "
+      }
+    }
+  }
+}

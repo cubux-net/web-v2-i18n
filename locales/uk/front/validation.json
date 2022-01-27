@@ -1,0 +1,5 @@
+{
+  "InvalidValue": "Неправильне значення",
+  "MinStringLength": "Мінімум {length, plural, one{# символ} few{# символи} other{# символів}}",
+  "Required": "Потрібно вказати значення"
+}

@@ -1,0 +1,93 @@
+{
+  "button": {
+    "AddCredit": "Додати\nКредит"
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": "Деякі зміни не вдалося зберегти через помилилки."
+  },
+  "form": {
+    "hint": {
+      "Duration": "Місяців",
+      "FeeFromSyncAccountsAll": "Автоматичні платежі не будуть працювати для синхронізованих рахунків.",
+      "FeeFromSyncAccountsSome": "Автоматичні платежі не будуть працювати для синхронізованих рахунків."
+    },
+    "label": {
+      "Duration": "Термін",
+      "EndDate": "Дата закінчення",
+      "FeeFromAccounts": "Виплачувати автоматично з рахунків",
+      "Name": "Назва",
+      "OnlyCurrency": "Не переказувати на рахунок",
+      "PlanType": "Тип виплат",
+      "Rate": "Ставка",
+      "ReceiveCreditToAccount": "Переказати на рахунок",
+      "RemainToFee": "Залишилось сплатити",
+      "StartDate": "Дата початку",
+      "TotalCreditAmount": "Отримана сума",
+      "TotalPayAmount": "Загальна сума виплат"
+    },
+    "planType": {
+      "Ann": "Ануїтетна схема погашення",
+      "Diff": "Диференційована схема погашення"
+    },
+    "title": {
+      "CreateCredit": "Додати кредит",
+      "EditCredit": "Редагувати кредит"
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Впливає на залишки на рахунках",
+      "LinkToPlan": "Прив'язати до графіка виплат",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "поза межами графіка виплат",
+      "SelectTransaction": "Виберіть транзакцію...",
+      "TransactionLinked": "Прив'язана транзакція на суму {amount} за {date}{ifAccountValid, select, 0{ по іншому рахунку} other{}}",
+      "TransactionNotLinked": "Транзакція не прив'язана"
+    },
+    "message": {
+      "SelectTransaction": "Виберіть транзакцию.",
+      "TransactionFetchFailed": "Не вдалося отримати деталі за вибраною транзакцією."
+    }
+  },
+  "formPlan": {
+    "label": {
+      "Amount": "Сума",
+      "Date": "Дата",
+      "PaidAmount": "Виплачено"
+    },
+    "title": {
+      "CreatePlan": "Створити графік виплат",
+      "EditPlan": "Змінити графік виплат"
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "Виплачені",
+      "Pending": "Актуальні"
+    },
+    "Title": "Кредити"
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "Видалити, але зберегти транзакцію",
+      "DeleteWithTransaction": "Видалити разом з транзакцією",
+      "PayNow": "Заплатити зараз"
+    },
+    "label": {
+      "AlreadyPaidAmount": "Виплачено",
+      "CreatePayCalendar": "Створити графік виплат",
+      "NextPayment": "Наступний платіж",
+      "ViewPayCalendar": "Переглянути графік виплат"
+    },
+    "message": {
+      "ConfirmDelete": "Ви справді бажаєте видалити цю кредитну операцію? Це не вплине на залишки на рахунках.",
+      "ConfirmDeleteMayKeepTransaction": "Ця кредитна операція пов'язана з транзакцією. Видаливши цю кредитну операцію, Ви можете як зберегти транзакцію, так і видалити її.",
+      "DeleteConfirm": "Ви справді бажаєте видалити цей кредит?"
+    },
+    "title": {
+      "DeleteCredit": "Видалення Кредиту",
+      "Operations": "Історія операцій",
+      "PaymentsChart": "Діаграма виплат"
+    }
+  }
+}
