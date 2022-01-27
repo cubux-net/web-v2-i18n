@@ -1,0 +1,16 @@
+{
+  "DialogTitle": "Сповіщення",
+  "messages": {
+    "button": {
+      "Earlier": "Раніше",
+      "Later": "Пізніше"
+    },
+    "message": {
+      "ConfirmDelete": "Ви справді бажаєте видалити це повідомлення?"
+    }
+  },
+  "tabs": {
+    "BackgroundTasks": "Фонові завдання",
+    "Messages": "Повідомлення"
+  }
+}

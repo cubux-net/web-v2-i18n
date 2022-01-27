@@ -1,0 +1,39 @@
+{
+  "filter": {
+    "button": {
+      "ExportExcel": "Експортувати в Excel"
+    },
+    "chart": {
+      "Chart": "Графік"
+    },
+    "date": {
+      "Period": "Період",
+      "SetPeriod": "Період",
+      "SetYear": "Рік"
+    },
+    "groupBy": {
+      "Categories": "за категоріями",
+      "Months": "за місяцями"
+    },
+    "limit": {
+      "Accounts": "Рахунки",
+      "Categories": "Категорії",
+      "ExtraFilters": "Додаткові фільтри:",
+      "Projects": "Проєкти",
+      "Users": "Користувачі"
+    },
+    "type": {
+      "Expenses": "Витрати",
+      "Incomes": "Доходи",
+      "WithCredits": "Враховувати кредити",
+      "WithLoans": "Враховувати борги",
+      "WithTransfers": "Враховувати перекази"
+    }
+  },
+  "page": {
+    "message": {
+      "NoChartData": "Немає даних для відображення за вибраними критеріями."
+    },
+    "Title": "Аналітика"
+  }
+}

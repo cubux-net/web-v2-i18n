@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "loop": {
+      "Month": "На місяць",
+      "Year": "На рік"
+    },
+    "message": {
+      "AssignCategoriesByEdit": "Заплануйте категорії за допомогою кнопки \"Редагувати\".",
+      "DeleteConfirm": "Ви справді хочете видалити цей бюджет?",
+      "NoCategoriesAssignedToShowFacts": "Немає запланованих категорій, щоб відобразити операції."
+    },
+    "property": {
+      "Loop": "Період",
+      "Name": "Назва"
+    },
+    "title": {
+      "Create": "Додати бюджет",
+      "Delete": "Видалити бюджет"
+    },
+    "type": {
+      "Expense": "Витрати",
+      "Income": "Доходи"
+    },
+    "validation": {
+      "EndDateAfterStartDate": "Дата закінчення мусить бути пізнішою, ніж дата початку."
+    }
+  },
+  "page": {
+    "label": {
+      "Budgets": "Бюджети",
+      "Category": "Категорія",
+      "Difference": "Різниця",
+      "ExpensesByCategories": "Витрати за категоріями бюджету:",
+      "Fact": "Факт",
+      "IncomesByCategories": "Доходи за категоріями бюджету:",
+      "Plan": "План",
+      "Progress": "Виконання"
+    },
+    "Title": "Бюджет"
+  },
+  "period": {
+    "property": {
+      "Inherit": "Для всіх майбутніх дат"
+    }
+  },
+  "timeline": {
+    "label": {
+      "ShowAllCategories": "Показати все"
+    }
+  }
+}

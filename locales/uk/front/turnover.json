@@ -1,0 +1,42 @@
+{
+  "operation": {
+    "label": {
+      "Commission": "Комісія",
+      "CommissionCategory": "Категорія комісії",
+      "CurrencyRate": "Курс",
+      "NeedConfirmation": "Потрібне підтвердження",
+      "Project": "Проєкт",
+      "Repetition": "Повторюваність",
+      "SelectAccount": "Виберіть рахунок",
+      "SelectCategory": "Виберіть категорію",
+      "SelectDate": "Зазначте дату"
+    },
+    "message": {
+      "SelectDestinationAccount": "Вкажіть рахунок для зарахування коштів",
+      "SelectSourceAccount": "Вкажіть рахунок для списання коштів",
+      "TransferSameAccount": "Рахунок для списання та рахунок для зарахування коштів співпадають"
+    }
+  },
+  "page": {
+    "button": {
+      "AddCategory": "Додати категорію",
+      "AddSubcategory": "Додати підкатегорію"
+    },
+    "filter": {
+      "dateRange": {
+        "AllTime": "За весь час",
+        "Month": "За місяць",
+        "Year": "За рік"
+      }
+    },
+    "message": {
+      "CategoryNotFound": "Категорія не знайдена. Спробуйте повернутися і проглянути <1>всі категорії</1> або ж оновити сторінку."
+    },
+    "title": {
+      "Expenses": "Витрати",
+      "ExpensesByCategories": "Витрати за категоріями",
+      "Incomes": "Доходи",
+      "IncomesByCategories": "Доходи за категоріями"
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Додати рахунок",
+      "AddGroup": "Додати групу"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Натисніть, щоб оновити дані",
+      "NextRefreshPossibleAt": "Наступне оновлення буде можливе після {when}.",
+      "ReconnectToBank": "Налаштувати підключення до банку",
+      "WillAutoRefresh": "Цей рахунок оновлюється автоматично."
+    },
+    "label": {
+      "WithoutGroup": "Без групи"
+    },
+    "messages": {
+      "BankSyncLost": "Зв'язок з банком втрачено.",
+      "BankSyncNotFound": "Зв'язок з банком не встановлено. Тільки власник має доступ.",
+      "CannotRefreshRightNow": "Зараз неможливо оновити дані.",
+      "RefreshDidNotScheduled": "Оновлення неможливе. Ймовірно, налаштування зв'язку не було завершене.",
+      "RefreshScheduled": "Спроба оновлення даних буде відновлена найближчим часом."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Інтерактивне підтвердження не вдалося отримати протягом відведеного на це часу.",
+      "InvalidCredentials": "Введено неправильні дані при інтерактивному підтвердженні.",
+      "RemoteAccountDeleted": "Відповідний рахунок був видалений банком.",
+      "RemoteAuthOutdated": "Дані для доступу застаріли."
+    },
+    "title": {
+      "Reconnect": "Налаштування синхронізації рахунка з банком"
+    }
+  },
+  "calendar": {
+    "label": {
+      "Account": "Рахунок",
+      "Balance": "Баланс",
+      "Expenses": "Витрати",
+      "Incomes": "Доходи"
+    },
+    "message": {
+      "NoOperations": "Немає операцій за цей день."
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Використовується в основному бюджеті"
+    },
+    "label": {
+      "AddCategory": "Додати категорію",
+      "AddSubCategory": "Додати підкатегорію",
+      "CategoryName": "Назва категорії",
+      "ChooseIcon": "Виберіть іконку",
+      "EditCategory": "Редагувати категорію",
+      "Subcategories": "Підкатегорії",
+      "Subcategory": "Підкатегорія",
+      "SubCategoryName": "Назва підкатегорії"
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Зберегти і створити ще одну"
+    },
+    "label": {
+      "currentOfTotal": "{current} з {total}",
+      "Description": "Опис",
+      "Limit": "Ліміт",
+      "ofTotal": "з {total}",
+      "Plan": "План",
+      "syncWithGoogleCalendar": "Синхронізувати з Календарем Google",
+      "Totals_ExpensesAre": "Витрати <0>{amount}</0>",
+      "Totals_IncomesAre": "Доходи <0>{amount}</0>",
+      "TotalsByFilterAre": "Підсумок за вибраними критеріями:"
+    }
+  },
+  "createTeam": {
+    "Title": "Створити команду"
+  },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Валюти рахунків",
+      "OtherCurrencies": "Інші валюти"
+    }
+  },
+  "loan": {
+    "Finished": "Виконаноо",
+    "IDidObtain": "Я винен",
+    "IDidProvide": "Мені винні",
+    "pageTitle": "Борги",
+    "ReturnDate": "Дата повернення",
+    "SelectAgent": "Зазначте контрагента"
+  },
+  "loanAgent": {
+    "AddAgent": "Додати контрагента",
+    "button": {
+      "credit": {
+        "Finish": "Погасити",
+        "Return": "Повернути",
+        "TakeMore": "Взяти ще"
+      },
+      "debit": {
+        "Finish": "Погасити",
+        "GiveMore": "Дати ще",
+        "Take": "Повернули"
+      },
+      "DeleteKeepTransactions": "Видалити, але залишити транзакції",
+      "DeleteWithTransactions": "Видалити разом з транзакціями"
+    },
+    "Comment": "Коментар",
+    "deadline": {
+      "inDays": "за {n, plural, one{# день} few{# дні} other{# днів}}",
+      "INeedReturnUntil": "Повернуть не пізніше",
+      "PromisedToMeReturnUntil": "Обіцяли повернути",
+      "SendNoticeBefore": "Відправити нагадування",
+      "setDate": "вказати дату"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "Всі пов'язані транзакції стануть звичайними транзакціями. Ви також можете видалити і транзакції разом з контрагентом.",
+      "CaseIfDeleteTransactions": "Видалення разом з транзакціями може спричинити зміну залишків на рахунках.",
+      "CaseIfKeepTransactions": "Якщо залишити транзакції, вони стануть звичайними доходами і витратами, не змінюючи залишків на рахунках.",
+      "YouAreGoingToDeleteAgent": "Ви намагаєтесь видалити боргового контрагента \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Змінити контрагента",
+    "History": "Історія платежів",
+    "Name": "Ім'я",
+    "NoticeToEmail": "E-пошта отримувача",
+    "NoticeToName": "Ім'я отримувача",
+    "status": {
+      "YouHaveNoCredits": "У Вас нема боргів, це добре :)",
+      "YouHaveNoDebts": "Вам ніхто не винен."
+    },
+    "TotalLoan": "Загальний борг"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Я отримав",
+      "IDidProvide": "Я віддав"
+    },
+    "AmountFromAccount": "Сума списання з рахунка",
+    "AmountToAccount": "Сума зарахування на рахунок",
+    "button": {
+      "DeleteKeepTransaction": "Видаллити лише борг",
+      "DeleteWithTransaction": "Видалити разом з  транзакцією"
+    },
+    "ConfirmDelete": "Ви справді бажаєте видалити боргову операцію? Це не вплине на залишки на рахунках.",
+    "ConfirmDeleteMayKeepTransaction": "Ця боргова операція пов'язана з транзакцією. При видаленні цієї боргової операції Ви можете як залишити транзакцію, так і видалити її.",
+    "DealWithAccounts": "Впливає на залишки на рахунках"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Аналітика",
+      "Balance": "Баланс",
+      "Budget": "Бюджет",
+      "Calendar": "Календар",
+      "CreateTeam": "Створити команду",
+      "Credits": "Кредити",
+      "CreditsEmpty": "Відсутні",
+      "Expenses": "Витрати",
+      "Goals": "Цілі",
+      "Incomes": "Доходи",
+      "Loans": "Борги",
+      "LoansEmpty": "Відсутні",
+      "Logout": "Вихід",
+      "Main": "Головна",
+      "Plan": "План",
+      "ReceiptsStats": "Статистика покупок",
+      "ReturnToOldVersion": "Повернутися до старої версії",
+      "Settings": "Налаштування",
+      "Support": "Підтримка"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Виберіть рахунок",
+    "AmountIsEmpty": "Вкажіть суму",
+    "CategoryDidntSelect": "Виберіть категорію",
+    "PlanConfirmMinDate": "Дата для непідтвердженої транзакції не повинна бути раніше {minDate}",
+    "PlanScheduleListIsEmpty": "Вкажіть дати для повторення"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Рахунки"
+    }
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Щодня",
+      "Monthly": "Щомісяця",
+      "none": "немає",
+      "Quarterly": "Щоквартально",
+      "Weekly": "Щотижня",
+      "Yearly": "Щороку"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "завдання створене"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "Операція завершена успішно.",
+      "OperationFailed": "Операція перервана через помилки.",
+      "OperationIsPending": "Операція виконується. Зачекайте, будь ласка."
+    },
+    "procName": {
+      "AccountAuthUnlink": "Відключити синхронізацію рахунка з банком",
+      "AccountDelete": "Видалення рахунка",
+      "CategoryDelete": "Видалення категорії",
+      "CategoryDeleteWithMove": "Видалення категорії зі збереженням даних",
+      "ImportConvert": "Імпорт: читання файла",
+      "ImportSave": "Імпорт даних",
+      "LoanAgentDelete": "Видалення боргового контрагента",
+      "TeamErase": "Очистит дані команди"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Рахунки",
+        "Budget": "Бюджет",
+        "Categories": "Категорії",
+        "Drafts": "Чеки (фото)",
+        "Goods": "Списки покупок: підказки",
+        "Images": "Зображення",
+        "Initialization": "Підготовка",
+        "LoanAgents": "Боргові агенти",
+        "LoanHistory": "Боргові операції",
+        "PlanConfirms": "Непідтверджені транзакції",
+        "Plans": "Планові операції",
+        "Receipts": "Чеки",
+        "ShopListItems": "Списки покупок: позиції",
+        "ShopLists": "Списки покупок",
+        "Targets": "Цілі",
+        "Transactions": "Транзакції"
+      },
+      "accountDelete": {
+        "SelfDelete": "Рахунок"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "Борговий агент"
+      },
+      "teamErase": {
+        "InitNewData": "Внесення початкових даних"
+      }
+    }
+  },
+  "project": {
+    "Name": "Назва",
+    "title": {
+      "CreateProject": "Створення проєкта",
+      "EditProject": "Редагування проєкта"
+    }
+  },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Очікування отримання даних.",
+      "Invalid": "Некоректний чек.",
+      "Rejected": "Чек був відхилений постачальником даних.",
+      "Validation": "Очікування перевірки на коректність."
+    },
+    "label": {
+      "Positions": "Список позицій",
+      "TotalSum": "Загальна сума",
+      "UnknownShop": "Невідомий магазин"
+    },
+    "message": {
+      "NoPositions": "Немає позицій",
+      "ShopNameIsEmpty": "Назва магазину невідома. Будь ласка, вкажіть."
+    }
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Вартість",
+      "Name": "Назва",
+      "Price": "Ціна",
+      "Qty": "Кількість"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "Кількість чеків",
+      "TotalShoppingSum": "Чеків на суму",
+      "TotalShopsCount": "Магазинів"
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Транзакції за {date}"
+    },
+    "title": {
+      "CreateOperation": "Створити операцію",
+      "CreateTransfer": "Створити переказ",
+      "EditOperation": "Змінити операцію",
+      "EditTransfer": "Змінити переказ"
+    }
+  }
+}

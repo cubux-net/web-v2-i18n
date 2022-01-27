@@ -1,0 +1,53 @@
+{
+  "button": {
+    "CreateReceiptAndLeave": "Створити чек и вийти",
+    "InputReceiptManually": "Ввести чек вручну",
+    "InputReceiptManuallyByPositions": "Ввести чек вручну за назвами"
+  },
+  "fetchState": {
+    "Fetching": "Очікування даних",
+    "Fulfilled": "Отримано",
+    "Invalid": "Невірно",
+    "Rejected": "Відхилено",
+    "Validation": "Очікування перевірки"
+  },
+  "label": {
+    "Date": "Дата",
+    "FetchAttempts": "Спроб виконано",
+    "FetchState": "Статус у черзі",
+    "LastFetchAt": "Остання спроба була о",
+    "NextFetchAfter": "Наступна спроба після",
+    "Shop": "Магазин",
+    "Sum": "Сума"
+  },
+  "manual": {
+    "message": {
+      "CreateUnfinishedReceiptAndLeave": "Можно створити незавершений чек негайно и вийти. Цей чек буде опроблено в порядку черги.",
+      "ReceiptDataReadyCheckAndSave": "Інформація з чека отримана успішно.",
+      "ReceiptIsInvalidOfMissing": "Неможливо отримати дані про чек. Цей чек або неправильний, або не вдалося отримати інформацію з нього.",
+      "StayHereAndWait": "Можна зачекати на результат і лише після цього створити чек.",
+      "WaitingReceiptDataThisMayBeLong": "Чек знаходиться в черзі на обробку. Це може тривати довший час залежно від завантаженості черги."
+    }
+  },
+  "statsPage": {
+    "button": {
+      "MoreReceipts": "Ще чеки"
+    },
+    "label": {
+      "byCategories": "За категоріями",
+      "byPositions": "За товарами",
+      "byShops": "За магазинами",
+      "mostCheapPrice": "Найнижча ціна",
+      "mostExpensivePrice": "Найвища ціна",
+      "PositionPriceVary": "Зміна ціни товару",
+      "priceDifference": "Різниця",
+      "Shopping": "Покупки",
+      "unknownShop": "магазин невідомий"
+    },
+    "message": {
+      "NoPositions": "Немає позицій",
+      "SelectPositionsToTrack": "Виберіть {maxCount, plural, =1{позицію} one{до # позиції} few{до # позиції} other{до # позиції}}, щоб переглянути ціни."
+    },
+    "Title": "Статистика покупок"
+  }
+}
