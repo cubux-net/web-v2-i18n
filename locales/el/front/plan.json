@@ -3,6 +3,9 @@
     "item": {
       "NextDate": "Επόμενη ημερομηνία",
       "Repeat": "Επαναλαμβάνω"
+    },
+    "stats": {
+      "PlannedTurnoverUntil": "Προγραμματισμένες εργασίες πριν {date}"
     }
   },
   "message": {

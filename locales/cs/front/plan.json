@@ -3,6 +3,9 @@
     "item": {
       "NextDate": "Příští datum",
       "Repeat": "Opakovat"
+    },
+    "stats": {
+      "PlannedTurnoverUntil": "Plánované operace {date}"
     }
   },
   "message": {

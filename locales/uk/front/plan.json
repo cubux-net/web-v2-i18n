@@ -3,6 +3,9 @@
     "item": {
       "NextDate": "Наступна дата",
       "Repeat": "Повторити"
+    },
+    "stats": {
+      "PlannedTurnoverUntil": "Заплановані операції до {date}"
     }
   },
   "message": {
