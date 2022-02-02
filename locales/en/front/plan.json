@@ -3,6 +3,9 @@
     "item": {
       "NextDate": "Next date",
       "Repeat": "Repeat"
+    },
+    "stats": {
+      "PlannedTurnoverUntil": "Planned operations until {date}"
     }
   },
   "message": {

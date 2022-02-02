@@ -21,15 +21,19 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NextDate",
-            "Repeat"
-          ]
+          "required": ["NextDate", "Repeat"]
+        },
+        "stats": {
+          "type": "object",
+          "properties": {
+            "PlannedTurnoverUntil": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["PlannedTurnoverUntil"]
         }
       },
-      "required": [
-        "item"
-      ]
+      "required": ["item", "stats"]
     },
     "message": {
       "type": "object",
@@ -38,9 +42,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "ConfirmDelete"
-      ]
+      "required": ["ConfirmDelete"]
     },
     "page": {
       "type": "object",
@@ -49,9 +51,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "title"
-      ]
+      "required": ["title"]
     },
     "when": {
       "type": "object",
@@ -60,15 +60,8 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "quarter"
-      ]
+      "required": ["quarter"]
     }
   },
-  "required": [
-    "label",
-    "message",
-    "page",
-    "when"
-  ]
+  "required": ["label", "message", "page", "when"]
 }
