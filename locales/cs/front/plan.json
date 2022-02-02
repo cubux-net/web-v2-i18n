@@ -5,7 +5,7 @@
       "Repeat": "Opakovat"
     },
     "stats": {
-      "PlannedTurnoverUntil": "Plánované operace {date}"
+      "PlannedTurnoverUntil": "Plánované operace do {date}"
     }
   },
   "message": {
