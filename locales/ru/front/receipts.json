@@ -1,5 +1,11 @@
 {
+  "assignTransaction": {
+    "message": {
+      "AddGroupHelp": "Выберите Счёт и Категорию, отметьте нужные позиции и нажмите [Добавить]. Выбранные позиции будут сгруппированы в одну транзакцию."
+    }
+  },
   "button": {
+    "AssignCategories": "Назначить категории",
     "CreateReceiptAndLeave": "Создать чек и уйти",
     "InputReceiptManually": "Ввод чека вручную",
     "InputReceiptManuallyByPositions": "Ввод чека вручную по наименованиям"
