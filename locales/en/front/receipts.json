@@ -1,7 +1,7 @@
 {
   "assignTransaction": {
     "message": {
-      "AddGroupHelp": "Select Account and Category, choose positions, and press [Add]. Chosen positions will be grouped into a transaction."
+      "AddGroupHelp": "Select the Account and Category, mark the required items and click [Add]. The selected items will be grouped into one transaction."
     }
   },
   "button": {
