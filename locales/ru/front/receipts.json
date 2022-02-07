@@ -5,7 +5,7 @@
     }
   },
   "button": {
-    "AssignCategories": "Назначить категории",
+    "AssignCategories": "Назначение категорий",
     "CreateReceiptAndLeave": "Создать чек и уйти",
     "InputReceiptManually": "Ввод чека вручную",
     "InputReceiptManuallyByPositions": "Ввод чека вручную по наименованиям"
