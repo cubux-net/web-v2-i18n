@@ -1,5 +1,11 @@
 {
+  "assignTransaction": {
+    "message": {
+      "AddGroupHelp": "Select Account and Category, choose positions, and press [Add]. Chosen positions will be grouped into a transaction."
+    }
+  },
   "button": {
+    "AssignCategories": "Assign categories",
     "CreateReceiptAndLeave": "Create receipt and leave",
     "InputReceiptManually": "Input receipt manually",
     "InputReceiptManuallyByPositions": "Input receipt manually by positions"

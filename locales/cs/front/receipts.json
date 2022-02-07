@@ -1,5 +1,11 @@
 {
+  "assignTransaction": {
+    "message": {
+      "AddGroupHelp": "Vyberte Účet a Kategorii, označte požadované položky a klikněte na [Přidat]. Vybrané položky budou seskupeny do jedné transakce."
+    }
+  },
   "button": {
+    "AssignCategories": "Přiřazení kategorie",
     "CreateReceiptAndLeave": "Vytvořit účtenku a odejít",
     "InputReceiptManually": "Ruční zadání účtenky",
     "InputReceiptManuallyByPositions": "Ruční zadání účtenky podle jména"

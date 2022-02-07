@@ -8,9 +8,27 @@
   },
   "type": "object",
   "properties": {
+    "assignTransaction": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "object",
+          "properties": {
+            "AddGroupHelp": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["AddGroupHelp"]
+        }
+      },
+      "required": ["message"]
+    },
     "button": {
       "type": "object",
       "properties": {
+        "AssignCategories": {
+          "$ref": "#/$defs/string"
+        },
         "CreateReceiptAndLeave": {
           "$ref": "#/$defs/string"
         },
@@ -22,6 +40,7 @@
         }
       },
       "required": [
+        "AssignCategories",
         "CreateReceiptAndLeave",
         "InputReceiptManually",
         "InputReceiptManuallyByPositions"
@@ -46,13 +65,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "Fetching",
-        "Fulfilled",
-        "Invalid",
-        "Rejected",
-        "Validation"
-      ]
+      "required": ["Fetching", "Fulfilled", "Invalid", "Rejected", "Validation"]
     },
     "label": {
       "type": "object",
@@ -120,9 +133,7 @@
           ]
         }
       },
-      "required": [
-        "message"
-      ]
+      "required": ["message"]
     },
     "statsPage": {
       "type": "object",
@@ -137,9 +148,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "MoreReceipts"
-          ]
+          "required": ["MoreReceipts"]
         },
         "label": {
           "type": "object",
@@ -194,21 +203,14 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NoPositions",
-            "SelectPositionsToTrack"
-          ]
+          "required": ["NoPositions", "SelectPositionsToTrack"]
         }
       },
-      "required": [
-        "Title",
-        "button",
-        "label",
-        "message"
-      ]
+      "required": ["Title", "button", "label", "message"]
     }
   },
   "required": [
+    "assignTransaction",
     "button",
     "fetchState",
     "label",
