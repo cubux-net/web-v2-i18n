@@ -51,6 +51,7 @@
       "unknownShop": "unknown shop"
     },
     "message": {
+      "ConfirmDeleteReceipt": "Are you sure to delete this receipt?",
       "NoPositions": "No positions",
       "SelectPositionsToTrack": "Select {maxCount, plural, =1{a position} one{up to # position} other{up to # positions}} to view prices."
     },

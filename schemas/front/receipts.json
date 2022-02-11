@@ -196,6 +196,9 @@
         "message": {
           "type": "object",
           "properties": {
+            "ConfirmDeleteReceipt": {
+              "$ref": "#/$defs/string"
+            },
             "NoPositions": {
               "$ref": "#/$defs/string"
             },
@@ -203,7 +206,11 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["NoPositions", "SelectPositionsToTrack"]
+          "required": [
+            "ConfirmDeleteReceipt",
+            "NoPositions",
+            "SelectPositionsToTrack"
+          ]
         }
       },
       "required": ["Title", "button", "label", "message"]
