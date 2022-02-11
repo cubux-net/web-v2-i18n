@@ -51,6 +51,7 @@
       "unknownShop": "neznámý obchod"
     },
     "message": {
+      "ConfirmDeleteReceipt": "Opravdu chcete smazat účtenky?",
       "NoPositions": "Žádné pozice",
       "SelectPositionsToTrack": "Prosím vyberte {maxCount, plural, =1{pozice} one{do # pozice} few{do # pozicí} other{do # pozice}} pro zobrazení cen."
     },

@@ -51,6 +51,7 @@
       "unknownShop": "магазин неизвестен"
     },
     "message": {
+      "ConfirmDeleteReceipt": "Вы уверены, что хотите удалить чек?",
       "NoPositions": "Нет позиций",
       "SelectPositionsToTrack": "Выберите {maxCount, plural, =1{позицию} one{до # позиции} few{до # позиций} other{до # позиций}} для просмотра цен."
     },
