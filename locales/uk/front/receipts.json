@@ -52,6 +52,7 @@
     },
     "message": {
       "ConfirmDeleteReceipt": "Ви справді бажаєте видалити чек?",
+      "LinkedTransactionsWillLeft": "Прив'язані транзакції ({count}) не видаляються.",
       "NoPositions": "Немає позицій",
       "SelectPositionsToTrack": "Виберіть {maxCount, plural, =1{позицію} one{до # позиції} few{до # позиції} other{до # позиції}}, щоб переглянути ціни."
     },

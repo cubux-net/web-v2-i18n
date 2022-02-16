@@ -52,6 +52,7 @@
     },
     "message": {
       "ConfirmDeleteReceipt": "Είστε βέβαιοι ότι θέλετε να διαγράψετε επιταγής?",
+      "LinkedTransactionsWillLeft": "Οι συνδεδεμένες συναλλαγές ({count}) δεν θα διαγραφούν.",
       "NoPositions": "Χωρίς θέσεις",
       "SelectPositionsToTrack": "Παρακαλώ επιλέξτε {maxCount, plural, =1{θέση} one{πριν # θέσεις} few{πριν # θέσεις} other{πριν # θέσεις}} για να δείτε τις τιμές."
     },
