@@ -199,6 +199,9 @@
             "ConfirmDeleteReceipt": {
               "$ref": "#/$defs/string"
             },
+            "LinkedTransactionsWillLeft": {
+              "$ref": "#/$defs/string"
+            },
             "NoPositions": {
               "$ref": "#/$defs/string"
             },
@@ -208,6 +211,7 @@
           },
           "required": [
             "ConfirmDeleteReceipt",
+            "LinkedTransactionsWillLeft",
             "NoPositions",
             "SelectPositionsToTrack"
           ]
