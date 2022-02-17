@@ -11,7 +11,7 @@
     "message": {
       "AlsoYouCanJustHideAccount": "Also you can just hide account to let it not to show in lists.",
       "ConfirmDeleteGroup": "Are you sure to delete the Group? Accounts in the group will just become \"Without group\".",
-      "ContinueToDeleteWillChangeHistoryAndBalance": "Continue to delete account will change operations history and balance.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Continue to delete account will change operations history. All transfers with this account will be split into incomes and expenses, so this will not change balances for other accounts.",
       "delete": {
         "CanMoveOperation": "You can also move transactions to another account.",
         "MoveDataDelete": "Move transactions to another account"
