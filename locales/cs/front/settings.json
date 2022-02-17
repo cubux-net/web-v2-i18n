@@ -11,7 +11,7 @@
     "message": {
       "AlsoYouCanJustHideAccount": "Také můžete skrýt účet, aby se nezobrazoval v seznamech.",
       "ConfirmDeleteGroup": "Opravdu chcete smazat tuto skupinu? Skupinové účty se jednoduše stanou \"Bez skupiny\"",
-      "ContinueToDeleteWillChangeHistoryAndBalance": "Odstranění účtu způsobí změnu historie operací a zůstatků.",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Smazáním účtu se změní historie transakcí. Převody s tímto účtem budou rozděleny na příjmy a výdaje, takže zůstatky na ostatních účtech zůstanou beze změny.",
       "delete": {
         "CanMoveOperation": "Můžete přesunout všechny operace do jiné účet",
         "MoveDataDelete": "Přesunout data a odstranit účet"
