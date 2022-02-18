@@ -1,4 +1,14 @@
 {
+  "appStatus": {
+    "cent": {
+      "Disconnected": "Connection lost",
+      "DisconnectedExplanation": "Connection with server lost. Something can work incorrect or not work at all. Check you Internet connection. If you are sure you internet connection is fine, but the error still happens a long time, feel free to contact our support system."
+    },
+    "refresh": {
+      "NewAppAvailable": "New version available",
+      "NewAppAvailableExplanation": "A new version available. <1>Refresh page</1>"
+    }
+  },
   "button": {
     "Add": "Add",
     "Back": "Back",
