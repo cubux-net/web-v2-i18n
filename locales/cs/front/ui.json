@@ -1,4 +1,14 @@
 {
+  "appStatus": {
+    "cent": {
+      "Disconnected": "Připojení přerušeno",
+      "DisconnectedExplanation": "Ztratilo se připojení k serveru. Některé procesy nemusí fungovat správně nebo nefungují vůbec. Zkontrolujte připojení k internetu. Pokud jste si jisti, že je připojení v pořádku, ale chyba přetrvává delší dobu, kontaktujte prosím naši podporu."
+    },
+    "refresh": {
+      "NewAppAvailable": "K dispozici nová verze",
+      "NewAppAvailableExplanation": "K dispozici nová verze. <1>Aktualizovat stránku</1>"
+    }
+  },
   "button": {
     "Add": "Přidat",
     "Back": "Zpět",
