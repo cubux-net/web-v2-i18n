@@ -71,7 +71,9 @@
     "button": {
       "DeleteKeepTransaction": "Delete operation, keep transactions",
       "DeleteWithTransaction": "Delete WITH transaction",
-      "PayNow": "Pay now"
+      "Finish": "Complete",
+      "PayNow": "Pay now",
+      "UndoFinish": "Cancel completion"
     },
     "label": {
       "AlreadyPaidAmount": "Already paid",
@@ -82,6 +84,8 @@
     "message": {
       "ConfirmDelete": "Are you sure to delete this credit operation? This action will not change accounts balance.",
       "ConfirmDeleteMayKeepTransaction": "This credit operation is linked with transaction. You can keep the transaction or delete it too while deleting credit operation.",
+      "ConfirmFinish": "Complete credit?",
+      "ConfirmUndoFinish": "Cancel credit completion?",
       "DeleteConfirm": "Are you sure to delete this credit completely?"
     },
     "title": {

@@ -249,14 +249,22 @@
             "DeleteWithTransaction": {
               "$ref": "#/$defs/string"
             },
+            "Finish": {
+              "$ref": "#/$defs/string"
+            },
             "PayNow": {
+              "$ref": "#/$defs/string"
+            },
+            "UndoFinish": {
               "$ref": "#/$defs/string"
             }
           },
           "required": [
             "DeleteKeepTransaction",
             "DeleteWithTransaction",
-            "PayNow"
+            "Finish",
+            "PayNow",
+            "UndoFinish"
           ]
         },
         "label": {
@@ -291,6 +299,12 @@
             "ConfirmDeleteMayKeepTransaction": {
               "$ref": "#/$defs/string"
             },
+            "ConfirmFinish": {
+              "$ref": "#/$defs/string"
+            },
+            "ConfirmUndoFinish": {
+              "$ref": "#/$defs/string"
+            },
             "DeleteConfirm": {
               "$ref": "#/$defs/string"
             }
@@ -298,6 +312,8 @@
           "required": [
             "ConfirmDelete",
             "ConfirmDeleteMayKeepTransaction",
+            "ConfirmFinish",
+            "ConfirmUndoFinish",
             "DeleteConfirm"
           ]
         },

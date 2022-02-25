@@ -71,7 +71,9 @@
     "button": {
       "DeleteKeepTransaction": "Smazat, ale ponechat transakce",
       "DeleteWithTransaction": "Smazat spolu s transakcí",
-      "PayNow": "Zaplatit teď"
+      "Finish": "Dokončit",
+      "PayNow": "Zaplatit teď",
+      "UndoFinish": "Storno dokončení"
     },
     "label": {
       "AlreadyPaidAmount": "Splaceno",
@@ -82,6 +84,8 @@
     "message": {
       "ConfirmDelete": "Opravdu chcete smazat úvěrovou transakci? Zůstatky na účtu nebudou ovlivněny.",
       "ConfirmDeleteMayKeepTransaction": "Tato úvěrová operace je spojena s transakcí. Při smazání této úvěrovou operace můžete transakci buď nechat, nebo ji smazat.",
+      "ConfirmFinish": "Dokončit úvěr?",
+      "ConfirmUndoFinish": "Storno dokončení úvěru?",
       "DeleteConfirm": "Opravdu chcete tento úvěr smazat?"
     },
     "title": {
