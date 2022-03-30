@@ -25,6 +25,7 @@
     "filter": {
       "dateRange": {
         "AllTime": "Za celou dobu",
+        "ExactDays": "Volná perioda",
         "Month": "Za měsíc",
         "Year": "Za rok"
       }
