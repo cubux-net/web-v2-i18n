@@ -25,6 +25,7 @@
     "filter": {
       "dateRange": {
         "AllTime": "Όλος ο χρόνος",
+        "ExactDays": "Ακριβής περίοδος",
         "Month": "Μήνας",
         "Year": "Έτος"
       }

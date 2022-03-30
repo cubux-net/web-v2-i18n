@@ -74,10 +74,7 @@
           ]
         }
       },
-      "required": [
-        "label",
-        "message"
-      ]
+      "required": ["label", "message"]
     },
     "page": {
       "type": "object",
@@ -92,10 +89,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "AddCategory",
-            "AddSubcategory"
-          ]
+          "required": ["AddCategory", "AddSubcategory"]
         },
         "filter": {
           "type": "object",
@@ -106,6 +100,9 @@
                 "AllTime": {
                   "$ref": "#/$defs/string"
                 },
+                "ExactDays": {
+                  "$ref": "#/$defs/string"
+                },
                 "Month": {
                   "$ref": "#/$defs/string"
                 },
@@ -113,16 +110,10 @@
                   "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "AllTime",
-                "Month",
-                "Year"
-              ]
+              "required": ["AllTime", "ExactDays", "Month", "Year"]
             }
           },
-          "required": [
-            "dateRange"
-          ]
+          "required": ["dateRange"]
         },
         "message": {
           "type": "object",
@@ -131,9 +122,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "CategoryNotFound"
-          ]
+          "required": ["CategoryNotFound"]
         },
         "title": {
           "type": "object",
@@ -159,16 +148,8 @@
           ]
         }
       },
-      "required": [
-        "button",
-        "filter",
-        "message",
-        "title"
-      ]
+      "required": ["button", "filter", "message", "title"]
     }
   },
-  "required": [
-    "operation",
-    "page"
-  ]
+  "required": ["operation", "page"]
 }

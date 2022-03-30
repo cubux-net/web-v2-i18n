@@ -25,6 +25,7 @@
     "filter": {
       "dateRange": {
         "AllTime": "За все время",
+        "ExactDays": "Свободный период",
         "Month": "За месяц",
         "Year": "За год"
       }

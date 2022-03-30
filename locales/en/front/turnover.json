@@ -25,6 +25,7 @@
     "filter": {
       "dateRange": {
         "AllTime": "All time",
+        "ExactDays": "Exact period",
         "Month": "Month",
         "Year": "Year"
       }
