@@ -45,7 +45,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Εμφάνιση όλων"
+      "ShowAllCategories": "Εμφάνιση όλων",
+      "Totals": "Σύνολο"
     }
   }
 }

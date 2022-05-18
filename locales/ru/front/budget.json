@@ -45,7 +45,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Показать все"
+      "ShowAllCategories": "Показать все",
+      "Totals": "Итого"
     }
   }
 }

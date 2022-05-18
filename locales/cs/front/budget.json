@@ -45,7 +45,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Zobrazit vše"
+      "ShowAllCategories": "Zobrazit vše",
+      "Totals": "Celkem"
     }
   }
 }

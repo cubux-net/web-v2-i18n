@@ -161,9 +161,12 @@
           "properties": {
             "ShowAllCategories": {
               "$ref": "#/$defs/string"
+            },
+            "Totals": {
+              "$ref": "#/$defs/string"
             }
           },
-          "required": ["ShowAllCategories"]
+          "required": ["ShowAllCategories", "Totals"]
         }
       },
       "required": ["label"]

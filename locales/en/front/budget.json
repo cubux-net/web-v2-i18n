@@ -45,7 +45,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Show all"
+      "ShowAllCategories": "Show all",
+      "Totals": "Total"
     }
   }
 }

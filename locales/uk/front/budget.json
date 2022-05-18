@@ -45,7 +45,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Показати все"
+      "ShowAllCategories": "Показати все",
+      "Totals": "Загальна сума"
     }
   }
 }
