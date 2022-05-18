@@ -185,7 +185,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Fund to your Wallet",
       "Pay": "Pay",
+      "PayFromWallet": "Pay from your wallet",
       "Prolong": "Prolong",
       "ToPremium": "To Premuim"
     },
@@ -228,7 +230,9 @@
         "PeriodMaximumIsV": "Period must be not greater then {value}.",
         "PeriodMinimumIsV": "Period must be at least {value}.",
         "PeriodNotANumber": "Provide an integer number.",
-        "ProviderDoesNotSupportCurrency": "Provider does not support currency."
+        "ProviderDoesNotSupportCurrency": "Provider does not support currency.",
+        "ToPayEnoughInYourWallet": "You have enough money in your Wallet to pay for subscription.",
+        "ToPayYouNeedToFundToYourWallet": "You need to fund to your Wallet to pay for subscription."
       },
       "priceUnit": {
         "month": "month",

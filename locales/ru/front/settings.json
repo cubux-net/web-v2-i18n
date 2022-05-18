@@ -185,7 +185,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Пополнить Лицевой Счёт",
       "Pay": "Оплатить",
+      "PayFromWallet": "Оплатить с Лицевого Счёта",
       "Prolong": "Продлить",
       "ToPremium": "Перейти на премиум"
     },
@@ -228,7 +230,9 @@
         "PeriodMaximumIsV": "Максимум {value}.",
         "PeriodMinimumIsV": "Минимум {value}.",
         "PeriodNotANumber": "Укажите целое число.",
-        "ProviderDoesNotSupportCurrency": "Поставщик не поддерживает данную валюту."
+        "ProviderDoesNotSupportCurrency": "Поставщик не поддерживает данную валюту.",
+        "ToPayEnoughInYourWallet": "На вашем Лицевом Счёте достаточно средств для оплаты подписки.",
+        "ToPayYouNeedToFundToYourWallet": "Пополните ваш Лицевой Счёт, чтобы оплатить подписку."
       },
       "priceUnit": {
         "month": "месяц",

@@ -667,7 +667,13 @@
         "button": {
           "type": "object",
           "properties": {
+            "FundToWallet": {
+              "$ref": "#/$defs/string"
+            },
             "Pay": {
+              "$ref": "#/$defs/string"
+            },
+            "PayFromWallet": {
               "$ref": "#/$defs/string"
             },
             "Prolong": {
@@ -677,7 +683,13 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Pay", "Prolong", "ToPremium"]
+          "required": [
+            "FundToWallet",
+            "Pay",
+            "PayFromWallet",
+            "Prolong",
+            "ToPremium"
+          ]
         },
         "feature": {
           "type": "object",
@@ -816,6 +828,12 @@
                 },
                 "ProviderDoesNotSupportCurrency": {
                   "$ref": "#/$defs/string"
+                },
+                "ToPayEnoughInYourWallet": {
+                  "$ref": "#/$defs/string"
+                },
+                "ToPayYouNeedToFundToYourWallet": {
+                  "$ref": "#/$defs/string"
                 }
               },
               "required": [
@@ -829,7 +847,9 @@
                 "PeriodMaximumIsV",
                 "PeriodMinimumIsV",
                 "PeriodNotANumber",
-                "ProviderDoesNotSupportCurrency"
+                "ProviderDoesNotSupportCurrency",
+                "ToPayEnoughInYourWallet",
+                "ToPayYouNeedToFundToYourWallet"
               ]
             },
             "priceUnit": {

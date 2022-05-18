@@ -185,7 +185,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Συμπλήρωση προσωπικού λογαριασμού",
       "Pay": "Πληρωμή",
+      "PayFromWallet": "Πληρωμή από προσωπικό λογαριασμό",
       "Prolong": "Παράταση",
       "ToPremium": "To Premuim"
     },
@@ -228,7 +230,9 @@
         "PeriodMaximumIsV": "Η περίοδος δεν πρέπει να είναι μεγαλύτερη από {value}.",
         "PeriodMinimumIsV": "Η περίοδος πρέπει να είναι τουλάχιστον {value}.",
         "PeriodNotANumber": "Εισάγετε ακέραιο αριθμό.",
-        "ProviderDoesNotSupportCurrency": "Ο πάροχος δεν υποστηρίζει το νόμισμα."
+        "ProviderDoesNotSupportCurrency": "Ο πάροχος δεν υποστηρίζει το νόμισμα.",
+        "ToPayEnoughInYourWallet": "Υπάρχουν αρκετά χρήματα στον Προσωπικό σας Λογαριασμό για να πληρώσετε τη συνδρομή.",
+        "ToPayYouNeedToFundToYourWallet": "Συμπληρώστε τον Προσωπικό Λογαριασμό σας για να πληρώσετε τη συνδρομή."
       },
       "priceUnit": {
         "month": "μήνας",
