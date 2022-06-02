@@ -137,6 +137,7 @@
     },
     "AmountFromAccount": "Amount taken from account",
     "AmountToAccount": "Amount given to account",
+    "Balance": "Balance",
     "button": {
       "DeleteKeepTransaction": "Delete only loan",
       "DeleteWithTransaction": "Delete WITH transaction"

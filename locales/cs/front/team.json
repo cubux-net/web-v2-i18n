@@ -137,6 +137,7 @@
     },
     "AmountFromAccount": "Částka, která má být odepsána z účtu",
     "AmountToAccount": "Částka připsaná na účet",
+    "Balance": "Zůstatek",
     "button": {
       "DeleteKeepTransaction": "Smazat pouze dluh",
       "DeleteWithTransaction": "Smazat spolu s transakcí"

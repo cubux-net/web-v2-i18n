@@ -137,6 +137,7 @@
     },
     "AmountFromAccount": "Сума списання з рахунка",
     "AmountToAccount": "Сума зарахування на рахунок",
+    "Balance": "Баланс",
     "button": {
       "DeleteKeepTransaction": "Видаллити лише борг",
       "DeleteWithTransaction": "Видалити разом з  транзакцією"

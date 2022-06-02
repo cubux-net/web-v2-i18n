@@ -137,6 +137,7 @@
     },
     "AmountFromAccount": "Ποσό που λαμβάνεται υπόψη",
     "AmountToAccount": "Ποσό που έχει δοθεί στον λογαριασμό",
+    "Balance": "Ισορροπία",
     "button": {
       "DeleteKeepTransaction": "Διαγραφή μόνο δανείου",
       "DeleteWithTransaction": "Διαγραφή ΜΕ συναλλαγή"

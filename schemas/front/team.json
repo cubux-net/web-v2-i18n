@@ -481,6 +481,9 @@
         "AmountToAccount": {
           "$ref": "#/$defs/string"
         },
+        "Balance": {
+          "$ref": "#/$defs/string"
+        },
         "ConfirmDelete": {
           "$ref": "#/$defs/string"
         },
@@ -518,6 +521,7 @@
       "required": [
         "AmountFromAccount",
         "AmountToAccount",
+        "Balance",
         "ConfirmDelete",
         "ConfirmDeleteMayKeepTransaction",
         "DealWithAccounts",
