@@ -11,17 +11,6 @@
     "filter": {
       "type": "object",
       "properties": {
-        "button": {
-          "type": "object",
-          "properties": {
-            "ExportExcel": {
-              "$ref": "#/$defs/string"
-            }
-          },
-          "required": [
-            "ExportExcel"
-          ]
-        },
         "chart": {
           "type": "object",
           "properties": {
@@ -29,9 +18,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Chart"
-          ]
+          "required": ["Chart"]
         },
         "date": {
           "type": "object",
@@ -46,11 +33,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Period",
-            "SetPeriod",
-            "SetYear"
-          ]
+          "required": ["Period", "SetPeriod", "SetYear"]
         },
         "groupBy": {
           "type": "object",
@@ -62,10 +45,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Categories",
-            "Months"
-          ]
+          "required": ["Categories", "Months"]
         },
         "limit": {
           "type": "object",
@@ -122,14 +102,7 @@
           ]
         }
       },
-      "required": [
-        "button",
-        "chart",
-        "date",
-        "groupBy",
-        "limit",
-        "type"
-      ]
+      "required": ["chart", "date", "groupBy", "limit", "type"]
     },
     "page": {
       "type": "object",
@@ -144,19 +117,11 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NoChartData"
-          ]
+          "required": ["NoChartData"]
         }
       },
-      "required": [
-        "Title",
-        "message"
-      ]
+      "required": ["Title", "message"]
     }
   },
-  "required": [
-    "filter",
-    "page"
-  ]
+  "required": ["filter", "page"]
 }

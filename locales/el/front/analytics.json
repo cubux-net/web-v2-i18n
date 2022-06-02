@@ -1,8 +1,5 @@
 {
   "filter": {
-    "button": {
-      "ExportExcel": "Εξαγωγή στο Excel"
-    },
     "chart": {
       "Chart": "Διάγραμμα "
     },

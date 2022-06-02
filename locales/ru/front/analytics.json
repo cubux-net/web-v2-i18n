@@ -1,8 +1,5 @@
 {
   "filter": {
-    "button": {
-      "ExportExcel": "Экспорт в Excel"
-    },
     "chart": {
       "Chart": "График"
     },

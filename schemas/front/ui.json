@@ -74,6 +74,9 @@
         "Edit": {
           "$ref": "#/$defs/string"
         },
+        "ExportExcel": {
+          "$ref": "#/$defs/string"
+        },
         "ImportCsv": {
           "$ref": "#/$defs/string"
         },
@@ -117,6 +120,7 @@
         "Delete",
         "Details",
         "Edit",
+        "ExportExcel",
         "ImportCsv",
         "Insert",
         "Next",
