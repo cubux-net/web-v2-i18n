@@ -203,6 +203,7 @@
     "procName": {
       "AccountAuthUnlink": "Ukončení synchronizace účtu s bankou",
       "AccountDelete": "Odstranění účtu",
+      "BudgetCopy": "Kopírování rozpočtů",
       "CategoryDelete": "Odstranění kategorie",
       "CategoryDeleteWithMove": "Odstranění kategorie s uložením dat",
       "ImportConvert": "Import: čtení souboru",

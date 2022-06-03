@@ -203,6 +203,7 @@
     "procName": {
       "AccountAuthUnlink": "Відключити синхронізацію рахунка з банком",
       "AccountDelete": "Видалення рахунка",
+      "BudgetCopy": "Копіювання бюджету",
       "CategoryDelete": "Видалення категорії",
       "CategoryDeleteWithMove": "Видалення категорії зі збереженням даних",
       "ImportConvert": "Імпорт: читання файла",

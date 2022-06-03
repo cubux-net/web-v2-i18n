@@ -203,6 +203,7 @@
     "procName": {
       "AccountAuthUnlink": "Disconnect account from bank sync",
       "AccountDelete": "Delete account",
+      "BudgetCopy": "Copying budget",
       "CategoryDelete": "Delete category",
       "CategoryDeleteWithMove": "Delete category keeping data",
       "ImportConvert": "Import reading file",

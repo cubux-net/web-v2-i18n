@@ -737,6 +737,9 @@
             "AccountDelete": {
               "$ref": "#/$defs/string"
             },
+            "BudgetCopy": {
+              "$ref": "#/$defs/string"
+            },
             "CategoryDelete": {
               "$ref": "#/$defs/string"
             },
@@ -759,6 +762,7 @@
           "required": [
             "AccountAuthUnlink",
             "AccountDelete",
+            "BudgetCopy",
             "CategoryDelete",
             "CategoryDeleteWithMove",
             "ImportConvert",

@@ -62,6 +62,9 @@
         "Confirm": {
           "$ref": "#/$defs/string"
         },
+        "Copy": {
+          "$ref": "#/$defs/string"
+        },
         "Create": {
           "$ref": "#/$defs/string"
         },
@@ -116,6 +119,7 @@
         "ChooseImage",
         "Close",
         "Confirm",
+        "Copy",
         "Create",
         "Delete",
         "Details",

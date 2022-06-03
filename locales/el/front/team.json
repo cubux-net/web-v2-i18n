@@ -203,6 +203,7 @@
     "procName": {
       "AccountAuthUnlink": "Αποσύνδεση λογαριασμού από συγχρονισμό τραπεζών",
       "AccountDelete": "Διαγραφή λογαριασμού",
+      "BudgetCopy": "Αντιγραφή προϋπολογισμού",
       "CategoryDelete": "Διαγραφή κατηγορίας",
       "CategoryDeleteWithMove": "Διαγραφή δεδομένων διατήρησης κατηγορίας",
       "ImportConvert": "Εισαγωγή αρχείου ανάγνωσης",
