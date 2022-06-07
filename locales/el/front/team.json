@@ -62,6 +62,7 @@
     },
     "label": {
       "currentOfTotal": "{current} of {total}",
+      "Date": "Ημερομηνία",
       "Description": "Περιγραφή",
       "Limit": "Όριο",
       "ofTotal": "of {total}",
@@ -264,6 +265,12 @@
       "NoPositions": "Χωρίς θέσεις",
       "ShopNameIsEmpty": "Το όνομα του καταστήματος είναι άγνωστο. Παρακαλώ, διευκρινίστε το όνομα του καταστήματος."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Φωτογραφίες επιταγών"
+    },
+    "DialogTitle": "Φωτογραφίες επιταγών"
   },
   "receiptPos": {
     "label": {

@@ -219,6 +219,9 @@
         "label": {
           "type": "object",
           "properties": {
+            "Date": {
+              "$ref": "#/$defs/string"
+            },
             "Description": {
               "$ref": "#/$defs/string"
             },
@@ -248,6 +251,7 @@
             }
           },
           "required": [
+            "Date",
             "Description",
             "Limit",
             "Plan",
@@ -955,6 +959,24 @@
       },
       "required": ["fetchState", "label", "message"]
     },
+    "receiptPhoto": {
+      "type": "object",
+      "properties": {
+        "DialogTitle": {
+          "$ref": "#/$defs/string"
+        },
+        "button": {
+          "type": "object",
+          "properties": {
+            "UnprocessedReceiptPhotos": {
+              "$ref": "#/$defs/string"
+            }
+          },
+          "required": ["UnprocessedReceiptPhotos"]
+        }
+      },
+      "required": ["DialogTitle", "button"]
+    },
     "receiptPos": {
       "type": "object",
       "properties": {
@@ -1060,6 +1082,7 @@
     "procStatus",
     "project",
     "receipt",
+    "receiptPhoto",
     "receiptPos",
     "receiptStats",
     "transactions"

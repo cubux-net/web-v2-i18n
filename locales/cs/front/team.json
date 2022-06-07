@@ -62,6 +62,7 @@
     },
     "label": {
       "currentOfTotal": "{current} z {total}",
+      "Date": "Datum",
       "Description": "Popis",
       "Limit": "Limit",
       "ofTotal": "z {total}",
@@ -264,6 +265,12 @@
       "NoPositions": "Žádné pozice",
       "ShopNameIsEmpty": "Název obchodu není znám. Uveďte prosím."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Fotografie účtenek"
+    },
+    "DialogTitle": "Fotografie účtenek z mobilu"
   },
   "receiptPos": {
     "label": {

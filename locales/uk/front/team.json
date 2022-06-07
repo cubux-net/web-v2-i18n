@@ -62,6 +62,7 @@
     },
     "label": {
       "currentOfTotal": "{current} з {total}",
+      "Date": "Дата",
       "Description": "Опис",
       "Limit": "Ліміт",
       "ofTotal": "з {total}",
@@ -264,6 +265,12 @@
       "NoPositions": "Немає позицій",
       "ShopNameIsEmpty": "Назва магазину невідома. Будь ласка, вкажіть."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Фотографії чеків"
+    },
+    "DialogTitle": "Чеки з мобільної програми"
   },
   "receiptPos": {
     "label": {

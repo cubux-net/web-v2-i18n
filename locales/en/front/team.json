@@ -62,6 +62,7 @@
     },
     "label": {
       "currentOfTotal": "{current} of {total}",
+      "Date": "Date",
       "Description": "Description",
       "Limit": "Limit",
       "ofTotal": "of {total}",
@@ -264,6 +265,12 @@
       "NoPositions": "No positions",
       "ShopNameIsEmpty": "Shop name in unknown. Please, specify shop name."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Receipts photos"
+    },
+    "DialogTitle": "Receipts photos from app"
   },
   "receiptPos": {
     "label": {
