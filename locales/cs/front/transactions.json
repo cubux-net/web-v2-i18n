@@ -62,16 +62,6 @@
         }
       }
     },
-    "filterSummary": {
-      "label": {
-        "Account": "Účet",
-        "Amount": "Častka",
-        "Project": "Projekt",
-        "Since": "Od",
-        "Until": "Do",
-        "User": "Uživatel"
-      }
-    },
     "head": {
       "config": {
         "DisplayAdaptive": "Adaptivní",
@@ -81,14 +71,8 @@
         "Title": "Nastavení tabulky"
       },
       "label": {
-        "Account": "Účet",
-        "Amount": "Častka",
-        "Category": "Kategorie",
         "CategoryDescription": "Kategorie, Popis",
-        "Date": "Datum",
-        "Project": "Projekt",
-        "Remain": "Zůstatek",
-        "User": "Uživatel"
+        "Remain": "Zůstatek"
       }
     }
   },

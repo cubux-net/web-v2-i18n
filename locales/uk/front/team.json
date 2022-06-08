@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Рахунок",
       "Balance": "Баланс",
       "Expenses": "Витрати",
       "Incomes": "Доходи"
@@ -61,16 +60,21 @@
       "CreateOneMore": "Зберегти і створити ще одну"
     },
     "label": {
+      "Account": "Рахунок",
+      "Amount": "Сума",
+      "Category": "Категорія",
       "currentOfTotal": "{current} з {total}",
       "Date": "Дата",
       "Description": "Опис",
       "Limit": "Ліміт",
       "ofTotal": "з {total}",
       "Plan": "План",
+      "Project": "Проєкт",
       "syncWithGoogleCalendar": "Синхронізувати з Календарем Google",
       "Totals_ExpensesAre": "Витрати <0>{amount}</0>",
       "Totals_IncomesAre": "Доходи <0>{amount}</0>",
-      "TotalsByFilterAre": "Підсумок за вибраними критеріями:"
+      "TotalsByFilterAre": "Підсумок за вибраними критеріями:",
+      "User": "Користувач"
     }
   },
   "createTeam": {

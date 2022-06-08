@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Účet",
       "Balance": "Zůstatek",
       "Expenses": "Výdaje",
       "Incomes": "Příjmy"
@@ -61,16 +60,21 @@
       "CreateOneMore": "Uložit a vytvořit další"
     },
     "label": {
+      "Account": "Účet",
+      "Amount": "Častka",
+      "Category": "Kategorie",
       "currentOfTotal": "{current} z {total}",
       "Date": "Datum",
       "Description": "Popis",
       "Limit": "Limit",
       "ofTotal": "z {total}",
       "Plan": "Plán",
+      "Project": "Projekt",
       "syncWithGoogleCalendar": "Synchronizace s Kalendářem Google",
       "Totals_ExpensesAre": "Výdaje <0>{amount}</0>",
       "Totals_IncomesAre": "Příjmy <0>{amount}</0>",
-      "TotalsByFilterAre": "Výsledek podle vybraných kritérií:"
+      "TotalsByFilterAre": "Výsledek podle vybraných kritérií:",
+      "User": "Uživatel"
     }
   },
   "createTeam": {

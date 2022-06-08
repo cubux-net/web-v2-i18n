@@ -18,7 +18,6 @@
     "Validation": "Čeká na ověření"
   },
   "label": {
-    "Date": "Datum",
     "FetchAttempts": "Počet pokusu",
     "FetchState": "Stav ve frontě",
     "LastFetchAt": "Poslední pokus byl",

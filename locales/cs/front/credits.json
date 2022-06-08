@@ -51,8 +51,6 @@
   },
   "formPlan": {
     "label": {
-      "Amount": "Částka",
-      "Date": "Datum",
       "PaidAmount": "Splaceno"
     },
     "title": {

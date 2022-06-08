@@ -61,14 +61,9 @@
         "StartImport": "Розпочати імпорт"
       },
       "column": {
-        "Account": "Рахунок",
         "AccountIncoming": "Рахунок для зарахування",
-        "Amount": "Сума",
         "AmountDelta": "± Сума",
         "AmountIncoming": "Сума зарахування",
-        "Category": "Категорія",
-        "Date": "Дата",
-        "Description": "Опис",
         "Subcategory": "Підкатегорія",
         "Type": "Тип"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Запросити користувача в команду",
     "RemoveQuest": "Ви справді бажаєте видалити користувача з  команди?",
     "setup": {
-      "Account": "Рахунок",
       "Change": "Змінити",
       "Deny": "Відмовити",
       "FullAccess": "Повний доступ до всієї команди.",

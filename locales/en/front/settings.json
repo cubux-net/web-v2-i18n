@@ -61,14 +61,9 @@
         "StartImport": "Start import"
       },
       "column": {
-        "Account": "Account",
         "AccountIncoming": "Account incoming",
-        "Amount": "Amount",
         "AmountDelta": "± Amount",
         "AmountIncoming": "Amount incoming",
-        "Category": "Category",
-        "Date": "Date",
-        "Description": "Description",
         "Subcategory": "Subcategory",
         "Type": "Type"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Invite a user to the team",
     "RemoveQuest": "Are you sure to delete the user from team?",
     "setup": {
-      "Account": "Account",
       "Change": "Change",
       "Deny": "Deny",
       "FullAccess": "Full access to Team.",

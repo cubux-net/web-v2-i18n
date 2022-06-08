@@ -61,14 +61,9 @@
         "StartImport": "Zahájit import"
       },
       "column": {
-        "Account": "Účet",
         "AccountIncoming": "Účet zápisu",
-        "Amount": "Částka",
         "AmountDelta": "± Částka",
         "AmountIncoming": "Částka zápisu",
-        "Category": "Kategorie",
-        "Date": "Datum",
-        "Description": "Popis",
         "Subcategory": "Podkategorie",
         "Type": "Typ"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Pozvat uživatele do týmu",
     "RemoveQuest": "Opravdu chcete odstranit uživatele z týmu?",
     "setup": {
-      "Account": "Účet",
       "Change": "Změna",
       "Deny": "Není",
       "FullAccess": "Plný přístup k celému týmu.",

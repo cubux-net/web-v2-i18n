@@ -123,9 +123,6 @@
         "label": {
           "type": "object",
           "properties": {
-            "Account": {
-              "$ref": "#/$defs/string"
-            },
             "Balance": {
               "$ref": "#/$defs/string"
             },
@@ -136,7 +133,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Account", "Balance", "Expenses", "Incomes"]
+          "required": ["Balance", "Expenses", "Incomes"]
         },
         "message": {
           "type": "object",
@@ -219,6 +216,15 @@
         "label": {
           "type": "object",
           "properties": {
+            "Account": {
+              "$ref": "#/$defs/string"
+            },
+            "Amount": {
+              "$ref": "#/$defs/string"
+            },
+            "Category": {
+              "$ref": "#/$defs/string"
+            },
             "Date": {
               "$ref": "#/$defs/string"
             },
@@ -231,6 +237,9 @@
             "Plan": {
               "$ref": "#/$defs/string"
             },
+            "Project": {
+              "$ref": "#/$defs/string"
+            },
             "TotalsByFilterAre": {
               "$ref": "#/$defs/string"
             },
@@ -238,6 +247,9 @@
               "$ref": "#/$defs/string"
             },
             "Totals_IncomesAre": {
+              "$ref": "#/$defs/string"
+            },
+            "User": {
               "$ref": "#/$defs/string"
             },
             "currentOfTotal": {
@@ -251,13 +263,18 @@
             }
           },
           "required": [
+            "Account",
+            "Amount",
+            "Category",
             "Date",
             "Description",
             "Limit",
             "Plan",
+            "Project",
             "TotalsByFilterAre",
             "Totals_ExpensesAre",
             "Totals_IncomesAre",
+            "User",
             "currentOfTotal",
             "ofTotal",
             "syncWithGoogleCalendar"

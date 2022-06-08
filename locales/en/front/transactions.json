@@ -62,16 +62,6 @@
         }
       }
     },
-    "filterSummary": {
-      "label": {
-        "Account": "Account",
-        "Amount": "Amount",
-        "Project": "Project",
-        "Since": "Since",
-        "Until": "Until",
-        "User": "User"
-      }
-    },
     "head": {
       "config": {
         "DisplayAdaptive": "Adaptive",
@@ -81,14 +71,8 @@
         "Title": "Table configuration"
       },
       "label": {
-        "Account": "Account",
-        "Amount": "Amount",
-        "Category": "Category",
         "CategoryDescription": "Category, Description",
-        "Date": "Date",
-        "Project": "Project",
-        "Remain": "Remain",
-        "User": "User"
+        "Remain": "Remain"
       }
     }
   },

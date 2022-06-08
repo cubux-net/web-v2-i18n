@@ -237,28 +237,13 @@
             "column": {
               "type": "object",
               "properties": {
-                "Account": {
-                  "$ref": "#/$defs/string"
-                },
                 "AccountIncoming": {
-                  "$ref": "#/$defs/string"
-                },
-                "Amount": {
                   "$ref": "#/$defs/string"
                 },
                 "AmountDelta": {
                   "$ref": "#/$defs/string"
                 },
                 "AmountIncoming": {
-                  "$ref": "#/$defs/string"
-                },
-                "Category": {
-                  "$ref": "#/$defs/string"
-                },
-                "Date": {
-                  "$ref": "#/$defs/string"
-                },
-                "Description": {
                   "$ref": "#/$defs/string"
                 },
                 "Subcategory": {
@@ -269,14 +254,9 @@
                 }
               },
               "required": [
-                "Account",
                 "AccountIncoming",
-                "Amount",
                 "AmountDelta",
                 "AmountIncoming",
-                "Category",
-                "Date",
-                "Description",
                 "Subcategory",
                 "Type"
               ]
@@ -524,9 +504,6 @@
         "setup": {
           "type": "object",
           "properties": {
-            "Account": {
-              "$ref": "#/$defs/string"
-            },
             "Change": {
               "$ref": "#/$defs/string"
             },
@@ -547,7 +524,6 @@
             }
           },
           "required": [
-            "Account",
             "Change",
             "Deny",
             "FullAccess",

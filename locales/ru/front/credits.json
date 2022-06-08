@@ -51,8 +51,6 @@
   },
   "formPlan": {
     "label": {
-      "Amount": "Сумма",
-      "Date": "Дата",
       "PaidAmount": "Выплачено"
     },
     "title": {

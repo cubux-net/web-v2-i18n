@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Λογαριασμός",
       "Balance": "Ισορροπία",
       "Expenses": "Έξοδα",
       "Incomes": "Εισοδήματα"
@@ -61,16 +60,21 @@
       "CreateOneMore": "Αποθήκευση και δημιουργία ενός ακόμη"
     },
     "label": {
+      "Account": "Λογαριασμός",
+      "Amount": "Ποσό",
+      "Category": "Κατηγορία",
       "currentOfTotal": "{current} of {total}",
       "Date": "Ημερομηνία",
       "Description": "Περιγραφή",
       "Limit": "Όριο",
       "ofTotal": "of {total}",
       "Plan": "Σχέδιο",
+      "Project": "Έργο",
       "syncWithGoogleCalendar": "Συγχρονισμός με το Ημερολόγιο Google",
       "Totals_ExpensesAre": "Έξοδα<0>{amount}</0>",
       "Totals_IncomesAre": "Εισοδήματα <0>{amount}</0>",
-      "TotalsByFilterAre": "Σύνολα για τα συγκεκριμένα κριτήρια:"
+      "TotalsByFilterAre": "Σύνολα για τα συγκεκριμένα κριτήρια:",
+      "User": "Χρήστης"
     }
   },
   "createTeam": {

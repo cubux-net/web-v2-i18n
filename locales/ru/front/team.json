@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Счёт",
       "Balance": "Баланс",
       "Expenses": "Расходы",
       "Incomes": "Доходы"
@@ -61,16 +60,21 @@
       "CreateOneMore": "Сохранить и создать ещё одну"
     },
     "label": {
+      "Account": "Счёт",
+      "Amount": "Сумма",
+      "Category": "Категория",
       "currentOfTotal": "{current} из {total}",
       "Date": "Дата",
       "Description": "Описание",
       "Limit": "Лимит",
       "ofTotal": "из {total}",
       "Plan": "План",
+      "Project": "Проект",
       "syncWithGoogleCalendar": "Синхронизировать с Google Calendar",
       "Totals_ExpensesAre": "Расходы <0>{amount}</0>",
       "Totals_IncomesAre": "Доходы <0>{amount}</0>",
-      "TotalsByFilterAre": "Итог по выбранным критериям:"
+      "TotalsByFilterAre": "Итог по выбранным критериям:",
+      "User": "Пользователь"
     }
   },
   "createTeam": {

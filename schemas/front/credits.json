@@ -189,17 +189,11 @@
         "label": {
           "type": "object",
           "properties": {
-            "Amount": {
-              "$ref": "#/$defs/string"
-            },
-            "Date": {
-              "$ref": "#/$defs/string"
-            },
             "PaidAmount": {
               "$ref": "#/$defs/string"
             }
           },
-          "required": ["Amount", "Date", "PaidAmount"]
+          "required": ["PaidAmount"]
         },
         "title": {
           "type": "object",

@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Account",
       "Balance": "Balance",
       "Expenses": "Expenses",
       "Incomes": "Incomes"
@@ -61,16 +60,21 @@
       "CreateOneMore": "Save and create one more"
     },
     "label": {
+      "Account": "Account",
+      "Amount": "Amount",
+      "Category": "Category",
       "currentOfTotal": "{current} of {total}",
       "Date": "Date",
       "Description": "Description",
       "Limit": "Limit",
       "ofTotal": "of {total}",
       "Plan": "Plan",
+      "Project": "Project",
       "syncWithGoogleCalendar": "Synchronize with Google Calendar",
       "Totals_ExpensesAre": "Expenses <0>{amount}</0>",
       "Totals_IncomesAre": "Incomes <0>{amount}</0>",
-      "TotalsByFilterAre": "Totals for given criteria:"
+      "TotalsByFilterAre": "Totals for given criteria:",
+      "User": "User"
     }
   },
   "createTeam": {
