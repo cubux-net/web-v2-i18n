@@ -18,7 +18,6 @@
     "Validation": "Очікування перевірки"
   },
   "label": {
-    "Date": "Дата",
     "FetchAttempts": "Спроб виконано",
     "FetchState": "Статус у черзі",
     "LastFetchAt": "Остання спроба була о",

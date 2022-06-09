@@ -51,8 +51,6 @@
   },
   "formPlan": {
     "label": {
-      "Amount": "Αθροισμα",
-      "Date": "ημερομηνία",
       "PaidAmount": "Εξοφλήθηκε"
     },
     "title": {

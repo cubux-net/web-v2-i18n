@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Рахунок",
       "Balance": "Баланс",
       "Expenses": "Витрати",
       "Incomes": "Доходи"
@@ -61,15 +60,21 @@
       "CreateOneMore": "Зберегти і створити ще одну"
     },
     "label": {
+      "Account": "Рахунок",
+      "Amount": "Сума",
+      "Category": "Категорія",
       "currentOfTotal": "{current} з {total}",
+      "Date": "Дата",
       "Description": "Опис",
       "Limit": "Ліміт",
       "ofTotal": "з {total}",
       "Plan": "План",
+      "Project": "Проєкт",
       "syncWithGoogleCalendar": "Синхронізувати з Календарем Google",
       "Totals_ExpensesAre": "Витрати <0>{amount}</0>",
       "Totals_IncomesAre": "Доходи <0>{amount}</0>",
-      "TotalsByFilterAre": "Підсумок за вибраними критеріями:"
+      "TotalsByFilterAre": "Підсумок за вибраними критеріями:",
+      "User": "Користувач"
     }
   },
   "createTeam": {
@@ -137,6 +142,7 @@
     },
     "AmountFromAccount": "Сума списання з рахунка",
     "AmountToAccount": "Сума зарахування на рахунок",
+    "Balance": "Баланс",
     "button": {
       "DeleteKeepTransaction": "Видаллити лише борг",
       "DeleteWithTransaction": "Видалити разом з  транзакцією"
@@ -202,6 +208,7 @@
     "procName": {
       "AccountAuthUnlink": "Відключити синхронізацію рахунка з банком",
       "AccountDelete": "Видалення рахунка",
+      "BudgetCopy": "Копіювання бюджету",
       "CategoryDelete": "Видалення категорії",
       "CategoryDeleteWithMove": "Видалення категорії зі збереженням даних",
       "ImportConvert": "Імпорт: читання файла",
@@ -262,6 +269,12 @@
       "NoPositions": "Немає позицій",
       "ShopNameIsEmpty": "Назва магазину невідома. Будь ласка, вкажіть."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Фотографії чеків"
+    },
+    "DialogTitle": "Чеки з мобільної програми"
   },
   "receiptPos": {
     "label": {

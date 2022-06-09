@@ -62,16 +62,6 @@
         }
       }
     },
-    "filterSummary": {
-      "label": {
-        "Account": "Рахунок",
-        "Amount": "Сума",
-        "Project": "Проєкт",
-        "Since": "З",
-        "Until": "По",
-        "User": "Користувач"
-      }
-    },
     "head": {
       "config": {
         "DisplayAdaptive": "Адаптувати",
@@ -81,14 +71,8 @@
         "Title": "Налаштування таблиці"
       },
       "label": {
-        "Account": "Рахунок",
-        "Amount": "Сума",
-        "Category": "Категорія",
         "CategoryDescription": "Категорія, Опис",
-        "Date": "Дата",
-        "Project": "Проєкт",
-        "Remain": "Залишок",
-        "User": "Користувач"
+        "Remain": "Залишок"
       }
     }
   },

@@ -26,9 +26,6 @@
             "NeedConfirmation": {
               "$ref": "#/$defs/string"
             },
-            "Project": {
-              "$ref": "#/$defs/string"
-            },
             "Repetition": {
               "$ref": "#/$defs/string"
             },
@@ -47,7 +44,6 @@
             "CommissionCategory",
             "CurrencyRate",
             "NeedConfirmation",
-            "Project",
             "Repetition",
             "SelectAccount",
             "SelectCategory",

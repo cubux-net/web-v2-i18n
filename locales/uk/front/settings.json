@@ -61,14 +61,9 @@
         "StartImport": "Розпочати імпорт"
       },
       "column": {
-        "Account": "Рахунок",
         "AccountIncoming": "Рахунок для зарахування",
-        "Amount": "Сума",
         "AmountDelta": "± Сума",
         "AmountIncoming": "Сума зарахування",
-        "Category": "Категорія",
-        "Date": "Дата",
-        "Description": "Опис",
         "Subcategory": "Підкатегорія",
         "Type": "Тип"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Запросити користувача в команду",
     "RemoveQuest": "Ви справді бажаєте видалити користувача з  команди?",
     "setup": {
-      "Account": "Рахунок",
       "Change": "Змінити",
       "Deny": "Відмовити",
       "FullAccess": "Повний доступ до всієї команди.",
@@ -185,7 +179,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Поповнити Лицьовий Рахунок",
       "Pay": "Оплатити",
+      "PayFromWallet": "Оплатити з Особового Рахунку",
       "Prolong": "Продовжити",
       "ToPremium": "Перейти на преміум"
     },
@@ -228,7 +224,9 @@
         "PeriodMaximumIsV": "Максимум {value}.",
         "PeriodMinimumIsV": "Мінімум {value}.",
         "PeriodNotANumber": "Введіть ціле число.",
-        "ProviderDoesNotSupportCurrency": "Провайдер не підтримує цю валюту."
+        "ProviderDoesNotSupportCurrency": "Провайдер не підтримує цю валюту.",
+        "ToPayEnoughInYourWallet": "На Вашому Особовому Рахунку достатньо коштів на оплату підписки.",
+        "ToPayYouNeedToFundToYourWallet": "Поповніть ваш Особовий Рахунок, щоб сплатити передплату."
       },
       "priceUnit": {
         "month": "місяць",

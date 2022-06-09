@@ -62,16 +62,6 @@
         }
       }
     },
-    "filterSummary": {
-      "label": {
-        "Account": "Λογαριασμός",
-        "Amount": "Ποσό",
-        "Project": "Έργο",
-        "Since": "Από",
-        "Until": "Μέχρι",
-        "User": "Χρήστης"
-      }
-    },
     "head": {
       "config": {
         "DisplayAdaptive": "Προσαρμοστική",
@@ -81,14 +71,8 @@
         "Title": "Ρύθμιση παραμέτρων πίνακα"
       },
       "label": {
-        "Account": "Λογαριασμός",
-        "Amount": "Ποσό",
-        "Category": "Κατηγορία",
         "CategoryDescription": "Κατηγορία, περιγραφή",
-        "Date": "Ημερομηνία",
-        "Project": "Έργο",
-        "Remain": "Παραμένουν",
-        "User": "Χρήστης"
+        "Remain": "Παραμένουν"
       }
     }
   },

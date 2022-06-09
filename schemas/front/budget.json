@@ -102,9 +102,6 @@
             "Budgets": {
               "$ref": "#/$defs/string"
             },
-            "Category": {
-              "$ref": "#/$defs/string"
-            },
             "Difference": {
               "$ref": "#/$defs/string"
             },
@@ -126,7 +123,6 @@
           },
           "required": [
             "Budgets",
-            "Category",
             "Difference",
             "ExpensesByCategories",
             "Fact",
@@ -161,9 +157,12 @@
           "properties": {
             "ShowAllCategories": {
               "$ref": "#/$defs/string"
+            },
+            "Totals": {
+              "$ref": "#/$defs/string"
             }
           },
-          "required": ["ShowAllCategories"]
+          "required": ["ShowAllCategories", "Totals"]
         }
       },
       "required": ["label"]

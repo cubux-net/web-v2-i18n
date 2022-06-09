@@ -51,8 +51,6 @@
   },
   "formPlan": {
     "label": {
-      "Amount": "Amount",
-      "Date": "Date",
       "PaidAmount": "Paid"
     },
     "title": {

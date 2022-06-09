@@ -43,16 +43,10 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Content",
-            "OK",
-            "Title"
-          ]
+          "required": ["Content", "OK", "Title"]
         }
       },
-      "required": [
-        "confirm"
-      ]
+      "required": ["confirm"]
     },
     "page": {
       "type": "object",
@@ -61,9 +55,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "title"
-      ]
+      "required": ["title"]
     },
     "table": {
       "type": "object",
@@ -102,9 +94,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "NothingWasFound"
-          ]
+          "required": ["NothingWasFound"]
         },
         "filter": {
           "type": "object",
@@ -119,14 +109,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "SelectAccount"
-                  ]
+                  "required": ["SelectAccount"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             },
             "amount": {
               "type": "object",
@@ -138,14 +124,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "Amount"
-                  ]
+                  "required": ["Amount"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             },
             "category": {
               "type": "object",
@@ -157,14 +139,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "SelectCategory"
-                  ]
+                  "required": ["SelectCategory"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             },
             "project": {
               "type": "object",
@@ -176,14 +154,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "SelectProject"
-                  ]
+                  "required": ["SelectProject"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             },
             "type": {
               "type": "object",
@@ -204,17 +178,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "Expenses",
-                    "Incomes",
-                    "Loans",
-                    "Transfers"
-                  ]
+                  "required": ["Expenses", "Incomes", "Loans", "Transfers"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             },
             "user": {
               "type": "object",
@@ -232,16 +199,10 @@
                       "$ref": "#/$defs/string"
                     }
                   },
-                  "required": [
-                    "SelectUser",
-                    "deleted",
-                    "notInTeam"
-                  ]
+                  "required": ["SelectUser", "deleted", "notInTeam"]
                 }
               },
-              "required": [
-                "label"
-              ]
+              "required": ["label"]
             }
           },
           "required": [
@@ -251,45 +212,6 @@
             "project",
             "type",
             "user"
-          ]
-        },
-        "filterSummary": {
-          "type": "object",
-          "properties": {
-            "label": {
-              "type": "object",
-              "properties": {
-                "Account": {
-                  "$ref": "#/$defs/string"
-                },
-                "Amount": {
-                  "$ref": "#/$defs/string"
-                },
-                "Project": {
-                  "$ref": "#/$defs/string"
-                },
-                "Since": {
-                  "$ref": "#/$defs/string"
-                },
-                "Until": {
-                  "$ref": "#/$defs/string"
-                },
-                "User": {
-                  "$ref": "#/$defs/string"
-                }
-              },
-              "required": [
-                "Account",
-                "Amount",
-                "Project",
-                "Since",
-                "Until",
-                "User"
-              ]
-            }
-          },
-          "required": [
-            "label"
           ]
         },
         "head": {
@@ -325,56 +247,20 @@
             "label": {
               "type": "object",
               "properties": {
-                "Account": {
-                  "$ref": "#/$defs/string"
-                },
-                "Amount": {
-                  "$ref": "#/$defs/string"
-                },
-                "Category": {
-                  "$ref": "#/$defs/string"
-                },
                 "CategoryDescription": {
-                  "$ref": "#/$defs/string"
-                },
-                "Date": {
-                  "$ref": "#/$defs/string"
-                },
-                "Project": {
                   "$ref": "#/$defs/string"
                 },
                 "Remain": {
                   "$ref": "#/$defs/string"
-                },
-                "User": {
-                  "$ref": "#/$defs/string"
                 }
               },
-              "required": [
-                "Account",
-                "Amount",
-                "Category",
-                "CategoryDescription",
-                "Date",
-                "Project",
-                "Remain",
-                "User"
-              ]
+              "required": ["CategoryDescription", "Remain"]
             }
           },
-          "required": [
-            "config",
-            "label"
-          ]
+          "required": ["config", "label"]
         }
       },
-      "required": [
-        "button",
-        "content",
-        "filter",
-        "filterSummary",
-        "head"
-      ]
+      "required": ["button", "content", "filter", "head"]
     },
     "transferJoin": {
       "type": "object",
@@ -386,9 +272,7 @@
               "$ref": "#/$defs/string"
             }
           },
-          "required": [
-            "Join"
-          ]
+          "required": ["Join"]
         },
         "message": {
           "type": "object",
@@ -410,10 +294,7 @@
           ]
         }
       },
-      "required": [
-        "button",
-        "message"
-      ]
+      "required": ["button", "message"]
     },
     "unconfirmed": {
       "type": "object",
@@ -425,10 +306,7 @@
           "$ref": "#/$defs/string"
         }
       },
-      "required": [
-        "EndTitle",
-        "Title"
-      ]
+      "required": ["EndTitle", "Title"]
     }
   },
   "required": [

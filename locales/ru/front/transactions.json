@@ -62,16 +62,6 @@
         }
       }
     },
-    "filterSummary": {
-      "label": {
-        "Account": "Счёт",
-        "Amount": "Сумма",
-        "Project": "Проект",
-        "Since": "С",
-        "Until": "По",
-        "User": "Пользователь"
-      }
-    },
     "head": {
       "config": {
         "DisplayAdaptive": "Адаптивно",
@@ -81,14 +71,8 @@
         "Title": "Настройка таблицы"
       },
       "label": {
-        "Account": "Счёт",
-        "Amount": "Сумма",
-        "Category": "Категория",
         "CategoryDescription": "Категория, Описание",
-        "Date": "Дата",
-        "Project": "Проект",
-        "Remain": "Остаток",
-        "User": "Пользователь"
+        "Remain": "Остаток"
       }
     }
   },

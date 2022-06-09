@@ -61,14 +61,9 @@
         "StartImport": "Zahájit import"
       },
       "column": {
-        "Account": "Účet",
         "AccountIncoming": "Účet zápisu",
-        "Amount": "Částka",
         "AmountDelta": "± Částka",
         "AmountIncoming": "Částka zápisu",
-        "Category": "Kategorie",
-        "Date": "Datum",
-        "Description": "Popis",
         "Subcategory": "Podkategorie",
         "Type": "Typ"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Pozvat uživatele do týmu",
     "RemoveQuest": "Opravdu chcete odstranit uživatele z týmu?",
     "setup": {
-      "Account": "Účet",
       "Change": "Změna",
       "Deny": "Není",
       "FullAccess": "Plný přístup k celému týmu.",
@@ -185,7 +179,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Dobit osobní účet",
       "Pay": "Zaplatit",
+      "PayFromWallet": "Platba z osobního účtu",
       "Prolong": "Prodloužit",
       "ToPremium": "Přejít na Premium"
     },
@@ -214,7 +210,7 @@
         "Period": "Období",
         "PurseEnough": "K dispozici {availableStr}",
         "PurseNone": "Žádné finanční prostředky ve správné měně",
-        "PurseNotEnough": "Nestačí, je k dispozici pouze {availableStr}",
+        "PurseNotEnough": "K platbě nestačí, je k dispozici pouze {availableStr}",
         "PurseStatus": "Stav vašeho osobního účtu"
       },
       "message": {
@@ -228,7 +224,9 @@
         "PeriodMaximumIsV": "Maximum {value}.",
         "PeriodMinimumIsV": "Minimální {value}.",
         "PeriodNotANumber": "Zadejte celé číslo.",
-        "ProviderDoesNotSupportCurrency": "Dodavatel tuto měnu nepodporuje."
+        "ProviderDoesNotSupportCurrency": "Dodavatel tuto měnu nepodporuje.",
+        "ToPayEnoughInYourWallet": "Na vašem osobním účtu je dostatek prostředků na zaplacení předplatného.",
+        "ToPayYouNeedToFundToYourWallet": "Dobijte svůj osobní účet, abyste zaplatili za předplatné."
       },
       "priceUnit": {
         "month": "měsíc",

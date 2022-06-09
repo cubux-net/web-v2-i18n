@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Λογαριασμός",
       "Balance": "Ισορροπία",
       "Expenses": "Έξοδα",
       "Incomes": "Εισοδήματα"
@@ -61,15 +60,21 @@
       "CreateOneMore": "Αποθήκευση και δημιουργία ενός ακόμη"
     },
     "label": {
+      "Account": "Λογαριασμός",
+      "Amount": "Ποσό",
+      "Category": "Κατηγορία",
       "currentOfTotal": "{current} of {total}",
+      "Date": "Ημερομηνία",
       "Description": "Περιγραφή",
       "Limit": "Όριο",
       "ofTotal": "of {total}",
       "Plan": "Σχέδιο",
+      "Project": "Έργο",
       "syncWithGoogleCalendar": "Συγχρονισμός με το Ημερολόγιο Google",
       "Totals_ExpensesAre": "Έξοδα<0>{amount}</0>",
       "Totals_IncomesAre": "Εισοδήματα <0>{amount}</0>",
-      "TotalsByFilterAre": "Σύνολα για τα συγκεκριμένα κριτήρια:"
+      "TotalsByFilterAre": "Σύνολα για τα συγκεκριμένα κριτήρια:",
+      "User": "Χρήστης"
     }
   },
   "createTeam": {
@@ -137,6 +142,7 @@
     },
     "AmountFromAccount": "Ποσό που λαμβάνεται υπόψη",
     "AmountToAccount": "Ποσό που έχει δοθεί στον λογαριασμό",
+    "Balance": "Ισορροπία",
     "button": {
       "DeleteKeepTransaction": "Διαγραφή μόνο δανείου",
       "DeleteWithTransaction": "Διαγραφή ΜΕ συναλλαγή"
@@ -202,6 +208,7 @@
     "procName": {
       "AccountAuthUnlink": "Αποσύνδεση λογαριασμού από συγχρονισμό τραπεζών",
       "AccountDelete": "Διαγραφή λογαριασμού",
+      "BudgetCopy": "Αντιγραφή προϋπολογισμού",
       "CategoryDelete": "Διαγραφή κατηγορίας",
       "CategoryDeleteWithMove": "Διαγραφή δεδομένων διατήρησης κατηγορίας",
       "ImportConvert": "Εισαγωγή αρχείου ανάγνωσης",
@@ -262,6 +269,12 @@
       "NoPositions": "Χωρίς θέσεις",
       "ShopNameIsEmpty": "Το όνομα του καταστήματος είναι άγνωστο. Παρακαλώ, διευκρινίστε το όνομα του καταστήματος."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Φωτογραφίες επιταγών"
+    },
+    "DialogTitle": "Φωτογραφίες επιταγών"
   },
   "receiptPos": {
     "label": {

@@ -18,7 +18,6 @@
     "Validation": "Waiting for validation"
   },
   "label": {
-    "Date": "Date",
     "FetchAttempts": "Attempts performed",
     "FetchState": "Status in queue",
     "LastFetchAt": "Last attempt was at",

@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Account",
       "Balance": "Balance",
       "Expenses": "Expenses",
       "Incomes": "Incomes"
@@ -61,15 +60,21 @@
       "CreateOneMore": "Save and create one more"
     },
     "label": {
+      "Account": "Account",
+      "Amount": "Amount",
+      "Category": "Category",
       "currentOfTotal": "{current} of {total}",
+      "Date": "Date",
       "Description": "Description",
       "Limit": "Limit",
       "ofTotal": "of {total}",
       "Plan": "Plan",
+      "Project": "Project",
       "syncWithGoogleCalendar": "Synchronize with Google Calendar",
       "Totals_ExpensesAre": "Expenses <0>{amount}</0>",
       "Totals_IncomesAre": "Incomes <0>{amount}</0>",
-      "TotalsByFilterAre": "Totals for given criteria:"
+      "TotalsByFilterAre": "Totals for given criteria:",
+      "User": "User"
     }
   },
   "createTeam": {
@@ -137,6 +142,7 @@
     },
     "AmountFromAccount": "Amount taken from account",
     "AmountToAccount": "Amount given to account",
+    "Balance": "Balance",
     "button": {
       "DeleteKeepTransaction": "Delete only loan",
       "DeleteWithTransaction": "Delete WITH transaction"
@@ -202,6 +208,7 @@
     "procName": {
       "AccountAuthUnlink": "Disconnect account from bank sync",
       "AccountDelete": "Delete account",
+      "BudgetCopy": "Copying budget",
       "CategoryDelete": "Delete category",
       "CategoryDeleteWithMove": "Delete category keeping data",
       "ImportConvert": "Import reading file",
@@ -262,6 +269,12 @@
       "NoPositions": "No positions",
       "ShopNameIsEmpty": "Shop name in unknown. Please, specify shop name."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Receipts photos"
+    },
+    "DialogTitle": "Receipts photos from app"
   },
   "receiptPos": {
     "label": {

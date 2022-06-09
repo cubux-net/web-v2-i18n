@@ -1,8 +1,5 @@
 {
   "filter": {
-    "button": {
-      "ExportExcel": "Export do aplikace Excel"
-    },
     "chart": {
       "Chart": "Graf"
     },

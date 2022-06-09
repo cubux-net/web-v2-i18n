@@ -32,7 +32,6 @@
   },
   "calendar": {
     "label": {
-      "Account": "Účet",
       "Balance": "Zůstatek",
       "Expenses": "Výdaje",
       "Incomes": "Příjmy"
@@ -61,15 +60,21 @@
       "CreateOneMore": "Uložit a vytvořit další"
     },
     "label": {
+      "Account": "Účet",
+      "Amount": "Častka",
+      "Category": "Kategorie",
       "currentOfTotal": "{current} z {total}",
+      "Date": "Datum",
       "Description": "Popis",
       "Limit": "Limit",
       "ofTotal": "z {total}",
       "Plan": "Plán",
+      "Project": "Projekt",
       "syncWithGoogleCalendar": "Synchronizace s Kalendářem Google",
       "Totals_ExpensesAre": "Výdaje <0>{amount}</0>",
       "Totals_IncomesAre": "Příjmy <0>{amount}</0>",
-      "TotalsByFilterAre": "Výsledek podle vybraných kritérií:"
+      "TotalsByFilterAre": "Výsledek podle vybraných kritérií:",
+      "User": "Uživatel"
     }
   },
   "createTeam": {
@@ -137,6 +142,7 @@
     },
     "AmountFromAccount": "Částka, která má být odepsána z účtu",
     "AmountToAccount": "Částka připsaná na účet",
+    "Balance": "Zůstatek",
     "button": {
       "DeleteKeepTransaction": "Smazat pouze dluh",
       "DeleteWithTransaction": "Smazat spolu s transakcí"
@@ -202,6 +208,7 @@
     "procName": {
       "AccountAuthUnlink": "Ukončení synchronizace účtu s bankou",
       "AccountDelete": "Odstranění účtu",
+      "BudgetCopy": "Kopírování rozpočtů",
       "CategoryDelete": "Odstranění kategorie",
       "CategoryDeleteWithMove": "Odstranění kategorie s uložením dat",
       "ImportConvert": "Import: čtení souboru",
@@ -262,6 +269,12 @@
       "NoPositions": "Žádné pozice",
       "ShopNameIsEmpty": "Název obchodu není znám. Uveďte prosím."
     }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Fotografie účtenek"
+    },
+    "DialogTitle": "Fotografie účtenek z mobilu"
   },
   "receiptPos": {
     "label": {

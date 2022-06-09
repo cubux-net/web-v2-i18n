@@ -61,14 +61,9 @@
         "StartImport": "Έναρξη εισαγωγής"
       },
       "column": {
-        "Account": "Λογαριασμός",
         "AccountIncoming": "Εισερχόμενος λογαριασμός",
-        "Amount": "Ποσό",
         "AmountDelta": "± Ποσό",
         "AmountIncoming": "Εισερχόμενο ποσό",
-        "Category": "Κατηγορία",
-        "Date": "Ημερομηνία",
-        "Description": "Περιγραφή",
         "Subcategory": "Υποκατηγορία",
         "Type": "Τύπος"
       },
@@ -146,7 +141,6 @@
     "InviteUser": "Προσκαλέστε έναν χρήστη στην ομάδα",
     "RemoveQuest": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τον χρήστη από την ομάδα;",
     "setup": {
-      "Account": "Λογαριασμός",
       "Change": "Αλλαγή",
       "Deny": "Άρνηση",
       "FullAccess": "Πλήρης πρόσβαση στην ομάδα.",
@@ -185,7 +179,9 @@
   },
   "subscription": {
     "button": {
+      "FundToWallet": "Συμπλήρωση προσωπικού λογαριασμού",
       "Pay": "Πληρωμή",
+      "PayFromWallet": "Πληρωμή από προσωπικό λογαριασμό",
       "Prolong": "Παράταση",
       "ToPremium": "To Premuim"
     },
@@ -228,7 +224,9 @@
         "PeriodMaximumIsV": "Η περίοδος δεν πρέπει να είναι μεγαλύτερη από {value}.",
         "PeriodMinimumIsV": "Η περίοδος πρέπει να είναι τουλάχιστον {value}.",
         "PeriodNotANumber": "Εισάγετε ακέραιο αριθμό.",
-        "ProviderDoesNotSupportCurrency": "Ο πάροχος δεν υποστηρίζει το νόμισμα."
+        "ProviderDoesNotSupportCurrency": "Ο πάροχος δεν υποστηρίζει το νόμισμα.",
+        "ToPayEnoughInYourWallet": "Υπάρχουν αρκετά χρήματα στον Προσωπικό σας Λογαριασμό για να πληρώσετε τη συνδρομή.",
+        "ToPayYouNeedToFundToYourWallet": "Συμπληρώστε τον Προσωπικό Λογαριασμό σας για να πληρώσετε τη συνδρομή."
       },
       "priceUnit": {
         "month": "μήνας",

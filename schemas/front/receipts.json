@@ -70,9 +70,6 @@
     "label": {
       "type": "object",
       "properties": {
-        "Date": {
-          "$ref": "#/$defs/string"
-        },
         "FetchAttempts": {
           "$ref": "#/$defs/string"
         },
@@ -93,7 +90,6 @@
         }
       },
       "required": [
-        "Date",
         "FetchAttempts",
         "FetchState",
         "LastFetchAt",

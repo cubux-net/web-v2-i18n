@@ -62,6 +62,9 @@
         "Confirm": {
           "$ref": "#/$defs/string"
         },
+        "Copy": {
+          "$ref": "#/$defs/string"
+        },
         "Create": {
           "$ref": "#/$defs/string"
         },
@@ -72,6 +75,9 @@
           "$ref": "#/$defs/string"
         },
         "Edit": {
+          "$ref": "#/$defs/string"
+        },
+        "ExportExcel": {
           "$ref": "#/$defs/string"
         },
         "ImportCsv": {
@@ -113,10 +119,12 @@
         "ChooseImage",
         "Close",
         "Confirm",
+        "Copy",
         "Create",
         "Delete",
         "Details",
         "Edit",
+        "ExportExcel",
         "ImportCsv",
         "Insert",
         "Next",

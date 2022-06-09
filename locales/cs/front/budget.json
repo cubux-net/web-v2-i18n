@@ -28,7 +28,6 @@
   "page": {
     "label": {
       "Budgets": "Rozpočet",
-      "Category": "Kategorie",
       "Difference": "Rozdíl",
       "ExpensesByCategories": "Výdaje podle rozpočtových kategorií:",
       "Fact": "Skutečnost",
@@ -45,7 +44,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Zobrazit vše"
+      "ShowAllCategories": "Zobrazit vše",
+      "Totals": "Celkem"
     }
   }
 }

@@ -28,7 +28,6 @@
   "page": {
     "label": {
       "Budgets": "Бюджеты",
-      "Category": "Категория",
       "Difference": "Разница",
       "ExpensesByCategories": "Расходы по категориям бюджета:",
       "Fact": "Факт",
@@ -45,7 +44,8 @@
   },
   "timeline": {
     "label": {
-      "ShowAllCategories": "Показать все"
+      "ShowAllCategories": "Показать все",
+      "Totals": "Итого"
     }
   }
 }
