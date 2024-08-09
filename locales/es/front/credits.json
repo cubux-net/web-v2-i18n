@@ -1,0 +1,95 @@
+{
+  "button": {
+    "AddCredit": "Agregar\nCrédito"
+  },
+  "error": {
+    "SomePlanChangedWasNotSaved": "Algunos cambios no se guardaron debido a errores."
+  },
+  "form": {
+    "hint": {
+      "Duration": "Meses",
+      "FeeFromSyncAccountsAll": "El pago automático no funcionará con cuentas sincronizadas.",
+      "FeeFromSyncAccountsSome": "El pago automático no funcionará con cuentas sincronizadas."
+    },
+    "label": {
+      "Duration": "Duración",
+      "EndDate": "Fecha de finalización",
+      "FeeFromAccounts": "Pagar automáticamente desde cuentas",
+      "Name": "Nombre",
+      "OnlyCurrency": "No agregar a la cuenta",
+      "PlanType": "Tipo de plan",
+      "Rate": "Tasa",
+      "ReceiveCreditToAccount": "Recibir crédito a la cuenta",
+      "RemainToFee": "Permanecer en la tarifa",
+      "StartDate": "Fecha de inicio",
+      "TotalCreditAmount": "Monto total del crédito",
+      "TotalPayAmount": "Monto total del pago"
+    },
+    "planType": {
+      "Ann": "Anualidad",
+      "Diff": "Diferencial"
+    },
+    "title": {
+      "CreateCredit": "Añadir crédito",
+      "EditCredit": "Editar crédito"
+    }
+  },
+  "formOperation": {
+    "label": {
+      "DealWithAccounts": "Afecta las cuentas",
+      "LinkToPlan": "Enlace al plan",
+      "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
+      "NoLinkToPlan": "fuera del plan",
+      "SelectTransaction": "Seleccione transacción...",
+      "TransactionLinked": "Transacción vinculada por {amount} en {date}{ifAccountValid, seleccione, 0{ with another account} otra{}}",
+      "TransactionNotLinked": "Ninguna transacción vinculada"
+    },
+    "message": {
+      "SelectTransaction": "Por favor, seleccione transacción.",
+      "TransactionFetchFailed": "No se pudieron recuperar los detalles de la transacción vinculada."
+    }
+  },
+  "formPlan": {
+    "label": {
+      "PaidAmount": "Pagado"
+    },
+    "title": {
+      "CreatePlan": "Crear plan",
+      "EditPlan": "Editar plan"
+    }
+  },
+  "page": {
+    "state": {
+      "Completed": "Finalizado",
+      "Pending": "Actual"
+    },
+    "Title": "Créditos"
+  },
+  "pageItem": {
+    "button": {
+      "DeleteKeepTransaction": "Eliminar operación, mantener transacciones",
+      "DeleteWithTransaction": "Eliminar CON transacción",
+      "Finish": "Completo",
+      "PayNow": "Paga ahora",
+      "UndoFinish": "Cancelar finalización"
+    },
+    "label": {
+      "AlreadyPaidAmount": "ya pagado",
+      "CreatePayCalendar": "Crear plan de pagos",
+      "NextPayment": "Próximo pago",
+      "ViewPayCalendar": "Ver plan de pagos"
+    },
+    "message": {
+      "ConfirmDelete": "¿Está seguro de eliminar esta operación de crédito? Esta acción no cambiará el saldo de las cuentas.",
+      "ConfirmDeleteMayKeepTransaction": "Esta operación de crédito está vinculada a la transacción. Puede conservar la transacción o eliminarla también mientras elimina la operación de crédito.",
+      "ConfirmFinish": "¿Crédito completo?",
+      "ConfirmUndoFinish": "¿Cancelar la finalización del crédito?",
+      "DeleteConfirm": "¿Estás seguro de eliminar este crédito por completo?"
+    },
+    "title": {
+      "DeleteCredit": "Eliminar crédito",
+      "Operations": "Historial de operaciones",
+      "PaymentsChart": "Tabla de pagos"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "label": {
+    "item": {
+      "NextDate": "próxima fecha",
+      "Repeat": "Repetir"
+    },
+    "stats": {
+      "PlannedTurnoverUntil": "Operaciones planificadas hasta {date}"
+    }
+  },
+  "message": {
+    "ConfirmDelete": "¿Está seguro de eliminar esta operación planificada?"
+  },
+  "page": {
+    "title": "Transacciones planificadas"
+  },
+  "when": {
+    "quarter": "{date} de {quartMonth, select, 1{1st month} 2{2nd month} 3{3rd month} otro{}}"
+  }
+}

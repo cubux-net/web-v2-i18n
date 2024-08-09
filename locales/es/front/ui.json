@@ -1,0 +1,108 @@
+{
+  "appStatus": {
+    "cent": {
+      "Disconnected": "Conexión perdida",
+      "DisconnectedExplanation": "Se perdió la conexión con el servidor. Algo puede funcionar incorrectamente o no funcionar en absoluto. Comprueba tu conexión a Internet. Si está seguro de que su conexión a Internet está bien, pero el error persiste durante mucho tiempo, no dude en comunicarse con nuestro sistema de soporte."
+    },
+    "refresh": {
+      "NewAppAvailable": "Nueva versión disponible",
+      "NewAppAvailableExplanation": "Una nueva versión disponible. <1>Actualizar página</1>"
+    }
+  },
+  "button": {
+    "Add": "Agregar",
+    "Back": "Atrás",
+    "Cancel": "Cancelar",
+    "ChooseIcon": "Elija icono",
+    "ChooseImage": "Elija imagen",
+    "Close": "Cerca",
+    "Confirm": "Confirmar",
+    "Copy": "Copiar",
+    "Create": "Crear",
+    "Delete": "Borrar",
+    "Details": "Detalles",
+    "Edit": "Editar",
+    "ExportExcel": "Exportar a Excel",
+    "ImportCsv": "Importar CSV",
+    "Insert": "Insertar",
+    "Next": "Próximo",
+    "No": "No",
+    "OK": "OK",
+    "Retry": "Reintentar",
+    "Save": "Guardar",
+    "SelectAccount": "Seleccionar cuenta",
+    "SelectPartner": "Seleccionar socio",
+    "Yes": "Sí"
+  },
+  "check": {
+    "CheckAll": "comprobar todo"
+  },
+  "currencyRateHint": {
+    "ExchangeCurrency": "Tipo de cambio"
+  },
+  "date": {
+    "label": {
+      "SelectRange": "Seleccione un rango",
+      "since": "desde",
+      "Today": "Hoy",
+      "until": "hasta"
+    }
+  },
+  "downgrade": {
+    "button": {
+      "Navigate": "Navegar por"
+    },
+    "message": {
+      "PleaseProvideUsAReason": "Indíquenos un motivo para que podamos mejorar nuestro servicio."
+    },
+    "subtitle": "Nos ayudará a ser mejores.",
+    "title": "Escríbenos ¿Qué no te gustó?"
+  },
+  "field": {
+    "MonthLimit": "Límite de meses",
+    "MonthPlan": "plan mensual"
+  },
+  "label": {
+    "and": "y",
+    "AskAQuestion": "hacer una pregunta",
+    "date": {
+      "sinceStart": "comenzar",
+      "untilEnd": "fin"
+    },
+    "DownloadAt": "Descargar en",
+    "FoundATypo": "¿Encontró un error tipográfico?"
+  },
+  "message": {
+    "CautionAboutDataLoss": "¡PRECAUCIÓN SOBRE LA PÉRDIDA DE DATOS!",
+    "CheckFormAndFixErrors": "Verifique la exactitud de los datos y corrija errores.",
+    "CouldNotPerformOperation": "No se pudo realizar la operación.",
+    "Done": "Hecho",
+    "NoRecords": "Nada aquí.",
+    "NothingWasFound": "No se encontró nada.",
+    "PleaseWait": "Espere por favor...",
+    "TemporaryDisabled": "Desactivado temporalmente.",
+    "ThisActionCannotBeUndone": "Esta acción no se puede deshacer.",
+    "UncaughtErrorExplanation": "Lo sentimos, ocurrió un error. Intente <1>recargar la página</1> primero. Si no ayuda, verifique la conexión a Internet y la configuración del proxy. Si tampoco ayudó, comuníquese con nuestro sistema de soporte.",
+    "UnknownError": "Error desconocido."
+  },
+  "placeholder": {
+    "Search": "Buscar",
+    "SelectCountry": "Seleccionar país",
+    "SelectCurrency": "Seleccionar moneda",
+    "SelectDate": "Seleccionar fecha",
+    "SelectLanguage": "Seleccionar idioma"
+  },
+  "select": {
+    "payInterval": {
+      "Empty": "ninguno",
+      "m": "cada mes",
+      "q": "cada trimestre",
+      "w": "cada semana"
+    },
+    "UseDefault": "Usar predeterminado"
+  },
+  "state": {
+    "Error": "Error",
+    "Loading": "Cargando..."
+  }
+}

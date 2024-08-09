@@ -1,0 +1,16 @@
+{
+  "DialogTitle": "Notificaciones",
+  "messages": {
+    "button": {
+      "Earlier": "Anterior",
+      "Later": "Posterior"
+    },
+    "message": {
+      "ConfirmDelete": "¿Está seguro de eliminar este mensaje?"
+    }
+  },
+  "tabs": {
+    "BackgroundTasks": "Tareas en segundo plano",
+    "Messages": "Mensajes"
+  }
+}

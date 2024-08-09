@@ -1,0 +1,93 @@
+{
+  "message": {
+    "ConfirmDeleteTransaction": "¿Está seguro de eliminar la transacción? ",
+    "ConfirmPlannedTransaction": "¿Está seguro de confirmar la transacción?",
+    "ConfirmSplitTransaction": "¿Está seguro de dividir esta transferencia?"
+  },
+  "multiDelete": {
+    "confirm": {
+      "Content": "Está seguro de borrar <1>{n, plural, una{# transaction} otra{# transactions}}</1>? Esta acción no se puede deshacer.",
+      "OK": "Eliminar {n, plural, una{# transaction} otra{# transactions}}",
+      "Title": "Eliminar transacciones marcadas"
+    }
+  },
+  "page": {
+    "title": "Transacciones"
+  },
+  "table": {
+    "button": {
+      "ConfigureTable": "Configurar tabla",
+      "CreateCopy": "crear una copia",
+      "MoreTransactions": "Más transacciones",
+      "ShowReceipt": "Mostrar recibo",
+      "SplitTransfer": "Transferencia dividida"
+    },
+    "content": {
+      "NothingWasFound": "No hay transacciones"
+    },
+    "filter": {
+      "account": {
+        "label": {
+          "SelectAccount": "Seleccione una cuenta"
+        }
+      },
+      "amount": {
+        "label": {
+          "Amount": "proporcione una cantidad"
+        }
+      },
+      "category": {
+        "label": {
+          "SelectCategory": "Seleccione una categoría"
+        }
+      },
+      "project": {
+        "label": {
+          "SelectProject": "Seleccione un proyecto"
+        }
+      },
+      "type": {
+        "label": {
+          "Expenses": "Gastos",
+          "Incomes": "Ingresos",
+          "Loans": "Préstamos",
+          "Transfers": "Transferencias"
+        }
+      },
+      "user": {
+        "label": {
+          "deleted": "eliminado",
+          "notInTeam": "no en equipo",
+          "SelectUser": "Seleccione un usuario"
+        }
+      }
+    },
+    "head": {
+      "config": {
+        "DisplayAdaptive": "Adaptado",
+        "DisplayAlways": "Siempre",
+        "DisplayExtraColumns": "Elija condiciones para mostrar columnas adicionales.",
+        "DisplayNever": "Nunca",
+        "Title": "Configuración del gráfico"
+      },
+      "label": {
+        "CategoryDescription": "Categoría, Descripción",
+        "Remain": "Permanecer"
+      }
+    }
+  },
+  "transferJoin": {
+    "button": {
+      "Join": "Unirse para transferir"
+    },
+    "message": {
+      "ChooseCommissionCategory": "Por favor, elija una categoría para la comisión de transacción:",
+      "ThisCanBeDoneWithCommission": "Esto se puede hacer creando una transacción de tarifa de comisión para <1>{sum}</1>.",
+      "YouAreGoingToJoinWhat": "Se le solicita unir en una transferencia dos transacciones con montos diferentes:"
+    }
+  },
+  "unconfirmed": {
+    "EndTitle": "Transacciones regulares",
+    "Title": "Transacciones no confirmadas"
+  }
+}

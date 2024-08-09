@@ -1,0 +1,33 @@
+{
+  "button": {
+    "AddTarget": "Agregar\nobjetivo",
+    "Complete": "Completo",
+    "PayManual": "manual de pago"
+  },
+  "label": {
+    "Amount": "Cantidad",
+    "CreateNewAccount": "Crear nueva cuenta",
+    "HowToAccumulate": "¿Cómo acumular?",
+    "Interval": "Intervalo",
+    "Name": "Nombre",
+    "NewAccountName": "Nuevo nombre de cuenta",
+    "PayAmount": "monto del pago",
+    "PayFromAccount": "Pagar desde cuenta",
+    "Remain": "Permanecer",
+    "ReserveOnAccount": "Reserva en la cuenta de origen",
+    "StartPaySince": "Empezar a pagar desde",
+    "TotalAmount": "Monto total"
+  },
+  "RemoveQuest": "¿Está seguro de eliminar el objetivo con todas las transacciones relacionadas? Puede cambiar el saldo de las cuentas.",
+  "RemoveQuestSimple": "¿Estás seguro de eliminar el objetivo?",
+  "state": {
+    "Completed": "Terminado",
+    "Pending": "Pendiente"
+  },
+  "title": {
+    "CreateTarget": "Crear objetivo",
+    "OperationsHistory": "Historial de operaciones",
+    "page": "Objetivos",
+    "PayManual": "manual de pago"
+  }
+}

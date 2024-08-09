@@ -1,0 +1,36 @@
+{
+  "filter": {
+    "chart": {
+      "Chart": "Gráfico"
+    },
+    "date": {
+      "Period": "Período",
+      "SetPeriod": "Período",
+      "SetYear": "Año"
+    },
+    "groupBy": {
+      "Categories": "por categorías",
+      "Months": "por meses"
+    },
+    "limit": {
+      "Accounts": "Cuentas",
+      "Categories": "Categorías",
+      "ExtraFilters": "Filtros adicionales:",
+      "Projects": "Proyectos",
+      "Users": "Usuarios"
+    },
+    "type": {
+      "Expenses": "Gastos",
+      "Incomes": "Ingresos",
+      "WithCredits": "Con creditos",
+      "WithLoans": "Con prestamos",
+      "WithTransfers": "Con transferencias"
+    }
+  },
+  "page": {
+    "message": {
+      "NoChartData": "No hay datos para mostrar con esos criterios."
+    },
+    "Title": "Analítica"
+  }
+}

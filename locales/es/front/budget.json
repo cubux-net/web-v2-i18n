@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "loop": {
+      "Month": "Por mes",
+      "Year": "Por año"
+    },
+    "message": {
+      "AssignCategoriesByEdit": "Planifique algunas categorías con \"Editar\" botón.",
+      "DeleteConfirm": "¿Está seguro de eliminar este presupuesto?",
+      "NoCategoriesAssignedToShowFacts": "No hay categorías planificadas para mostrar operaciones."
+    },
+    "property": {
+      "Loop": "Período",
+      "Name": "Nombre"
+    },
+    "title": {
+      "Create": "Agregar presupuesto",
+      "Delete": "Eliminar presupuesto"
+    },
+    "type": {
+      "Expense": "Gastos",
+      "Income": "Ingresos"
+    },
+    "validation": {
+      "EndDateAfterStartDate": "fecha de finalización debe ser posterior a fecha de inicio."
+    }
+  },
+  "page": {
+    "label": {
+      "Budgets": "Presupuestos",
+      "Difference": "Diferencia",
+      "ExpensesByCategories": "Gastos por categorías presupuestarias:",
+      "Fact": "Hecho",
+      "IncomesByCategories": "Ingresos por categorías presupuestarias:",
+      "Plan": "Plan",
+      "Progress": "Progreso"
+    },
+    "Title": "Presupuesto"
+  },
+  "period": {
+    "property": {
+      "Inherit": "Para todos los periodos futuros"
+    }
+  },
+  "timeline": {
+    "label": {
+      "ShowAllCategories": "Mostrar todo",
+      "Totals": "Total"
+    }
+  }
+}
