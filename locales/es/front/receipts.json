@@ -1,7 +1,7 @@
 {
   "assignTransaction": {
     "message": {
-      "AddGroupHelp": "Seleccione la cuenta y la categoría, marque los elementos requeridos y haga clic en [Add]. Los artículos seleccionados se agruparán en una sola transacción."
+      "AddGroupHelp": "Seleccione la cuenta y la categoría, marque los elementos requeridos y haga clic en [Agregar]. Los artículos seleccionados se agruparán en una sola transacción."
     }
   },
   "button": {
@@ -53,7 +53,7 @@
       "ConfirmDeleteReceipt": "¿Está seguro de eliminar este recibo?",
       "LinkedTransactionsWillLeft": "Las transacciones vinculadas ({count}) no se eliminarán.",
       "NoPositions": "Sin posiciones",
-      "SelectPositionsToTrack": "Seleccione {maxCount, plural, =1{a position} uno{up to # position} otro{up to # positions}} para ver precios."
+      "SelectPositionsToTrack": "Seleccione {maxCount, plural, =1{una posición} one{hasta la posición #} other{hasta # posiciones}} para ver precios."
     },
     "Title": "estadística de compras"
   }

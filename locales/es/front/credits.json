@@ -41,7 +41,7 @@
       "LinkToPlanItem": "{date}: {paid} {ofTotal} ({percent}%)",
       "NoLinkToPlan": "fuera del plan",
       "SelectTransaction": "Seleccione transacción...",
-      "TransactionLinked": "Transacción vinculada por {amount} en {date}{ifAccountValid, seleccione, 0{ with another account} otra{}}",
+      "TransactionLinked": "Transacción vinculada por {amount} en {date}{ifAccountValid, select, 0{ con otra cuenta} other{}}",
       "TransactionNotLinked": "Ninguna transacción vinculada"
     },
     "message": {

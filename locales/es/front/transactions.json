@@ -6,8 +6,8 @@
   },
   "multiDelete": {
     "confirm": {
-      "Content": "Está seguro de borrar <1>{n, plural, una{# transaction} otra{# transactions}}</1>? Esta acción no se puede deshacer.",
-      "OK": "Eliminar {n, plural, una{# transaction} otra{# transactions}}",
+      "Content": "Está seguro de borrar <1>{n, plural, one{# transaction} other{# transactions}}</1>? Esta acción no se puede deshacer.",
+      "OK": "Eliminar {n, plural, one{# transaction} other{# transactions}}",
       "Title": "Eliminar transacciones marcadas"
     }
   },

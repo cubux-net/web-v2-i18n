@@ -230,9 +230,9 @@
       },
       "priceUnit": {
         "month": "mes",
-        "monthsPlural": "{months, plural, un{month} otro{months}}",
+        "monthsPlural": "{months, plural, one{month} other{months}}",
         "year": "año",
-        "yearsPlural": "{years, plural, un{year} otro{years}}"
+        "yearsPlural": "{years, plural, one{year} other{years}}"
       },
       "Title": "Comprar suscripción",
       "TitleExternal": "ir a comprar"

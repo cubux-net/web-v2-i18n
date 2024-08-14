@@ -15,6 +15,6 @@
     "title": "Transacciones planificadas"
   },
   "when": {
-    "quarter": "{date} de {quartMonth, select, 1{1st month} 2{2nd month} 3{3rd month} otro{}}"
+    "quarter": "{date} de {quartMonth, select, 1{1er. mes} 2{2do. mes} 3{3er. mes} other{}}"
   }
 }
