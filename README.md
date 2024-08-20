@@ -23,6 +23,10 @@ To add new language, follow steps below:
 6.  Optional. Run tests as described below to check if everything is fine.
 7.  Commit your changes and push. Then create a PR from your fork repository.
 
+Check [`{select}`](https://formatjs.io/docs/core-concepts/icu-syntax/#select-format)
+and [`{plural}`](https://formatjs.io/docs/core-concepts/icu-syntax/#plural-format)
+syntax before editing.
+
 ## Testing
 
 If you wish or need to run tests, follow steps:
