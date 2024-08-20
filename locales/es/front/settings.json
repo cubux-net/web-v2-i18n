@@ -1,0 +1,286 @@
+{
+  "accounts": {
+    "button": {
+      "DeleteWithEverything": "BORRAR TODO"
+    },
+    "label": {
+      "CountryAndBank": "País, Banco",
+      "GroupName": "Nombre del grupo",
+      "Name": "Nombre"
+    },
+    "message": {
+      "AlsoYouCanJustHideAccount": "También puedes ocultar la cuenta para que no aparezca en las listas.",
+      "ConfirmDeleteGroup": "¿Estás seguro de eliminar el grupo? Las cuentas del grupo pasarán a ser \"Without group\".",
+      "ContinueToDeleteWillChangeHistoryAndBalance": "Continuar eliminando la cuenta cambiará el historial de operaciones. Todas las transferencias con esta cuenta se dividirán en ingresos y gastos, por lo que esto no cambiará los saldos de otras cuentas.",
+      "delete": {
+        "CanMoveOperation": "También puede mover transacciones a otra cuenta.",
+        "MoveDataDelete": "Mover transacciones a otra cuenta"
+      },
+      "GroupUpdateError": "No se pudo actualizar el grupo.",
+      "RemoveError": "Se produjo un error al realizar la operación.",
+      "RemoveQuest": "¿Está seguro de eliminar la cuenta con todos los datos vinculados?",
+      "RemoveQuestSimple": "¿Está seguro de eliminar la cuenta?",
+      "YouAreGoingToDeleteAccountWithRelatedDataIncludingFollowing": "Vas a eliminar la cuenta con todos los datos relacionados, incluidos los siguientes:"
+    },
+    "stateButton": {
+      "IsExcluded_off_exclude": "Incluido en los restos",
+      "IsExcluded_on_include": "Excluido del resto",
+      "IsHidden_off_hide": "Visible, Ocultar",
+      "IsHidden_on_show": "Oculto, Mostrar"
+    }
+  },
+  "actions": {
+    "Actions": "Acciones",
+    "Remove": "Eliminar",
+    "Reset": "Reiniciar"
+  },
+  "categories": {
+    "AddCategory": "Agregar categoría",
+    "AddSubCategory": "Agregar subcategoría",
+    "Expenses": "Gastos",
+    "Incomes": "Ingresos",
+    "Misc": "Otro",
+    "Name": "Nombre",
+    "RemoveError": "Se produjo un error al realizar la operación.",
+    "removeErrorDialog": {
+      "CanDeleteOperation": "O también puede eliminar transacciones.",
+      "CanMoveOperation": "También puede mover transacciones a otra categoría.",
+      "DeleteOperation": "Eliminar transacciones",
+      "HasOperation": "La categoría tiene algunas transacciones.",
+      "MoveDataDelete": "Mover transacciones a otra categoría",
+      "NeedCategory": "Selecciona una categoría"
+    },
+    "RemoveQuest": "¿Estás seguro de eliminar la categoría?"
+  },
+  "import": {
+    "configure": {
+      "button": {
+        "ApplyConfig": "Aplicar",
+        "ReloadData": "Recargar vista previa de datos",
+        "ShowHiddenColumnsBack": "Esconderse de nuevo",
+        "StartImport": "Iniciar importación"
+      },
+      "column": {
+        "AccountIncoming": "Cuenta entrante",
+        "AmountDelta": "± Cantidad",
+        "AmountIncoming": "cantidad entrante",
+        "Subcategory": "Subcategoría",
+        "Type": "Tipo"
+      },
+      "columnOpt": {
+        "account": {
+          "ExistingAccount": "Existente",
+          "NewAccount": "Crear nuevo"
+        },
+        "date": {
+          "Format": "Formato"
+        },
+        "dateFormat": {
+          "D": "D",
+          "M": "M",
+          "Y": "A"
+        },
+        "type": {
+          "ExpenseText": "Texto de gastos",
+          "IncomeText": "Texto de ingresos",
+          "TransferText": "Texto de transferir"
+        }
+      },
+      "csv": {
+        "Encoding": "и",
+        "HeaderLines": "Líneas de encabezado",
+        "Quote": "Cita",
+        "separator": {
+          "Space": "Espacio",
+          "Tab": "Pestaña"
+        },
+        "Separator": "Separador"
+      },
+      "message": {
+        "AtLeastOneOf": "Al menos uno de",
+        "MissingAccountsAssignment": "Algunas cuentas existentes no fueron asignadas",
+        "MissingRequiredColumns": "Algunas columnas requeridas no fueron asignadas",
+        "SomeColumnsWasHidden": "Algunas columnas han sido ocultadas."
+      },
+      "Title": "Configurar antes de importar"
+    },
+    "convert": {
+      "message": {
+        "ConvertDone": "La lectura del archivo se completó con éxito.",
+        "ConvertFailed": "La lectura del archivo se canceló debido a errores.",
+        "ConvertPending": "Leyendo datos del archivo. Esto puede tardar dependiendo del tamaño del archivo y la carga del servidor. Espere por favor."
+      },
+      "Title": "Leyendo datos del archivo"
+    },
+    "label": {
+      "File": "Archivo",
+      "Format": "Formato"
+    },
+    "placeholder": {
+      "SelectFormat": "Seleccionar formato"
+    },
+    "save": {
+      "button": {
+        "Done": "Hecho",
+        "StartImport": "Iniciar importación"
+      },
+      "message": {
+        "SaveDone": "La importación se completó con éxito.",
+        "SaveFailed": "La importación se canceló debido a errores.",
+        "SavePending": "Importando datos al equipo. Esto puede llevar un tiempo. Espere por favor."
+      },
+      "Title": "Importando datos"
+    }
+  },
+  "participants": {
+    "AccessLevel": "Nivel de acceso",
+    "Admin": "Administrador",
+    "FullName": "nombre completo",
+    "Invite": "Invitar",
+    "Invited": "Invitado",
+    "InviteUser": "Invitar a un usuario al equipo",
+    "RemoveQuest": "¿Estás seguro de eliminar al usuario del equipo?",
+    "setup": {
+      "Change": "Cambiar",
+      "Deny": "Denegar",
+      "FullAccess": "Acceso completo al equipo.",
+      "Read": "Leer",
+      "RestrictedAccess": "Acceso restringido a cuentas específicas.",
+      "SubjectUser": "Configurar acceso para el usuario"
+    },
+    "SetupAccess": "Acceso a la configuración",
+    "User": "Usuario restringido"
+  },
+  "password": {
+    "Current": "Contraseña actual",
+    "message": {
+      "NewPasswordsDiffers": "Las nuevas contraseñas son diferentes"
+    },
+    "New": "Nueva contraseña",
+    "RepeatNew": "Repetir nueva contraseña"
+  },
+  "profile": {
+    "Country": "País",
+    "DeleteButton": "Eliminar perfil",
+    "DeleteCautionText": "Va a eliminar su perfil. Esto provocará la pérdida de todos sus datos. Después de la eliminación, si se registra otra vez, habrá perdido todos sus equipos.",
+    "DeleteConfirmWithPassword": "Escriba su contraseña actual para confirmar la eliminación.",
+    "DeleteReason": "Razones para la eliminación",
+    "DeleteReasonHelp": "Por favor, proporcione los motivos de su eliminación para ayudarnos a mejorar nuestra aplicación.",
+    "DeleteTitle": "Eliminación de perfil",
+    "Name": "Nombre",
+    "NotifyLang": "Idioma de notificaciones",
+    "NotifyLangDefault": "Usar el servidor predeterminado",
+    "Or": "o",
+    "Surname": "Apellido"
+  },
+  "projects": {
+    "AddProject": "Agregar proyecto",
+    "RemoveQuest": "¿Estás seguro de eliminar el proyecto?"
+  },
+  "subscription": {
+    "button": {
+      "FundToWallet": "Deposite fondos en su billetera",
+      "Pay": "Pagar",
+      "PayFromWallet": "Pagar desde su billetera",
+      "Prolong": "Prolongar",
+      "ToPremium": "A Premuim"
+    },
+    "feature": {
+      "appFull": {
+        "ExportToXLS": "Exportar a Excel",
+        "JointAccess": "Acceso conjunto",
+        "Loans": "Préstamos"
+      },
+      "appSync": {
+        "title": "Sincronizar la aplicación móvil 2.0 con el servidor"
+      }
+    },
+    "label": {
+      "ActiveUntil": "Activo hasta",
+      "AvailableMoney": "Dinero disponible",
+      "EnterPromoCode": "Ingrese el código de promoción",
+      "status": {
+        "Free": "Gratis",
+        "Premium": "Premuim"
+      }
+    },
+    "payDialog": {
+      "label": {
+        "Country": "Elija su país",
+        "Period": "Período",
+        "PurseEnough": "Disponible {availableStr}",
+        "PurseNone": "No en moneda necesaria",
+        "PurseNotEnough": "No es suficiente, solo está disponible {availableStr}",
+        "PurseStatus": "Estado de su billetera"
+      },
+      "message": {
+        "ConfirmSpendPurseOnly": "Tienes algo de dinero disponible en tu cuenta personal. ¿Quieres gastarlo primero en la compra?",
+        "GoToProviderToPay": "Vaya al sitio del proveedor para pagar.",
+        "InvoiceAlreadyCompleted": "La factura ya está completa.",
+        "InvoiceConfirmPayWithCommission": "Confirme pagar {confirmSum} para obtener {invoiceSum}. La comisión es {commissionAmount} ({commissionPercent}%).",
+        "InvoiceConfirmPayX": "Confirme para pagar {confirmSum}.",
+        "InvoiceConfirmPayXToGetY": "Confirme pagar {confirmSum} para obtener {invoiceSum}.",
+        "InvoiceRefused": "Pago rechazado.",
+        "PeriodMaximumIsV": "El período no debe ser mayor que {value}.",
+        "PeriodMinimumIsV": "El período debe ser al menos {value}.",
+        "PeriodNotANumber": "Proporcione un número entero.",
+        "ProviderDoesNotSupportCurrency": "El proveedor no admite esa moneda.",
+        "ToPayEnoughInYourWallet": "Tiene suficiente dinero en su Billetera para pagar la suscripción.",
+        "ToPayYouNeedToFundToYourWallet": "Debe depositar fondos en su Billetera para pagar la suscripción."
+      },
+      "priceUnit": {
+        "month": "mes",
+        "monthsPlural": "{months, plural, one{month} other{months}}",
+        "year": "año",
+        "yearsPlural": "{years, plural, one{year} other{years}}"
+      },
+      "Title": "Comprar suscripción",
+      "TitleExternal": "ir a comprar"
+    },
+    "where": {
+      "FreeVersion": "Versión gratuita",
+      "MobileApp": "aplicación móvil"
+    }
+  },
+  "tabs": {
+    "Accounts": "Cuentas",
+    "Categories": "Categorías",
+    "Import": "Importar",
+    "Participants": "Participantes",
+    "Password": "Contraseña",
+    "Profile": "Perfil",
+    "Projects": "Proyectos",
+    "Subscribes": "Suscribir",
+    "Team": "Equipo"
+  },
+  "team": {
+    "confirmDelete": {
+      "button": {
+        "Confirm": "BORRAR EL EQUIPO CON TODOS LOS DATOS"
+      },
+      "message": {
+        "CautionOfDataLoss": "¡PRECAUCIÓN! ¡¡¡TODOS LOS DATOS SE PERDERÁN!!!",
+        "ExplainWhatDeletionIs": "Esta acción eliminará completamente el equipo para todos sus participantes. Continuarías trabajando en otros equipos y crearías un nuevo equipo."
+      },
+      "title": "eliminar el equipo"
+    },
+    "FloatingMonth": "mes flotante",
+    "MainCurrency": "Moneda principal",
+    "MonthStart": "inicio del mes",
+    "TeamName": "Nombre del equipo",
+    "TimeZone": "Huso horario",
+    "WeekStart": "inicio de semana"
+  },
+  "teamErase": {
+    "button": {
+      "EraseTeamData": "Eliminar todo en el equipo"
+    },
+    "message": {
+      "TaskIsBackground": "Los datos se borrarán en segundo plano. El procedimiento puede tardar algún tiempo en completarse. Los datos restantes en la página se pueden actualizar automáticamente mientras se ejecuta el procedimiento.",
+      "WhatWillBeDeleted": "Todo lo que hay en el equipo será eliminado. Esto incluye cuentas, categorías, transacciones, préstamos, presupuesto, objetivos, operaciones planificadas, etc.",
+      "WhatWillBeKept": "Las siguientes cosas se mantendrán intactas: suscripción, compañeros de equipo."
+    },
+    "Title": "Borrar datos del equipo"
+  },
+  "Title": "Ajustes"
+}

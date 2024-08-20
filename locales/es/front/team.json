@@ -1,0 +1,305 @@
+{
+  "accounts": {
+    "button": {
+      "AddAccount": "Agregar cuenta",
+      "AddGroup": "Agregar grupo"
+    },
+    "hint": {
+      "ClickToStartRefresh": "Haga clic para actualizar datos",
+      "NextRefreshPossibleAt": "Próxima actualización es posible después de {when}.",
+      "ReconnectToBank": "Configurar conexión bancaria",
+      "WillAutoRefresh": "Esta cuenta se actualizará automáticamente."
+    },
+    "label": {
+      "WithoutGroup": "Sin grupo"
+    },
+    "messages": {
+      "BankSyncLost": "Se perdió la conexión con el banco.",
+      "BankSyncNotFound": "No se puede acceder a la conexión bancaria. Sólo el propietario de la conexión puede acceder a él.",
+      "CannotRefreshRightNow": "No se pueden actualizar los datos en este momento todavía.",
+      "RefreshDidNotScheduled": "La actualización no estaba programada. Probablemente la configuración de la conexión esté incompleta.",
+      "RefreshScheduled": "El intento de actualización de datos está programado para un futuro próximo."
+    },
+    "syncLost": {
+      "InteractiveTimeout": "Se agotó el tiempo de espera de confirmación interactiva.",
+      "InvalidCredentials": "Credenciales no válidas.",
+      "RemoteAccountDeleted": "La cuenta remota fue eliminada.",
+      "RemoteAuthOutdated": "La autenticación remota está desactualizada."
+    },
+    "title": {
+      "Reconnect": "Reconectar cuenta bancaria"
+    }
+  },
+  "calendar": {
+    "label": {
+      "Balance": "Balance",
+      "Expenses": "Gastos",
+      "Incomes": "Ingresos"
+    },
+    "message": {
+      "NoOperations": "No se encontraron operaciones para este día."
+    }
+  },
+  "category": {
+    "help": {
+      "limit": "Usando en el presupuesto principal"
+    },
+    "label": {
+      "AddCategory": "Añadir categoría",
+      "AddSubCategory": "Agregar subcategoría",
+      "CategoryName": "Nombre de categoría",
+      "ChooseIcon": "Elija el icono",
+      "EditCategory": "Editar categoría",
+      "Subcategories": "Subcategorías",
+      "Subcategory": "Subcategoría",
+      "SubCategoryName": "Nombre de la subcategoría"
+    }
+  },
+  "common": {
+    "button": {
+      "CreateOneMore": "Guarda y crea uno más."
+    },
+    "label": {
+      "Account": "Cuenta",
+      "Amount": "Cantidad",
+      "Category": "Categoría",
+      "currentOfTotal": "{current} of {total}",
+      "Date": "Fecha",
+      "Description": "Descripción",
+      "Limit": "Límite",
+      "ofTotal": "of {total}",
+      "Plan": "Plan",
+      "Project": "Proyecto",
+      "syncWithGoogleCalendar": "Sincronizar con Google Calendar",
+      "Totals_ExpensesAre": "Gastos <0>{amount}</0>",
+      "Totals_IncomesAre": "Ingresos <0>{amount}</0>",
+      "TotalsByFilterAre": "Totales para criterios dados:",
+      "User": "Usuario"
+    }
+  },
+  "createTeam": {
+    "Title": "crear equipo"
+  },
+  "currency": {
+    "Select": {
+      "CurrenciesInAccounts": "Monedas en cuentas",
+      "OtherCurrencies": "Otras monedas"
+    }
+  },
+  "loan": {
+    "Finished": "Finalizado",
+    "IDidObtain": "obtuve",
+    "IDidProvide": "yo proporcioné",
+    "pageTitle": "Préstamos",
+    "ReturnDate": "fecha de regreso",
+    "SelectAgent": "Seleccione un agente"
+  },
+  "loanAgent": {
+    "AddAgent": "Agregar agente",
+    "button": {
+      "credit": {
+        "Finish": "Finalizar",
+        "Return": "Devolver",
+        "TakeMore": "Toma más"
+      },
+      "debit": {
+        "Finish": "Finalizar",
+        "GiveMore": "dar mas",
+        "Take": "Llevar"
+      },
+      "DeleteKeepTransactions": "Eliminar agente, conservar transacciones",
+      "DeleteWithTransactions": "Eliminar con transacciones"
+    },
+    "Comment": "Comentario",
+    "deadline": {
+      "inDays": "in {n, plural, one{# day} other{# days}}",
+      "INeedReturnUntil": "Debería regresar hasta",
+      "PromisedToMeReturnUntil": "Debe ser devuelto hasta",
+      "SendNoticeBefore": "enviar aviso antes",
+      "setDate": "fijar fecha"
+    },
+    "delete": {
+      "AllRelatedTransactionsDeleteChoice": "Todas las transacciones relacionadas se convertirán en transacciones habituales de ingresos y gastos. También puede eliminar transacciones con el agente.",
+      "CaseIfDeleteTransactions": "La eliminación con transacciones puede provocar que cambien los saldos de las cuentas.",
+      "CaseIfKeepTransactions": "Si mantiene las transacciones, se convertirán en transacciones habituales de ingresos y gastos y no afectarán los saldos de las cuentas.",
+      "YouAreGoingToDeleteAgent": "Va a eliminar el Agente de Préstamo \"<1>{name}</1>\"."
+    },
+    "EditAgent": "Editar agente",
+    "History": "Historial de pagos",
+    "Name": "Nombre",
+    "NoticeToEmail": "Nombre del destinatario",
+    "NoticeToName": "Correo electrónico del destinatario",
+    "status": {
+      "YouHaveNoCredits": "No tiene créditos. Esto es excelente :)",
+      "YouHaveNoDebts": "Nadie en deuda contigo."
+    },
+    "TotalLoan": "Préstamo total"
+  },
+  "loanOperation": {
+    "amount": {
+      "IDidObtain": "Yo obtuve",
+      "IDidProvide": "Yo proporcioné"
+    },
+    "AmountFromAccount": "Monto tomado de la cuenta",
+    "AmountToAccount": "Monto entregado a la cuenta",
+    "Balance": "Balance",
+    "button": {
+      "DeleteKeepTransaction": "Eliminar solo préstamo",
+      "DeleteWithTransaction": "Eliminar CON transacción"
+    },
+    "ConfirmDelete": "¿Está seguro de eliminar esta operación de préstamo? Esta acción no cambiará el saldo de las cuentas.",
+    "ConfirmDeleteMayKeepTransaction": "Esta operación de préstamo está vinculada con la transacción. Puede conservar la transacción o eliminarla también mientras elimina la operación de préstamo",
+    "DealWithAccounts": "Afecta las cuentas"
+  },
+  "menu": {
+    "label": {
+      "Analytics": "Analítica",
+      "Balance": "Balance",
+      "Budget": "Presupuesto",
+      "Calendar": "Calendario",
+      "CreateTeam": "Crear equipo",
+      "Credits": "Créditos",
+      "CreditsEmpty": "Ausencia",
+      "Expenses": "Gastos",
+      "Goals": "Objetivos",
+      "Incomes": "Ingresos",
+      "Loans": "Préstamos",
+      "LoansEmpty": "Ausencia",
+      "Logout": "Cerrar sesión",
+      "Main": "Principal",
+      "Plan": "Plan",
+      "ReceiptsStats": "estadística de compras",
+      "ReturnToOldVersion": "Volver a la versión anterior",
+      "Settings": "Ajustes",
+      "Support": "Soporte"
+    }
+  },
+  "message": {
+    "AccountDidntSelect": "Seleccione una cuenta",
+    "AmountIsEmpty": "Escribe una cantidad",
+    "CategoryDidntSelect": "Selecciona una categoría",
+    "PlanConfirmMinDate": "La fecha de una transacción no confirmada no puede ser anterior al {minDate}",
+    "PlanScheduleListIsEmpty": "Selecciona fechas para repetir"
+  },
+  "page": {
+    "label": {
+      "Accounts": "Cuentas"
+    }
+  },
+  "plan": {
+    "repeat": {
+      "Daily": "Diario",
+      "Monthly": "Mensual",
+      "none": "ninguno",
+      "Quarterly": "Trimestral",
+      "Weekly": "Semanal",
+      "Yearly": "Anual"
+    }
+  },
+  "procStatus": {
+    "label": {
+      "created": "tarea creada"
+    },
+    "message": {
+      "OperationCompletedSuccessfully": "La operación se completó con éxito.",
+      "OperationFailed": "Operación cancelada debido a errores.",
+      "OperationIsPending": "La operación está pendiente. Espere porfavor"
+    },
+    "procName": {
+      "AccountAuthUnlink": "Desconectar cuenta de sincronización bancaria",
+      "AccountDelete": "Eliminar cuenta",
+      "BudgetCopy": "Copiar presupuesto",
+      "CategoryDelete": "Eliminar categoría",
+      "CategoryDeleteWithMove": "Eliminar categoría manteniendo datos",
+      "ImportConvert": "Importar archivo de lectura",
+      "ImportSave": "Importar datos",
+      "LoanAgentDelete": "Eliminar agente de préstamo",
+      "TeamErase": "Borrar datos del equipo"
+    },
+    "procPhase": {
+      "_common": {
+        "Accounts": "Cuentas",
+        "Budget": "Presupuesto",
+        "Categories": "Categorías",
+        "Drafts": "Recibo (photo)",
+        "Goods": "Listas de tiendas: buenas sugerencias",
+        "Images": "Imágenes",
+        "Initialization": "Inicialización",
+        "LoanAgents": "Agentes de préstamo",
+        "LoanHistory": "Historial de operaciones de préstamo",
+        "PlanConfirms": "Transacciones no confirmadas",
+        "Plans": "Operaciones planificadas",
+        "Receipts": "Ingresos",
+        "ShopListItems": "Listas de tiendas: posiciones",
+        "ShopLists": "Listas de tiendas",
+        "Targets": "Objetivos",
+        "Transactions": "Transacciones"
+      },
+      "accountDelete": {
+        "SelfDelete": "Cuenta en sí"
+      },
+      "loanAgentDelete": {
+        "SelfDelete": "agente de prestamo"
+      },
+      "teamErase": {
+        "InitNewData": "Crear datos iniciales"
+      }
+    }
+  },
+  "project": {
+    "Name": "Nombre",
+    "title": {
+      "CreateProject": "Crear proyecto",
+      "EditProject": "Editar proyecto"
+    }
+  },
+  "receipt": {
+    "fetchState": {
+      "Fetching": "Esperando la recuperación de datos.",
+      "Invalid": "El recibo no es válido.",
+      "Rejected": "El recibo fue rechazado por el proveedor de datos.",
+      "Validation": "Esperando validación."
+    },
+    "label": {
+      "Positions": "Lista de posiciones",
+      "TotalSum": "Total",
+      "UnknownShop": "Tienda desconocida"
+    },
+    "message": {
+      "NoPositions": "Sin posiciones",
+      "ShopNameIsEmpty": "Nombre de la tienda desconocido. Porfavor, especifique un nombre de tienda"
+    }
+  },
+  "receiptPhoto": {
+    "button": {
+      "UnprocessedReceiptPhotos": "Fotos de recibos"
+    },
+    "DialogTitle": "Fotos de recibos desde app"
+  },
+  "receiptPos": {
+    "label": {
+      "Cost": "Costo",
+      "Name": "Nombre",
+      "Price": "Precio",
+      "Qty": "Cantidad"
+    }
+  },
+  "receiptStats": {
+    "label": {
+      "TotalReceiptsCount": "Recuento de recibos",
+      "TotalShoppingSum": "Suma total de ingresos",
+      "TotalShopsCount": "Tiendas"
+    }
+  },
+  "transactions": {
+    "label": {
+      "TransactionsForDate": "Transacciones para {date}"
+    },
+    "title": {
+      "CreateOperation": "Crear operación",
+      "CreateTransfer": "Crear transferencia",
+      "EditOperation": "Editar operación",
+      "EditTransfer": "Editar transferencia"
+    }
+  }
+}

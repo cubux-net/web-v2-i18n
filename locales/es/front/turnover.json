@@ -1,0 +1,42 @@
+{
+  "operation": {
+    "label": {
+      "Commission": "Comisión",
+      "CommissionCategory": "categoría de comisión",
+      "CurrencyRate": "Tasa",
+      "NeedConfirmation": "Necesita confirmación",
+      "Repetition": "Repetición",
+      "SelectAccount": "Seleccionar cuenta",
+      "SelectCategory": "Seleccionar categoría",
+      "SelectDate": "Seleccionar fecha"
+    },
+    "message": {
+      "SelectDestinationAccount": "Seleccionar cuenta de destino",
+      "SelectSourceAccount": "Seleccionar cuenta de origen",
+      "TransferSameAccount": "El origen y el destino son la misma cuenta."
+    }
+  },
+  "page": {
+    "button": {
+      "AddCategory": "Añadir categoría",
+      "AddSubcategory": "Agregar subcategoría"
+    },
+    "filter": {
+      "dateRange": {
+        "AllTime": "Todo el tiempo",
+        "ExactDays": "Periodo exacto",
+        "Month": "Mes",
+        "Year": "Año"
+      }
+    },
+    "message": {
+      "CategoryNotFound": "No existe tal categoría. Intente volver a <1>todas las categorias</1> o actualizar la página."
+    },
+    "title": {
+      "Expenses": "Gastos",
+      "ExpensesByCategories": "Gastos por categorías",
+      "Incomes": "Ingresos",
+      "IncomesByCategories": "Ingresos por categorías"
+    }
+  }
+}

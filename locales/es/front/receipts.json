@@ -1,0 +1,60 @@
+{
+  "assignTransaction": {
+    "message": {
+      "AddGroupHelp": "Seleccione la cuenta y la categoría, marque los elementos requeridos y haga clic en [Agregar]. Los artículos seleccionados se agruparán en una sola transacción."
+    }
+  },
+  "button": {
+    "AssignCategories": "Asignar categorías",
+    "CreateReceiptAndLeave": "Crear recibo y salir",
+    "InputReceiptManually": "Ingrese el recibo manualmente",
+    "InputReceiptManuallyByPositions": "Ingresar recibo manualmente por posiciones"
+  },
+  "fetchState": {
+    "Fetching": "esperando datos",
+    "Fulfilled": "Cumplido",
+    "Invalid": "Inválido",
+    "Rejected": "Rechazado",
+    "Validation": "Esperando validación"
+  },
+  "label": {
+    "FetchAttempts": "Intentos realizados",
+    "FetchState": "Estado en cola",
+    "LastFetchAt": "El último intento fue en",
+    "NextFetchAfter": "Siguiente intento después",
+    "Shop": "Comercio",
+    "Sum": "Suma"
+  },
+  "manual": {
+    "message": {
+      "CreateUnfinishedReceiptAndLeave": "Puedes crear un recibo sin terminar ahora mismo. El recibo se procesará con respecto a la cola.",
+      "ReceiptDataReadyCheckAndSave": "Los datos del recibo se cumplieron exitosamente.",
+      "ReceiptIsInvalidOfMissing": "No se pueden obtener datos para el recibo. El recibo no es válido o no se encontraron datos.",
+      "StayHereAndWait": "Puede quedarse aquí y esperar el resultado. Luego guardarás el recibo.",
+      "WaitingReceiptDataThisMayBeLong": "El recibo está en cola. Esto puede llevar mucho tiempo dependiendo de la carga de la cola."
+    }
+  },
+  "statsPage": {
+    "button": {
+      "MoreReceipts": "Más recibos"
+    },
+    "label": {
+      "byCategories": "Por categorías",
+      "byPositions": "Por posiciones",
+      "byShops": "Por tiendas",
+      "mostCheapPrice": "Más barato",
+      "mostExpensivePrice": "mas caro",
+      "PositionPriceVary": "la posición dell precio varía",
+      "priceDifference": "Diferencia",
+      "Shopping": "Compras",
+      "unknownShop": "tienda desconocida"
+    },
+    "message": {
+      "ConfirmDeleteReceipt": "¿Está seguro de eliminar este recibo?",
+      "LinkedTransactionsWillLeft": "Las transacciones vinculadas ({count}) no se eliminarán.",
+      "NoPositions": "Sin posiciones",
+      "SelectPositionsToTrack": "Seleccione {maxCount, plural, =1{una posición} one{hasta la posición #} other{hasta # posiciones}} para ver precios."
+    },
+    "Title": "estadística de compras"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "InvalidValue": "Valor no válido",
+  "MinStringLength": "Al menos {length, plural, one{# char} other{# chars}}",
+  "Required": "Se requiere un valor"
+}

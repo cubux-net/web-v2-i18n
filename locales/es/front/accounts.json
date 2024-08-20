@@ -1,0 +1,34 @@
+{
+  "dialog": {
+    "button": {
+      "OAuthGo": "autenticarse en el banco"
+    },
+    "comment": {
+      "Agreement": "Al utilizar este servicio de forma continua, usted acepta <1>Condiciones de uso</1>.",
+      "AutoSync": "Los datos se sincronizarán automáticamente aproximadamente una vez al día. También puede solicitar una sincronización manual, pero no más que una al día.",
+      "OAuthIntro": "Para continuar es necesario autenticar el acceso en el banco."
+    },
+    "input": {
+      "AnyCashAccount": "Efectivo o cualquier cuenta",
+      "Cash": "Efectivo",
+      "Currency": "Divisa",
+      "Group": "Grupo",
+      "InitialAmount": "Monto inicial",
+      "InitialAmountDate": "Fecha del importe inicial",
+      "KeepSyncWithBank": "Mantener sincronización con el banco",
+      "Name": "Nombre",
+      "OptionalFetchSince": "Opcional. Obtener desde",
+      "SearchPlaceholder": "Comience a escribir el nombre del banco para filtrar..."
+    },
+    "state": {
+      "SyncLost": "Sincronización perdida"
+    },
+    "title": {
+      "BankSync": "Sincronizar con banco",
+      "Import": "Importar cuentas y transacciones",
+      "NoSync": "Sin sincronización"
+    },
+    "Title": "Agregar cuenta",
+    "TitleEdit": "Editar cuenta"
+  }
+}
